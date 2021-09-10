@@ -1,0 +1,16 @@
+#+TITLE: PCB Notes
+
+* Case
+- https://ch.farnell.com/hammond/1455l1201/geh-use-aluminium-120x103x31mm/dp/4272870
+
+* Case Dimensions
+- outer dimensions: 103 x 120 mm
+- inner dimensions: 100 x 120 mm
+- non-covered width: 95 mm
+
+* PCB Dimensions
+- 99 x 120 mm
+  + 1 mm width margin
+  + this is for SMT SMA connectors; for SMD SMA connector remove 1.5 mm
+    on each side (→ 99 x 117 mm)
+
