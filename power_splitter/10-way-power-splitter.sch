@@ -4,7 +4,7 @@ EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
 Sheet 1 1
-Title "10-Way Symmetrical Resisitive Wye Power Splitter"
+Title "11-Way Symmetrical Resisitive Wye Power Splitter"
 Date "20210806"
 Rev "0.1"
 Comp ""
@@ -357,12 +357,12 @@ $EndComp
 $Comp
 L power:GND #PWR0101
 U 1 1 610F3E57
-P 5150 5800
-F 0 "#PWR0101" H 5150 5550 50  0001 C CNN
-F 1 "GND" H 5155 5627 50  0000 C CNN
-F 2 "" H 5150 5800 50  0001 C CNN
-F 3 "" H 5150 5800 50  0001 C CNN
-	1    5150 5800
+P 5150 6100
+F 0 "#PWR0101" H 5150 5850 50  0001 C CNN
+F 1 "GND" H 5155 5927 50  0000 C CNN
+F 2 "" H 5150 6100 50  0001 C CNN
+F 3 "" H 5150 6100 50  0001 C CNN
+	1    5150 6100
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
@@ -427,18 +427,15 @@ Wire Wire Line
 Wire Wire Line
 	2050 1200 850  1200
 Wire Wire Line
-	850  5500 4750 5500
+	850  5800 4750 5800
 Wire Wire Line
-	5150 5500 5150 5800
+	5150 5800 5150 6100
 Wire Wire Line
 	1850 4850 2000 4850
 Wire Wire Line
 	2000 4850 2000 4700
 Wire Wire Line
 	2000 4700 850  4700
-Connection ~ 850  4700
-Wire Wire Line
-	850  4700 850  5500
 Wire Wire Line
 	1850 4150 2000 4150
 Wire Wire Line
@@ -525,8 +522,8 @@ Wire Wire Line
 Wire Wire Line
 	7200 1950 8150 1950
 Wire Wire Line
-	8150 5500 5150 5500
-Connection ~ 5150 5500
+	8150 5800 5150 5800
+Connection ~ 5150 5800
 Wire Wire Line
 	7250 2450 7200 2450
 Wire Wire Line
@@ -701,7 +698,7 @@ Wire Wire Line
 	6300 3350 6300 3200
 Connection ~ 8150 4700
 Wire Wire Line
-	8150 4700 8150 5500
+	8150 4700 8150 5350
 Wire Wire Line
 	8150 4000 8150 4700
 Wire Wire Line
@@ -755,15 +752,83 @@ Wire Wire Line
 $Comp
 L power:PWR_FLAG #FLG0101
 U 1 1 6125996F
-P 4750 5500
-F 0 "#FLG0101" H 4750 5575 50  0001 C CNN
-F 1 "PWR_FLAG" H 4750 5673 50  0000 C CNN
-F 2 "" H 4750 5500 50  0001 C CNN
-F 3 "~" H 4750 5500 50  0001 C CNN
-	1    4750 5500
+P 4750 5800
+F 0 "#FLG0101" H 4750 5875 50  0001 C CNN
+F 1 "PWR_FLAG" H 4750 5973 50  0000 C CNN
+F 2 "" H 4750 5800 50  0001 C CNN
+F 3 "~" H 4750 5800 50  0001 C CNN
+	1    4750 5800
 	1    0    0    -1  
 $EndComp
-Connection ~ 4750 5500
+Connection ~ 4750 5800
 Wire Wire Line
-	4750 5500 5150 5500
+	4750 5800 5150 5800
+$Comp
+L Device:R R23
+U 1 1 613C2E94
+P 6600 5100
+F 0 "R23" V 6807 5100 50  0000 C CNN
+F 1 "82" V 6716 5100 50  0000 C CNN
+F 2 "Resistor_SMD:R_0402_1005Metric" V 6530 5100 50  0001 C CNN
+F 3 "~" H 6600 5100 50  0001 C CNN
+	1    6600 5100
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Device:R R24
+U 1 1 613C2E9A
+P 6600 5400
+F 0 "R24" V 6807 5400 50  0000 C CNN
+F 1 "82" V 6716 5400 50  0000 C CNN
+F 2 "Resistor_SMD:R_0402_1005Metric" V 6530 5400 50  0001 C CNN
+F 3 "~" H 6600 5400 50  0001 C CNN
+	1    6600 5400
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Connector_Generic:Conn_01x02 J12
+U 1 1 613C2EA0
+P 7450 5100
+F 0 "J12" H 7530 5092 50  0000 L CNN
+F 1 "Conn_01x02" H 7530 5001 50  0000 L CNN
+F 2 "" H 7450 5100 50  0001 C CNN
+F 3 "~" H 7450 5100 50  0001 C CNN
+	1    7450 5100
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	7250 5100 7000 5100
+Wire Wire Line
+	7000 5100 7000 5400
+Wire Wire Line
+	7000 5400 6750 5400
+Connection ~ 7000 5100
+Wire Wire Line
+	7000 5100 6750 5100
+Wire Wire Line
+	7250 5200 7200 5200
+Wire Wire Line
+	7200 5350 8150 5350
+Wire Wire Line
+	6450 5400 6300 5400
+Wire Wire Line
+	7200 5200 7200 5350
+Wire Wire Line
+	6300 5100 6450 5100
+Wire Wire Line
+	6300 5400 6300 5250
+Wire Wire Line
+	6300 5250 4800 5250
+Connection ~ 6300 5250
+Wire Wire Line
+	6300 5250 6300 5100
+Wire Wire Line
+	8150 5350 8150 5800
+Connection ~ 8150 5350
+Wire Wire Line
+	850  4700 850  5800
+Connection ~ 850  4700
+Wire Wire Line
+	4800 5250 4800 5050
+Connection ~ 4800 5050
 $EndSCHEMATC
