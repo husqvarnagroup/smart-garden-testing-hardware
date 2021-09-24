@@ -14,3 +14,7 @@
   + this is for SMT SMA connectors; for SMD SMA connector remove 1.5 mm
     on each side (→ 99 x 117 mm)
 
+* JLCPCB
+- JLC7628 layer stackup
+  + 11.55 mil trace width for 50 Ω impedance
+
