@@ -17,4 +17,6 @@
 * JLCPCB
 - JLC7628 layer stackup
   + 11.55 mil trace width for 50 Ω impedance
-
+- part numbers SMA connector
+  + v0.1: C411575 ⇒ mechanical quality bad
+  + v0.2: C1509227
