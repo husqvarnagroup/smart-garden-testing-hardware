@@ -34,3 +34,6 @@ gerber/
 
 # output
 output/
+
+# Exported step files
+*.step
