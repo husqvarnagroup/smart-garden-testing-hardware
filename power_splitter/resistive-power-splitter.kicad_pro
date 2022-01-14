@@ -371,7 +371,7 @@
       "idf": "",
       "netlist": "",
       "specctra_dsn": "",
-      "step": "",
+      "step": "resistive-power-splitter.step",
       "vrml": ""
     },
     "page_layout_descr_file": ""
