@@ -20,6 +20,14 @@ From theoretical perspective, it has the following specification (with
 - isolation / loss: `10 * log₁₀(1 - 1/N²) = 20 dB`
 - required resistor value: `R = Z₀ * (N-1) / (N+1) ≅ 40.91 Ω`
 
+## Lemonbeat Dongle
+
+The directory `lemonbeat_dongle/` contains a BNW version of the
+Lemonbeat dongle.
+
+See [design goals](lemonbeat_dongle/doc/design_goals.md) for a brief
+description of the goals and intended features.
+
 # Further Info
 
 Further information is available in
