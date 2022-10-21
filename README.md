@@ -7,6 +7,8 @@ related to BNW testing, respectively the BNW test jig.
 
 ## Power Splitter
 
+![Power Splitter v0.2](doc/img/power_splitter_v0.2.jpg)
+
 The directory `power_splitter/` contains a symmetrical resistive
 11-way Wye power splitter.
 
