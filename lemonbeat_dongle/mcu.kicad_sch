@@ -3108,7 +3108,7 @@
   )
 
   (symbol (lib_id "Device:C") (at 182.88 135.89 0) (unit 1)
-    (in_bom yes) (on_board yes)
+    (in_bom no) (on_board yes)
     (uuid 67241e5d-c516-471a-8550-8f1bcbf4d546)
     (property "Reference" "C225" (id 0) (at 182.88 133.35 0)
       (effects (font (size 1.27 1.27)) (justify left))
