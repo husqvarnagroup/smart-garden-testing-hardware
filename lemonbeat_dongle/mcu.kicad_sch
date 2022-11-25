@@ -4040,7 +4040,7 @@
   )
 
   (symbol (lib_id "Device:C") (at 25.4 44.45 0) (unit 1)
-    (in_bom yes) (on_board yes)
+    (in_bom no) (on_board yes)
     (uuid e8ed975c-7213-47c9-94e8-68981fe81500)
     (property "Reference" "C210" (id 0) (at 26.67 41.91 0)
       (effects (font (size 1.27 1.27)) (justify left))
