@@ -454,15 +454,6 @@
     (path "/7368be1f-88e3-4616-a1f9-4c1e3857cf01/6bbaf116-dc96-4719-871a-ff24a6c99d22"
       (reference "J301") (unit 1) (value "SMA") (footprint "Connector_Coaxial:SMA_Amphenol_132289_EdgeMount")
     )
-    (path "/49f47eff-be71-45a3-baa2-ec3b29bb6923/71d6777d-9b11-4b91-9816-b5168becb196"
-      (reference "L201") (unit 1) (value "10μH") (footprint "Inductor_SMD:L_0603_1608Metric")
-    )
-    (path "/49f47eff-be71-45a3-baa2-ec3b29bb6923/346aa7d5-433f-4fc0-b9e9-4e9f0e411c39"
-      (reference "L202") (unit 1) (value "10μH") (footprint "Inductor_SMD:L_0603_1608Metric")
-    )
-    (path "/49f47eff-be71-45a3-baa2-ec3b29bb6923/4d4cdaeb-1c17-4398-bc8d-70f28a1766ae"
-      (reference "L203") (unit 1) (value "15nH") (footprint "Inductor_SMD:L_0402_1005Metric")
-    )
     (path "/49f47eff-be71-45a3-baa2-ec3b29bb6923/8aa6ac7b-c130-40ec-8ed7-7bedc7384379"
       (reference "L204") (unit 1) (value "4.7nH") (footprint "Inductor_SMD:L_0201_0603Metric")
     )
