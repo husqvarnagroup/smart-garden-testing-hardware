@@ -2869,7 +2869,7 @@
   )
 
   (symbol (lib_id "Device:C") (at 27.94 67.31 0) (unit 1)
-    (in_bom yes) (on_board yes)
+    (in_bom no) (on_board yes)
     (uuid 4227af44-63cc-4765-8cb6-584a73ccd107)
     (property "Reference" "C222" (id 0) (at 29.21 64.77 0)
       (effects (font (size 1.27 1.27)) (justify left))
