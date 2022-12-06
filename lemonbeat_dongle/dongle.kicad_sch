@@ -340,12 +340,12 @@
     (pin "1" (uuid c12a2c41-0963-4762-9c6f-e484b8a70858))
   )
 
-  (sheet (at 54.61 52.07) (size 62.23 102.87) (fields_autoplaced)
+  (sheet (at 54.61 52.07) (size 62.23 102.87)
     (stroke (width 0.1524) (type solid) (color 0 0 0 0))
     (fill (color 0 0 0 0.0000))
     (uuid 49f47eff-be71-45a3-baa2-ec3b29bb6923)
-    (property "Sheet name" "MCU" (id 0) (at 54.61 51.3584 0)
-      (effects (font (size 1.27 1.27)) (justify left bottom))
+    (property "Sheet name" "MCU" (id 0) (at 55.88 58.42 0)
+      (effects (font (size 3 3)) (justify left bottom))
     )
     (property "Sheet file" "mcu.kicad_sch" (id 1) (at 54.61 155.5246 0)
       (effects (font (size 1.27 1.27)) (justify left top))
@@ -392,12 +392,12 @@
     )
   )
 
-  (sheet (at 146.05 63.5) (size 45.72 63.5) (fields_autoplaced)
+  (sheet (at 146.05 63.5) (size 45.72 63.5)
     (stroke (width 0.1524) (type solid) (color 0 0 0 0))
     (fill (color 0 0 0 0.0000))
     (uuid 7368be1f-88e3-4616-a1f9-4c1e3857cf01)
-    (property "Sheet name" "Transceiver" (id 0) (at 146.05 62.7884 0)
-      (effects (font (size 1.27 1.27)) (justify left bottom))
+    (property "Sheet name" "Transceiver" (id 0) (at 147.32 69.85 0)
+      (effects (font (size 3 3)) (justify left bottom))
     )
     (property "Sheet file" "transceiver.kicad_sch" (id 1) (at 146.05 127.5846 0)
       (effects (font (size 1.27 1.27)) (justify left top))
@@ -465,9 +465,6 @@
     )
     (path "/49f47eff-be71-45a3-baa2-ec3b29bb6923/fe8958a5-40f8-4ce1-acfe-cb0d4374fdea"
       (reference "#FLG0105") (unit 1) (value "PWR_FLAG") (footprint "")
-    )
-    (path "/49f47eff-be71-45a3-baa2-ec3b29bb6923/cfdc75eb-93c6-4da5-9108-6acf0b01f5f0"
-      (reference "#FLG0106") (unit 1) (value "PWR_FLAG") (footprint "")
     )
     (path "/7368be1f-88e3-4616-a1f9-4c1e3857cf01/90ea6193-1bce-4f59-8a1f-22eb3a025089"
       (reference "#PWR0101") (unit 1) (value "GND") (footprint "")
