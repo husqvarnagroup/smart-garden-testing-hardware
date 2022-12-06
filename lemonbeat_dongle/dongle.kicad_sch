@@ -718,6 +718,9 @@
     (path "/49f47eff-be71-45a3-baa2-ec3b29bb6923/dbac7a89-5bc4-43f4-be14-63b004e76c97"
       (reference "D201") (unit 1) (value "PRTR5V0U2X") (footprint "Package_TO_SOT_SMD:SOT-143")
     )
+    (path "/49f47eff-be71-45a3-baa2-ec3b29bb6923/0085b5e9-1813-4b44-9344-e52eab7c0a72"
+      (reference "F201") (unit 1) (value "100mA") (footprint "Fuse:Fuse_0603_1608Metric")
+    )
     (path "/49f47eff-be71-45a3-baa2-ec3b29bb6923/18f05d28-5d85-4dfa-823b-50989c28a423"
       (reference "FB201") (unit 1) (value "220R/1.0A") (footprint "Resistor_SMD:R_0402_1005Metric")
     )
