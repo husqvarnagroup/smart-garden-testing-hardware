@@ -38,7 +38,7 @@ gerber/
 output/
 
 # Exported step files
-*.step
+output/*.step
 
 # FreeCAD
 *.FCStd1
