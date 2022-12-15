@@ -3934,7 +3934,7 @@
     (property "Footprint" "Connector_USB:USB_A_CNCTech_1001-011-01101_Horizontal" (id 2) (at 203.2 78.74 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (property "Datasheet" " ~" (id 3) (at 203.2 78.74 0)
+    (property "Datasheet" "https://datasheet.lcsc.com/lcsc/2110151630_XKB-Connectivity-U217-041N-4BV81_C319178.pdf" (id 3) (at 203.2 78.74 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Comment" "Alternative at JLCPCB with same footprint: Molex 480371000 (C136456)" (id 4) (at 199.39 77.47 0)
