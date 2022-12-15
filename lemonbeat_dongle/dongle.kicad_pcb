@@ -367,7 +367,7 @@
       (net 1 "GND") (pinfunction "GND") (pintype "power_in") (tstamp 68fde08c-8f5f-457c-bb60-7f70cd77d566))
     (pad "21" smd rect (at 0 0 180) (size 2.6 2.6) (layers "F.Cu" "F.Mask")
       (net 1 "GND") (pinfunction "GND") (pintype "power_in") (tstamp b08348d5-6617-4c7d-9e61-54a37581b077))
-    (model "${KIPRJMOD}/3d/SI4467-A2A-IM.step"
+    (model "${KIPRJMOD}/3d/parts/SI4467-A2A-IM.step"
       (offset (xyz 0 0 0))
       (scale (xyz 1 1 1))
       (rotate (xyz -90 0 0))
@@ -595,7 +595,7 @@
       (scale (xyz 1 1 1))
       (rotate (xyz 0 0 0))
     )
-    (model "${KIPRJMOD}/3d/Murata-XRCGB32M000F1H01R0.step"
+    (model "${KIPRJMOD}/3d/parts/Murata-XRCGB32M000F1H01R0.step"
       (offset (xyz 0 0 0))
       (scale (xyz 1 1 1))
       (rotate (xyz -90 0 90))
@@ -1253,7 +1253,7 @@
       (scale (xyz 1 1 1))
       (rotate (xyz 0 0 0))
     )
-    (model "${KIPRJMOD}/3d/Murata-XRCGB32M000F1H01R0.step"
+    (model "${KIPRJMOD}/3d/parts/Murata-XRCGB32M000F1H01R0.step"
       (offset (xyz 0 0 0))
       (scale (xyz 1 1 1))
       (rotate (xyz -90 0 90))
@@ -2694,7 +2694,7 @@
       (net 1 "GND") (pinfunction "Ext") (pintype "passive") (tstamp ec21797a-e232-48e1-a625-513da3230cc7))
     (pad "2" smd rect (at 0 4.25 90) (size 1.5 5.08) (layers "F.Cu" "F.Paste" "F.Mask")
       (net 1 "GND") (pinfunction "Ext") (pintype "passive") (tstamp eec9a79c-3edd-4ede-9e12-e726a3473af9))
-    (model "${KIPRJMOD}/3d/SMA-Amphenol-901-10309.step"
+    (model "${KIPRJMOD}/3d/parts/SMA-Amphenol-901-10309.step"
       (offset (xyz 3 0 0.1))
       (scale (xyz 1 1 1))
       (rotate (xyz 90 180 0))
@@ -2928,7 +2928,7 @@
       (scale (xyz 1 1 1))
       (rotate (xyz 0 0 0))
     )
-    (model "${KIPRJMOD}/3d/Abracon-ABS07-32.768KHZ-T.step" hide
+    (model "${KIPRJMOD}/3d/parts/Abracon-ABS07-32.768KHZ-T.step" hide
       (offset (xyz 0 0 0))
       (scale (xyz 1 1 1))
       (rotate (xyz -90 0 180))
@@ -3158,7 +3158,7 @@
       (scale (xyz 1 1 1))
       (rotate (xyz 0 0 0))
     )
-    (model "${KIPRJMOD}/3d/PTS810 SJK 250 SMTR LFS.step"
+    (model "${KIPRJMOD}/3d/parts/PTS810 SJK 250 SMTR LFS.step"
       (offset (xyz 0 0 0))
       (scale (xyz 1 1 1))
       (rotate (xyz -90 0 0))
@@ -4023,7 +4023,7 @@
       (scale (xyz 1 1 1))
       (rotate (xyz 0 0 0))
     )
-    (model "${KIPRJMOD}/3d/Molex-48037-1000.step"
+    (model "${KIPRJMOD}/3d/parts/Molex-48037-1000.step"
       (offset (xyz 1.5 0 0.8))
       (scale (xyz 1 1 1))
       (rotate (xyz -90 0 -90))
