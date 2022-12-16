@@ -22,7 +22,7 @@ From theoretical perspective, it has the following specification (with
 
 ## Lemonbeat Dongle
 
-![Lemonbeat Dongle v0.1.0](doc/img/lemonbeat_dongle_v0.1.0_3d.png)
+![Lemonbeat Dongle v0.1.0](doc/img/lemonbeat_dongle_v0.1.0_3d.png =500x)
 
 The directory `lemonbeat_dongle/` contains a BNW version of the
 Lemonbeat dongle.
