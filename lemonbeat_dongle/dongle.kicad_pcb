@@ -4259,6 +4259,7 @@
       (net 43 "/MCU/P0.06") (pinfunction "1") (pintype "passive") (tstamp 877a1f43-3158-4f75-bf02-f15d3d810eb7))
   )
 
+  (gr_circle (center 150.12 98.4) (end 152.637538 98.4) (layer "F.Cu") (width 0.2) (fill solid) (tstamp 2e9e21c2-d612-4e30-b201-9ed96b1b77ec))
   (gr_circle (center 138.1 98.5) (end 138.323607 98.5) (layer "F.SilkS") (width 0.15) (fill solid) (tstamp 4cf422ff-3ed3-4b73-b101-61b69a6da8c3))
   (gr_circle (center 143.5 107.75) (end 143.723607 107.75) (layer "F.SilkS") (width 0.15) (fill solid) (tstamp 7231828b-dee1-46a7-bfcf-f675e671f921))
   (gr_circle (center 145.3 106) (end 145.523607 106) (layer "F.SilkS") (width 0.15) (fill solid) (tstamp be9afbeb-ecaa-47e0-9a38-388ecc28d925))
