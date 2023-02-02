@@ -517,16 +517,16 @@
       (reference "#PWR0302") (unit 1) (value "GND") (footprint "")
     )
     (path "/49f47eff-be71-45a3-baa2-ec3b29bb6923/ccfccc8b-2389-4e3f-92c5-ac1ec268a187"
-      (reference "C201") (unit 1) (value "12pF") (footprint "Capacitor_SMD:C_0201_0603Metric")
+      (reference "C201") (unit 1) (value "12pF") (footprint "Capacitor_SMD:C_0402_1005Metric")
     )
     (path "/49f47eff-be71-45a3-baa2-ec3b29bb6923/695fdbeb-c439-4be3-b1da-eb0c75aa4ff9"
-      (reference "C202") (unit 1) (value "12pF") (footprint "Capacitor_SMD:C_0201_0603Metric")
+      (reference "C202") (unit 1) (value "12pF") (footprint "Capacitor_SMD:C_0402_1005Metric")
     )
     (path "/49f47eff-be71-45a3-baa2-ec3b29bb6923/6d39e881-2857-4683-b295-189607977a33"
-      (reference "C203") (unit 1) (value "12pF") (footprint "Capacitor_SMD:C_0201_0603Metric")
+      (reference "C203") (unit 1) (value "12pF") (footprint "Capacitor_SMD:C_0402_1005Metric")
     )
     (path "/49f47eff-be71-45a3-baa2-ec3b29bb6923/43c7c14f-4aff-433c-9f6d-ee89ac55a48d"
-      (reference "C204") (unit 1) (value "12pF") (footprint "Capacitor_SMD:C_0201_0603Metric")
+      (reference "C204") (unit 1) (value "12pF") (footprint "Capacitor_SMD:C_0402_1005Metric")
     )
     (path "/49f47eff-be71-45a3-baa2-ec3b29bb6923/5f2ea953-32b7-4726-8098-8347bea8ec70"
       (reference "C205") (unit 1) (value "10nF") (footprint "Capacitor_SMD:C_0201_0603Metric")
