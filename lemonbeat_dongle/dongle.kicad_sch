@@ -741,6 +741,9 @@
     (path "/49f47eff-be71-45a3-baa2-ec3b29bb6923/b6a8b4d3-9f4a-4ac0-afdc-672c9147308d"
       (reference "TP206") (unit 1) (value "TestPoint") (footprint "TestPoint:TestPoint_Pad_D1.0mm")
     )
+    (path "/49f47eff-be71-45a3-baa2-ec3b29bb6923/dba0db5c-91d4-49bd-b5ac-14b4a0ed6e54"
+      (reference "TP207") (unit 1) (value "TestPoint") (footprint "TestPoint:TestPoint_Pad_D1.0mm")
+    )
     (path "/49f47eff-be71-45a3-baa2-ec3b29bb6923/edbeacda-662d-4053-b397-53dd626def77"
       (reference "U201") (unit 1) (value "nRF52840") (footprint "Package_DFN_QFN:Nordic_AQFN-73-1EP_7x7mm_P0.5mm")
     )
