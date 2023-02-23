@@ -1,6 +1,7 @@
 """KiCad plugin to create polygon drawings (e.g. for edge cuts)."""
 
 import math
+
 import pcbnew
 
 
@@ -32,12 +33,12 @@ class PolygonPlugin(pcbnew.ActionPlugin):
         layer_id = board.GetLayerID(self.LAYER_NAME)
 
         if self.USE_POLYGON:
-            points_vector = pcbnew.wxPoint_Vector()
+            points_vector = pcbnew.VECTOR_VECTOR2I()
             for point in points:
-                points_vector.append(pcbnew.wxPoint(point[0], point[1]))
+                points_vector.append(pcbnew.VECTOR2I(point[0], point[1]))
 
             # draw polygon
-            ds = pcbnew.DRAWSEGMENT(board)
+            ds = pcbnew.PCB_SHAPE(board)
             ds.SetShape(pcbnew.S_POLYGON)
             ds.SetPolyPoints(points_vector)
 
@@ -52,12 +53,12 @@ class PolygonPlugin(pcbnew.ActionPlugin):
         else:
             for i in range(self.N):
                 # draw polygon
-                ds = pcbnew.DRAWSEGMENT(board)
+                ds = pcbnew.PCB_SHAPE(board)
                 a = points[i]
                 b = points[(i + 1) % self.N]
                 ds.SetShape(pcbnew.S_SEGMENT)
-                ds.SetStart(pcbnew.wxPoint(a[0], a[1]))
-                ds.SetEnd(pcbnew.wxPoint(b[0], b[1]))
+                ds.SetStart(pcbnew.VECTOR2I(a[0], a[1]))
+                ds.SetEnd(pcbnew.VECTOR2I(b[0], b[1]))
                 ds.SetLayer(layer_id)
                 board.Add(ds)
 

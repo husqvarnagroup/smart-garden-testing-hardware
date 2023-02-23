@@ -1,6 +1,7 @@
 """KiCad plugin to place parts for power splitter."""
 
 import math
+
 import pcbnew
 
 
@@ -12,6 +13,7 @@ class PowerSplitterPartsPlacementPlugin(pcbnew.ActionPlugin):
     RADIUS_J_MM = 24.5
 
     def defaults(self):
+        """Define properties of plugin."""
         self.name = "PowerSplitterPartsPlacement"
         self.category = "drawings"
         self.description = "A plugin to place power splitter parts."
@@ -19,7 +21,7 @@ class PowerSplitterPartsPlacementPlugin(pcbnew.ActionPlugin):
     def Run(self):
         """Plugin run function."""
         board = pcbnew.GetBoard()
-        components = board.GetModules()
+        components = board.GetFootprints()
 
         connectors = []
         resistors = []
@@ -44,10 +46,10 @@ class PowerSplitterPartsPlacementPlugin(pcbnew.ActionPlugin):
             x = math.cos(angle)
             y = math.sin(angle)
 
-            connectors[i].SetPosition(pcbnew.wxPoint(round(x * radius_j),
-                                                     round(y * radius_j)))
-            resistors[i].SetPosition(pcbnew.wxPoint(round(x * radius_r),
-                                                    round(y * radius_r)))
+            connectors[i].SetPosition(pcbnew.VECTOR2I(round(x * radius_j),
+                                                      round(y * radius_j)))
+            resistors[i].SetPosition(pcbnew.VECTOR2I(round(x * radius_r),
+                                                     round(y * radius_r)))
 
 
 PowerSplitterPartsPlacementPlugin().register()
