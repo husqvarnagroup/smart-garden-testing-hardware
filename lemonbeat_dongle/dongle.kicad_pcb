@@ -90,7 +90,7 @@
       (mirror false)
       (drillshape 0)
       (scaleselection 1)
-      (outputdirectory "output/v0.1.0/gerber/")
+      (outputdirectory "output/v0.2.0/gerber/")
     )
   )
 
@@ -4900,6 +4900,7 @@
     (tags "Surface mounted pin header SMD 2x05 1.27mm double row")
     (property "Sheetfile" "mcu.kicad_sch")
     (property "Sheetname" "MCU")
+    (property "dnp" "")
     (property "ki_description" "Generic connector, double row, 02x05, odd/even pin numbering scheme (row 1 odd numbers, row 2 even numbers), script generated (kicad-library-utils/schlib/autogen/connector/)")
     (property "ki_keywords" "connector")
     (path "/49f47eff-be71-45a3-baa2-ec3b29bb6923/5661a638-9003-4b96-a721-a7f33d64da75")
