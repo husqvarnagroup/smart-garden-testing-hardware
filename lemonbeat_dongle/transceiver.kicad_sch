@@ -624,7 +624,6 @@
     )
   )
 
-
   (junction (at 113.03 27.94) (diameter 0) (color 0 0 0 0)
     (uuid 11945890-373a-4871-9811-419e4cde9830)
   )
@@ -1741,6 +1740,9 @@
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Part Number" "142-0701-851" (at 176.53 88.9 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "LCSC" "C9900004170" (at 176.53 88.9 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (pin "1" (uuid c3853a7b-e072-4b5b-91b5-e1cc82c88a57))
