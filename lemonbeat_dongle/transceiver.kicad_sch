@@ -1745,6 +1745,9 @@
     (property "LCSC" "C9900004170" (at 176.53 88.9 0)
       (effects (font (size 1.27 1.27)) hide)
     )
+    (property "Comment" "Alternative suitable part: Amphenol RF 901-10309" (at 176.53 88.9 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
     (pin "1" (uuid c3853a7b-e072-4b5b-91b5-e1cc82c88a57))
     (pin "2" (uuid 6a10ac35-c7a7-4507-83b4-245c9f4ec969))
     (instances
