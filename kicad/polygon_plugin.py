@@ -8,10 +8,20 @@ import pcbnew
 class PolygonPlugin(pcbnew.ActionPlugin):
     """Polygon plugin class."""
 
-    N = 12  # number of edges - TODO get as user input
+    # values for original 11-way power splitter:
+    # - N = 12
+    # - RADIUS_MM = 30
+    # values for original 7-way power splitter with attenuators:
+    # - N = 8
+    # - RADIUS_MM = 25
+
+    N = 8  # number of edges - TODO get as user input
     LAYER_NAME = "Edge.Cuts"  # TODO get as user input
-    RADIUS_MM = 30  # radius in mm - TODO get as user input
+    RADIUS_MM = 25  # radius in mm - TODO get as user input
     USE_POLYGON = False  # wether to use use segments or a polygon
+    ADD_HOLES = True
+    HOLE_DISTANCE_MM = 3  # distance to PCB corner
+    HOLE_DIAMETER_MM = 2.5
 
     def defaults(self):
         """Properties for KiCad."""
@@ -61,6 +71,20 @@ class PolygonPlugin(pcbnew.ActionPlugin):
                 ds.SetEnd(pcbnew.VECTOR2I(b[0], b[1]))
                 ds.SetLayer(layer_id)
                 board.Add(ds)
+
+        if self.ADD_HOLES:
+            hole_center_radius = pcbnew.FromMM(self.RADIUS_MM - self.HOLE_DISTANCE_MM)
+            hole_points = [(round(math.cos(angle) * hole_center_radius),
+                            round(math.sin(angle) * hole_center_radius))
+                           for angle in angles]
+            for i in range(self.N):
+                circle = pcbnew.PCB_SHAPE(board)
+                circle.SetShape(pcbnew.S_CIRCLE)
+                circle.SetCenter(pcbnew.VECTOR2I(hole_points[i][0], hole_points[i][1]))
+                circle.SetEnd(pcbnew.VECTOR2I(hole_points[i][0], hole_points[i][1] +
+                                              pcbnew.FromMM(self.HOLE_DIAMETER_MM / 2)))
+                circle.SetLayer(layer_id)
+                board.Add(circle)
 
 
 PolygonPlugin().register()
