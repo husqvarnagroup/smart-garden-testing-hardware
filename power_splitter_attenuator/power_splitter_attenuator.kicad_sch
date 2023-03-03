@@ -693,6 +693,11 @@
     (uuid 2bf57afb-85e7-4875-9ece-0a405827856c)
   )
 
+  (label "power_splitter_connection" (at 127 36.83 0) (fields_autoplaced)
+    (effects (font (size 1.27 1.27)) (justify left bottom))
+    (uuid d44dd7c5-927c-436b-99a0-9b4a81f3824f)
+  )
+
   (symbol (lib_id "Device:R") (at 187.96 74.93 90) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 02a7ab7c-a9f6-4a4a-b5e4-34a8acc57fce)
