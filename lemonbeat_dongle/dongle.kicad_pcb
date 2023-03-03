@@ -5029,7 +5029,7 @@
       (net 1 "GND") (pinfunction "Pin_9") (pintype "passive") (tstamp deec2bd9-b0d4-4154-8282-cf336b03f189))
     (pad "10" smd rect (at 1.95 -2.54 180) (size 2.4 0.74) (layers "B.Cu" "B.Paste" "B.Mask")
       (net 14 "/MCU/RESET") (pinfunction "Pin_10") (pintype "passive") (tstamp 8d5b2c11-b9f1-4080-be30-fdfdf023adca))
-    (model "${KICAD6_3DMODEL_DIR}/Connector_PinHeader_1.27mm.3dshapes/PinHeader_2x05_P1.27mm_Vertical_SMD.wrl"
+    (model "${KICAD6_3DMODEL_DIR}/Connector_PinHeader_1.27mm.3dshapes/PinHeader_2x05_P1.27mm_Vertical_SMD.wrl" hide
       (offset (xyz 0 0 0))
       (scale (xyz 1 1 1))
       (rotate (xyz 0 0 0))
