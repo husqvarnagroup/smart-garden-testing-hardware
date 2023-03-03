@@ -477,7 +477,7 @@
       "netlist": "",
       "specctra_dsn": "",
       "step": "dongle.step",
-      "vrml": ""
+      "vrml": "output/3d/microjig.wrl"
     },
     "page_layout_descr_file": ""
   },
