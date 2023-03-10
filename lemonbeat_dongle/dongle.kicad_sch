@@ -5,9 +5,9 @@
   (paper "A4")
 
   (title_block
-    (title "BNW Lemonbeat Donlge")
-    (date "21.10.2022")
-    (rev "0.2.0")
+    (title "BNW Lemonbeat Dongle")
+    (date "10.3.2023")
+    (rev "0.3.0")
   )
 
   (lib_symbols
