@@ -1222,7 +1222,7 @@
   (gr_text "TP104\nMISO" (at 158.2 124.1) (layer "F.SilkS") (tstamp bf82edc2-5701-4fc4-acd4-445c1189bc60)
     (effects (font (size 0.7 0.7) (thickness 0.1)))
   )
-  (gr_text "TP204\nP0.03" (at 142.3 124.1) (layer "F.SilkS") (tstamp c4426a0a-8528-42c2-a929-fa72c68c6178)
+  (gr_text "TP204\nP0.02" (at 142.3 124.1) (layer "F.SilkS") (tstamp c4426a0a-8528-42c2-a929-fa72c68c6178)
     (effects (font (size 0.7 0.7) (thickness 0.1)))
   )
   (gr_text "TP203\nVBUS" (at 129.7 124.1) (layer "F.SilkS") (tstamp d224268e-b336-4299-a884-c8cba1cba475)
