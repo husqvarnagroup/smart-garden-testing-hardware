@@ -1183,7 +1183,7 @@
     (stroke (width 0.1) (type solid)) (layer "Edge.Cuts") (tstamp f8132af7-7288-4b74-ab7b-b75097f841a8))
   (gr_line (start 113 94) (end 158 94)
     (stroke (width 0.1) (type solid)) (layer "Edge.Cuts") (tstamp ff4b11b1-bce3-42d8-b683-96b5736bcf99))
-  (gr_text "BNW Dongle MicroJig\nFor Dongle Rev. 0.2.0" (at 112.6 114.5 90) (layer "F.SilkS") (tstamp 06a261d5-2a4f-4fb9-b6ac-e18359d64bdd)
+  (gr_text "BNW Dongle MicroJig\nFor Dongle Rev. 0.3.0" (at 112.6 114.5 90) (layer "F.SilkS") (tstamp 06a261d5-2a4f-4fb9-b6ac-e18359d64bdd)
     (effects (font (size 1 1) (thickness 0.15)))
   )
   (gr_text "TP105\nNSEL" (at 146.4 126.6) (layer "F.SilkS") (tstamp 0a35d9f2-470c-442c-8d24-8a18246c51fa)
