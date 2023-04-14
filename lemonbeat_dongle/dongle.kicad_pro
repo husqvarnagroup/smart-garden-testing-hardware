@@ -496,8 +496,8 @@
       "idf": "",
       "netlist": "",
       "specctra_dsn": "",
-      "step": "dongle.step",
-      "vrml": "output/3d/dongle.wrl"
+      "step": "output/3d/dongle_v0.3.0.step",
+      "vrml": "output/3d/dongle_v0.3.0.wrl"
     },
     "page_layout_descr_file": ""
   },

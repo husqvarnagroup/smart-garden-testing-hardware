@@ -476,8 +476,8 @@
       "idf": "",
       "netlist": "",
       "specctra_dsn": "",
-      "step": "dongle.step",
-      "vrml": "output/3d/microjig.wrl"
+      "step": "output/3d/microjig_v0.3.0.step",
+      "vrml": "output/3d/microjig_v0.3.0.wrl"
     },
     "page_layout_descr_file": ""
   },
