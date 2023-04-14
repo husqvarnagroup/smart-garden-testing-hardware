@@ -139,7 +139,12 @@
       (stroke (width 0.05) (type solid)) (fill none) (layer "F.CrtYd") (tstamp dd693f16-47ba-4720-91cb-a0a2d8880da6))
     (pad "1" smd circle (at 0 0) (size 2 2) (layers "F.Cu" "F.Mask")
       (net 3 "/SWDCLK") (pinfunction "1") (pintype "passive") (tstamp 0696c3c3-fb31-47ce-95f2-b762955cbb73))
-    (model "${KIPRJMOD}/3d/parts/SpringContact-KH-204065-DZ.step"
+    (model "${KIPRJMOD}/3d/parts/SpringContact-KH-204065-DZ.step" hide
+      (offset (xyz 0 0 0))
+      (scale (xyz 1 1 1))
+      (rotate (xyz 0 0 0))
+    )
+    (model "${KIPRJMOD}/3d/parts/SpringContact-KH-102540-DZ.step"
       (offset (xyz 0 0 0))
       (scale (xyz 1 1 1))
       (rotate (xyz 0 0 0))
@@ -175,7 +180,12 @@
       (stroke (width 0.05) (type solid)) (fill none) (layer "F.CrtYd") (tstamp ba298cf0-a832-4fde-81c2-36d259651292))
     (pad "1" smd circle (at 0 0) (size 2 2) (layers "F.Cu" "F.Mask")
       (net 2 "/SWDIO") (pinfunction "1") (pintype "passive") (tstamp 205b1859-957d-4228-84e5-b01797624314))
-    (model "${KIPRJMOD}/3d/parts/SpringContact-KH-204065-DZ.step"
+    (model "${KIPRJMOD}/3d/parts/SpringContact-KH-204065-DZ.step" hide
+      (offset (xyz 0 0 0))
+      (scale (xyz 1 1 1))
+      (rotate (xyz 0 0 0))
+    )
+    (model "${KIPRJMOD}/3d/parts/SpringContact-KH-102540-DZ.step"
       (offset (xyz 0 0 0))
       (scale (xyz 1 1 1))
       (rotate (xyz 0 0 0))
@@ -211,7 +221,12 @@
       (stroke (width 0.05) (type solid)) (fill none) (layer "F.CrtYd") (tstamp bee2b765-f35e-4b2f-b25d-f88b515cbda3))
     (pad "1" smd circle (at 0 0) (size 2 2) (layers "F.Cu" "F.Mask")
       (net 12 "Net-(J2-Pin_5)") (pinfunction "1") (pintype "passive") (tstamp 81bb0289-c1a2-4eb7-8ad3-7bdeec71423a))
-    (model "${KIPRJMOD}/3d/parts/SpringContact-KH-204065-DZ.step"
+    (model "${KIPRJMOD}/3d/parts/SpringContact-KH-204065-DZ.step" hide
+      (offset (xyz 0 0 0))
+      (scale (xyz 1 1 1))
+      (rotate (xyz 0 0 0))
+    )
+    (model "${KIPRJMOD}/3d/parts/SpringContact-KH-102540-DZ.step"
       (offset (xyz 0 0 0))
       (scale (xyz 1 1 1))
       (rotate (xyz 0 0 0))
@@ -247,7 +262,12 @@
       (stroke (width 0.05) (type solid)) (fill none) (layer "F.CrtYd") (tstamp adf8c37a-bb79-498c-9985-8d90545ff212))
     (pad "1" smd circle (at 0 0) (size 2 2) (layers "F.Cu" "F.Mask")
       (net 8 "Net-(J2-Pin_1)") (pinfunction "1") (pintype "passive") (tstamp 501684b1-f8f4-438a-9979-5f1205f97a9c))
-    (model "${KIPRJMOD}/3d/parts/SpringContact-KH-204065-DZ.step"
+    (model "${KIPRJMOD}/3d/parts/SpringContact-KH-204065-DZ.step" hide
+      (offset (xyz 0 0 0))
+      (scale (xyz 1 1 1))
+      (rotate (xyz 0 0 0))
+    )
+    (model "${KIPRJMOD}/3d/parts/SpringContact-KH-102540-DZ.step"
       (offset (xyz 0 0 0))
       (scale (xyz 1 1 1))
       (rotate (xyz 0 0 0))
@@ -283,7 +303,12 @@
       (stroke (width 0.05) (type solid)) (fill none) (layer "F.CrtYd") (tstamp ff48bb11-bc57-45b0-9a2c-f7f1917b7d57))
     (pad "1" smd circle (at 0 0) (size 2 2) (layers "F.Cu" "F.Mask")
       (net 11 "Net-(J2-Pin_4)") (pinfunction "1") (pintype "passive") (tstamp 6def7b89-92e4-4ed8-abca-0c955978cf94))
-    (model "${KIPRJMOD}/3d/parts/SpringContact-KH-204065-DZ.step"
+    (model "${KIPRJMOD}/3d/parts/SpringContact-KH-204065-DZ.step" hide
+      (offset (xyz 0 0 0))
+      (scale (xyz 1 1 1))
+      (rotate (xyz 0 0 0))
+    )
+    (model "${KIPRJMOD}/3d/parts/SpringContact-KH-102540-DZ.step"
       (offset (xyz 0 0 0))
       (scale (xyz 1 1 1))
       (rotate (xyz 0 0 0))
@@ -601,7 +626,12 @@
       (stroke (width 0.05) (type solid)) (fill none) (layer "F.CrtYd") (tstamp a69f6141-faf3-4f3f-85a0-dd7fccde9b2f))
     (pad "1" smd circle (at 0 0) (size 2 2) (layers "F.Cu" "F.Mask")
       (net 9 "Net-(J2-Pin_2)") (pinfunction "1") (pintype "passive") (tstamp 58ced7ac-5b32-4c1d-81ff-d13a2849186a))
-    (model "${KIPRJMOD}/3d/parts/SpringContact-KH-204065-DZ.step"
+    (model "${KIPRJMOD}/3d/parts/SpringContact-KH-204065-DZ.step" hide
+      (offset (xyz 0 0 0))
+      (scale (xyz 1 1 1))
+      (rotate (xyz 0 0 0))
+    )
+    (model "${KIPRJMOD}/3d/parts/SpringContact-KH-102540-DZ.step"
       (offset (xyz 0 0 0))
       (scale (xyz 1 1 1))
       (rotate (xyz 0 0 0))
@@ -637,7 +667,12 @@
       (stroke (width 0.05) (type solid)) (fill none) (layer "F.CrtYd") (tstamp 78883f60-a1ec-4376-a540-fbb5a1a1c601))
     (pad "1" smd circle (at 0 0) (size 2 2) (layers "F.Cu" "F.Mask")
       (net 16 "Net-(J3-Pin_2)") (pinfunction "1") (pintype "passive") (tstamp 247daaab-1928-4609-af1b-8a34500d5191))
-    (model "${KIPRJMOD}/3d/parts/SpringContact-KH-204065-DZ.step"
+    (model "${KIPRJMOD}/3d/parts/SpringContact-KH-204065-DZ.step" hide
+      (offset (xyz 0 0 0))
+      (scale (xyz 1 1 1))
+      (rotate (xyz 0 0 0))
+    )
+    (model "${KIPRJMOD}/3d/parts/SpringContact-KH-102540-DZ.step"
       (offset (xyz 0 0 0))
       (scale (xyz 1 1 1))
       (rotate (xyz 0 0 0))
@@ -673,7 +708,12 @@
       (stroke (width 0.05) (type solid)) (fill none) (layer "F.CrtYd") (tstamp d0a76629-672b-4dd3-be79-951d952112ec))
     (pad "1" smd circle (at 0 0) (size 2 2) (layers "F.Cu" "F.Mask")
       (net 10 "Net-(J2-Pin_3)") (pinfunction "1") (pintype "passive") (tstamp 13997ff6-0c08-4c56-a146-f2bf4048af08))
-    (model "${KIPRJMOD}/3d/parts/SpringContact-KH-204065-DZ.step"
+    (model "${KIPRJMOD}/3d/parts/SpringContact-KH-204065-DZ.step" hide
+      (offset (xyz 0 0 0))
+      (scale (xyz 1 1 1))
+      (rotate (xyz 0 0 0))
+    )
+    (model "${KIPRJMOD}/3d/parts/SpringContact-KH-102540-DZ.step"
       (offset (xyz 0 0 0))
       (scale (xyz 1 1 1))
       (rotate (xyz 0 0 0))
@@ -709,7 +749,12 @@
       (stroke (width 0.05) (type solid)) (fill none) (layer "F.CrtYd") (tstamp 5f4bc8d8-0210-4b50-9499-5563ba047cf1))
     (pad "1" smd circle (at 0 0) (size 2 2) (layers "F.Cu" "F.Mask")
       (net 15 "VDD") (pinfunction "1") (pintype "passive") (tstamp 2f6f4307-0b33-4983-8072-9d65085b882f))
-    (model "${KIPRJMOD}/3d/parts/SpringContact-KH-204065-DZ.step"
+    (model "${KIPRJMOD}/3d/parts/SpringContact-KH-204065-DZ.step" hide
+      (offset (xyz 0 0 0))
+      (scale (xyz 1 1 1))
+      (rotate (xyz 0 0 0))
+    )
+    (model "${KIPRJMOD}/3d/parts/SpringContact-KH-102540-DZ.step"
       (offset (xyz 0 0 0))
       (scale (xyz 1 1 1))
       (rotate (xyz 0 0 0))
@@ -745,7 +790,12 @@
       (stroke (width 0.05) (type solid)) (fill none) (layer "F.CrtYd") (tstamp a971e75f-1ee8-435b-99a3-0c053bd99fb2))
     (pad "1" smd circle (at 0 0) (size 2 2) (layers "F.Cu" "F.Mask")
       (net 19 "Net-(J3-Pin_5)") (pinfunction "1") (pintype "passive") (tstamp f3746e1a-beb0-4d01-b42f-9a6e95573318))
-    (model "${KIPRJMOD}/3d/parts/SpringContact-KH-204065-DZ.step"
+    (model "${KIPRJMOD}/3d/parts/SpringContact-KH-204065-DZ.step" hide
+      (offset (xyz 0 0 0))
+      (scale (xyz 1 1 1))
+      (rotate (xyz 0 0 0))
+    )
+    (model "${KIPRJMOD}/3d/parts/SpringContact-KH-102540-DZ.step"
       (offset (xyz 0 0 0))
       (scale (xyz 1 1 1))
       (rotate (xyz 0 0 0))
@@ -926,7 +976,12 @@
       (stroke (width 0.05) (type solid)) (fill none) (layer "F.CrtYd") (tstamp 712e348e-57b8-4528-9283-f73c30b30669))
     (pad "1" smd circle (at 0 0) (size 2 2) (layers "F.Cu" "F.Mask")
       (net 13 "Net-(J2-Pin_6)") (pinfunction "1") (pintype "passive") (tstamp f33110b0-62fa-4bbf-a07d-9ed0a78709f7))
-    (model "${KIPRJMOD}/3d/parts/SpringContact-KH-204065-DZ.step"
+    (model "${KIPRJMOD}/3d/parts/SpringContact-KH-204065-DZ.step" hide
+      (offset (xyz 0 0 0))
+      (scale (xyz 1 1 1))
+      (rotate (xyz 0 0 0))
+    )
+    (model "${KIPRJMOD}/3d/parts/SpringContact-KH-102540-DZ.step"
       (offset (xyz 0 0 0))
       (scale (xyz 1 1 1))
       (rotate (xyz 0 0 0))
@@ -962,7 +1017,12 @@
       (stroke (width 0.05) (type solid)) (fill none) (layer "F.CrtYd") (tstamp d509a0e0-0235-412d-8ca9-20c32ca11380))
     (pad "1" smd circle (at 0 0) (size 2 2) (layers "F.Cu" "F.Mask")
       (net 18 "Net-(J3-Pin_4)") (pinfunction "1") (pintype "passive") (tstamp 218502fa-3eed-4468-aca7-ec1b3b4a86f1))
-    (model "${KIPRJMOD}/3d/parts/SpringContact-KH-204065-DZ.step"
+    (model "${KIPRJMOD}/3d/parts/SpringContact-KH-204065-DZ.step" hide
+      (offset (xyz 0 0 0))
+      (scale (xyz 1 1 1))
+      (rotate (xyz 0 0 0))
+    )
+    (model "${KIPRJMOD}/3d/parts/SpringContact-KH-102540-DZ.step"
       (offset (xyz 0 0 0))
       (scale (xyz 1 1 1))
       (rotate (xyz 0 0 0))
@@ -998,7 +1058,12 @@
       (stroke (width 0.05) (type solid)) (fill none) (layer "F.CrtYd") (tstamp d9165d9e-e97a-414c-8238-2f0ccfe037b3))
     (pad "1" smd circle (at 0 0) (size 2 2) (layers "F.Cu" "F.Mask")
       (net 7 "/RESET") (pinfunction "1") (pintype "passive") (tstamp 923372c9-c449-4709-b342-7a42911eea20))
-    (model "${KIPRJMOD}/3d/parts/SpringContact-KH-204065-DZ.step"
+    (model "${KIPRJMOD}/3d/parts/SpringContact-KH-204065-DZ.step" hide
+      (offset (xyz 0 0 0))
+      (scale (xyz 1 1 1))
+      (rotate (xyz 0 0 0))
+    )
+    (model "${KIPRJMOD}/3d/parts/SpringContact-KH-102540-DZ.step"
       (offset (xyz 0 0 0))
       (scale (xyz 1 1 1))
       (rotate (xyz 0 0 0))
@@ -1034,7 +1099,12 @@
       (stroke (width 0.05) (type solid)) (fill none) (layer "F.CrtYd") (tstamp 35dd5633-a08f-4780-bc12-bd4b813274b8))
     (pad "1" smd circle (at 0 0) (size 2 2) (layers "F.Cu" "F.Mask")
       (net 20 "Net-(J3-Pin_6)") (pinfunction "1") (pintype "passive") (tstamp 8bcb22d6-427c-421b-a48f-9dde55deb9e2))
-    (model "${KIPRJMOD}/3d/parts/SpringContact-KH-204065-DZ.step"
+    (model "${KIPRJMOD}/3d/parts/SpringContact-KH-204065-DZ.step" hide
+      (offset (xyz 0 0 0))
+      (scale (xyz 1 1 1))
+      (rotate (xyz 0 0 0))
+    )
+    (model "${KIPRJMOD}/3d/parts/SpringContact-KH-102540-DZ.step"
       (offset (xyz 0 0 0))
       (scale (xyz 1 1 1))
       (rotate (xyz 0 0 0))
@@ -1070,7 +1140,12 @@
       (stroke (width 0.05) (type solid)) (fill none) (layer "F.CrtYd") (tstamp 3bb2c8cb-02c5-4eaf-ae3e-a7a04c97c61a))
     (pad "1" smd circle (at 0 0) (size 2 2) (layers "F.Cu" "F.Mask")
       (net 14 "Net-(J3-Pin_1)") (pinfunction "1") (pintype "passive") (tstamp a9e5595b-0cd5-4e10-b65f-9646ae71b700))
-    (model "${KIPRJMOD}/3d/parts/SpringContact-KH-204065-DZ.step"
+    (model "${KIPRJMOD}/3d/parts/SpringContact-KH-204065-DZ.step" hide
+      (offset (xyz 0 0 0))
+      (scale (xyz 1 1 1))
+      (rotate (xyz 0 0 0))
+    )
+    (model "${KIPRJMOD}/3d/parts/SpringContact-KH-102540-DZ.step"
       (offset (xyz 0 0 0))
       (scale (xyz 1 1 1))
       (rotate (xyz 0 0 0))
@@ -1106,7 +1181,12 @@
       (stroke (width 0.05) (type solid)) (fill none) (layer "F.CrtYd") (tstamp e51cbe60-85db-4bcf-977f-dc32b2867617))
     (pad "1" smd circle (at 0 0) (size 2 2) (layers "F.Cu" "F.Mask")
       (net 1 "GND") (pinfunction "1") (pintype "passive") (tstamp 4c0fb5b2-54aa-4c72-9709-1a99c1babc40))
-    (model "${KIPRJMOD}/3d/parts/SpringContact-KH-204065-DZ.step"
+    (model "${KIPRJMOD}/3d/parts/SpringContact-KH-204065-DZ.step" hide
+      (offset (xyz 0 0 0))
+      (scale (xyz 1 1 1))
+      (rotate (xyz 0 0 0))
+    )
+    (model "${KIPRJMOD}/3d/parts/SpringContact-KH-102540-DZ.step"
       (offset (xyz 0 0 0))
       (scale (xyz 1 1 1))
       (rotate (xyz 0 0 0))
@@ -1142,7 +1222,12 @@
       (stroke (width 0.05) (type solid)) (fill none) (layer "F.CrtYd") (tstamp ff3ec0b6-76fb-499b-92f5-279a4616ac04))
     (pad "1" smd circle (at 0 0) (size 2 2) (layers "F.Cu" "F.Mask")
       (net 17 "Net-(J3-Pin_3)") (pinfunction "1") (pintype "passive") (tstamp b806d1ac-502f-466b-a1a2-4babb861c888))
-    (model "${KIPRJMOD}/3d/parts/SpringContact-KH-204065-DZ.step"
+    (model "${KIPRJMOD}/3d/parts/SpringContact-KH-204065-DZ.step" hide
+      (offset (xyz 0 0 0))
+      (scale (xyz 1 1 1))
+      (rotate (xyz 0 0 0))
+    )
+    (model "${KIPRJMOD}/3d/parts/SpringContact-KH-102540-DZ.step"
       (offset (xyz 0 0 0))
       (scale (xyz 1 1 1))
       (rotate (xyz 0 0 0))
