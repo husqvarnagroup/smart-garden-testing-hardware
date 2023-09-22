@@ -591,7 +591,7 @@
       (net 1 "GND") (pintype "passive") (tstamp 800bb60e-a60b-4b09-ac20-693f1ae4efbb))
     (pad "2" smd roundrect (at 0.48 0 180) (size 0.56 0.62) (layers "F.Cu" "F.Paste" "F.Mask") (roundrect_rratio 0.25)
       (net 4 "Net-(U201-XL1{slash}P0.00)") (pintype "passive") (tstamp 3f1cdbb0-b89d-4830-aa7f-3e527dd251b9))
-    (model "${KICAD6_3DMODEL_DIR}/Capacitor_SMD.3dshapes/C_0402_1005Metric.wrl"
+    (model "${KICAD6_3DMODEL_DIR}/Capacitor_SMD.3dshapes/C_0402_1005Metric.wrl" hide
       (offset (xyz 0 0 0))
       (scale (xyz 1 1 1))
       (rotate (xyz 0 0 0))
@@ -777,7 +777,7 @@
       (net 5 "Net-(U201-XL2{slash}P0.01)") (pintype "passive") (tstamp 7936714b-e6fb-4595-ba1c-8b542ad08deb))
     (pad "2" smd roundrect (at 0.48 0) (size 0.56 0.62) (layers "F.Cu" "F.Paste" "F.Mask") (roundrect_rratio 0.25)
       (net 1 "GND") (pintype "passive") (tstamp d5076513-5c05-479c-92ae-ba0102bb94b8))
-    (model "${KICAD6_3DMODEL_DIR}/Capacitor_SMD.3dshapes/C_0402_1005Metric.wrl"
+    (model "${KICAD6_3DMODEL_DIR}/Capacitor_SMD.3dshapes/C_0402_1005Metric.wrl" hide
       (offset (xyz 0 0 0))
       (scale (xyz 1 1 1))
       (rotate (xyz 0 0 0))
@@ -3511,7 +3511,7 @@
       (scale (xyz 1 1 1))
       (rotate (xyz 0 0 0))
     )
-    (model "${KIPRJMOD}/3d/parts/Abracon-ABS07-32.768KHZ-T.step"
+    (model "${KIPRJMOD}/3d/parts/Abracon-ABS07-32.768KHZ-T.step" hide
       (offset (xyz 0 0 0))
       (scale (xyz 1 1 1))
       (rotate (xyz -90 0 180))
