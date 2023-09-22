@@ -6,8 +6,8 @@
 
   (title_block
     (title "BNW Lemonbeat Donlge")
-    (date "21.10.2022")
-    (rev "0.2.0")
+    (date "22.9.2023")
+    (rev "0.4.0")
   )
 
   (lib_symbols
