@@ -1,402 +1,993 @@
-(kicad_sch (version 20230121) (generator eeschema)
-
-  (uuid baecd03a-8d48-4020-876a-32289b953936)
-
-  (paper "A4")
-
-  (title_block
-    (title "BNW Lemonbeat Dongle")
-    (date "22.9.2023")
-    (rev "0.4.0")
-  )
-
-  (lib_symbols
-    (symbol "Connector:TestPoint_Small" (pin_numbers hide) (pin_names (offset 0.762) hide) (in_bom yes) (on_board yes)
-      (property "Reference" "TP" (at 0 3.81 0)
-        (effects (font (size 1.27 1.27)))
-      )
-      (property "Value" "TestPoint_Small" (at 0 2.032 0)
-        (effects (font (size 1.27 1.27)))
-      )
-      (property "Footprint" "" (at 5.08 0 0)
-        (effects (font (size 1.27 1.27)) hide)
-      )
-      (property "Datasheet" "~" (at 5.08 0 0)
-        (effects (font (size 1.27 1.27)) hide)
-      )
-      (property "ki_keywords" "test point tp" (at 0 0 0)
-        (effects (font (size 1.27 1.27)) hide)
-      )
-      (property "ki_description" "test point" (at 0 0 0)
-        (effects (font (size 1.27 1.27)) hide)
-      )
-      (property "ki_fp_filters" "Pin* Test*" (at 0 0 0)
-        (effects (font (size 1.27 1.27)) hide)
-      )
-      (symbol "TestPoint_Small_0_1"
-        (circle (center 0 0) (radius 0.508)
-          (stroke (width 0) (type default))
-          (fill (type none))
-        )
-      )
-      (symbol "TestPoint_Small_1_1"
-        (pin passive line (at 0 0 90) (length 0)
-          (name "1" (effects (font (size 1.27 1.27))))
-          (number "1" (effects (font (size 1.27 1.27))))
-        )
-      )
-    )
-  )
-
-  (junction (at 125.73 114.3) (diameter 0) (color 0 0 0 0)
-    (uuid 075bf97a-cb0e-449f-9a58-c27ab66ec149)
-  )
-  (junction (at 125.73 116.84) (diameter 0) (color 0 0 0 0)
-    (uuid b0a18c4c-75f4-4cec-8d5d-c0603273b27a)
-  )
-  (junction (at 125.73 111.76) (diameter 0) (color 0 0 0 0)
-    (uuid b584ae4e-9450-43af-9d5f-ef71e5034d7f)
-  )
-  (junction (at 125.73 72.39) (diameter 0) (color 0 0 0 0)
-    (uuid ceef8bd1-d7df-4259-935c-df0e45ff5665)
-  )
-  (junction (at 125.73 109.22) (diameter 0) (color 0 0 0 0)
-    (uuid dbd4a5e1-5c86-497c-a4bc-c950fa6601ec)
-  )
-  (junction (at 125.73 119.38) (diameter 0) (color 0 0 0 0)
-    (uuid f3046c2a-b419-4501-a347-c33bae59014f)
-  )
-
-  (wire (pts (xy 116.84 97.79) (xy 146.05 97.79))
-    (stroke (width 0) (type default))
-    (uuid 02eda92b-3e78-463b-add5-162f85a95e5d)
-  )
-  (wire (pts (xy 125.73 114.3) (xy 146.05 114.3))
-    (stroke (width 0) (type default))
-    (uuid 058bcd62-c3d4-4fe1-bb6b-d2a4035decfc)
-  )
-  (wire (pts (xy 116.84 116.84) (xy 125.73 116.84))
-    (stroke (width 0) (type default))
-    (uuid 09907ab7-a149-4260-98db-41390f6ecfbd)
-  )
-  (wire (pts (xy 125.73 116.84) (xy 146.05 116.84))
-    (stroke (width 0) (type default))
-    (uuid 4979ce0a-29a1-4bad-8b17-f48b6ba5614a)
-  )
-  (wire (pts (xy 125.73 72.39) (xy 146.05 72.39))
-    (stroke (width 0) (type default))
-    (uuid 5750bb36-bf8d-4d58-8520-a347c19b7194)
-  )
-  (wire (pts (xy 116.84 114.3) (xy 125.73 114.3))
-    (stroke (width 0) (type default))
-    (uuid 8d398d56-5abf-4725-908b-840c6a4034b6)
-  )
-  (wire (pts (xy 116.84 92.71) (xy 146.05 92.71))
-    (stroke (width 0) (type default))
-    (uuid 8d4ad0d7-0081-493c-830b-26c09ccc15d9)
-  )
-  (wire (pts (xy 116.84 90.17) (xy 146.05 90.17))
-    (stroke (width 0) (type default))
-    (uuid a47652f6-fe62-4850-925d-25fd2280b98c)
-  )
-  (wire (pts (xy 116.84 95.25) (xy 146.05 95.25))
-    (stroke (width 0) (type default))
-    (uuid a6c97152-e8e6-4175-9893-1323ae8dd5e8)
-  )
-  (wire (pts (xy 125.73 109.22) (xy 146.05 109.22))
-    (stroke (width 0) (type default))
-    (uuid b215bf6a-8c12-45f9-a6ef-4e9f9ee78bde)
-  )
-  (wire (pts (xy 116.84 72.39) (xy 125.73 72.39))
-    (stroke (width 0) (type default))
-    (uuid bafd10b1-3c14-42f6-97c0-737aabac668e)
-  )
-  (wire (pts (xy 125.73 111.76) (xy 146.05 111.76))
-    (stroke (width 0) (type default))
-    (uuid bd3330ff-a1c8-4596-89c7-a51ea2ef47de)
-  )
-  (wire (pts (xy 125.73 119.38) (xy 146.05 119.38))
-    (stroke (width 0) (type default))
-    (uuid c2d3d09f-8bc4-4ab7-8c4b-0bb7eb5e7bfb)
-  )
-  (wire (pts (xy 116.84 109.22) (xy 125.73 109.22))
-    (stroke (width 0) (type default))
-    (uuid c51c52de-40cf-43f1-8ed4-70fcfea5ab82)
-  )
-  (wire (pts (xy 116.84 111.76) (xy 125.73 111.76))
-    (stroke (width 0) (type default))
-    (uuid dd9798b0-a476-4ffb-bb7a-83f4a566a4c5)
-  )
-  (wire (pts (xy 116.84 119.38) (xy 125.73 119.38))
-    (stroke (width 0) (type default))
-    (uuid e44dd182-13d3-40c3-be4f-4a425c2a6391)
-  )
-
-  (symbol (lib_id "Connector:TestPoint_Small") (at 125.73 116.84 0) (unit 1)
-    (in_bom yes) (on_board yes) (dnp no)
-    (uuid 064aa6f9-5455-49ca-824e-855a5830f4ed)
-    (property "Reference" "TP105" (at 127 115.57 0)
-      (effects (font (size 1.27 1.27)) (justify left))
-    )
-    (property "Value" "TestPoint_Small" (at 127 118.1099 0)
-      (effects (font (size 1.27 1.27)) (justify left) hide)
-    )
-    (property "Footprint" "TestPoint:TestPoint_Pad_D1.0mm" (at 130.81 116.84 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Datasheet" "~" (at 130.81 116.84 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (pin "1" (uuid 013625ac-795d-422e-95c8-16c864a0eb21))
-    (instances
-      (project "dongle"
-        (path "/baecd03a-8d48-4020-876a-32289b953936"
-          (reference "TP105") (unit 1)
-        )
-      )
-    )
-  )
-
-  (symbol (lib_id "Connector:TestPoint_Small") (at 125.73 109.22 0) (unit 1)
-    (in_bom yes) (on_board yes) (dnp no)
-    (uuid 20523571-2c6a-41e9-96fd-ea46bd51a4f1)
-    (property "Reference" "TP102" (at 127 107.95 0)
-      (effects (font (size 1.27 1.27)) (justify left))
-    )
-    (property "Value" "TestPoint_Small" (at 127 110.4899 0)
-      (effects (font (size 1.27 1.27)) (justify left) hide)
-    )
-    (property "Footprint" "TestPoint:TestPoint_Pad_D1.0mm" (at 130.81 109.22 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Datasheet" "~" (at 130.81 109.22 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (pin "1" (uuid f4f8c9b5-2ef3-460a-9cd1-20686dd05ecd))
-    (instances
-      (project "dongle"
-        (path "/baecd03a-8d48-4020-876a-32289b953936"
-          (reference "TP102") (unit 1)
-        )
-      )
-    )
-  )
-
-  (symbol (lib_id "Connector:TestPoint_Small") (at 125.73 111.76 0) (unit 1)
-    (in_bom yes) (on_board yes) (dnp no)
-    (uuid 63f66cd6-0409-4099-b8f3-70b266e33f6f)
-    (property "Reference" "TP103" (at 127 110.49 0)
-      (effects (font (size 1.27 1.27)) (justify left))
-    )
-    (property "Value" "TestPoint_Small" (at 127 113.0299 0)
-      (effects (font (size 1.27 1.27)) (justify left) hide)
-    )
-    (property "Footprint" "TestPoint:TestPoint_Pad_D1.0mm" (at 130.81 111.76 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Datasheet" "~" (at 130.81 111.76 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (pin "1" (uuid e92b4308-82c4-4348-96b2-e97932445561))
-    (instances
-      (project "dongle"
-        (path "/baecd03a-8d48-4020-876a-32289b953936"
-          (reference "TP103") (unit 1)
-        )
-      )
-    )
-  )
-
-  (symbol (lib_id "Connector:TestPoint_Small") (at 125.73 114.3 0) (unit 1)
-    (in_bom yes) (on_board yes) (dnp no)
-    (uuid c5cabc03-a06a-4dfe-a12e-8ede28b8bf94)
-    (property "Reference" "TP104" (at 127 113.03 0)
-      (effects (font (size 1.27 1.27)) (justify left))
-    )
-    (property "Value" "TestPoint_Small" (at 127 115.5699 0)
-      (effects (font (size 1.27 1.27)) (justify left) hide)
-    )
-    (property "Footprint" "TestPoint:TestPoint_Pad_D1.0mm" (at 130.81 114.3 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Datasheet" "~" (at 130.81 114.3 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (pin "1" (uuid b5975208-7da6-4eeb-9592-e28e131e758d))
-    (instances
-      (project "dongle"
-        (path "/baecd03a-8d48-4020-876a-32289b953936"
-          (reference "TP104") (unit 1)
-        )
-      )
-    )
-  )
-
-  (symbol (lib_id "Connector:TestPoint_Small") (at 125.73 72.39 0) (unit 1)
-    (in_bom yes) (on_board yes) (dnp no)
-    (uuid d5042616-6663-4f31-b57b-8716af7291c2)
-    (property "Reference" "TP101" (at 125.73 71.12 0)
-      (effects (font (size 1.27 1.27)) (justify left))
-    )
-    (property "Value" "TestPoint_Small" (at 127 73.6599 0)
-      (effects (font (size 1.27 1.27)) (justify left) hide)
-    )
-    (property "Footprint" "TestPoint:TestPoint_Pad_D1.0mm" (at 130.81 72.39 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Datasheet" "~" (at 130.81 72.39 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (pin "1" (uuid a5478221-90b2-4c8f-869d-d004398df0ce))
-    (instances
-      (project "dongle"
-        (path "/baecd03a-8d48-4020-876a-32289b953936"
-          (reference "TP101") (unit 1)
-        )
-      )
-    )
-  )
-
-  (symbol (lib_id "Connector:TestPoint_Small") (at 125.73 119.38 0) (unit 1)
-    (in_bom yes) (on_board yes) (dnp no)
-    (uuid e93b5065-f151-4e71-8530-985c429533a4)
-    (property "Reference" "TP106" (at 127 118.11 0)
-      (effects (font (size 1.27 1.27)) (justify left))
-    )
-    (property "Value" "TestPoint_Small" (at 127 120.6499 0)
-      (effects (font (size 1.27 1.27)) (justify left) hide)
-    )
-    (property "Footprint" "TestPoint:TestPoint_Pad_D1.0mm" (at 130.81 119.38 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Datasheet" "~" (at 130.81 119.38 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (pin "1" (uuid c12a2c41-0963-4762-9c6f-e484b8a70858))
-    (instances
-      (project "dongle"
-        (path "/baecd03a-8d48-4020-876a-32289b953936"
-          (reference "TP106") (unit 1)
-        )
-      )
-    )
-  )
-
-  (sheet (at 54.61 52.07) (size 62.23 102.87)
-    (stroke (width 0.1524) (type solid))
-    (fill (color 0 0 0 0.0000))
-    (uuid 49f47eff-be71-45a3-baa2-ec3b29bb6923)
-    (property "Sheetname" "MCU" (at 55.88 58.42 0)
-      (effects (font (size 3 3)) (justify left bottom))
-    )
-    (property "Sheetfile" "mcu.kicad_sch" (at 54.61 155.5246 0)
-      (effects (font (size 1.27 1.27)) (justify left top))
-    )
-    (pin "P0.26" bidirectional (at 116.84 97.79 0)
-      (effects (font (size 1.27 1.27)) (justify right))
-      (uuid a2ec93f3-af24-421a-8ccd-749c90c54281)
-    )
-    (pin "P0.04" bidirectional (at 116.84 109.22 0)
-      (effects (font (size 1.27 1.27)) (justify right))
-      (uuid b3c3a622-f62c-4944-945a-f029c41a5757)
-    )
-    (pin "P1.04" bidirectional (at 116.84 72.39 0)
-      (effects (font (size 1.27 1.27)) (justify right))
-      (uuid 53de837d-28e7-4231-a1c1-93cddf77c63f)
-    )
-    (pin "P0.22" bidirectional (at 116.84 92.71 0)
-      (effects (font (size 1.27 1.27)) (justify right))
-      (uuid f45ee9b4-3c8a-47ab-9ea4-b9a1c3bf3563)
-    )
-    (pin "P0.20" bidirectional (at 116.84 90.17 0)
-      (effects (font (size 1.27 1.27)) (justify right))
-      (uuid ebb06c65-fbe7-4662-a235-32ed38c87afe)
-    )
-    (pin "P1.09" bidirectional (at 116.84 119.38 0)
-      (effects (font (size 1.27 1.27)) (justify right))
-      (uuid d790168c-4003-445b-813c-ba5545cd66c3)
-    )
-    (pin "P0.13" bidirectional (at 116.84 116.84 0)
-      (effects (font (size 1.27 1.27)) (justify right))
-      (uuid 7d1e7be2-3536-42a5-bfbb-f1de617eeb67)
-    )
-    (pin "P0.24" bidirectional (at 116.84 95.25 0)
-      (effects (font (size 1.27 1.27)) (justify right))
-      (uuid 9009474b-2110-43f4-a9b2-527c5f349cf6)
-    )
-    (pin "P0.06" bidirectional (at 116.84 111.76 0)
-      (effects (font (size 1.27 1.27)) (justify right))
-      (uuid 657071f8-de37-4c4e-8701-c07f9b73d1af)
-    )
-    (pin "P0.08" bidirectional (at 116.84 114.3 0)
-      (effects (font (size 1.27 1.27)) (justify right))
-      (uuid 03a5061a-1e94-46d7-aae0-5930635fe264)
-    )
-    (instances
-      (project "dongle"
-        (path "/baecd03a-8d48-4020-876a-32289b953936" (page "2"))
-      )
-    )
-  )
-
-  (sheet (at 146.05 63.5) (size 45.72 63.5)
-    (stroke (width 0.1524) (type solid))
-    (fill (color 0 0 0 0.0000))
-    (uuid 7368be1f-88e3-4616-a1f9-4c1e3857cf01)
-    (property "Sheetname" "Transceiver" (at 147.32 69.85 0)
-      (effects (font (size 3 3)) (justify left bottom))
-    )
-    (property "Sheetfile" "transceiver.kicad_sch" (at 146.05 127.5846 0)
-      (effects (font (size 1.27 1.27)) (justify left top))
-    )
-    (pin "GPIO0" bidirectional (at 146.05 90.17 180)
-      (effects (font (size 1.27 1.27)) (justify left))
-      (uuid 7c7114c2-0ab9-43d8-ae64-dbece1530837)
-    )
-    (pin "GPIO1" bidirectional (at 146.05 92.71 180)
-      (effects (font (size 1.27 1.27)) (justify left))
-      (uuid 64b1d6f4-00b1-43d2-9654-878d24479295)
-    )
-    (pin "GPIO2" bidirectional (at 146.05 95.25 180)
-      (effects (font (size 1.27 1.27)) (justify left))
-      (uuid 83ce420a-c405-426e-a628-71fb3741fd28)
-    )
-    (pin "GPIO3" bidirectional (at 146.05 97.79 180)
-      (effects (font (size 1.27 1.27)) (justify left))
-      (uuid 372c3a0a-189d-4968-8918-d053222e0262)
-    )
-    (pin "SCLK" input (at 146.05 109.22 180)
-      (effects (font (size 1.27 1.27)) (justify left))
-      (uuid 65e1d3ce-94f6-4a3c-83d6-0c4f32dab72b)
-    )
-    (pin "MOSI" input (at 146.05 111.76 180)
-      (effects (font (size 1.27 1.27)) (justify left))
-      (uuid 664543e6-b3b3-4030-8709-0051c19b01b8)
-    )
-    (pin "MISO" output (at 146.05 114.3 180)
-      (effects (font (size 1.27 1.27)) (justify left))
-      (uuid 6baf3ed4-4060-4032-9565-02567c5a7fd8)
-    )
-    (pin "NSEL" input (at 146.05 116.84 180)
-      (effects (font (size 1.27 1.27)) (justify left))
-      (uuid cb19cfbe-54e3-4db9-b576-712822fb93c2)
-    )
-    (pin "NIRQ" output (at 146.05 119.38 180)
-      (effects (font (size 1.27 1.27)) (justify left))
-      (uuid 2833322a-2e68-4df8-a85d-6e813d70c35c)
-    )
-    (pin "SDN" input (at 146.05 72.39 180)
-      (effects (font (size 1.27 1.27)) (justify left))
-      (uuid c8b5ee0a-8076-4318-a0a5-b98bc02fedda)
-    )
-    (instances
-      (project "dongle"
-        (path "/baecd03a-8d48-4020-876a-32289b953936" (page "3"))
-      )
-    )
-  )
-
-  (sheet_instances
-    (path "/" (page "1"))
-  )
+(kicad_sch
+	(version 20231120)
+	(generator "eeschema")
+	(generator_version "8.0")
+	(uuid "baecd03a-8d48-4020-876a-32289b953936")
+	(paper "A4")
+	(title_block
+		(title "BNW Lemonbeat Dongle")
+		(date "22.9.2023")
+		(rev "0.4.0")
+	)
+	(lib_symbols
+		(symbol "Connector:TestPoint_Small"
+			(pin_numbers hide)
+			(pin_names
+				(offset 0.762) hide)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "TP"
+				(at 0 3.81 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "TestPoint_Small"
+				(at 0 2.032 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 5.08 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "~"
+				(at 5.08 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "test point"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "test point tp"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "Pin* Test*"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "TestPoint_Small_0_1"
+				(circle
+					(center 0 0)
+					(radius 0.508)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "TestPoint_Small_1_1"
+				(pin passive line
+					(at 0 0 90)
+					(length 0)
+					(name "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+		)
+	)
+	(junction
+		(at 125.73 114.3)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "075bf97a-cb0e-449f-9a58-c27ab66ec149")
+	)
+	(junction
+		(at 125.73 116.84)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "b0a18c4c-75f4-4cec-8d5d-c0603273b27a")
+	)
+	(junction
+		(at 125.73 111.76)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "b584ae4e-9450-43af-9d5f-ef71e5034d7f")
+	)
+	(junction
+		(at 125.73 72.39)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "ceef8bd1-d7df-4259-935c-df0e45ff5665")
+	)
+	(junction
+		(at 125.73 109.22)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "dbd4a5e1-5c86-497c-a4bc-c950fa6601ec")
+	)
+	(junction
+		(at 125.73 119.38)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "f3046c2a-b419-4501-a347-c33bae59014f")
+	)
+	(wire
+		(pts
+			(xy 116.84 97.79) (xy 146.05 97.79)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "02eda92b-3e78-463b-add5-162f85a95e5d")
+	)
+	(wire
+		(pts
+			(xy 125.73 114.3) (xy 146.05 114.3)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "058bcd62-c3d4-4fe1-bb6b-d2a4035decfc")
+	)
+	(wire
+		(pts
+			(xy 116.84 116.84) (xy 125.73 116.84)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "09907ab7-a149-4260-98db-41390f6ecfbd")
+	)
+	(wire
+		(pts
+			(xy 125.73 116.84) (xy 146.05 116.84)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "4979ce0a-29a1-4bad-8b17-f48b6ba5614a")
+	)
+	(wire
+		(pts
+			(xy 125.73 72.39) (xy 146.05 72.39)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "5750bb36-bf8d-4d58-8520-a347c19b7194")
+	)
+	(wire
+		(pts
+			(xy 116.84 114.3) (xy 125.73 114.3)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "8d398d56-5abf-4725-908b-840c6a4034b6")
+	)
+	(wire
+		(pts
+			(xy 116.84 92.71) (xy 146.05 92.71)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "8d4ad0d7-0081-493c-830b-26c09ccc15d9")
+	)
+	(wire
+		(pts
+			(xy 116.84 90.17) (xy 146.05 90.17)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a47652f6-fe62-4850-925d-25fd2280b98c")
+	)
+	(wire
+		(pts
+			(xy 116.84 95.25) (xy 146.05 95.25)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a6c97152-e8e6-4175-9893-1323ae8dd5e8")
+	)
+	(wire
+		(pts
+			(xy 125.73 109.22) (xy 146.05 109.22)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b215bf6a-8c12-45f9-a6ef-4e9f9ee78bde")
+	)
+	(wire
+		(pts
+			(xy 116.84 72.39) (xy 125.73 72.39)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "bafd10b1-3c14-42f6-97c0-737aabac668e")
+	)
+	(wire
+		(pts
+			(xy 125.73 111.76) (xy 146.05 111.76)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "bd3330ff-a1c8-4596-89c7-a51ea2ef47de")
+	)
+	(wire
+		(pts
+			(xy 125.73 119.38) (xy 146.05 119.38)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c2d3d09f-8bc4-4ab7-8c4b-0bb7eb5e7bfb")
+	)
+	(wire
+		(pts
+			(xy 116.84 109.22) (xy 125.73 109.22)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c51c52de-40cf-43f1-8ed4-70fcfea5ab82")
+	)
+	(wire
+		(pts
+			(xy 116.84 111.76) (xy 125.73 111.76)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "dd9798b0-a476-4ffb-bb7a-83f4a566a4c5")
+	)
+	(wire
+		(pts
+			(xy 116.84 119.38) (xy 125.73 119.38)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e44dd182-13d3-40c3-be4f-4a425c2a6391")
+	)
+	(symbol
+		(lib_id "Connector:TestPoint_Small")
+		(at 125.73 116.84 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "064aa6f9-5455-49ca-824e-855a5830f4ed")
+		(property "Reference" "TP105"
+			(at 127 115.57 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "TestPoint_Small"
+			(at 127 118.1099 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "TestPoint:TestPoint_Pad_D1.0mm"
+			(at 130.81 116.84 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 130.81 116.84 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 125.73 116.84 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "013625ac-795d-422e-95c8-16c864a0eb21")
+		)
+		(instances
+			(project "dongle"
+				(path "/baecd03a-8d48-4020-876a-32289b953936"
+					(reference "TP105")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector:TestPoint_Small")
+		(at 125.73 109.22 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "20523571-2c6a-41e9-96fd-ea46bd51a4f1")
+		(property "Reference" "TP102"
+			(at 127 107.95 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "TestPoint_Small"
+			(at 127 110.4899 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "TestPoint:TestPoint_Pad_D1.0mm"
+			(at 130.81 109.22 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 130.81 109.22 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 125.73 109.22 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "f4f8c9b5-2ef3-460a-9cd1-20686dd05ecd")
+		)
+		(instances
+			(project "dongle"
+				(path "/baecd03a-8d48-4020-876a-32289b953936"
+					(reference "TP102")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector:TestPoint_Small")
+		(at 125.73 111.76 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "63f66cd6-0409-4099-b8f3-70b266e33f6f")
+		(property "Reference" "TP103"
+			(at 127 110.49 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "TestPoint_Small"
+			(at 127 113.0299 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "TestPoint:TestPoint_Pad_D1.0mm"
+			(at 130.81 111.76 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 130.81 111.76 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 125.73 111.76 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "e92b4308-82c4-4348-96b2-e97932445561")
+		)
+		(instances
+			(project "dongle"
+				(path "/baecd03a-8d48-4020-876a-32289b953936"
+					(reference "TP103")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector:TestPoint_Small")
+		(at 125.73 114.3 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "c5cabc03-a06a-4dfe-a12e-8ede28b8bf94")
+		(property "Reference" "TP104"
+			(at 127 113.03 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "TestPoint_Small"
+			(at 127 115.5699 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "TestPoint:TestPoint_Pad_D1.0mm"
+			(at 130.81 114.3 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 130.81 114.3 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 125.73 114.3 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "b5975208-7da6-4eeb-9592-e28e131e758d")
+		)
+		(instances
+			(project "dongle"
+				(path "/baecd03a-8d48-4020-876a-32289b953936"
+					(reference "TP104")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector:TestPoint_Small")
+		(at 125.73 72.39 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "d5042616-6663-4f31-b57b-8716af7291c2")
+		(property "Reference" "TP101"
+			(at 125.73 71.12 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "TestPoint_Small"
+			(at 127 73.6599 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "TestPoint:TestPoint_Pad_D1.0mm"
+			(at 130.81 72.39 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 130.81 72.39 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 125.73 72.39 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "a5478221-90b2-4c8f-869d-d004398df0ce")
+		)
+		(instances
+			(project "dongle"
+				(path "/baecd03a-8d48-4020-876a-32289b953936"
+					(reference "TP101")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector:TestPoint_Small")
+		(at 125.73 119.38 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "e93b5065-f151-4e71-8530-985c429533a4")
+		(property "Reference" "TP106"
+			(at 127 118.11 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "TestPoint_Small"
+			(at 127 120.6499 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "TestPoint:TestPoint_Pad_D1.0mm"
+			(at 130.81 119.38 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 130.81 119.38 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 125.73 119.38 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "c12a2c41-0963-4762-9c6f-e484b8a70858")
+		)
+		(instances
+			(project "dongle"
+				(path "/baecd03a-8d48-4020-876a-32289b953936"
+					(reference "TP106")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(sheet
+		(at 54.61 52.07)
+		(size 62.23 102.87)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "49f47eff-be71-45a3-baa2-ec3b29bb6923")
+		(property "Sheetname" "MCU"
+			(at 55.88 58.42 0)
+			(effects
+				(font
+					(size 3 3)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "mcu.kicad_sch"
+			(at 54.61 155.5246 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(pin "P0.26" bidirectional
+			(at 116.84 97.79 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "a2ec93f3-af24-421a-8ccd-749c90c54281")
+		)
+		(pin "P0.04" bidirectional
+			(at 116.84 109.22 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "b3c3a622-f62c-4944-945a-f029c41a5757")
+		)
+		(pin "P1.04" bidirectional
+			(at 116.84 72.39 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "53de837d-28e7-4231-a1c1-93cddf77c63f")
+		)
+		(pin "P0.22" bidirectional
+			(at 116.84 92.71 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "f45ee9b4-3c8a-47ab-9ea4-b9a1c3bf3563")
+		)
+		(pin "P0.20" bidirectional
+			(at 116.84 90.17 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "ebb06c65-fbe7-4662-a235-32ed38c87afe")
+		)
+		(pin "P1.09" bidirectional
+			(at 116.84 119.38 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "d790168c-4003-445b-813c-ba5545cd66c3")
+		)
+		(pin "P0.13" bidirectional
+			(at 116.84 116.84 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "7d1e7be2-3536-42a5-bfbb-f1de617eeb67")
+		)
+		(pin "P0.24" bidirectional
+			(at 116.84 95.25 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "9009474b-2110-43f4-a9b2-527c5f349cf6")
+		)
+		(pin "P0.06" bidirectional
+			(at 116.84 111.76 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "657071f8-de37-4c4e-8701-c07f9b73d1af")
+		)
+		(pin "P0.08" bidirectional
+			(at 116.84 114.3 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "03a5061a-1e94-46d7-aae0-5930635fe264")
+		)
+		(instances
+			(project "dongle"
+				(path "/baecd03a-8d48-4020-876a-32289b953936"
+					(page "2")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 146.05 63.5)
+		(size 45.72 63.5)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "7368be1f-88e3-4616-a1f9-4c1e3857cf01")
+		(property "Sheetname" "Transceiver"
+			(at 147.32 69.85 0)
+			(effects
+				(font
+					(size 3 3)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "transceiver.kicad_sch"
+			(at 146.05 127.5846 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(pin "GPIO0" bidirectional
+			(at 146.05 90.17 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "7c7114c2-0ab9-43d8-ae64-dbece1530837")
+		)
+		(pin "GPIO1" bidirectional
+			(at 146.05 92.71 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "64b1d6f4-00b1-43d2-9654-878d24479295")
+		)
+		(pin "GPIO2" bidirectional
+			(at 146.05 95.25 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "83ce420a-c405-426e-a628-71fb3741fd28")
+		)
+		(pin "GPIO3" bidirectional
+			(at 146.05 97.79 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "372c3a0a-189d-4968-8918-d053222e0262")
+		)
+		(pin "SCLK" input
+			(at 146.05 109.22 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "65e1d3ce-94f6-4a3c-83d6-0c4f32dab72b")
+		)
+		(pin "MOSI" input
+			(at 146.05 111.76 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "664543e6-b3b3-4030-8709-0051c19b01b8")
+		)
+		(pin "MISO" output
+			(at 146.05 114.3 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "6baf3ed4-4060-4032-9565-02567c5a7fd8")
+		)
+		(pin "NSEL" input
+			(at 146.05 116.84 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "cb19cfbe-54e3-4db9-b576-712822fb93c2")
+		)
+		(pin "NIRQ" output
+			(at 146.05 119.38 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "2833322a-2e68-4df8-a85d-6e813d70c35c")
+		)
+		(pin "SDN" input
+			(at 146.05 72.39 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "c8b5ee0a-8076-4318-a0a5-b98bc02fedda")
+		)
+		(instances
+			(project "dongle"
+				(path "/baecd03a-8d48-4020-876a-32289b953936"
+					(page "3")
+				)
+			)
+		)
+	)
+	(sheet_instances
+		(path "/"
+			(page "1")
+		)
+	)
 )
