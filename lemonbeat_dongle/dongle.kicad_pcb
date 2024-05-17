@@ -18153,7 +18153,7 @@
 			(pintype "bidirectional+no_connect")
 			(uuid "b89c0958-6bb3-4c99-ba84-4ef892e44a1e")
 		)
-		(model "${KICAD6_3DMODEL_DIR}/Package_DFN_QFN.3dshapes/Nordic_AQFN-73-1EP_7x7mm_P0.5mm.wrl"
+		(model "${KIPRJMOD}/3d/parts/nRF52840.step"
 			(offset
 				(xyz 0 0 0)
 			)
