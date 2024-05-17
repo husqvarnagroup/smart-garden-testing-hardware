@@ -18,6 +18,10 @@ _autosave-*
 *-save.kicad_pcb
 fp-info-cache
 
+# Backup folders
+lemonbeat_dongle/dongle-backups/
+lemonbeat_dongle_microjig/lemonbeat_dongle_microjig-backups/
+
 # Netlist files (exported from Eeschema)
 *.net
 
