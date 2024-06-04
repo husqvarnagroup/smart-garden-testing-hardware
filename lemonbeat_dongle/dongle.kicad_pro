@@ -59,7 +59,11 @@
           "width": 0.0
         }
       ],
-      "drc_exclusions": [],
+      "drc_exclusions": [
+        "lib_footprint_mismatch|106500000|104000000|fbbcdb64-13d1-483c-b9aa-38bc140dee84|00000000-0000-0000-0000-000000000000",
+        "lib_footprint_mismatch|130500000|104000000|ee2818cb-88e4-49e9-8ce8-d0d0c182dc51|00000000-0000-0000-0000-000000000000",
+        "lib_footprint_mismatch|163352500|104000000|b8ca8c2f-6495-4319-854a-788117f871d5|00000000-0000-0000-0000-000000000000"
+      ],
       "meta": {
         "version": 2
       },
@@ -89,12 +93,12 @@
         "lib_footprint_mismatch": "warning",
         "malformed_courtyard": "error",
         "microvia_drill_out_of_range": "error",
-        "missing_courtyard": "ignore",
+        "missing_courtyard": "error",
         "missing_footprint": "warning",
         "net_conflict": "warning",
-        "npth_inside_courtyard": "ignore",
+        "npth_inside_courtyard": "error",
         "padstack": "error",
-        "pth_inside_courtyard": "ignore",
+        "pth_inside_courtyard": "error",
         "shorting_items": "error",
         "silk_edge_clearance": "warning",
         "silk_over_copper": "warning",
