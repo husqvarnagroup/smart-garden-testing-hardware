@@ -57,7 +57,7 @@
 					(hide yes)
 				)
 			)
-			(property "ki_keywords" "BNC SMA SMB SMC LEMO coaxial connector CINCH RCA"
+			(property "ki_keywords" "BNC SMA SMB SMC LEMO coaxial connector CINCH RCA MCX MMCX U.FL UMRF"
 				(at 0 0 0)
 				(effects
 					(font
@@ -66,7 +66,7 @@
 					(hide yes)
 				)
 			)
-			(property "ki_fp_filters" "*BNC* *SMA* *SMB* *SMC* *Cinch* *LEMO*"
+			(property "ki_fp_filters" "*BNC* *SMA* *SMB* *SMC* *Cinch* *LEMO* *UMRF* *MCX* *U.FL*"
 				(at 0 0 0)
 				(effects
 					(font
@@ -2314,7 +2314,7 @@
 					(hide yes)
 				)
 			)
-			(property "ki_keywords" "MCU, ARM, BLE, ANT, 2.4GHz, 802.15.4"
+			(property "ki_keywords" "MCU ARM BLE ANT 2.4GHz 802.15.4"
 				(at 0 0 0)
 				(effects
 					(font
@@ -4194,9 +4194,9 @@
 		)
 		(symbol "power:GND"
 			(power)
+			(pin_numbers hide)
 			(pin_names
-				(offset 0)
-			)
+				(offset 0) hide)
 			(exclude_from_sim no)
 			(in_bom yes)
 			(on_board yes)
@@ -4270,8 +4270,8 @@
 			(symbol "GND_1_1"
 				(pin power_in line
 					(at 0 0 270)
-					(length 0) hide
-					(name "GND"
+					(length 0)
+					(name "~"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -4353,7 +4353,7 @@
 				(pin power_out line
 					(at 0 0 90)
 					(length 0)
-					(name "pwr"
+					(name "~"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -4386,9 +4386,9 @@
 		)
 		(symbol "power:VDD"
 			(power)
+			(pin_numbers hide)
 			(pin_names
-				(offset 0)
-			)
+				(offset 0) hide)
 			(exclude_from_sim no)
 			(in_bom yes)
 			(on_board yes)
@@ -4402,7 +4402,7 @@
 				)
 			)
 			(property "Value" "VDD"
-				(at 0 3.81 0)
+				(at 0 3.556 0)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -4486,8 +4486,8 @@
 			(symbol "VDD_1_1"
 				(pin power_in line
 					(at 0 0 90)
-					(length 0) hide
-					(name "VDD"
+					(length 0)
+					(name "~"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -7680,7 +7680,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
 			(at 25.4 49.53 0)
 			(effects
 				(font
@@ -8214,7 +8214,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
 			(at 160.02 175.26 0)
 			(effects
 				(font
@@ -8279,7 +8279,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
 			(at 113.03 27.94 0)
 			(effects
 				(font
@@ -8344,7 +8344,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
 			(at 36.83 119.38 0)
 			(effects
 				(font
@@ -8708,7 +8708,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
 			(at 35.56 49.53 0)
 			(effects
 				(font
@@ -8773,7 +8773,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
 			(at 124.46 27.94 0)
 			(effects
 				(font
@@ -8944,7 +8944,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Power symbol creates a global label with name \"VDD\""
 			(at 88.9 19.05 0)
 			(effects
 				(font
@@ -9106,7 +9106,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
 			(at 149.86 27.94 0)
 			(effects
 				(font
@@ -9271,7 +9271,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
 			(at 101.6 27.94 0)
 			(effects
 				(font
@@ -9441,7 +9441,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
 			(at 187.96 139.7 0)
 			(effects
 				(font
@@ -9506,7 +9506,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
 			(at 237.49 140.97 0)
 			(effects
 				(font
@@ -9982,7 +9982,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Special symbol for telling ERC where power comes from"
 			(at 73.66 20.32 0)
 			(effects
 				(font
@@ -10047,7 +10047,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
 			(at 138.43 27.94 0)
 			(effects
 				(font
@@ -10112,7 +10112,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
 			(at 21.59 128.27 0)
 			(effects
 				(font
@@ -10269,7 +10269,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
 			(at 199.39 105.41 0)
 			(effects
 				(font
@@ -10497,7 +10497,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
 			(at 201.93 139.7 0)
 			(effects
 				(font
@@ -10658,7 +10658,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Special symbol for telling ERC where power comes from"
 			(at 208.28 93.98 0)
 			(effects
 				(font
@@ -10793,7 +10793,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Power symbol creates a global label with name \"VDD\""
 			(at 137.16 161.29 0)
 			(effects
 				(font
@@ -11064,7 +11064,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
 			(at 69.85 31.75 0)
 			(effects
 				(font
@@ -11342,7 +11342,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "1.25mm -40℃~+90℃ 6GHz 50Ω"
+		(property "Description" "coaxial connector (BNC, SMA, SMB, SMC, Cinch/RCA, LEMO, ...)"
 			(at 201.93 129.54 0)
 			(effects
 				(font
@@ -11504,7 +11504,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
 			(at 251.46 96.52 0)
 			(effects
 				(font
@@ -11768,7 +11768,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
 			(at 27.94 71.12 0)
 			(effects
 				(font
@@ -11938,7 +11938,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
 			(at 80.01 193.04 0)
 			(effects
 				(font
@@ -12278,7 +12278,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Special symbol for telling ERC where power comes from"
 			(at 245.11 69.85 0)
 			(effects
 				(font
@@ -12450,7 +12450,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Power symbol creates a global label with name \"VDD\""
 			(at 31.75 147.32 0)
 			(effects
 				(font
@@ -12515,7 +12515,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
 			(at 49.53 119.38 0)
 			(effects
 				(font
@@ -12677,7 +12677,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
 			(at 215.9 60.96 0)
 			(effects
 				(font
@@ -12809,7 +12809,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
 			(at 137.16 184.15 0)
 			(effects
 				(font
@@ -12940,7 +12940,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
 			(at 233.68 109.22 0)
 			(effects
 				(font
@@ -13005,7 +13005,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
 			(at 167.64 139.7 0)
 			(effects
 				(font
@@ -13166,7 +13166,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Special symbol for telling ERC where power comes from"
 			(at 97.79 19.05 0)
 			(effects
 				(font
@@ -13231,7 +13231,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
 			(at 17.78 71.12 0)
 			(effects
 				(font
@@ -13296,7 +13296,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Power symbol creates a global label with name \"VDD\""
 			(at 237.49 127 0)
 			(effects
 				(font
@@ -13561,7 +13561,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
 			(at 31.75 171.45 0)
 			(effects
 				(font
@@ -13732,7 +13732,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
 			(at 177.8 139.7 0)
 			(effects
 				(font
@@ -13902,7 +13902,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
 			(at 223.52 60.96 0)
 			(effects
 				(font
@@ -13967,7 +13967,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
 			(at 49.53 49.53 0)
 			(effects
 				(font
@@ -14032,7 +14032,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
 			(at 157.48 67.31 0)
 			(effects
 				(font
@@ -14264,7 +14264,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
 			(at 15.24 49.53 0)
 			(effects
 				(font
@@ -14741,7 +14741,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
 			(at 236.22 60.96 0)
 			(effects
 				(font
@@ -14973,7 +14973,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Multiprotocol BLE/ANT/2.4 GHz/802.15.4 Cortex-M4F SoC, AQFN-73"
 			(at 88.9 118.11 0)
 			(effects
 				(font
@@ -15284,7 +15284,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
 			(at 162.56 29.21 0)
 			(effects
 				(font
@@ -15349,7 +15349,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
 			(at 19.05 92.71 0)
 			(effects
 				(font
@@ -15414,7 +15414,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
 			(at 17.78 171.45 0)
 			(effects
 				(font
@@ -15479,7 +15479,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Special symbol for telling ERC where power comes from"
 			(at 80.01 189.23 0)
 			(effects
 				(font
