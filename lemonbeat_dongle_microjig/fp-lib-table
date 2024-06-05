@@ -1,0 +1,4 @@
+(fp_lib_table
+  (version 7)
+  (lib (name "Connector_PogoPin")(type "KiCad")(uri "${KIPRJMOD}/../kicad/footprints/Connector_PogoPin.pretty")(options "")(descr ""))
+)
