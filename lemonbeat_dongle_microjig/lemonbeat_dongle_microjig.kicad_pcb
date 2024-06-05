@@ -141,16 +141,16 @@
 	(net 18 "Net-(J3-Pin_4)")
 	(net 19 "Net-(J3-Pin_5)")
 	(net 20 "Net-(J3-Pin_6)")
-	(footprint "TestPoint:TestPoint_Pad_D2.0mm"
+	(footprint "Connector_PogoPin:PogoPin_D0.6mm_L8.4mm_W2.0mm"
 		(layer "F.Cu")
 		(uuid "09e9dbd6-101e-49c4-aeee-b62176fc82eb")
 		(at 131.1 111.9)
-		(descr "SMD pad as test Point, diameter 2.0mm")
-		(tags "test point SMD pad")
+		(descr "PogoPin, hole diameter 0.7mm, base width 2.0mm, base height 5mm, full height 7.0mm, length 8.4mm")
+		(tags "pogo_pin")
 		(property "Reference" "TP207"
 			(at 0.15 2.1 0)
 			(layer "F.SilkS")
-			(uuid "3e624b1a-d79e-4e9f-bd1e-a58cf085c136")
+			(uuid "f3d5a961-a429-47a4-b449-4cc801fac760")
 			(effects
 				(font
 					(size 0.7 0.7)
@@ -161,7 +161,7 @@
 		(property "Value" "TestPoint"
 			(at 0 2.05 0)
 			(layer "F.Fab")
-			(uuid "013aa155-f6e5-45cc-94d9-d83a2f075a18")
+			(uuid "c64b2485-6efe-4462-90bc-825b957f7b4e")
 			(effects
 				(font
 					(size 1 1)
@@ -169,12 +169,12 @@
 				)
 			)
 		)
-		(property "Footprint" "TestPoint:TestPoint_Pad_D2.0mm"
+		(property "Footprint" "Connector_PogoPin:PogoPin_D0.6mm_L8.4mm_W2.0mm"
 			(at 0 0 0)
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "666eb099-8022-4a54-bb39-f251f540147c")
+			(uuid "56584019-f0ab-49ca-aee0-b5dbfd81a455")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -186,7 +186,7 @@
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "5ba33a98-6c09-4d8f-8f89-945b60130c97")
+			(uuid "1f168da7-5d4c-45ba-8bff-79939433fa31")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -198,10 +198,62 @@
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "edde4d6e-580d-491a-910e-931c0ff76cb7")
+			(uuid "db38854f-8eeb-42de-95b8-70eb34a8c8c3")
 			(effects
 				(font
 					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Manufacturer" "Xinyangze"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.SilkS")
+			(hide yes)
+			(uuid "964abef6-1a6f-4fcc-a09e-39447d21a116")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.1)
+				)
+			)
+		)
+		(property "MFR Part Number" "YZ188015084P-01"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.SilkS")
+			(hide yes)
+			(uuid "ffe96894-bb63-46ea-824f-c763125f8aa9")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.1)
+				)
+			)
+		)
+		(property "JLCPCB Part Number" "C5157270"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.SilkS")
+			(hide yes)
+			(uuid "3d47f93d-4e56-48b3-9fba-35f5f6e8b379")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.1)
+				)
+			)
+		)
+		(property "JLCPCB Part Number Alternatives" "C5157271"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.SilkS")
+			(hide yes)
+			(uuid "1b5367ad-d3e0-4107-a0d8-ec752fe88905")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.1)
 				)
 			)
 		)
@@ -219,32 +271,73 @@
 		)
 		(path "/68bacc35-87a4-48cc-a494-eb7483141724")
 		(sheetfile "lemonbeat_dongle_microjig.kicad_sch")
+		(attr through_hole)
 		(fp_circle
 			(center 0 0)
-			(end 0 1.2)
+			(end 1 0.75)
+			(stroke
+				(width 0.1)
+				(type default)
+			)
+			(fill none)
+			(layer "F.SilkS")
+			(uuid "51c54a0f-5224-4130-9dc4-7c4727c0365b")
+		)
+		(fp_circle
+			(center 0 0)
+			(end 1 0.75)
+			(stroke
+				(width 0.05)
+				(type default)
+			)
+			(fill none)
+			(layer "F.CrtYd")
+			(uuid "657e2933-ce2d-48d2-bd11-c38cd1c522aa")
+		)
+		(fp_line
+			(start -0.9 -0.25)
+			(end 0.85 -0.25)
 			(stroke
 				(width 0.12)
 				(type solid)
 			)
-			(fill none)
-			(layer "F.SilkS")
-			(uuid "244ed779-4dc0-4fc7-9dcb-0424d789d775")
+			(layer "F.Fab")
+			(uuid "27b89ea7-fdf6-4e6a-9aa0-02d20bc8c169")
 		)
-		(fp_circle
-			(center 0 0)
-			(end 1.5 0)
+		(fp_line
+			(start -0.9 0.25)
+			(end -0.9 -0.25)
 			(stroke
-				(width 0.05)
+				(width 0.12)
 				(type solid)
 			)
-			(fill none)
-			(layer "F.CrtYd")
-			(uuid "dd693f16-47ba-4720-91cb-a0a2d8880da6")
+			(layer "F.Fab")
+			(uuid "0b5df446-3636-4a32-ad91-c927c7690238")
+		)
+		(fp_line
+			(start 0.85 -0.25)
+			(end 0.85 0.25)
+			(stroke
+				(width 0.12)
+				(type solid)
+			)
+			(layer "F.Fab")
+			(uuid "590ff1d9-a9a0-4f92-8189-57472840bd4a")
+		)
+		(fp_line
+			(start 0.85 0.25)
+			(end -0.9 0.25)
+			(stroke
+				(width 0.12)
+				(type solid)
+			)
+			(layer "F.Fab")
+			(uuid "6201b94b-4e71-41d1-b0ea-52a3c294a329")
 		)
 		(fp_text user "${REFERENCE}"
 			(at 0 -2 0)
 			(layer "F.Fab")
-			(uuid "e8c73f07-2d65-4425-af2e-24d5e8fd897a")
+			(uuid "773b04a0-667c-47b5-9b93-dc86ab12b22c")
 			(effects
 				(font
 					(size 1 1)
@@ -252,49 +345,28 @@
 				)
 			)
 		)
-		(pad "1" smd circle
+		(pad "1" thru_hole circle
 			(at 0 0)
 			(size 2 2)
-			(layers "F.Cu" "F.Mask")
+			(drill 0.7)
+			(layers "*.Cu" "*.Mask")
+			(remove_unused_layers no)
 			(net 3 "/SWDCLK")
 			(pinfunction "1")
 			(pintype "passive")
-			(uuid "0696c3c3-fb31-47ce-95f2-b762955cbb73")
-		)
-		(model "${KIPRJMOD}/3d/parts/SpringContact-KH-204065-DZ.step"
-			(hide yes)
-			(offset
-				(xyz 0 0 0)
-			)
-			(scale
-				(xyz 1 1 1)
-			)
-			(rotate
-				(xyz 0 0 0)
-			)
-		)
-		(model "${KIPRJMOD}/3d/parts/SpringContact-KH-102540-DZ.step"
-			(offset
-				(xyz 0 0 0)
-			)
-			(scale
-				(xyz 1 1 1)
-			)
-			(rotate
-				(xyz 0 0 0)
-			)
+			(uuid "77457de0-d975-48b5-b337-5b7a37cb60ac")
 		)
 	)
-	(footprint "TestPoint:TestPoint_Pad_D2.0mm"
+	(footprint "Connector_PogoPin:PogoPin_D0.6mm_L8.4mm_W2.0mm"
 		(layer "F.Cu")
 		(uuid "0a6eb2c0-b07e-4d3c-850f-9de742755f5d")
 		(at 135.2 107.8)
-		(descr "SMD pad as test Point, diameter 2.0mm")
-		(tags "test point SMD pad")
+		(descr "PogoPin, hole diameter 0.7mm, base width 2.0mm, base height 5mm, full height 7.0mm, length 8.4mm")
+		(tags "pogo_pin")
 		(property "Reference" "TP2"
 			(at 0 1.95 0)
 			(layer "F.SilkS")
-			(uuid "b592066a-257d-4f6d-b127-a63d50e8717e")
+			(uuid "e7ac6cb2-d4ce-4984-8960-d1c10a2ea593")
 			(effects
 				(font
 					(size 0.7 0.7)
@@ -305,7 +377,7 @@
 		(property "Value" "TestPoint"
 			(at 0 2.05 0)
 			(layer "F.Fab")
-			(uuid "ee20a0ba-dfce-48e6-8af1-1f6e199549af")
+			(uuid "f17d7648-6a2a-41a9-9238-fd5c3093b6a6")
 			(effects
 				(font
 					(size 1 1)
@@ -313,12 +385,12 @@
 				)
 			)
 		)
-		(property "Footprint" "TestPoint:TestPoint_Pad_D2.0mm"
+		(property "Footprint" "Connector_PogoPin:PogoPin_D0.6mm_L8.4mm_W2.0mm"
 			(at 0 0 0)
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "20cb72c7-4502-4986-a83b-c5944d1bca8c")
+			(uuid "a354d682-0166-4701-97dc-3dfbd015e5d9")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -330,7 +402,7 @@
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "48a4bfc7-452f-4f2e-a0fd-9370651d5d73")
+			(uuid "7f21f1c9-4b9a-4639-8402-7b4c6e42958f")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -342,10 +414,62 @@
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "b57fe8d6-cb96-4ab8-859c-0facb98a5522")
+			(uuid "eab7f5ac-3eb1-4345-a0ce-14c9dcedb7e3")
 			(effects
 				(font
 					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Manufacturer" "Xinyangze"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.SilkS")
+			(hide yes)
+			(uuid "947995d0-9399-48e2-ab99-ccbf6c9a5c6d")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.1)
+				)
+			)
+		)
+		(property "MFR Part Number" "YZ188015084P-01"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.SilkS")
+			(hide yes)
+			(uuid "eca208c1-4350-4860-9e4d-b4ebd831d6d3")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.1)
+				)
+			)
+		)
+		(property "JLCPCB Part Number" "C5157270"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.SilkS")
+			(hide yes)
+			(uuid "1a5ee957-257f-4f5a-9ebb-058d6df976a6")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.1)
+				)
+			)
+		)
+		(property "JLCPCB Part Number Alternatives" "C5157271"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.SilkS")
+			(hide yes)
+			(uuid "423a49cc-6812-4a8d-830e-bc1b4461e1fa")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.1)
 				)
 			)
 		)
@@ -363,32 +487,73 @@
 		)
 		(path "/a0deafc6-adf9-4e3f-88f1-867bf14c8bf1")
 		(sheetfile "lemonbeat_dongle_microjig.kicad_sch")
+		(attr through_hole)
 		(fp_circle
 			(center 0 0)
-			(end 0 1.2)
+			(end 1 0.75)
+			(stroke
+				(width 0.1)
+				(type default)
+			)
+			(fill none)
+			(layer "F.SilkS")
+			(uuid "d98aeeb3-cf3d-45eb-a8bf-a4fb3f01ec06")
+		)
+		(fp_circle
+			(center 0 0)
+			(end 1 0.75)
+			(stroke
+				(width 0.05)
+				(type default)
+			)
+			(fill none)
+			(layer "F.CrtYd")
+			(uuid "8af9ee23-2f94-4b11-a2e1-1d11b31fcb14")
+		)
+		(fp_line
+			(start -0.9 -0.25)
+			(end 0.85 -0.25)
 			(stroke
 				(width 0.12)
 				(type solid)
 			)
-			(fill none)
-			(layer "F.SilkS")
-			(uuid "41ce894e-6023-4258-aeb6-2d2bd2f532e1")
+			(layer "F.Fab")
+			(uuid "9c609557-c641-451e-83aa-526e7396c119")
 		)
-		(fp_circle
-			(center 0 0)
-			(end 1.5 0)
+		(fp_line
+			(start -0.9 0.25)
+			(end -0.9 -0.25)
 			(stroke
-				(width 0.05)
+				(width 0.12)
 				(type solid)
 			)
-			(fill none)
-			(layer "F.CrtYd")
-			(uuid "ba298cf0-a832-4fde-81c2-36d259651292")
+			(layer "F.Fab")
+			(uuid "d9f94073-b9f7-4099-9de2-a00fe654275b")
+		)
+		(fp_line
+			(start 0.85 -0.25)
+			(end 0.85 0.25)
+			(stroke
+				(width 0.12)
+				(type solid)
+			)
+			(layer "F.Fab")
+			(uuid "cadf9e7f-eba7-438d-9ac4-4d18938ac4ef")
+		)
+		(fp_line
+			(start 0.85 0.25)
+			(end -0.9 0.25)
+			(stroke
+				(width 0.12)
+				(type solid)
+			)
+			(layer "F.Fab")
+			(uuid "b8350b3f-34d3-4405-9eff-c21efadc10c3")
 		)
 		(fp_text user "${REFERENCE}"
 			(at 0 -2 0)
 			(layer "F.Fab")
-			(uuid "3b18280e-886c-442e-99fe-ac1d02ba1e15")
+			(uuid "c3d872f5-ef0b-4f5e-9ff8-134dda2b520b")
 			(effects
 				(font
 					(size 1 1)
@@ -396,49 +561,28 @@
 				)
 			)
 		)
-		(pad "1" smd circle
+		(pad "1" thru_hole circle
 			(at 0 0)
 			(size 2 2)
-			(layers "F.Cu" "F.Mask")
+			(drill 0.7)
+			(layers "*.Cu" "*.Mask")
+			(remove_unused_layers no)
 			(net 2 "/SWDIO")
 			(pinfunction "1")
 			(pintype "passive")
-			(uuid "205b1859-957d-4228-84e5-b01797624314")
-		)
-		(model "${KIPRJMOD}/3d/parts/SpringContact-KH-204065-DZ.step"
-			(hide yes)
-			(offset
-				(xyz 0 0 0)
-			)
-			(scale
-				(xyz 1 1 1)
-			)
-			(rotate
-				(xyz 0 0 0)
-			)
-		)
-		(model "${KIPRJMOD}/3d/parts/SpringContact-KH-102540-DZ.step"
-			(offset
-				(xyz 0 0 0)
-			)
-			(scale
-				(xyz 1 1 1)
-			)
-			(rotate
-				(xyz 0 0 0)
-			)
+			(uuid "6cc7e62b-80a4-4f33-a36d-fad291356c5f")
 		)
 	)
-	(footprint "TestPoint:TestPoint_Pad_D2.0mm"
+	(footprint "Connector_PogoPin:PogoPin_D0.6mm_L8.4mm_W2.0mm"
 		(layer "F.Cu")
 		(uuid "0f11de74-a0e4-409d-914c-3ecf6660a062")
 		(at 126.25 97.75)
-		(descr "SMD pad as test Point, diameter 2.0mm")
-		(tags "test point SMD pad")
+		(descr "PogoPin, hole diameter 0.7mm, base width 2.0mm, base height 5mm, full height 7.0mm, length 8.4mm")
+		(tags "pogo_pin")
 		(property "Reference" "TP205"
 			(at -0.05 2 0)
 			(layer "F.SilkS")
-			(uuid "8b3a364d-3812-4c92-9f41-2c0f37b64d42")
+			(uuid "760ef367-c73a-4753-9fef-6464dd7ffd93")
 			(effects
 				(font
 					(size 0.7 0.7)
@@ -449,7 +593,7 @@
 		(property "Value" "TestPoint"
 			(at 0 2.05 0)
 			(layer "F.Fab")
-			(uuid "88733663-2f09-4d0a-b274-d9f8b1ba8ef4")
+			(uuid "368da728-baaa-4de5-aefc-c3ed516212bf")
 			(effects
 				(font
 					(size 1 1)
@@ -457,12 +601,12 @@
 				)
 			)
 		)
-		(property "Footprint" "TestPoint:TestPoint_Pad_D2.0mm"
+		(property "Footprint" "Connector_PogoPin:PogoPin_D0.6mm_L8.4mm_W2.0mm"
 			(at 0 0 0)
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "d4cc3358-20d2-4dc1-8cf0-a95108ed730e")
+			(uuid "f8e0a34a-52fa-421d-87e4-327f142cbd39")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -474,7 +618,7 @@
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "e21ab80e-593e-4037-9fb5-4f14322e3686")
+			(uuid "1739ca78-29f3-43d6-855d-5cac673c86dc")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -486,10 +630,62 @@
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "ce81171e-2148-4d85-9807-3755e0df83b5")
+			(uuid "a2a40598-2844-4bdc-9bc7-72437619ea28")
 			(effects
 				(font
 					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Manufacturer" "Xinyangze"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.SilkS")
+			(hide yes)
+			(uuid "5cec2ce1-e6ef-47da-ac4d-1531ab7db047")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.1)
+				)
+			)
+		)
+		(property "MFR Part Number" "YZ188015084P-01"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.SilkS")
+			(hide yes)
+			(uuid "10115647-204b-49dc-9f31-7432134e5dff")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.1)
+				)
+			)
+		)
+		(property "JLCPCB Part Number" "C5157270"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.SilkS")
+			(hide yes)
+			(uuid "b74fd9e9-32fb-480d-b30e-afb4df420740")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.1)
+				)
+			)
+		)
+		(property "JLCPCB Part Number Alternatives" "C5157271"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.SilkS")
+			(hide yes)
+			(uuid "c02059ab-eefa-4e71-9339-58956831640c")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.1)
 				)
 			)
 		)
@@ -507,32 +703,73 @@
 		)
 		(path "/7bbb7f40-9af6-4b49-bbb2-ca21162d3b78")
 		(sheetfile "lemonbeat_dongle_microjig.kicad_sch")
+		(attr through_hole)
 		(fp_circle
 			(center 0 0)
-			(end 0 1.2)
+			(end 1 0.75)
+			(stroke
+				(width 0.1)
+				(type default)
+			)
+			(fill none)
+			(layer "F.SilkS")
+			(uuid "3fabae00-a9d5-4147-a578-cd2dbaa77547")
+		)
+		(fp_circle
+			(center 0 0)
+			(end 1 0.75)
+			(stroke
+				(width 0.05)
+				(type default)
+			)
+			(fill none)
+			(layer "F.CrtYd")
+			(uuid "822479bb-322b-4762-8bf3-677126027185")
+		)
+		(fp_line
+			(start -0.9 -0.25)
+			(end 0.85 -0.25)
 			(stroke
 				(width 0.12)
 				(type solid)
 			)
-			(fill none)
-			(layer "F.SilkS")
-			(uuid "6a37c69d-1aad-4313-8ed4-90c4a930546c")
+			(layer "F.Fab")
+			(uuid "67268f9c-7ebf-455a-b437-a49dd0e3356b")
 		)
-		(fp_circle
-			(center 0 0)
-			(end 1.5 0)
+		(fp_line
+			(start -0.9 0.25)
+			(end -0.9 -0.25)
 			(stroke
-				(width 0.05)
+				(width 0.12)
 				(type solid)
 			)
-			(fill none)
-			(layer "F.CrtYd")
-			(uuid "bee2b765-f35e-4b2f-b25d-f88b515cbda3")
+			(layer "F.Fab")
+			(uuid "e9b7e43e-ae6c-45d2-81d1-c020ab549f5e")
+		)
+		(fp_line
+			(start 0.85 -0.25)
+			(end 0.85 0.25)
+			(stroke
+				(width 0.12)
+				(type solid)
+			)
+			(layer "F.Fab")
+			(uuid "d5e182e5-dd87-452f-830f-c000d238ced2")
+		)
+		(fp_line
+			(start 0.85 0.25)
+			(end -0.9 0.25)
+			(stroke
+				(width 0.12)
+				(type solid)
+			)
+			(layer "F.Fab")
+			(uuid "7f3b2522-ba23-47ee-b8e7-fdf652ac7fd7")
 		)
 		(fp_text user "${REFERENCE}"
 			(at 0 -2 0)
 			(layer "F.Fab")
-			(uuid "6aa3758a-9723-4bb0-b9cf-d3680e234001")
+			(uuid "b968ff0e-7604-4cb6-8270-2d1af1dc3442")
 			(effects
 				(font
 					(size 1 1)
@@ -540,49 +777,28 @@
 				)
 			)
 		)
-		(pad "1" smd circle
+		(pad "1" thru_hole circle
 			(at 0 0)
 			(size 2 2)
-			(layers "F.Cu" "F.Mask")
+			(drill 0.7)
+			(layers "*.Cu" "*.Mask")
+			(remove_unused_layers no)
 			(net 12 "Net-(J2-Pin_5)")
 			(pinfunction "1")
 			(pintype "passive")
-			(uuid "81bb0289-c1a2-4eb7-8ad3-7bdeec71423a")
-		)
-		(model "${KIPRJMOD}/3d/parts/SpringContact-KH-204065-DZ.step"
-			(hide yes)
-			(offset
-				(xyz 0 0 0)
-			)
-			(scale
-				(xyz 1 1 1)
-			)
-			(rotate
-				(xyz 0 0 0)
-			)
-		)
-		(model "${KIPRJMOD}/3d/parts/SpringContact-KH-102540-DZ.step"
-			(offset
-				(xyz 0 0 0)
-			)
-			(scale
-				(xyz 1 1 1)
-			)
-			(rotate
-				(xyz 0 0 0)
-			)
+			(uuid "3e15ac7a-4122-473e-bb1f-27ab98ba92b3")
 		)
 	)
-	(footprint "TestPoint:TestPoint_Pad_D2.0mm"
+	(footprint "Connector_PogoPin:PogoPin_D0.6mm_L8.4mm_W2.0mm"
 		(layer "F.Cu")
 		(uuid "12fbd97d-46af-4005-8955-7dd041fc2a03")
 		(at 124.82 110.05)
-		(descr "SMD pad as test Point, diameter 2.0mm")
-		(tags "test point SMD pad")
+		(descr "PogoPin, hole diameter 0.7mm, base width 2.0mm, base height 5mm, full height 7.0mm, length 8.4mm")
+		(tags "pogo_pin")
 		(property "Reference" "TP201"
 			(at 0 1.95 0)
 			(layer "F.SilkS")
-			(uuid "3da6b58a-8dc8-4342-b102-95097aa1be30")
+			(uuid "9944bfc4-0184-4e29-929f-31a85b5ecdbb")
 			(effects
 				(font
 					(size 0.7 0.7)
@@ -593,7 +809,7 @@
 		(property "Value" "TestPoint"
 			(at 0 2.05 0)
 			(layer "F.Fab")
-			(uuid "7ba0c1aa-1772-437a-98a2-6d8344d7a5a6")
+			(uuid "cb85b72a-767d-4d47-b1da-b5b1ec2046f3")
 			(effects
 				(font
 					(size 1 1)
@@ -601,12 +817,12 @@
 				)
 			)
 		)
-		(property "Footprint" "TestPoint:TestPoint_Pad_D2.0mm"
+		(property "Footprint" "Connector_PogoPin:PogoPin_D0.6mm_L8.4mm_W2.0mm"
 			(at 0 0 0)
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "2e72c4a9-e247-4f1a-a1ce-2a04826d49ae")
+			(uuid "c67c7dbf-b754-4558-9b52-24005736c0f3")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -618,7 +834,7 @@
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "53bef4f0-d75b-479f-b123-495a846fee14")
+			(uuid "baa698ff-b70a-48a5-a6f2-4033280d2d8f")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -630,10 +846,62 @@
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "1f54cc06-196a-443d-b1b7-a5bce73a606e")
+			(uuid "476059ed-a0f9-4171-b71a-69834df50c2a")
 			(effects
 				(font
 					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Manufacturer" "Xinyangze"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.SilkS")
+			(hide yes)
+			(uuid "804783e4-2d8a-4a7e-92f9-e530c58a1c15")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.1)
+				)
+			)
+		)
+		(property "MFR Part Number" "YZ188015084P-01"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.SilkS")
+			(hide yes)
+			(uuid "61a08af4-8244-456e-8d3d-aedc90eadd7b")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.1)
+				)
+			)
+		)
+		(property "JLCPCB Part Number" "C5157270"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.SilkS")
+			(hide yes)
+			(uuid "557c83fd-bafb-45bc-b708-06c5b8c09980")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.1)
+				)
+			)
+		)
+		(property "JLCPCB Part Number Alternatives" "C5157271"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.SilkS")
+			(hide yes)
+			(uuid "76b11586-96b6-4e14-bbc2-63e6e6d3b6aa")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.1)
 				)
 			)
 		)
@@ -651,32 +919,73 @@
 		)
 		(path "/7fd2d69f-bcf7-460a-a0d0-b9ffb1027e36")
 		(sheetfile "lemonbeat_dongle_microjig.kicad_sch")
+		(attr through_hole)
 		(fp_circle
 			(center 0 0)
-			(end 0 1.2)
+			(end 1 0.75)
+			(stroke
+				(width 0.1)
+				(type default)
+			)
+			(fill none)
+			(layer "F.SilkS")
+			(uuid "78b2a2f3-45c4-4a9b-90e7-fa7d6e68bc5c")
+		)
+		(fp_circle
+			(center 0 0)
+			(end 1 0.75)
+			(stroke
+				(width 0.05)
+				(type default)
+			)
+			(fill none)
+			(layer "F.CrtYd")
+			(uuid "05d8a42c-ce25-428a-8345-13ce3381bff7")
+		)
+		(fp_line
+			(start -0.9 -0.25)
+			(end 0.85 -0.25)
 			(stroke
 				(width 0.12)
 				(type solid)
 			)
-			(fill none)
-			(layer "F.SilkS")
-			(uuid "755b1a76-fb94-4159-a9a8-dc5595a374d6")
+			(layer "F.Fab")
+			(uuid "a54d2d4f-87bd-4cc8-afa4-3cf44333a0d1")
 		)
-		(fp_circle
-			(center 0 0)
-			(end 1.5 0)
+		(fp_line
+			(start -0.9 0.25)
+			(end -0.9 -0.25)
 			(stroke
-				(width 0.05)
+				(width 0.12)
 				(type solid)
 			)
-			(fill none)
-			(layer "F.CrtYd")
-			(uuid "adf8c37a-bb79-498c-9985-8d90545ff212")
+			(layer "F.Fab")
+			(uuid "62218931-d61e-4f8b-9cb5-674ac7b73ff9")
+		)
+		(fp_line
+			(start 0.85 -0.25)
+			(end 0.85 0.25)
+			(stroke
+				(width 0.12)
+				(type solid)
+			)
+			(layer "F.Fab")
+			(uuid "052a2789-d460-4303-8852-18ba2c4a4311")
+		)
+		(fp_line
+			(start 0.85 0.25)
+			(end -0.9 0.25)
+			(stroke
+				(width 0.12)
+				(type solid)
+			)
+			(layer "F.Fab")
+			(uuid "585db0d5-bcfe-40ab-ade7-a466b7cbb0ce")
 		)
 		(fp_text user "${REFERENCE}"
 			(at 0 -2 0)
 			(layer "F.Fab")
-			(uuid "d9afc2db-549d-46b4-a34e-0ec1b2b9c8a9")
+			(uuid "d9bbffe7-9dbb-4db6-b87c-b73f6fff6a34")
 			(effects
 				(font
 					(size 1 1)
@@ -684,49 +993,28 @@
 				)
 			)
 		)
-		(pad "1" smd circle
+		(pad "1" thru_hole circle
 			(at 0 0)
 			(size 2 2)
-			(layers "F.Cu" "F.Mask")
+			(drill 0.7)
+			(layers "*.Cu" "*.Mask")
+			(remove_unused_layers no)
 			(net 8 "Net-(J2-Pin_1)")
 			(pinfunction "1")
 			(pintype "passive")
-			(uuid "501684b1-f8f4-438a-9979-5f1205f97a9c")
-		)
-		(model "${KIPRJMOD}/3d/parts/SpringContact-KH-204065-DZ.step"
-			(hide yes)
-			(offset
-				(xyz 0 0 0)
-			)
-			(scale
-				(xyz 1 1 1)
-			)
-			(rotate
-				(xyz 0 0 0)
-			)
-		)
-		(model "${KIPRJMOD}/3d/parts/SpringContact-KH-102540-DZ.step"
-			(offset
-				(xyz 0 0 0)
-			)
-			(scale
-				(xyz 1 1 1)
-			)
-			(rotate
-				(xyz 0 0 0)
-			)
+			(uuid "217e90c3-e58c-4357-97a6-0d71421abc4f")
 		)
 	)
-	(footprint "TestPoint:TestPoint_Pad_D2.0mm"
+	(footprint "Connector_PogoPin:PogoPin_D0.6mm_L8.4mm_W2.0mm"
 		(layer "F.Cu")
 		(uuid "2748b510-93a7-4622-9c31-55930ae8800c")
 		(at 129.1 96)
-		(descr "SMD pad as test Point, diameter 2.0mm")
-		(tags "test point SMD pad")
+		(descr "PogoPin, hole diameter 0.7mm, base width 2.0mm, base height 5mm, full height 7.0mm, length 8.4mm")
+		(tags "pogo_pin")
 		(property "Reference" "TP204"
 			(at 0.15 2 0)
 			(layer "F.SilkS")
-			(uuid "94e246e4-0e3b-453f-ade3-beba641b742f")
+			(uuid "35b15274-8c21-40b0-9a1d-36894fa90f90")
 			(effects
 				(font
 					(size 0.7 0.7)
@@ -737,7 +1025,7 @@
 		(property "Value" "TestPoint"
 			(at 0 2.05 0)
 			(layer "F.Fab")
-			(uuid "7ada02c7-608c-402d-b20a-6a4a7181c229")
+			(uuid "19eba752-8168-4268-92c7-fe5d25be1c5b")
 			(effects
 				(font
 					(size 1 1)
@@ -745,12 +1033,12 @@
 				)
 			)
 		)
-		(property "Footprint" "TestPoint:TestPoint_Pad_D2.0mm"
+		(property "Footprint" "Connector_PogoPin:PogoPin_D0.6mm_L8.4mm_W2.0mm"
 			(at 0 0 0)
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "b32c2987-7bb1-40a4-a03c-a309b5ff9902")
+			(uuid "a6bb8de1-5ff2-4e66-ac1d-a7435d3802dc")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -762,7 +1050,7 @@
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "d4d64494-3d51-48e1-a174-91c4ab217cee")
+			(uuid "086bd3a0-3d06-43a4-9f96-4876b5447d04")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -774,10 +1062,62 @@
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "450288ba-f958-47b9-91bc-87f046fcc731")
+			(uuid "9930eb5e-67b8-4b99-826e-5485c8048978")
 			(effects
 				(font
 					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Manufacturer" "Xinyangze"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.SilkS")
+			(hide yes)
+			(uuid "8d4bde4e-600c-462a-b55c-2cd20743ac4f")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.1)
+				)
+			)
+		)
+		(property "MFR Part Number" "YZ188015084P-01"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.SilkS")
+			(hide yes)
+			(uuid "83b8a2af-edfc-4ea1-983b-74d9558b374f")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.1)
+				)
+			)
+		)
+		(property "JLCPCB Part Number" "C5157270"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.SilkS")
+			(hide yes)
+			(uuid "e1cae3df-8b15-4fca-b117-e3daf5b7e998")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.1)
+				)
+			)
+		)
+		(property "JLCPCB Part Number Alternatives" "C5157271"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.SilkS")
+			(hide yes)
+			(uuid "898dc2cc-a301-4561-a694-6ac8960d2195")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.1)
 				)
 			)
 		)
@@ -795,32 +1135,73 @@
 		)
 		(path "/083995d8-6757-4049-a86e-7503e60c3f4b")
 		(sheetfile "lemonbeat_dongle_microjig.kicad_sch")
+		(attr through_hole)
 		(fp_circle
 			(center 0 0)
-			(end 0 1.2)
+			(end 1 0.75)
+			(stroke
+				(width 0.1)
+				(type default)
+			)
+			(fill none)
+			(layer "F.SilkS")
+			(uuid "16576fce-cbdd-4738-b42f-c154b98e0ce2")
+		)
+		(fp_circle
+			(center 0 0)
+			(end 1 0.75)
+			(stroke
+				(width 0.05)
+				(type default)
+			)
+			(fill none)
+			(layer "F.CrtYd")
+			(uuid "7b232cc2-9c95-4a8f-a097-77888aec3e84")
+		)
+		(fp_line
+			(start -0.9 -0.25)
+			(end 0.85 -0.25)
 			(stroke
 				(width 0.12)
 				(type solid)
 			)
-			(fill none)
-			(layer "F.SilkS")
-			(uuid "6deaa7eb-53b6-4f75-80a9-1772b85896de")
+			(layer "F.Fab")
+			(uuid "41b6aed2-92c4-4c2e-a145-92e336a0ef0f")
 		)
-		(fp_circle
-			(center 0 0)
-			(end 1.5 0)
+		(fp_line
+			(start -0.9 0.25)
+			(end -0.9 -0.25)
 			(stroke
-				(width 0.05)
+				(width 0.12)
 				(type solid)
 			)
-			(fill none)
-			(layer "F.CrtYd")
-			(uuid "ff48bb11-bc57-45b0-9a2c-f7f1917b7d57")
+			(layer "F.Fab")
+			(uuid "ad168e30-05c2-4683-8883-7346730947d5")
+		)
+		(fp_line
+			(start 0.85 -0.25)
+			(end 0.85 0.25)
+			(stroke
+				(width 0.12)
+				(type solid)
+			)
+			(layer "F.Fab")
+			(uuid "eeeccc52-69b2-4f66-9180-fe9fb684b1c4")
+		)
+		(fp_line
+			(start 0.85 0.25)
+			(end -0.9 0.25)
+			(stroke
+				(width 0.12)
+				(type solid)
+			)
+			(layer "F.Fab")
+			(uuid "3304ee0e-0a29-44a2-8788-86dbb2040188")
 		)
 		(fp_text user "${REFERENCE}"
 			(at 0 -2 0)
 			(layer "F.Fab")
-			(uuid "eaab316e-24fa-4525-a91d-2c87bc796217")
+			(uuid "9347d2cd-ace0-4c10-a157-b7894c0cc6ea")
 			(effects
 				(font
 					(size 1 1)
@@ -828,37 +1209,16 @@
 				)
 			)
 		)
-		(pad "1" smd circle
+		(pad "1" thru_hole circle
 			(at 0 0)
 			(size 2 2)
-			(layers "F.Cu" "F.Mask")
+			(drill 0.7)
+			(layers "*.Cu" "*.Mask")
+			(remove_unused_layers no)
 			(net 11 "Net-(J2-Pin_4)")
 			(pinfunction "1")
 			(pintype "passive")
-			(uuid "6def7b89-92e4-4ed8-abca-0c955978cf94")
-		)
-		(model "${KIPRJMOD}/3d/parts/SpringContact-KH-204065-DZ.step"
-			(hide yes)
-			(offset
-				(xyz 0 0 0)
-			)
-			(scale
-				(xyz 1 1 1)
-			)
-			(rotate
-				(xyz 0 0 0)
-			)
-		)
-		(model "${KIPRJMOD}/3d/parts/SpringContact-KH-102540-DZ.step"
-			(offset
-				(xyz 0 0 0)
-			)
-			(scale
-				(xyz 1 1 1)
-			)
-			(rotate
-				(xyz 0 0 0)
-			)
+			(uuid "41ef12e3-ee43-423e-be07-7e6651e535d2")
 		)
 	)
 	(footprint "Connector_PinHeader_2.54mm:PinHeader_2x04_P2.54mm_Vertical_SMD"
@@ -2177,16 +2537,16 @@
 			)
 		)
 	)
-	(footprint "TestPoint:TestPoint_Pad_D2.0mm"
+	(footprint "Connector_PogoPin:PogoPin_D0.6mm_L8.4mm_W2.0mm"
 		(layer "F.Cu")
 		(uuid "59a93927-01b5-4a53-8a2a-b99a5db8b23e")
 		(at 135.94 96.24)
-		(descr "SMD pad as test Point, diameter 2.0mm")
-		(tags "test point SMD pad")
+		(descr "PogoPin, hole diameter 0.7mm, base width 2.0mm, base height 5mm, full height 7.0mm, length 8.4mm")
+		(tags "pogo_pin")
 		(property "Reference" "TP202"
 			(at 0.06 2.01 0)
 			(layer "F.SilkS")
-			(uuid "d1791ac4-8604-40b9-9789-de8bed6c1e31")
+			(uuid "3d2bba73-e4da-4f44-ac27-04ba9389f6fe")
 			(effects
 				(font
 					(size 0.7 0.7)
@@ -2197,7 +2557,7 @@
 		(property "Value" "TestPoint"
 			(at 0 2.05 0)
 			(layer "F.Fab")
-			(uuid "7f5246e6-7f9a-4abc-a9ba-27b9a02e657d")
+			(uuid "16ba23ba-4e00-4a83-9a03-1d381f1400cd")
 			(effects
 				(font
 					(size 1 1)
@@ -2205,12 +2565,12 @@
 				)
 			)
 		)
-		(property "Footprint" "TestPoint:TestPoint_Pad_D2.0mm"
+		(property "Footprint" "Connector_PogoPin:PogoPin_D0.6mm_L8.4mm_W2.0mm"
 			(at 0 0 0)
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "eebc4435-9c0b-4b78-8b85-3e243855d5f9")
+			(uuid "12d6496a-412d-4fd1-ae67-74108dc2a8bf")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2222,7 +2582,7 @@
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "89c4cc45-20ed-4dd5-b193-6f5163be667e")
+			(uuid "a2baec79-034b-4738-b8ff-47cec028c98a")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2234,10 +2594,62 @@
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "b521270d-6706-4bc5-ba55-c50062c6be66")
+			(uuid "80833d66-d81d-463b-a467-3d9d54d66b72")
 			(effects
 				(font
 					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Manufacturer" "Xinyangze"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.SilkS")
+			(hide yes)
+			(uuid "e37cd28a-1e3f-4fc0-ba04-148d9c353faf")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.1)
+				)
+			)
+		)
+		(property "MFR Part Number" "YZ188015084P-01"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.SilkS")
+			(hide yes)
+			(uuid "f0d0325b-3dd0-4ddd-bcd1-a902332f5953")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.1)
+				)
+			)
+		)
+		(property "JLCPCB Part Number" "C5157270"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.SilkS")
+			(hide yes)
+			(uuid "742a3fdf-b271-4c87-a292-26c2345b98c9")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.1)
+				)
+			)
+		)
+		(property "JLCPCB Part Number Alternatives" "C5157271"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.SilkS")
+			(hide yes)
+			(uuid "3e4e2d7a-88e1-4084-861d-672e6b6bc81b")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.1)
 				)
 			)
 		)
@@ -2255,32 +2667,73 @@
 		)
 		(path "/c85ebe9a-cf09-450d-82e4-5c5bbd363020")
 		(sheetfile "lemonbeat_dongle_microjig.kicad_sch")
+		(attr through_hole)
 		(fp_circle
 			(center 0 0)
-			(end 0 1.2)
+			(end 1 0.75)
+			(stroke
+				(width 0.1)
+				(type default)
+			)
+			(fill none)
+			(layer "F.SilkS")
+			(uuid "9adf0dfd-475f-4413-b9db-eea1cb1e3630")
+		)
+		(fp_circle
+			(center 0 0)
+			(end 1 0.75)
+			(stroke
+				(width 0.05)
+				(type default)
+			)
+			(fill none)
+			(layer "F.CrtYd")
+			(uuid "2d26d57d-5b17-499f-af32-11ee04319a05")
+		)
+		(fp_line
+			(start -0.9 -0.25)
+			(end 0.85 -0.25)
 			(stroke
 				(width 0.12)
 				(type solid)
 			)
-			(fill none)
-			(layer "F.SilkS")
-			(uuid "a849699b-d5b9-4aa4-88e9-ee497e09d5c4")
+			(layer "F.Fab")
+			(uuid "d57bbc7e-f282-461f-9aee-8c3ec5dbed0d")
 		)
-		(fp_circle
-			(center 0 0)
-			(end 1.5 0)
+		(fp_line
+			(start -0.9 0.25)
+			(end -0.9 -0.25)
 			(stroke
-				(width 0.05)
+				(width 0.12)
 				(type solid)
 			)
-			(fill none)
-			(layer "F.CrtYd")
-			(uuid "a69f6141-faf3-4f3f-85a0-dd7fccde9b2f")
+			(layer "F.Fab")
+			(uuid "f08f7c46-46ee-4397-9e94-86632e299e5d")
+		)
+		(fp_line
+			(start 0.85 -0.25)
+			(end 0.85 0.25)
+			(stroke
+				(width 0.12)
+				(type solid)
+			)
+			(layer "F.Fab")
+			(uuid "46d58736-c5ed-4438-9ff4-f8d04289780a")
+		)
+		(fp_line
+			(start 0.85 0.25)
+			(end -0.9 0.25)
+			(stroke
+				(width 0.12)
+				(type solid)
+			)
+			(layer "F.Fab")
+			(uuid "ebf7d8f1-88c1-45cb-b58c-f3707b161f95")
 		)
 		(fp_text user "${REFERENCE}"
 			(at 0 -2 0)
 			(layer "F.Fab")
-			(uuid "e139c4ea-ecdb-48c0-b4eb-a3e91b0f36f7")
+			(uuid "f8dad54a-42fb-4aa1-8dd9-3550330f1e79")
 			(effects
 				(font
 					(size 1 1)
@@ -2288,49 +2741,28 @@
 				)
 			)
 		)
-		(pad "1" smd circle
+		(pad "1" thru_hole circle
 			(at 0 0)
 			(size 2 2)
-			(layers "F.Cu" "F.Mask")
+			(drill 0.7)
+			(layers "*.Cu" "*.Mask")
+			(remove_unused_layers no)
 			(net 9 "Net-(J2-Pin_2)")
 			(pinfunction "1")
 			(pintype "passive")
-			(uuid "58ced7ac-5b32-4c1d-81ff-d13a2849186a")
-		)
-		(model "${KIPRJMOD}/3d/parts/SpringContact-KH-204065-DZ.step"
-			(hide yes)
-			(offset
-				(xyz 0 0 0)
-			)
-			(scale
-				(xyz 1 1 1)
-			)
-			(rotate
-				(xyz 0 0 0)
-			)
-		)
-		(model "${KIPRJMOD}/3d/parts/SpringContact-KH-102540-DZ.step"
-			(offset
-				(xyz 0 0 0)
-			)
-			(scale
-				(xyz 1 1 1)
-			)
-			(rotate
-				(xyz 0 0 0)
-			)
+			(uuid "37ee7cdf-90d5-4cc1-b3b3-2794f24f314b")
 		)
 	)
-	(footprint "TestPoint:TestPoint_Pad_D2.0mm"
+	(footprint "Connector_PogoPin:PogoPin_D0.6mm_L8.4mm_W2.0mm"
 		(layer "F.Cu")
 		(uuid "6fd558d1-d7f5-447a-8177-1e300f415419")
 		(at 131.55 102.35)
-		(descr "SMD pad as test Point, diameter 2.0mm")
-		(tags "test point SMD pad")
+		(descr "PogoPin, hole diameter 0.7mm, base width 2.0mm, base height 5mm, full height 7.0mm, length 8.4mm")
+		(tags "pogo_pin")
 		(property "Reference" "TP102"
 			(at 0 1.9 0)
 			(layer "F.SilkS")
-			(uuid "92a033d1-62f9-40df-8e3a-d2bfcb6a3c08")
+			(uuid "fd388258-2df9-40d5-b6dd-040c4e2d5022")
 			(effects
 				(font
 					(size 0.7 0.7)
@@ -2341,7 +2773,7 @@
 		(property "Value" "TestPoint_Small"
 			(at 0 2.05 0)
 			(layer "F.Fab")
-			(uuid "860e7fc7-3dbe-40fa-96da-9ec3d3ee98dd")
+			(uuid "1701d14a-ef69-4a9c-933f-c4e0fff76663")
 			(effects
 				(font
 					(size 1 1)
@@ -2349,12 +2781,12 @@
 				)
 			)
 		)
-		(property "Footprint" "TestPoint:TestPoint_Pad_D2.0mm"
+		(property "Footprint" "Connector_PogoPin:PogoPin_D0.6mm_L8.4mm_W2.0mm"
 			(at 0 0 0)
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "e945abb8-f7cc-4e23-bff0-d49a0a8204a1")
+			(uuid "a095a4c0-2477-4b40-8253-717beaf42415")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2366,7 +2798,7 @@
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "085f0b2e-5a66-48a7-85bd-ec69039026b5")
+			(uuid "d09188b4-6832-45e4-96cb-9c56111a2d9a")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2378,10 +2810,62 @@
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "9730949f-f7c0-4558-94d5-0df4da1c0d30")
+			(uuid "4e6be7bf-8018-4b9d-8918-a7be2ac0e482")
 			(effects
 				(font
 					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Manufacturer" "Xinyangze"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.SilkS")
+			(hide yes)
+			(uuid "9d58dfb8-69cc-4179-aff3-a93003370f88")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.1)
+				)
+			)
+		)
+		(property "MFR Part Number" "YZ188015084P-01"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.SilkS")
+			(hide yes)
+			(uuid "0da81b6f-f765-44a0-9491-6370e2c59a17")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.1)
+				)
+			)
+		)
+		(property "JLCPCB Part Number" "C5157270"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.SilkS")
+			(hide yes)
+			(uuid "cc2a1c06-fc10-41bb-8bce-078694df9817")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.1)
+				)
+			)
+		)
+		(property "JLCPCB Part Number Alternatives" "C5157271"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.SilkS")
+			(hide yes)
+			(uuid "fbc7fd8f-77dc-4d72-b60f-607a81ead28c")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.1)
 				)
 			)
 		)
@@ -2399,32 +2883,73 @@
 		)
 		(path "/20523571-2c6a-41e9-96fd-ea46bd51a4f1")
 		(sheetfile "lemonbeat_dongle_microjig.kicad_sch")
+		(attr through_hole)
 		(fp_circle
 			(center 0 0)
-			(end 0 1.2)
+			(end 1 0.75)
+			(stroke
+				(width 0.1)
+				(type default)
+			)
+			(fill none)
+			(layer "F.SilkS")
+			(uuid "b295f607-89ce-415c-9f98-b364d83b7578")
+		)
+		(fp_circle
+			(center 0 0)
+			(end 1 0.75)
+			(stroke
+				(width 0.05)
+				(type default)
+			)
+			(fill none)
+			(layer "F.CrtYd")
+			(uuid "431552ae-7c29-474a-8a9d-fd13c5b18d65")
+		)
+		(fp_line
+			(start -0.9 -0.25)
+			(end 0.85 -0.25)
 			(stroke
 				(width 0.12)
 				(type solid)
 			)
-			(fill none)
-			(layer "F.SilkS")
-			(uuid "357754ec-ea61-4b94-ae64-f568f843487e")
+			(layer "F.Fab")
+			(uuid "0dff2dc5-1cc1-46be-9e5f-4ef7f5ca9678")
 		)
-		(fp_circle
-			(center 0 0)
-			(end 1.5 0)
+		(fp_line
+			(start -0.9 0.25)
+			(end -0.9 -0.25)
 			(stroke
-				(width 0.05)
+				(width 0.12)
 				(type solid)
 			)
-			(fill none)
-			(layer "F.CrtYd")
-			(uuid "78883f60-a1ec-4376-a540-fbb5a1a1c601")
+			(layer "F.Fab")
+			(uuid "5a6cbe29-21f0-43df-9619-c380f70c110f")
+		)
+		(fp_line
+			(start 0.85 -0.25)
+			(end 0.85 0.25)
+			(stroke
+				(width 0.12)
+				(type solid)
+			)
+			(layer "F.Fab")
+			(uuid "53efc5a6-4e37-4e1d-9860-46ac366330f7")
+		)
+		(fp_line
+			(start 0.85 0.25)
+			(end -0.9 0.25)
+			(stroke
+				(width 0.12)
+				(type solid)
+			)
+			(layer "F.Fab")
+			(uuid "a308fa98-49e7-4d52-a2e0-a2615a4fc7f1")
 		)
 		(fp_text user "${REFERENCE}"
 			(at 0 -2 0)
 			(layer "F.Fab")
-			(uuid "9028ee7f-e852-4c97-8901-442f59bffb35")
+			(uuid "c24d2540-a275-4137-a887-d7e2ee5991f9")
 			(effects
 				(font
 					(size 1 1)
@@ -2432,49 +2957,28 @@
 				)
 			)
 		)
-		(pad "1" smd circle
+		(pad "1" thru_hole circle
 			(at 0 0)
 			(size 2 2)
-			(layers "F.Cu" "F.Mask")
+			(drill 0.7)
+			(layers "*.Cu" "*.Mask")
+			(remove_unused_layers no)
 			(net 16 "Net-(J3-Pin_2)")
 			(pinfunction "1")
 			(pintype "passive")
-			(uuid "247daaab-1928-4609-af1b-8a34500d5191")
-		)
-		(model "${KIPRJMOD}/3d/parts/SpringContact-KH-204065-DZ.step"
-			(hide yes)
-			(offset
-				(xyz 0 0 0)
-			)
-			(scale
-				(xyz 1 1 1)
-			)
-			(rotate
-				(xyz 0 0 0)
-			)
-		)
-		(model "${KIPRJMOD}/3d/parts/SpringContact-KH-102540-DZ.step"
-			(offset
-				(xyz 0 0 0)
-			)
-			(scale
-				(xyz 1 1 1)
-			)
-			(rotate
-				(xyz 0 0 0)
-			)
+			(uuid "b8dd1f76-031c-4140-ab9e-2e3f0e4326ee")
 		)
 	)
-	(footprint "TestPoint:TestPoint_Pad_D2.0mm"
+	(footprint "Connector_PogoPin:PogoPin_D0.6mm_L8.4mm_W2.0mm"
 		(layer "F.Cu")
 		(uuid "74c52863-601e-4b41-9908-7c9992469a5f")
 		(at 122.6 99.7)
-		(descr "SMD pad as test Point, diameter 2.0mm")
-		(tags "test point SMD pad")
+		(descr "PogoPin, hole diameter 0.7mm, base width 2.0mm, base height 5mm, full height 7.0mm, length 8.4mm")
+		(tags "pogo_pin")
 		(property "Reference" "TP203"
 			(at 0 1.95 0)
 			(layer "F.SilkS")
-			(uuid "61ebff07-f321-4de4-9d29-7fb4a9875f46")
+			(uuid "105812d8-5518-49fd-990f-7928d5d25d67")
 			(effects
 				(font
 					(size 0.7 0.7)
@@ -2485,7 +2989,7 @@
 		(property "Value" "TestPoint"
 			(at 0 2.05 0)
 			(layer "F.Fab")
-			(uuid "4380cadf-e2f8-44be-971e-3fd21bb99326")
+			(uuid "d9a90af1-f995-40ca-8c39-840b1f7fb900")
 			(effects
 				(font
 					(size 1 1)
@@ -2493,12 +2997,12 @@
 				)
 			)
 		)
-		(property "Footprint" "TestPoint:TestPoint_Pad_D2.0mm"
+		(property "Footprint" "Connector_PogoPin:PogoPin_D0.6mm_L8.4mm_W2.0mm"
 			(at 0 0 0)
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "f77d39f7-8970-4f0e-b4ae-16221b8e4287")
+			(uuid "844bcdde-c5c4-48a4-8e54-c4ed67721e34")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2510,7 +3014,7 @@
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "eeb363b4-6afb-4560-98fd-0439314beb35")
+			(uuid "2e96b213-e778-401d-93a1-76cc039cc3ef")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2522,10 +3026,62 @@
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "c878a282-c53f-40ea-8f55-64c8e39f4a96")
+			(uuid "52740536-24f6-42b0-9061-812cf64e7fa9")
 			(effects
 				(font
 					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Manufacturer" "Xinyangze"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.SilkS")
+			(hide yes)
+			(uuid "2fc0e429-a3de-433f-97b8-8dc11b283e64")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.1)
+				)
+			)
+		)
+		(property "MFR Part Number" "YZ188015084P-01"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.SilkS")
+			(hide yes)
+			(uuid "90acf0ea-48aa-487e-8be2-8409cdc90826")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.1)
+				)
+			)
+		)
+		(property "JLCPCB Part Number" "C5157270"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.SilkS")
+			(hide yes)
+			(uuid "40273513-6f64-4906-8cd8-c46a61c77f0e")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.1)
+				)
+			)
+		)
+		(property "JLCPCB Part Number Alternatives" "C5157271"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.SilkS")
+			(hide yes)
+			(uuid "7eb4ad62-cf49-44c0-ab41-d1e2ec8aab5f")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.1)
 				)
 			)
 		)
@@ -2543,32 +3099,73 @@
 		)
 		(path "/b2d441d2-5331-456b-9114-2381031991cb")
 		(sheetfile "lemonbeat_dongle_microjig.kicad_sch")
+		(attr through_hole)
 		(fp_circle
 			(center 0 0)
-			(end 0 1.2)
+			(end 1 0.75)
+			(stroke
+				(width 0.1)
+				(type default)
+			)
+			(fill none)
+			(layer "F.SilkS")
+			(uuid "9a7f0490-0147-49b3-be16-b1df44c203b4")
+		)
+		(fp_circle
+			(center 0 0)
+			(end 1 0.75)
+			(stroke
+				(width 0.05)
+				(type default)
+			)
+			(fill none)
+			(layer "F.CrtYd")
+			(uuid "e96d30a4-93f7-4c27-8cdf-5425ed8c6d2e")
+		)
+		(fp_line
+			(start -0.9 -0.25)
+			(end 0.85 -0.25)
 			(stroke
 				(width 0.12)
 				(type solid)
 			)
-			(fill none)
-			(layer "F.SilkS")
-			(uuid "26b087b6-69a0-41cc-9726-f505f30ff0fa")
+			(layer "F.Fab")
+			(uuid "e9dbd943-4ab2-4a91-8163-e8c67ddc0cad")
 		)
-		(fp_circle
-			(center 0 0)
-			(end 1.5 0)
+		(fp_line
+			(start -0.9 0.25)
+			(end -0.9 -0.25)
 			(stroke
-				(width 0.05)
+				(width 0.12)
 				(type solid)
 			)
-			(fill none)
-			(layer "F.CrtYd")
-			(uuid "d0a76629-672b-4dd3-be79-951d952112ec")
+			(layer "F.Fab")
+			(uuid "3a046cf0-2a9e-4525-beb2-0311e27b2f03")
+		)
+		(fp_line
+			(start 0.85 -0.25)
+			(end 0.85 0.25)
+			(stroke
+				(width 0.12)
+				(type solid)
+			)
+			(layer "F.Fab")
+			(uuid "a4f92f00-1b8a-4d90-86ac-184a735b2b67")
+		)
+		(fp_line
+			(start 0.85 0.25)
+			(end -0.9 0.25)
+			(stroke
+				(width 0.12)
+				(type solid)
+			)
+			(layer "F.Fab")
+			(uuid "8bab800b-6983-4337-a28a-dcfec64cb0ce")
 		)
 		(fp_text user "${REFERENCE}"
 			(at 0 -2 0)
 			(layer "F.Fab")
-			(uuid "9f191a8d-4bd3-4f65-aa46-9fe4cbfea76c")
+			(uuid "f109fa08-9d7b-42fa-a907-d24f6385e05a")
 			(effects
 				(font
 					(size 1 1)
@@ -2576,49 +3173,28 @@
 				)
 			)
 		)
-		(pad "1" smd circle
+		(pad "1" thru_hole circle
 			(at 0 0)
 			(size 2 2)
-			(layers "F.Cu" "F.Mask")
+			(drill 0.7)
+			(layers "*.Cu" "*.Mask")
+			(remove_unused_layers no)
 			(net 10 "Net-(J2-Pin_3)")
 			(pinfunction "1")
 			(pintype "passive")
-			(uuid "13997ff6-0c08-4c56-a146-f2bf4048af08")
-		)
-		(model "${KIPRJMOD}/3d/parts/SpringContact-KH-204065-DZ.step"
-			(hide yes)
-			(offset
-				(xyz 0 0 0)
-			)
-			(scale
-				(xyz 1 1 1)
-			)
-			(rotate
-				(xyz 0 0 0)
-			)
-		)
-		(model "${KIPRJMOD}/3d/parts/SpringContact-KH-102540-DZ.step"
-			(offset
-				(xyz 0 0 0)
-			)
-			(scale
-				(xyz 1 1 1)
-			)
-			(rotate
-				(xyz 0 0 0)
-			)
+			(uuid "e5bfa418-c5f0-415c-80f9-900cfe7ada19")
 		)
 	)
-	(footprint "TestPoint:TestPoint_Pad_D2.0mm"
+	(footprint "Connector_PogoPin:PogoPin_D0.6mm_L8.4mm_W2.0mm"
 		(layer "F.Cu")
 		(uuid "807db6cb-34a1-4e7e-bc0c-d626f61a38eb")
 		(at 139.2 107.7)
-		(descr "SMD pad as test Point, diameter 2.0mm")
-		(tags "test point SMD pad")
+		(descr "PogoPin, hole diameter 0.7mm, base width 2.0mm, base height 5mm, full height 7.0mm, length 8.4mm")
+		(tags "pogo_pin")
 		(property "Reference" "TP1"
 			(at 0 1.8 0)
 			(layer "F.SilkS")
-			(uuid "bcafda44-e4a4-4bbd-8ad8-df2fbdb1d204")
+			(uuid "b664f7af-53fe-4bd1-ba85-162a1461a131")
 			(effects
 				(font
 					(size 0.7 0.7)
@@ -2629,7 +3205,7 @@
 		(property "Value" "TestPoint"
 			(at 0 2.05 0)
 			(layer "F.Fab")
-			(uuid "8343540c-b966-4868-97e2-e16d25b17958")
+			(uuid "eb5925ec-94fe-47fb-907f-b86f5963683a")
 			(effects
 				(font
 					(size 1 1)
@@ -2637,12 +3213,12 @@
 				)
 			)
 		)
-		(property "Footprint" "TestPoint:TestPoint_Pad_D2.0mm"
+		(property "Footprint" "Connector_PogoPin:PogoPin_D0.6mm_L8.4mm_W2.0mm"
 			(at 0 0 0)
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "6cc45768-3378-4d6d-a89d-9c435af20290")
+			(uuid "397dafbf-e4d7-4269-9cfe-e4a65a3a4831")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2654,7 +3230,7 @@
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "e7208ebe-0e78-45ff-8818-de133798f02b")
+			(uuid "ca7c0210-3f59-4089-99f3-8f69a8340b69")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2666,10 +3242,62 @@
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "0a0f55c5-50d2-4ca4-af36-d287653f0a6b")
+			(uuid "06347168-4295-4b86-ba68-957ed2a421b7")
 			(effects
 				(font
 					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Manufacturer" "Xinyangze"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.SilkS")
+			(hide yes)
+			(uuid "1ea23a4b-54b6-4682-9e3c-66b0c2c4b1dc")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.1)
+				)
+			)
+		)
+		(property "MFR Part Number" "YZ188015084P-01"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.SilkS")
+			(hide yes)
+			(uuid "49377ee4-fec7-4eeb-850f-9736b6fad220")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.1)
+				)
+			)
+		)
+		(property "JLCPCB Part Number" "C5157270"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.SilkS")
+			(hide yes)
+			(uuid "dc50ce43-56b4-421a-aff2-6863fac37eb8")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.1)
+				)
+			)
+		)
+		(property "JLCPCB Part Number Alternatives" "C5157271"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.SilkS")
+			(hide yes)
+			(uuid "96e0ef84-46a1-4ed1-878f-16b9f281705d")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.1)
 				)
 			)
 		)
@@ -2687,32 +3315,73 @@
 		)
 		(path "/331c383a-9751-48bc-b01d-fef24801a1f8")
 		(sheetfile "lemonbeat_dongle_microjig.kicad_sch")
+		(attr through_hole)
 		(fp_circle
 			(center 0 0)
-			(end 0 1.2)
+			(end 1 0.75)
+			(stroke
+				(width 0.1)
+				(type default)
+			)
+			(fill none)
+			(layer "F.SilkS")
+			(uuid "e0e50287-dd3f-49fd-91ab-753e17b7ac44")
+		)
+		(fp_circle
+			(center 0 0)
+			(end 1 0.75)
+			(stroke
+				(width 0.05)
+				(type default)
+			)
+			(fill none)
+			(layer "F.CrtYd")
+			(uuid "e764d642-07d4-400b-8102-1c3c70091625")
+		)
+		(fp_line
+			(start -0.9 -0.25)
+			(end 0.85 -0.25)
 			(stroke
 				(width 0.12)
 				(type solid)
 			)
-			(fill none)
-			(layer "F.SilkS")
-			(uuid "6f36639a-4c09-4208-b1db-fcd425b4ab66")
+			(layer "F.Fab")
+			(uuid "fec248ee-4d88-49d4-9f27-16298ad41490")
 		)
-		(fp_circle
-			(center 0 0)
-			(end 1.5 0)
+		(fp_line
+			(start -0.9 0.25)
+			(end -0.9 -0.25)
 			(stroke
-				(width 0.05)
+				(width 0.12)
 				(type solid)
 			)
-			(fill none)
-			(layer "F.CrtYd")
-			(uuid "5f4bc8d8-0210-4b50-9499-5563ba047cf1")
+			(layer "F.Fab")
+			(uuid "469648e2-bf35-4fa1-9f78-07c4ffd98c3b")
+		)
+		(fp_line
+			(start 0.85 -0.25)
+			(end 0.85 0.25)
+			(stroke
+				(width 0.12)
+				(type solid)
+			)
+			(layer "F.Fab")
+			(uuid "9d26095d-bc0a-4efb-bf09-a7770d782ba0")
+		)
+		(fp_line
+			(start 0.85 0.25)
+			(end -0.9 0.25)
+			(stroke
+				(width 0.12)
+				(type solid)
+			)
+			(layer "F.Fab")
+			(uuid "542365f2-8338-467a-832f-5ab90ba9a487")
 		)
 		(fp_text user "${REFERENCE}"
 			(at 0 -2 0)
 			(layer "F.Fab")
-			(uuid "c48b0794-506c-49d3-805e-0a2ec0f8506d")
+			(uuid "a4c8fdbf-0c67-4ffd-9dfc-4d425df63735")
 			(effects
 				(font
 					(size 1 1)
@@ -2720,49 +3389,28 @@
 				)
 			)
 		)
-		(pad "1" smd circle
+		(pad "1" thru_hole circle
 			(at 0 0)
 			(size 2 2)
-			(layers "F.Cu" "F.Mask")
+			(drill 0.7)
+			(layers "*.Cu" "*.Mask")
+			(remove_unused_layers no)
 			(net 15 "VDD")
 			(pinfunction "1")
 			(pintype "passive")
-			(uuid "2f6f4307-0b33-4983-8072-9d65085b882f")
-		)
-		(model "${KIPRJMOD}/3d/parts/SpringContact-KH-204065-DZ.step"
-			(hide yes)
-			(offset
-				(xyz 0 0 0)
-			)
-			(scale
-				(xyz 1 1 1)
-			)
-			(rotate
-				(xyz 0 0 0)
-			)
-		)
-		(model "${KIPRJMOD}/3d/parts/SpringContact-KH-102540-DZ.step"
-			(offset
-				(xyz 0 0 0)
-			)
-			(scale
-				(xyz 1 1 1)
-			)
-			(rotate
-				(xyz 0 0 0)
-			)
+			(uuid "5bda8d62-170a-492e-8893-d31aca9f4dc2")
 		)
 	)
-	(footprint "TestPoint:TestPoint_Pad_D2.0mm"
+	(footprint "Connector_PogoPin:PogoPin_D0.6mm_L8.4mm_W2.0mm"
 		(layer "F.Cu")
 		(uuid "8ac297ee-0d65-4e38-adee-c8f8324a2642")
 		(at 129.25 109.25)
-		(descr "SMD pad as test Point, diameter 2.0mm")
-		(tags "test point SMD pad")
+		(descr "PogoPin, hole diameter 0.7mm, base width 2.0mm, base height 5mm, full height 7.0mm, length 8.4mm")
+		(tags "pogo_pin")
 		(property "Reference" "TP105"
 			(at -0.25 -1.998 0)
 			(layer "F.SilkS")
-			(uuid "680f7512-caf6-4b3c-9183-892cc5c4fe33")
+			(uuid "bcb1ace5-f0d9-4671-be8a-45245120cfd8")
 			(effects
 				(font
 					(size 0.7 0.7)
@@ -2773,7 +3421,7 @@
 		(property "Value" "TestPoint_Small"
 			(at 0 2.05 0)
 			(layer "F.Fab")
-			(uuid "770cfaba-1f39-495d-ad02-5092cad0a6eb")
+			(uuid "b63b3088-703b-4406-a703-a9ac159597dd")
 			(effects
 				(font
 					(size 1 1)
@@ -2781,12 +3429,12 @@
 				)
 			)
 		)
-		(property "Footprint" "TestPoint:TestPoint_Pad_D2.0mm"
+		(property "Footprint" "Connector_PogoPin:PogoPin_D0.6mm_L8.4mm_W2.0mm"
 			(at 0 0 0)
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "387eb27c-64f4-4d2f-8713-6b629d8f90b2")
+			(uuid "afe558b5-5eee-49c7-984f-8a88dab392c4")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2798,7 +3446,7 @@
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "509a80e9-af4c-477d-ba22-02dc394cce09")
+			(uuid "f2526117-f940-46cb-a1a7-cd98d3f398af")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2810,10 +3458,62 @@
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "12f0a2d4-18a5-4185-a64e-25a436de6ae2")
+			(uuid "f828c23b-4ab6-4744-97e0-efc5a354793e")
 			(effects
 				(font
 					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Manufacturer" "Xinyangze"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.SilkS")
+			(hide yes)
+			(uuid "14e61f7a-68e6-403c-9f18-1990e687e935")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.1)
+				)
+			)
+		)
+		(property "MFR Part Number" "YZ188015084P-01"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.SilkS")
+			(hide yes)
+			(uuid "389b9479-7f8e-42e1-ae4c-4caaec42135a")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.1)
+				)
+			)
+		)
+		(property "JLCPCB Part Number" "C5157270"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.SilkS")
+			(hide yes)
+			(uuid "ba85fd9a-5093-4bf4-a885-501fc81a7ca5")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.1)
+				)
+			)
+		)
+		(property "JLCPCB Part Number Alternatives" "C5157271"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.SilkS")
+			(hide yes)
+			(uuid "e5d44c71-3b20-4752-822e-381720bad02b")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.1)
 				)
 			)
 		)
@@ -2831,32 +3531,73 @@
 		)
 		(path "/064aa6f9-5455-49ca-824e-855a5830f4ed")
 		(sheetfile "lemonbeat_dongle_microjig.kicad_sch")
+		(attr through_hole)
 		(fp_circle
 			(center 0 0)
-			(end 0 1.2)
+			(end 1 0.75)
+			(stroke
+				(width 0.1)
+				(type default)
+			)
+			(fill none)
+			(layer "F.SilkS")
+			(uuid "19079641-3c0c-4a28-82fb-a332a438e979")
+		)
+		(fp_circle
+			(center 0 0)
+			(end 1 0.75)
+			(stroke
+				(width 0.05)
+				(type default)
+			)
+			(fill none)
+			(layer "F.CrtYd")
+			(uuid "417d027a-6713-4fc5-a027-526bb660f671")
+		)
+		(fp_line
+			(start -0.9 -0.25)
+			(end 0.85 -0.25)
 			(stroke
 				(width 0.12)
 				(type solid)
 			)
-			(fill none)
-			(layer "F.SilkS")
-			(uuid "78eedcec-14f5-4b23-9fcb-4a7595fa6fcf")
+			(layer "F.Fab")
+			(uuid "2c9cb56a-091b-4a30-9d83-c6ce9aac6ab7")
 		)
-		(fp_circle
-			(center 0 0)
-			(end 1.5 0)
+		(fp_line
+			(start -0.9 0.25)
+			(end -0.9 -0.25)
 			(stroke
-				(width 0.05)
+				(width 0.12)
 				(type solid)
 			)
-			(fill none)
-			(layer "F.CrtYd")
-			(uuid "a971e75f-1ee8-435b-99a3-0c053bd99fb2")
+			(layer "F.Fab")
+			(uuid "a4f16eea-d4e4-4fea-80c5-511463ee0b2b")
+		)
+		(fp_line
+			(start 0.85 -0.25)
+			(end 0.85 0.25)
+			(stroke
+				(width 0.12)
+				(type solid)
+			)
+			(layer "F.Fab")
+			(uuid "cfd05309-e973-4620-8b53-1bef1bf171a3")
+		)
+		(fp_line
+			(start 0.85 0.25)
+			(end -0.9 0.25)
+			(stroke
+				(width 0.12)
+				(type solid)
+			)
+			(layer "F.Fab")
+			(uuid "18a7ad3c-dec8-4b94-ac1f-27a2e0bc3116")
 		)
 		(fp_text user "${REFERENCE}"
 			(at 0 -2 0)
 			(layer "F.Fab")
-			(uuid "7a001c3c-d8e0-4638-a442-c0455c2e1b67")
+			(uuid "cce935e7-1e74-4331-911d-a07dacc1d4b7")
 			(effects
 				(font
 					(size 1 1)
@@ -2864,37 +3605,16 @@
 				)
 			)
 		)
-		(pad "1" smd circle
+		(pad "1" thru_hole circle
 			(at 0 0)
 			(size 2 2)
-			(layers "F.Cu" "F.Mask")
+			(drill 0.7)
+			(layers "*.Cu" "*.Mask")
+			(remove_unused_layers no)
 			(net 19 "Net-(J3-Pin_5)")
 			(pinfunction "1")
 			(pintype "passive")
-			(uuid "f3746e1a-beb0-4d01-b42f-9a6e95573318")
-		)
-		(model "${KIPRJMOD}/3d/parts/SpringContact-KH-204065-DZ.step"
-			(hide yes)
-			(offset
-				(xyz 0 0 0)
-			)
-			(scale
-				(xyz 1 1 1)
-			)
-			(rotate
-				(xyz 0 0 0)
-			)
-		)
-		(model "${KIPRJMOD}/3d/parts/SpringContact-KH-102540-DZ.step"
-			(offset
-				(xyz 0 0 0)
-			)
-			(scale
-				(xyz 1 1 1)
-			)
-			(rotate
-				(xyz 0 0 0)
-			)
+			(uuid "5f397115-b31c-4db3-a26a-2b7f54b52aa5")
 		)
 	)
 	(footprint "Connector_PinHeader_1.27mm:PinHeader_2x05_P1.27mm_Vertical_SMD"
@@ -3573,16 +4293,16 @@
 			)
 		)
 	)
-	(footprint "TestPoint:TestPoint_Pad_D2.0mm"
+	(footprint "Connector_PogoPin:PogoPin_D0.6mm_L8.4mm_W2.0mm"
 		(layer "F.Cu")
 		(uuid "a62c5854-405c-43cd-b209-a2b8587a90f5")
 		(at 123.5 96)
-		(descr "SMD pad as test Point, diameter 2.0mm")
-		(tags "test point SMD pad")
+		(descr "PogoPin, hole diameter 0.7mm, base width 2.0mm, base height 5mm, full height 7.0mm, length 8.4mm")
+		(tags "pogo_pin")
 		(property "Reference" "TP206"
 			(at -1.8 0.26 90)
 			(layer "F.SilkS")
-			(uuid "ae179004-755c-4344-a169-c5c2406a3ac4")
+			(uuid "40261099-e26e-49ca-8004-b7a52f56c88e")
 			(effects
 				(font
 					(size 0.7 0.7)
@@ -3593,7 +4313,7 @@
 		(property "Value" "TestPoint"
 			(at 0 2.05 0)
 			(layer "F.Fab")
-			(uuid "0ba29254-4830-4f5c-9fba-d0b86757c6d0")
+			(uuid "f438e744-1884-49fe-b0a5-276aeca598fc")
 			(effects
 				(font
 					(size 1 1)
@@ -3601,12 +4321,12 @@
 				)
 			)
 		)
-		(property "Footprint" "TestPoint:TestPoint_Pad_D2.0mm"
+		(property "Footprint" "Connector_PogoPin:PogoPin_D0.6mm_L8.4mm_W2.0mm"
 			(at 0 0 0)
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "f38f3d43-52dd-4cff-9367-4e193c41e2c4")
+			(uuid "9d98c2f2-c363-4a19-8b94-97fa9314dbcc")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3618,7 +4338,7 @@
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "d500cd8e-841a-454b-8481-1bee1299e9a0")
+			(uuid "20e81a59-3a93-4464-8f86-d907970cc207")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3630,10 +4350,62 @@
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "b0aab34f-d880-42cf-b05c-d060f6fb6d00")
+			(uuid "0344a94b-ee2d-4863-ad52-e4d8d94188ac")
 			(effects
 				(font
 					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Manufacturer" "Xinyangze"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.SilkS")
+			(hide yes)
+			(uuid "3662faab-e77e-421e-842c-088be4df1453")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.1)
+				)
+			)
+		)
+		(property "MFR Part Number" "YZ188015084P-01"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.SilkS")
+			(hide yes)
+			(uuid "b5c9c2b2-de6b-4acf-a6ba-f198fdd9332d")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.1)
+				)
+			)
+		)
+		(property "JLCPCB Part Number" "C5157270"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.SilkS")
+			(hide yes)
+			(uuid "db681e03-4921-4625-b139-1599cdd78cfc")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.1)
+				)
+			)
+		)
+		(property "JLCPCB Part Number Alternatives" "C5157271"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.SilkS")
+			(hide yes)
+			(uuid "4151ea14-b066-41c5-8a93-ec8af3d761e9")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.1)
 				)
 			)
 		)
@@ -3651,32 +4423,73 @@
 		)
 		(path "/d20ab048-fbf6-4dfa-bc74-895280739e47")
 		(sheetfile "lemonbeat_dongle_microjig.kicad_sch")
+		(attr through_hole)
 		(fp_circle
 			(center 0 0)
-			(end 0 1.2)
+			(end 1 0.75)
+			(stroke
+				(width 0.1)
+				(type default)
+			)
+			(fill none)
+			(layer "F.SilkS")
+			(uuid "d2413306-dfdb-4f2f-ab4b-ad7a3a1f4117")
+		)
+		(fp_circle
+			(center 0 0)
+			(end 1 0.75)
+			(stroke
+				(width 0.05)
+				(type default)
+			)
+			(fill none)
+			(layer "F.CrtYd")
+			(uuid "1bc5ca74-70eb-473f-80a1-f230407dbb99")
+		)
+		(fp_line
+			(start -0.9 -0.25)
+			(end 0.85 -0.25)
 			(stroke
 				(width 0.12)
 				(type solid)
 			)
-			(fill none)
-			(layer "F.SilkS")
-			(uuid "09aaa20a-d875-4c5f-88f1-4cd18d1e5f5a")
+			(layer "F.Fab")
+			(uuid "ad52861e-4c59-4edf-9ac3-d9bfe8a1d5e6")
 		)
-		(fp_circle
-			(center 0 0)
-			(end 1.5 0)
+		(fp_line
+			(start -0.9 0.25)
+			(end -0.9 -0.25)
 			(stroke
-				(width 0.05)
+				(width 0.12)
 				(type solid)
 			)
-			(fill none)
-			(layer "F.CrtYd")
-			(uuid "712e348e-57b8-4528-9283-f73c30b30669")
+			(layer "F.Fab")
+			(uuid "a6498d36-5a9e-4fa6-9399-438648810ac3")
+		)
+		(fp_line
+			(start 0.85 -0.25)
+			(end 0.85 0.25)
+			(stroke
+				(width 0.12)
+				(type solid)
+			)
+			(layer "F.Fab")
+			(uuid "9be8b922-d238-43c0-aa98-3c6b9a9adbe6")
+		)
+		(fp_line
+			(start 0.85 0.25)
+			(end -0.9 0.25)
+			(stroke
+				(width 0.12)
+				(type solid)
+			)
+			(layer "F.Fab")
+			(uuid "ce1577af-456a-47c5-9621-4d138c94445a")
 		)
 		(fp_text user "${REFERENCE}"
 			(at 0 -2 0)
 			(layer "F.Fab")
-			(uuid "6e454430-838f-4670-a481-d41ac9f8e78d")
+			(uuid "36a9e16f-6668-45f6-9e1b-ce6ccdf271d8")
 			(effects
 				(font
 					(size 1 1)
@@ -3684,49 +4497,28 @@
 				)
 			)
 		)
-		(pad "1" smd circle
+		(pad "1" thru_hole circle
 			(at 0 0)
 			(size 2 2)
-			(layers "F.Cu" "F.Mask")
+			(drill 0.7)
+			(layers "*.Cu" "*.Mask")
+			(remove_unused_layers no)
 			(net 13 "Net-(J2-Pin_6)")
 			(pinfunction "1")
 			(pintype "passive")
-			(uuid "f33110b0-62fa-4bbf-a07d-9ed0a78709f7")
-		)
-		(model "${KIPRJMOD}/3d/parts/SpringContact-KH-204065-DZ.step"
-			(hide yes)
-			(offset
-				(xyz 0 0 0)
-			)
-			(scale
-				(xyz 1 1 1)
-			)
-			(rotate
-				(xyz 0 0 0)
-			)
-		)
-		(model "${KIPRJMOD}/3d/parts/SpringContact-KH-102540-DZ.step"
-			(offset
-				(xyz 0 0 0)
-			)
-			(scale
-				(xyz 1 1 1)
-			)
-			(rotate
-				(xyz 0 0 0)
-			)
+			(uuid "c895a520-df2d-42fc-82e5-49cd683469fe")
 		)
 	)
-	(footprint "TestPoint:TestPoint_Pad_D2.0mm"
+	(footprint "Connector_PogoPin:PogoPin_D0.6mm_L8.4mm_W2.0mm"
 		(layer "F.Cu")
 		(uuid "ab0808b2-26df-41ed-98c5-3b4f0818740c")
 		(at 123.75 104.775)
-		(descr "SMD pad as test Point, diameter 2.0mm")
-		(tags "test point SMD pad")
+		(descr "PogoPin, hole diameter 0.7mm, base width 2.0mm, base height 5mm, full height 7.0mm, length 8.4mm")
+		(tags "pogo_pin")
 		(property "Reference" "TP104"
 			(at 0 1.975 0)
 			(layer "F.SilkS")
-			(uuid "b72db48b-afb9-41ce-9c1b-92d298855735")
+			(uuid "16b9760a-cc2b-47e9-ae96-a5ea2ad6b472")
 			(effects
 				(font
 					(size 0.7 0.7)
@@ -3737,7 +4529,7 @@
 		(property "Value" "TestPoint_Small"
 			(at 0 2.05 0)
 			(layer "F.Fab")
-			(uuid "f4450bc7-9e3d-4cb6-9f1a-6ce865fd1a69")
+			(uuid "dc4c3ffe-cb7e-44e5-a69b-3cdb5c8b295a")
 			(effects
 				(font
 					(size 1 1)
@@ -3745,12 +4537,12 @@
 				)
 			)
 		)
-		(property "Footprint" "TestPoint:TestPoint_Pad_D2.0mm"
+		(property "Footprint" "Connector_PogoPin:PogoPin_D0.6mm_L8.4mm_W2.0mm"
 			(at 0 0 0)
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "b67c35fe-feb0-4150-a802-6bfb86219a82")
+			(uuid "b16d43fb-3574-45bb-a8ba-0cfd4ba36626")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3762,7 +4554,7 @@
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "393bdaf6-dda1-4453-a6b5-04c027a16033")
+			(uuid "7d3bea04-d948-4c24-9312-dba81b216b39")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3774,10 +4566,62 @@
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "aad16cc0-abf5-4b9c-ac56-3477801a0d10")
+			(uuid "4747e83b-0da1-4edf-b649-ed052d99dea4")
 			(effects
 				(font
 					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Manufacturer" "Xinyangze"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.SilkS")
+			(hide yes)
+			(uuid "51cdbef9-b0a6-4e13-88ad-68cc9580289c")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.1)
+				)
+			)
+		)
+		(property "MFR Part Number" "YZ188015084P-01"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.SilkS")
+			(hide yes)
+			(uuid "cfe28091-7269-4203-b5f8-e42824490052")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.1)
+				)
+			)
+		)
+		(property "JLCPCB Part Number" "C5157270"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.SilkS")
+			(hide yes)
+			(uuid "7b338ba4-6258-4461-860c-982fd0ead296")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.1)
+				)
+			)
+		)
+		(property "JLCPCB Part Number Alternatives" "C5157271"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.SilkS")
+			(hide yes)
+			(uuid "24f49dd1-6231-4f45-bf44-c565c748aac1")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.1)
 				)
 			)
 		)
@@ -3795,32 +4639,73 @@
 		)
 		(path "/c5cabc03-a06a-4dfe-a12e-8ede28b8bf94")
 		(sheetfile "lemonbeat_dongle_microjig.kicad_sch")
+		(attr through_hole)
 		(fp_circle
 			(center 0 0)
-			(end 0 1.2)
+			(end 1 0.75)
+			(stroke
+				(width 0.1)
+				(type default)
+			)
+			(fill none)
+			(layer "F.SilkS")
+			(uuid "a2fd29e1-af17-40d9-9a9e-5a2c044b57b7")
+		)
+		(fp_circle
+			(center 0 0)
+			(end 1 0.75)
+			(stroke
+				(width 0.05)
+				(type default)
+			)
+			(fill none)
+			(layer "F.CrtYd")
+			(uuid "0bde6adb-13e3-4294-8b78-284fea7130ec")
+		)
+		(fp_line
+			(start -0.9 -0.25)
+			(end 0.85 -0.25)
 			(stroke
 				(width 0.12)
 				(type solid)
 			)
-			(fill none)
-			(layer "F.SilkS")
-			(uuid "14ca70b9-9152-4b85-bc8a-81a534f90873")
+			(layer "F.Fab")
+			(uuid "bb3ce8a8-f212-4095-b01e-c6296210eb51")
 		)
-		(fp_circle
-			(center 0 0)
-			(end 1.5 0)
+		(fp_line
+			(start -0.9 0.25)
+			(end -0.9 -0.25)
 			(stroke
-				(width 0.05)
+				(width 0.12)
 				(type solid)
 			)
-			(fill none)
-			(layer "F.CrtYd")
-			(uuid "d509a0e0-0235-412d-8ca9-20c32ca11380")
+			(layer "F.Fab")
+			(uuid "82a7298c-7527-41fd-bb19-cb3ba703f5f4")
+		)
+		(fp_line
+			(start 0.85 -0.25)
+			(end 0.85 0.25)
+			(stroke
+				(width 0.12)
+				(type solid)
+			)
+			(layer "F.Fab")
+			(uuid "bf6d3caa-d444-4e3f-a824-e4c1a1896ffc")
+		)
+		(fp_line
+			(start 0.85 0.25)
+			(end -0.9 0.25)
+			(stroke
+				(width 0.12)
+				(type solid)
+			)
+			(layer "F.Fab")
+			(uuid "c76a01e8-140c-42a2-8ac9-72ec8477fa7f")
 		)
 		(fp_text user "${REFERENCE}"
 			(at 0 -2 0)
 			(layer "F.Fab")
-			(uuid "9348b37f-e7a1-41b6-8a16-04dbdc713f35")
+			(uuid "6fa4fc89-eabd-4255-9054-9684559f0905")
 			(effects
 				(font
 					(size 1 1)
@@ -3828,49 +4713,28 @@
 				)
 			)
 		)
-		(pad "1" smd circle
+		(pad "1" thru_hole circle
 			(at 0 0)
 			(size 2 2)
-			(layers "F.Cu" "F.Mask")
+			(drill 0.7)
+			(layers "*.Cu" "*.Mask")
+			(remove_unused_layers no)
 			(net 18 "Net-(J3-Pin_4)")
 			(pinfunction "1")
 			(pintype "passive")
-			(uuid "218502fa-3eed-4468-aca7-ec1b3b4a86f1")
-		)
-		(model "${KIPRJMOD}/3d/parts/SpringContact-KH-204065-DZ.step"
-			(hide yes)
-			(offset
-				(xyz 0 0 0)
-			)
-			(scale
-				(xyz 1 1 1)
-			)
-			(rotate
-				(xyz 0 0 0)
-			)
-		)
-		(model "${KIPRJMOD}/3d/parts/SpringContact-KH-102540-DZ.step"
-			(offset
-				(xyz 0 0 0)
-			)
-			(scale
-				(xyz 1 1 1)
-			)
-			(rotate
-				(xyz 0 0 0)
-			)
+			(uuid "fed0acb7-5a52-4294-a861-e6a9ad8944a8")
 		)
 	)
-	(footprint "TestPoint:TestPoint_Pad_D2.0mm"
+	(footprint "Connector_PogoPin:PogoPin_D0.6mm_L8.4mm_W2.0mm"
 		(layer "F.Cu")
 		(uuid "b2d99f65-c31a-4a46-ac0d-ac73609b72b9")
 		(at 135.3 112.9)
-		(descr "SMD pad as test Point, diameter 2.0mm")
-		(tags "test point SMD pad")
+		(descr "PogoPin, hole diameter 0.7mm, base width 2.0mm, base height 5mm, full height 7.0mm, length 8.4mm")
+		(tags "pogo_pin")
 		(property "Reference" "TP4"
 			(at 0 2.1 0)
 			(layer "F.SilkS")
-			(uuid "b07e479a-87cf-49be-9da1-922af373292a")
+			(uuid "c913845b-e8d4-4ea7-9e68-367eda045644")
 			(effects
 				(font
 					(size 0.7 0.7)
@@ -3881,7 +4745,7 @@
 		(property "Value" "TestPoint"
 			(at 0 2.05 0)
 			(layer "F.Fab")
-			(uuid "41b0d6bf-a1e9-4486-8fdc-204625b2f288")
+			(uuid "f1e38b78-b112-43d2-bfb7-b0a0d76bcbf5")
 			(effects
 				(font
 					(size 1 1)
@@ -3889,12 +4753,12 @@
 				)
 			)
 		)
-		(property "Footprint" "TestPoint:TestPoint_Pad_D2.0mm"
+		(property "Footprint" "Connector_PogoPin:PogoPin_D0.6mm_L8.4mm_W2.0mm"
 			(at 0 0 0)
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "9f396877-1fcf-4b30-adf9-587a996e714d")
+			(uuid "c1332abf-f3cc-4202-9602-84c5bab2f5b3")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3906,7 +4770,7 @@
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "7340781a-8a24-498c-9417-8a896e3ef12b")
+			(uuid "fe9c79a0-a46e-433e-acf0-a8146b097939")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3918,10 +4782,62 @@
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "10696fa7-fe2f-4a06-9057-04f19abb0a34")
+			(uuid "983dfd2f-e125-4703-82e4-b00af765fbd6")
 			(effects
 				(font
 					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Manufacturer" "Xinyangze"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.SilkS")
+			(hide yes)
+			(uuid "6aa618df-b2f1-4ea8-bbff-4d562f84d038")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.1)
+				)
+			)
+		)
+		(property "MFR Part Number" "YZ188015084P-01"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.SilkS")
+			(hide yes)
+			(uuid "097e802f-4c3f-42c0-8864-068f1676d67a")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.1)
+				)
+			)
+		)
+		(property "JLCPCB Part Number" "C5157270"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.SilkS")
+			(hide yes)
+			(uuid "81a4c211-8e36-4dc7-a45a-8232cfbe6527")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.1)
+				)
+			)
+		)
+		(property "JLCPCB Part Number Alternatives" "C5157271"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.SilkS")
+			(hide yes)
+			(uuid "2c1fc14f-3a53-4af3-84ff-d6fd9e537c3b")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.1)
 				)
 			)
 		)
@@ -3939,32 +4855,73 @@
 		)
 		(path "/9b7ee6a6-0ce9-4283-ae51-b95d8fd5a0a2")
 		(sheetfile "lemonbeat_dongle_microjig.kicad_sch")
+		(attr through_hole)
 		(fp_circle
 			(center 0 0)
-			(end 0 1.2)
+			(end 1 0.75)
+			(stroke
+				(width 0.1)
+				(type default)
+			)
+			(fill none)
+			(layer "F.SilkS")
+			(uuid "f39b8628-ac2d-4b35-879b-0a10c9ec0797")
+		)
+		(fp_circle
+			(center 0 0)
+			(end 1 0.75)
+			(stroke
+				(width 0.05)
+				(type default)
+			)
+			(fill none)
+			(layer "F.CrtYd")
+			(uuid "105312d6-04ed-430a-babc-dace4ce859f3")
+		)
+		(fp_line
+			(start -0.9 -0.25)
+			(end 0.85 -0.25)
 			(stroke
 				(width 0.12)
 				(type solid)
 			)
-			(fill none)
-			(layer "F.SilkS")
-			(uuid "656c9a10-6fdd-4b52-b279-869923d84037")
+			(layer "F.Fab")
+			(uuid "05d30ec3-11cc-4c72-951f-a2c5a6e08728")
 		)
-		(fp_circle
-			(center 0 0)
-			(end 1.5 0)
+		(fp_line
+			(start -0.9 0.25)
+			(end -0.9 -0.25)
 			(stroke
-				(width 0.05)
+				(width 0.12)
 				(type solid)
 			)
-			(fill none)
-			(layer "F.CrtYd")
-			(uuid "d9165d9e-e97a-414c-8238-2f0ccfe037b3")
+			(layer "F.Fab")
+			(uuid "d28f4125-229b-40e5-82d7-0b0578351bf3")
+		)
+		(fp_line
+			(start 0.85 -0.25)
+			(end 0.85 0.25)
+			(stroke
+				(width 0.12)
+				(type solid)
+			)
+			(layer "F.Fab")
+			(uuid "3db21f63-301e-472d-a4b5-f0dd3458f741")
+		)
+		(fp_line
+			(start 0.85 0.25)
+			(end -0.9 0.25)
+			(stroke
+				(width 0.12)
+				(type solid)
+			)
+			(layer "F.Fab")
+			(uuid "61ff654b-34ec-4cf2-a290-7a6f2a2d8d08")
 		)
 		(fp_text user "${REFERENCE}"
 			(at 0 -2 0)
 			(layer "F.Fab")
-			(uuid "a3a08f3d-f652-49aa-94d0-2e0b7153f1fe")
+			(uuid "c83f5672-5a82-4b28-af50-7c74bdc38ab3")
 			(effects
 				(font
 					(size 1 1)
@@ -3972,49 +4929,28 @@
 				)
 			)
 		)
-		(pad "1" smd circle
+		(pad "1" thru_hole circle
 			(at 0 0)
 			(size 2 2)
-			(layers "F.Cu" "F.Mask")
+			(drill 0.7)
+			(layers "*.Cu" "*.Mask")
+			(remove_unused_layers no)
 			(net 7 "/RESET")
 			(pinfunction "1")
 			(pintype "passive")
-			(uuid "923372c9-c449-4709-b342-7a42911eea20")
-		)
-		(model "${KIPRJMOD}/3d/parts/SpringContact-KH-204065-DZ.step"
-			(hide yes)
-			(offset
-				(xyz 0 0 0)
-			)
-			(scale
-				(xyz 1 1 1)
-			)
-			(rotate
-				(xyz 0 0 0)
-			)
-		)
-		(model "${KIPRJMOD}/3d/parts/SpringContact-KH-102540-DZ.step"
-			(offset
-				(xyz 0 0 0)
-			)
-			(scale
-				(xyz 1 1 1)
-			)
-			(rotate
-				(xyz 0 0 0)
-			)
+			(uuid "92e7b3c3-a5df-4fde-88ae-f42afcf1378c")
 		)
 	)
-	(footprint "TestPoint:TestPoint_Pad_D2.0mm"
+	(footprint "Connector_PogoPin:PogoPin_D0.6mm_L8.4mm_W2.0mm"
 		(layer "F.Cu")
 		(uuid "cd4a4df6-1f0e-4fe7-9ee3-6f392dfb9cd2")
 		(at 140.4 100.2)
-		(descr "SMD pad as test Point, diameter 2.0mm")
-		(tags "test point SMD pad")
+		(descr "PogoPin, hole diameter 0.7mm, base width 2.0mm, base height 5mm, full height 7.0mm, length 8.4mm")
+		(tags "pogo_pin")
 		(property "Reference" "TP106"
 			(at 1.1 1.8 0)
 			(layer "F.SilkS")
-			(uuid "a14c16f6-c331-40e1-9085-3db10d5f33f7")
+			(uuid "c7cf882e-8eec-4f20-86c3-37a50c3040be")
 			(effects
 				(font
 					(size 0.7 0.7)
@@ -4025,7 +4961,7 @@
 		(property "Value" "TestPoint_Small"
 			(at 0 2.05 0)
 			(layer "F.Fab")
-			(uuid "50abe9ef-9973-4ec3-85d0-dbeace39a51b")
+			(uuid "2250cb8c-c900-46ad-82a6-2148f8125794")
 			(effects
 				(font
 					(size 1 1)
@@ -4033,12 +4969,12 @@
 				)
 			)
 		)
-		(property "Footprint" "TestPoint:TestPoint_Pad_D2.0mm"
+		(property "Footprint" "Connector_PogoPin:PogoPin_D0.6mm_L8.4mm_W2.0mm"
 			(at 0 0 0)
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "46696a52-d6c9-40ff-853a-7d035d81931b")
+			(uuid "c733a78c-ec92-4f34-8f94-fb124a055774")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4050,7 +4986,7 @@
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "c686c07c-c9df-4f4f-9cc1-728605148469")
+			(uuid "6848f6c5-2100-456e-b35a-8e30867c1e8c")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4062,10 +4998,62 @@
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "7519500a-a03e-47b4-83bc-7f450c68f839")
+			(uuid "7db47c33-1505-40b3-9293-c09a209db842")
 			(effects
 				(font
 					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Manufacturer" "Xinyangze"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.SilkS")
+			(hide yes)
+			(uuid "6f0f1f3c-ca7f-4579-a347-df27cf4548b3")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.1)
+				)
+			)
+		)
+		(property "MFR Part Number" "YZ188015084P-01"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.SilkS")
+			(hide yes)
+			(uuid "f40bafbd-471c-492b-8f29-326e81a9a0cc")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.1)
+				)
+			)
+		)
+		(property "JLCPCB Part Number" "C5157270"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.SilkS")
+			(hide yes)
+			(uuid "9b00aa53-bf5d-48da-b103-5d56184477c7")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.1)
+				)
+			)
+		)
+		(property "JLCPCB Part Number Alternatives" "C5157271"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.SilkS")
+			(hide yes)
+			(uuid "db7382fb-560c-42d2-b43b-3141a6baedae")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.1)
 				)
 			)
 		)
@@ -4083,32 +5071,73 @@
 		)
 		(path "/e93b5065-f151-4e71-8530-985c429533a4")
 		(sheetfile "lemonbeat_dongle_microjig.kicad_sch")
+		(attr through_hole)
 		(fp_circle
 			(center 0 0)
-			(end 0 1.2)
+			(end 1 0.75)
+			(stroke
+				(width 0.1)
+				(type default)
+			)
+			(fill none)
+			(layer "F.SilkS")
+			(uuid "c3d01886-00df-4449-8962-d9d8a9009550")
+		)
+		(fp_circle
+			(center 0 0)
+			(end 1 0.75)
+			(stroke
+				(width 0.05)
+				(type default)
+			)
+			(fill none)
+			(layer "F.CrtYd")
+			(uuid "74f8b497-6856-4ffc-82a1-8cc8b532252e")
+		)
+		(fp_line
+			(start -0.9 -0.25)
+			(end 0.85 -0.25)
 			(stroke
 				(width 0.12)
 				(type solid)
 			)
-			(fill none)
-			(layer "F.SilkS")
-			(uuid "92b219da-27e2-4b46-80e9-ed47375452af")
+			(layer "F.Fab")
+			(uuid "0d5a7f0e-e075-414c-8057-739ac14e1fac")
 		)
-		(fp_circle
-			(center 0 0)
-			(end 1.5 0)
+		(fp_line
+			(start -0.9 0.25)
+			(end -0.9 -0.25)
 			(stroke
-				(width 0.05)
+				(width 0.12)
 				(type solid)
 			)
-			(fill none)
-			(layer "F.CrtYd")
-			(uuid "35dd5633-a08f-4780-bc12-bd4b813274b8")
+			(layer "F.Fab")
+			(uuid "b40d32db-5bf4-401a-91e4-225e1a4fc2c9")
+		)
+		(fp_line
+			(start 0.85 -0.25)
+			(end 0.85 0.25)
+			(stroke
+				(width 0.12)
+				(type solid)
+			)
+			(layer "F.Fab")
+			(uuid "77078d2a-ca2b-4a6c-a021-a6177def497f")
+		)
+		(fp_line
+			(start 0.85 0.25)
+			(end -0.9 0.25)
+			(stroke
+				(width 0.12)
+				(type solid)
+			)
+			(layer "F.Fab")
+			(uuid "c3f0c2bd-1581-4c40-8c04-81d646017868")
 		)
 		(fp_text user "${REFERENCE}"
 			(at 0 -2 0)
 			(layer "F.Fab")
-			(uuid "9ac87ceb-6902-480b-9f3f-c672783f874c")
+			(uuid "1a6d1467-81b7-4fa3-b11a-b3e348fffedf")
 			(effects
 				(font
 					(size 1 1)
@@ -4116,49 +5145,28 @@
 				)
 			)
 		)
-		(pad "1" smd circle
+		(pad "1" thru_hole circle
 			(at 0 0)
 			(size 2 2)
-			(layers "F.Cu" "F.Mask")
+			(drill 0.7)
+			(layers "*.Cu" "*.Mask")
+			(remove_unused_layers no)
 			(net 20 "Net-(J3-Pin_6)")
 			(pinfunction "1")
 			(pintype "passive")
-			(uuid "8bcb22d6-427c-421b-a48f-9dde55deb9e2")
-		)
-		(model "${KIPRJMOD}/3d/parts/SpringContact-KH-204065-DZ.step"
-			(hide yes)
-			(offset
-				(xyz 0 0 0)
-			)
-			(scale
-				(xyz 1 1 1)
-			)
-			(rotate
-				(xyz 0 0 0)
-			)
-		)
-		(model "${KIPRJMOD}/3d/parts/SpringContact-KH-102540-DZ.step"
-			(offset
-				(xyz 0 0 0)
-			)
-			(scale
-				(xyz 1 1 1)
-			)
-			(rotate
-				(xyz 0 0 0)
-			)
+			(uuid "75fcca24-a5aa-4c36-a530-427492a58ed6")
 		)
 	)
-	(footprint "TestPoint:TestPoint_Pad_D2.0mm"
+	(footprint "Connector_PogoPin:PogoPin_D0.6mm_L8.4mm_W2.0mm"
 		(layer "F.Cu")
 		(uuid "ceb55575-02bd-4073-b262-c6b111b155d8")
 		(at 143.68 111.8)
-		(descr "SMD pad as test Point, diameter 2.0mm")
-		(tags "test point SMD pad")
+		(descr "PogoPin, hole diameter 0.7mm, base width 2.0mm, base height 5mm, full height 7.0mm, length 8.4mm")
+		(tags "pogo_pin")
 		(property "Reference" "TP101"
 			(at 0.07 -1.998 0)
 			(layer "F.SilkS")
-			(uuid "ea0021d7-1b75-481d-bccf-9cce67109fd8")
+			(uuid "8a12e46a-3387-4aa4-bc1b-f80b21a7f844")
 			(effects
 				(font
 					(size 0.7 0.7)
@@ -4169,7 +5177,7 @@
 		(property "Value" "TestPoint_Small"
 			(at 0 2.05 0)
 			(layer "F.Fab")
-			(uuid "c2043d44-cef4-40aa-8506-3fd8a5f41ecc")
+			(uuid "ac27d464-e30a-4fc3-8426-64d4345bc7a0")
 			(effects
 				(font
 					(size 1 1)
@@ -4177,12 +5185,12 @@
 				)
 			)
 		)
-		(property "Footprint" "TestPoint:TestPoint_Pad_D2.0mm"
+		(property "Footprint" "Connector_PogoPin:PogoPin_D0.6mm_L8.4mm_W2.0mm"
 			(at 0 0 0)
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "776b72f8-fd65-4b0c-ad35-64ffcaa73664")
+			(uuid "5963e44e-7962-46e7-94dd-a0d3c5e2731f")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4194,7 +5202,7 @@
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "0d304a62-d86f-472a-9956-7f7633018629")
+			(uuid "32322508-2b12-4e8a-bc4c-9bdd92f1d6af")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4206,10 +5214,62 @@
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "a56a9d9b-4f56-45ac-93ee-b10182b7aeaa")
+			(uuid "41962aea-1396-4bb7-ba37-305ba47fc948")
 			(effects
 				(font
 					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Manufacturer" "Xinyangze"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.SilkS")
+			(hide yes)
+			(uuid "86a8c17a-1eca-4260-952e-ff81ed510745")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.1)
+				)
+			)
+		)
+		(property "MFR Part Number" "YZ188015084P-01"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.SilkS")
+			(hide yes)
+			(uuid "331e6601-9daf-4772-bee8-6d1d3388909e")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.1)
+				)
+			)
+		)
+		(property "JLCPCB Part Number" "C5157270"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.SilkS")
+			(hide yes)
+			(uuid "515afda8-fe4d-4427-af9d-f11238f06478")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.1)
+				)
+			)
+		)
+		(property "JLCPCB Part Number Alternatives" "C5157271"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.SilkS")
+			(hide yes)
+			(uuid "b4012b96-29c0-423f-8e9d-cd7033377037")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.1)
 				)
 			)
 		)
@@ -4227,32 +5287,73 @@
 		)
 		(path "/d5042616-6663-4f31-b57b-8716af7291c2")
 		(sheetfile "lemonbeat_dongle_microjig.kicad_sch")
+		(attr through_hole)
 		(fp_circle
 			(center 0 0)
-			(end 0 1.2)
+			(end 1 0.75)
+			(stroke
+				(width 0.1)
+				(type default)
+			)
+			(fill none)
+			(layer "F.SilkS")
+			(uuid "ffa6a953-8c01-4f95-8e4a-878dae176710")
+		)
+		(fp_circle
+			(center 0 0)
+			(end 1 0.75)
+			(stroke
+				(width 0.05)
+				(type default)
+			)
+			(fill none)
+			(layer "F.CrtYd")
+			(uuid "db9be6ba-f6f7-4fbc-bc74-4757cfbf9df7")
+		)
+		(fp_line
+			(start -0.9 -0.25)
+			(end 0.85 -0.25)
 			(stroke
 				(width 0.12)
 				(type solid)
 			)
-			(fill none)
-			(layer "F.SilkS")
-			(uuid "090523f2-fde1-41a0-b6db-c42dcc5dab3b")
+			(layer "F.Fab")
+			(uuid "437997e4-398b-419f-a033-67c296d43f35")
 		)
-		(fp_circle
-			(center 0 0)
-			(end 1.5 0)
+		(fp_line
+			(start -0.9 0.25)
+			(end -0.9 -0.25)
 			(stroke
-				(width 0.05)
+				(width 0.12)
 				(type solid)
 			)
-			(fill none)
-			(layer "F.CrtYd")
-			(uuid "3bb2c8cb-02c5-4eaf-ae3e-a7a04c97c61a")
+			(layer "F.Fab")
+			(uuid "25dc7d47-37b0-4fb9-96c2-25c459fb2f66")
+		)
+		(fp_line
+			(start 0.85 -0.25)
+			(end 0.85 0.25)
+			(stroke
+				(width 0.12)
+				(type solid)
+			)
+			(layer "F.Fab")
+			(uuid "f1aa4a5a-34ca-4957-8cb9-d7659b47b1f4")
+		)
+		(fp_line
+			(start 0.85 0.25)
+			(end -0.9 0.25)
+			(stroke
+				(width 0.12)
+				(type solid)
+			)
+			(layer "F.Fab")
+			(uuid "61ab777f-8f44-497b-bd7a-14945de2adce")
 		)
 		(fp_text user "${REFERENCE}"
 			(at 0 -2 0)
 			(layer "F.Fab")
-			(uuid "1acac22d-9a6a-4850-a9ea-f94d6443c743")
+			(uuid "8b368098-549d-496e-8911-a8e7b3c388db")
 			(effects
 				(font
 					(size 1 1)
@@ -4260,49 +5361,28 @@
 				)
 			)
 		)
-		(pad "1" smd circle
+		(pad "1" thru_hole circle
 			(at 0 0)
 			(size 2 2)
-			(layers "F.Cu" "F.Mask")
+			(drill 0.7)
+			(layers "*.Cu" "*.Mask")
+			(remove_unused_layers no)
 			(net 14 "Net-(J3-Pin_1)")
 			(pinfunction "1")
 			(pintype "passive")
-			(uuid "a9e5595b-0cd5-4e10-b65f-9646ae71b700")
-		)
-		(model "${KIPRJMOD}/3d/parts/SpringContact-KH-204065-DZ.step"
-			(hide yes)
-			(offset
-				(xyz 0 0 0)
-			)
-			(scale
-				(xyz 1 1 1)
-			)
-			(rotate
-				(xyz 0 0 0)
-			)
-		)
-		(model "${KIPRJMOD}/3d/parts/SpringContact-KH-102540-DZ.step"
-			(offset
-				(xyz 0 0 0)
-			)
-			(scale
-				(xyz 1 1 1)
-			)
-			(rotate
-				(xyz 0 0 0)
-			)
+			(uuid "9cb0178b-f0fa-4bd4-a843-4fa24178c151")
 		)
 	)
-	(footprint "TestPoint:TestPoint_Pad_D2.0mm"
+	(footprint "Connector_PogoPin:PogoPin_D0.6mm_L8.4mm_W2.0mm"
 		(layer "F.Cu")
 		(uuid "e89ab768-516b-4874-8cc9-69a124d2e861")
 		(at 139.2 112.9)
-		(descr "SMD pad as test Point, diameter 2.0mm")
-		(tags "test point SMD pad")
+		(descr "PogoPin, hole diameter 0.7mm, base width 2.0mm, base height 5mm, full height 7.0mm, length 8.4mm")
+		(tags "pogo_pin")
 		(property "Reference" "TP3"
 			(at 0 2.1 0)
 			(layer "F.SilkS")
-			(uuid "bc6b7dea-d678-42d0-99e4-0f20c4a70e08")
+			(uuid "bebccfae-5b91-495e-a806-bfbd0c841f75")
 			(effects
 				(font
 					(size 0.7 0.7)
@@ -4313,7 +5393,7 @@
 		(property "Value" "TestPoint"
 			(at 0 2.05 0)
 			(layer "F.Fab")
-			(uuid "fb828a26-61a6-48ac-b1ef-73f502acc6ea")
+			(uuid "ddbd98e3-9484-430f-8a6e-17039ca65eb5")
 			(effects
 				(font
 					(size 1 1)
@@ -4321,12 +5401,12 @@
 				)
 			)
 		)
-		(property "Footprint" "TestPoint:TestPoint_Pad_D2.0mm"
+		(property "Footprint" "Connector_PogoPin:PogoPin_D0.6mm_L8.4mm_W2.0mm"
 			(at 0 0 0)
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "410a6f27-d29c-4db2-9d1a-9cb936156bae")
+			(uuid "b6ae166c-7ace-4d55-9e98-bae594d54f8c")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4338,7 +5418,7 @@
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "76184293-e58e-4cbc-98f1-a44c123c9306")
+			(uuid "f0762385-e7cf-4dd4-9c6b-6f4e06b21d14")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4350,10 +5430,62 @@
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "5fdae402-16b8-4dca-82f0-a9f872abddc3")
+			(uuid "2202cdc0-bb46-4716-91a7-583f63bcc1ba")
 			(effects
 				(font
 					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Manufacturer" "Xinyangze"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.SilkS")
+			(hide yes)
+			(uuid "4f426348-8071-4b2f-9b55-05eb401cfd3b")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.1)
+				)
+			)
+		)
+		(property "MFR Part Number" "YZ188015084P-01"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.SilkS")
+			(hide yes)
+			(uuid "1346c9cf-3a22-410c-bcb9-bd5f1ffe8bb6")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.1)
+				)
+			)
+		)
+		(property "JLCPCB Part Number" "C5157270"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.SilkS")
+			(hide yes)
+			(uuid "2f81dedd-b470-43dc-82ff-a88a6fa34464")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.1)
+				)
+			)
+		)
+		(property "JLCPCB Part Number Alternatives" "C5157271"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.SilkS")
+			(hide yes)
+			(uuid "87c261db-14f5-4836-be87-5b77b87d158e")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.1)
 				)
 			)
 		)
@@ -4371,32 +5503,73 @@
 		)
 		(path "/da94dcc4-d845-4d37-9e9c-8b6358965abf")
 		(sheetfile "lemonbeat_dongle_microjig.kicad_sch")
+		(attr through_hole)
 		(fp_circle
 			(center 0 0)
-			(end 0 1.2)
+			(end 1 0.75)
+			(stroke
+				(width 0.1)
+				(type default)
+			)
+			(fill none)
+			(layer "F.SilkS")
+			(uuid "f14a2406-d430-4425-a2fc-f76e190ca70e")
+		)
+		(fp_circle
+			(center 0 0)
+			(end 1 0.75)
+			(stroke
+				(width 0.05)
+				(type default)
+			)
+			(fill none)
+			(layer "F.CrtYd")
+			(uuid "cf93b70b-84c6-4963-b339-844473d13e43")
+		)
+		(fp_line
+			(start -0.9 -0.25)
+			(end 0.85 -0.25)
 			(stroke
 				(width 0.12)
 				(type solid)
 			)
-			(fill none)
-			(layer "F.SilkS")
-			(uuid "6a59719d-37ba-47fc-9d29-9862b99e397b")
+			(layer "F.Fab")
+			(uuid "4171bc6f-9dc7-449d-9d2c-273f502883fe")
 		)
-		(fp_circle
-			(center 0 0)
-			(end 1.5 0)
+		(fp_line
+			(start -0.9 0.25)
+			(end -0.9 -0.25)
 			(stroke
-				(width 0.05)
+				(width 0.12)
 				(type solid)
 			)
-			(fill none)
-			(layer "F.CrtYd")
-			(uuid "e51cbe60-85db-4bcf-977f-dc32b2867617")
+			(layer "F.Fab")
+			(uuid "00ba5582-a66a-43dd-b64f-db491430d1bb")
+		)
+		(fp_line
+			(start 0.85 -0.25)
+			(end 0.85 0.25)
+			(stroke
+				(width 0.12)
+				(type solid)
+			)
+			(layer "F.Fab")
+			(uuid "4b4142e7-36c9-46c2-9dc3-fe7aae3a7b0a")
+		)
+		(fp_line
+			(start 0.85 0.25)
+			(end -0.9 0.25)
+			(stroke
+				(width 0.12)
+				(type solid)
+			)
+			(layer "F.Fab")
+			(uuid "319c0741-d210-40ae-8dbb-782d6abd4d10")
 		)
 		(fp_text user "${REFERENCE}"
 			(at 0 -2 0)
 			(layer "F.Fab")
-			(uuid "2df4c068-0f11-479d-b771-928a781f0b9f")
+			(uuid "feaed5f6-93d4-4852-81db-0f725ae15b8e")
 			(effects
 				(font
 					(size 1 1)
@@ -4404,49 +5577,28 @@
 				)
 			)
 		)
-		(pad "1" smd circle
+		(pad "1" thru_hole circle
 			(at 0 0)
 			(size 2 2)
-			(layers "F.Cu" "F.Mask")
+			(drill 0.7)
+			(layers "*.Cu" "*.Mask")
+			(remove_unused_layers no)
 			(net 1 "GND")
 			(pinfunction "1")
 			(pintype "passive")
-			(uuid "4c0fb5b2-54aa-4c72-9709-1a99c1babc40")
-		)
-		(model "${KIPRJMOD}/3d/parts/SpringContact-KH-204065-DZ.step"
-			(hide yes)
-			(offset
-				(xyz 0 0 0)
-			)
-			(scale
-				(xyz 1 1 1)
-			)
-			(rotate
-				(xyz 0 0 0)
-			)
-		)
-		(model "${KIPRJMOD}/3d/parts/SpringContact-KH-102540-DZ.step"
-			(offset
-				(xyz 0 0 0)
-			)
-			(scale
-				(xyz 1 1 1)
-			)
-			(rotate
-				(xyz 0 0 0)
-			)
+			(uuid "4dd3ef0d-bda9-41a1-897a-f0859cc6c5d4")
 		)
 	)
-	(footprint "TestPoint:TestPoint_Pad_D2.0mm"
+	(footprint "Connector_PogoPin:PogoPin_D0.6mm_L8.4mm_W2.0mm"
 		(layer "F.Cu")
 		(uuid "f5390fb9-9804-444e-974e-304972e35e78")
 		(at 137.75 101.75)
-		(descr "SMD pad as test Point, diameter 2.0mm")
-		(tags "test point SMD pad")
+		(descr "PogoPin, hole diameter 0.7mm, base width 2.0mm, base height 5mm, full height 7.0mm, length 8.4mm")
+		(tags "pogo_pin")
 		(property "Reference" "TP103"
 			(at 0 2 0)
 			(layer "F.SilkS")
-			(uuid "e7ff51fb-be3a-47f8-9def-8e099b8ad0bd")
+			(uuid "677096e7-de27-443c-827b-cf87aaa4948b")
 			(effects
 				(font
 					(size 0.7 0.7)
@@ -4457,7 +5609,7 @@
 		(property "Value" "TestPoint_Small"
 			(at 0 2.05 0)
 			(layer "F.Fab")
-			(uuid "9c6d1a13-ba42-4773-af16-4b7143d3c9ca")
+			(uuid "a0751220-aaca-43c3-93b4-9c94bf3a57fc")
 			(effects
 				(font
 					(size 1 1)
@@ -4465,12 +5617,12 @@
 				)
 			)
 		)
-		(property "Footprint" "TestPoint:TestPoint_Pad_D2.0mm"
+		(property "Footprint" "Connector_PogoPin:PogoPin_D0.6mm_L8.4mm_W2.0mm"
 			(at 0 0 0)
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "86913ba9-39b8-49c7-8836-2d959bf3975b")
+			(uuid "940b0404-a506-4116-8841-532d5ca66d8c")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4482,7 +5634,7 @@
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "6db7f1b5-6e34-452b-8b5f-0c9f61b125ec")
+			(uuid "547bfee1-f2e1-42b6-b5bf-1ba547f174d9")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4494,10 +5646,62 @@
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "eebcc5da-1000-4da9-8353-fbd26a6e879e")
+			(uuid "21522176-8763-4993-89ec-a162e6c2226a")
 			(effects
 				(font
 					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Manufacturer" "Xinyangze"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.SilkS")
+			(hide yes)
+			(uuid "f46e9117-90e5-43f7-9554-d5537ba8c982")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.1)
+				)
+			)
+		)
+		(property "MFR Part Number" "YZ188015084P-01"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.SilkS")
+			(hide yes)
+			(uuid "9928c23d-69d8-4fc1-9f71-aa305c13a620")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.1)
+				)
+			)
+		)
+		(property "JLCPCB Part Number" "C5157270"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.SilkS")
+			(hide yes)
+			(uuid "47d4235a-4c0c-4b15-9df0-40aaf54025cb")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.1)
+				)
+			)
+		)
+		(property "JLCPCB Part Number Alternatives" "C5157271"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.SilkS")
+			(hide yes)
+			(uuid "5a70f6aa-b751-4250-b82f-6c4a455b86c8")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.1)
 				)
 			)
 		)
@@ -4515,32 +5719,73 @@
 		)
 		(path "/63f66cd6-0409-4099-b8f3-70b266e33f6f")
 		(sheetfile "lemonbeat_dongle_microjig.kicad_sch")
+		(attr through_hole)
 		(fp_circle
 			(center 0 0)
-			(end 0 1.2)
+			(end 1 0.75)
+			(stroke
+				(width 0.1)
+				(type default)
+			)
+			(fill none)
+			(layer "F.SilkS")
+			(uuid "f0185774-919f-4f78-9a78-a29e1b178b34")
+		)
+		(fp_circle
+			(center 0 0)
+			(end 1 0.75)
+			(stroke
+				(width 0.05)
+				(type default)
+			)
+			(fill none)
+			(layer "F.CrtYd")
+			(uuid "984b7bb3-464c-4752-a9af-bda616387b01")
+		)
+		(fp_line
+			(start -0.9 -0.25)
+			(end 0.85 -0.25)
 			(stroke
 				(width 0.12)
 				(type solid)
 			)
-			(fill none)
-			(layer "F.SilkS")
-			(uuid "8183edd3-44cd-46d1-a630-2671100bc70e")
+			(layer "F.Fab")
+			(uuid "f20a6cc0-21cd-4bcc-ad9c-fe0c57bc7d2a")
 		)
-		(fp_circle
-			(center 0 0)
-			(end 1.5 0)
+		(fp_line
+			(start -0.9 0.25)
+			(end -0.9 -0.25)
 			(stroke
-				(width 0.05)
+				(width 0.12)
 				(type solid)
 			)
-			(fill none)
-			(layer "F.CrtYd")
-			(uuid "ff3ec0b6-76fb-499b-92f5-279a4616ac04")
+			(layer "F.Fab")
+			(uuid "dbe85882-4996-4158-a7e6-11da40b021cc")
+		)
+		(fp_line
+			(start 0.85 -0.25)
+			(end 0.85 0.25)
+			(stroke
+				(width 0.12)
+				(type solid)
+			)
+			(layer "F.Fab")
+			(uuid "8368cf36-5b21-4323-b2b9-95dc862de4a0")
+		)
+		(fp_line
+			(start 0.85 0.25)
+			(end -0.9 0.25)
+			(stroke
+				(width 0.12)
+				(type solid)
+			)
+			(layer "F.Fab")
+			(uuid "cfdf5d57-48be-48a6-9dca-2710a1fb2c5f")
 		)
 		(fp_text user "${REFERENCE}"
 			(at 0 -2 0)
 			(layer "F.Fab")
-			(uuid "1250070a-bdf2-4a9c-bad3-fcf80b4e4d43")
+			(uuid "fb487c6c-c75a-4d64-ba89-c25db6a2dc21")
 			(effects
 				(font
 					(size 1 1)
@@ -4548,37 +5793,16 @@
 				)
 			)
 		)
-		(pad "1" smd circle
+		(pad "1" thru_hole circle
 			(at 0 0)
 			(size 2 2)
-			(layers "F.Cu" "F.Mask")
+			(drill 0.7)
+			(layers "*.Cu" "*.Mask")
+			(remove_unused_layers no)
 			(net 17 "Net-(J3-Pin_3)")
 			(pinfunction "1")
 			(pintype "passive")
-			(uuid "b806d1ac-502f-466b-a1a2-4babb861c888")
-		)
-		(model "${KIPRJMOD}/3d/parts/SpringContact-KH-204065-DZ.step"
-			(hide yes)
-			(offset
-				(xyz 0 0 0)
-			)
-			(scale
-				(xyz 1 1 1)
-			)
-			(rotate
-				(xyz 0 0 0)
-			)
-		)
-		(model "${KIPRJMOD}/3d/parts/SpringContact-KH-102540-DZ.step"
-			(offset
-				(xyz 0 0 0)
-			)
-			(scale
-				(xyz 1 1 1)
-			)
-			(rotate
-				(xyz 0 0 0)
-			)
+			(uuid "df6ab485-a433-40a2-9f5c-6e8b53a351e8")
 		)
 	)
 	(gr_circle
@@ -4971,20 +6195,28 @@
 		(uuid "0317dbf2-60f7-46f0-a8b7-2328a96aa8c3")
 	)
 	(segment
-		(start 149.8 133.4)
-		(end 152.7 133.4)
-		(width 0.5)
-		(layer "F.Cu")
-		(net 1)
-		(uuid "0ca8e64f-a9eb-4289-8f97-e19abc282a7c")
-	)
-	(segment
 		(start 139.2 133.4)
 		(end 145.1 133.4)
 		(width 0.5)
 		(layer "F.Cu")
 		(net 1)
 		(uuid "16ed0ebe-f5d5-47bd-807b-c25a0799515c")
+	)
+	(segment
+		(start 120.15 133.4)
+		(end 133.9 133.4)
+		(width 0.5)
+		(layer "F.Cu")
+		(net 1)
+		(uuid "1ac49a7e-d300-4433-b1eb-788a5de86362")
+	)
+	(segment
+		(start 151.6 133.4)
+		(end 154.825 130.175)
+		(width 0.5)
+		(layer "F.Cu")
+		(net 1)
+		(uuid "25e353ee-fdd4-4931-bca4-60577ec0a48a")
 	)
 	(segment
 		(start 115.496 127.54)
@@ -5011,12 +6243,20 @@
 		(uuid "322d014c-181b-4993-946c-f7a07181cf05")
 	)
 	(segment
-		(start 118.1 133.4)
-		(end 133.9 133.4)
+		(start 116.55 129.8)
+		(end 120.15 133.4)
 		(width 0.5)
 		(layer "F.Cu")
 		(net 1)
-		(uuid "3cf7cd18-8113-4a7d-8688-07e88c5916a2")
+		(uuid "457abfe5-8b91-4596-807c-4b5727ce569e")
+	)
+	(segment
+		(start 116.55 127.54)
+		(end 116.55 129.8)
+		(width 0.5)
+		(layer "F.Cu")
+		(net 1)
+		(uuid "5a7edfbc-03dd-40a4-9e59-1b3320665b71")
 	)
 	(segment
 		(start 116.55 127.54)
@@ -5027,20 +6267,20 @@
 		(uuid "5ee6a64c-3359-4f1d-917e-8762c438e880")
 	)
 	(segment
+		(start 154.825 130.175)
+		(end 154.825 129.11)
+		(width 0.5)
+		(layer "F.Cu")
+		(net 1)
+		(uuid "61522443-75b8-4921-8aef-a333ba78ec8f")
+	)
+	(segment
 		(start 133.975 133.325)
 		(end 133.9 133.4)
 		(width 0.5)
 		(layer "F.Cu")
 		(net 1)
 		(uuid "7319ff59-d41a-4bdd-8d63-416e9d63df56")
-	)
-	(segment
-		(start 152.7 133.4)
-		(end 154.825 131.275)
-		(width 0.5)
-		(layer "F.Cu")
-		(net 1)
-		(uuid "848f5b34-fc44-4104-90c1-957feb7c82d3")
 	)
 	(segment
 		(start 133.9 133.4)
@@ -5083,28 +6323,12 @@
 		(uuid "9553890f-8ad2-4606-9333-bc199524e2d5")
 	)
 	(segment
-		(start 116.55 127.54)
-		(end 116.55 131.85)
-		(width 0.5)
-		(layer "F.Cu")
-		(net 1)
-		(uuid "9840823c-29d5-4417-b17b-f2ece1a28c53")
-	)
-	(segment
 		(start 145.1 116.6)
 		(end 145.1 133.4)
 		(width 0.5)
 		(layer "F.Cu")
 		(net 1)
 		(uuid "9bbc9777-037a-4eb8-85e5-bad3b9d1e88c")
-	)
-	(segment
-		(start 116.55 131.85)
-		(end 118.1 133.4)
-		(width 0.5)
-		(layer "F.Cu")
-		(net 1)
-		(uuid "9bd7fe07-464a-46c0-8ed9-2e276e947ca3")
 	)
 	(segment
 		(start 114.4 124.9)
@@ -5129,6 +6353,14 @@
 		(layer "F.Cu")
 		(net 1)
 		(uuid "b9ee4815-43a5-4fba-95d2-89b9cb27005a")
+	)
+	(segment
+		(start 149.8 133.4)
+		(end 151.6 133.4)
+		(width 0.5)
+		(layer "F.Cu")
+		(net 1)
+		(uuid "bf2a7b44-7bac-4270-8642-979aac0391d1")
 	)
 	(segment
 		(start 139.025 129.11)
@@ -5162,14 +6394,6 @@
 		(net 1)
 		(uuid "f5ea9878-1ce1-4750-842f-4362f8f4da8e")
 	)
-	(segment
-		(start 154.825 131.275)
-		(end 154.825 129.11)
-		(width 0.5)
-		(layer "F.Cu")
-		(net 1)
-		(uuid "f7365af9-bebd-4dca-90d9-c7d25f4b8b33")
-	)
 	(via
 		(at 139.2 116)
 		(size 0.8)
@@ -5195,31 +6419,47 @@
 		(uuid "306a0c58-9d39-4b9b-b45a-1737114a6788")
 	)
 	(segment
-		(start 120.45 105.95)
+		(start 121.75 116.75)
+		(end 120.45 118.05)
+		(width 0.5)
+		(layer "F.Cu")
+		(net 2)
+		(uuid "07f98b8b-b8a3-4d2a-8be0-924ddb334cc3")
+	)
+	(segment
+		(start 133.25 113.75)
+		(end 133.25 109.75)
+		(width 0.5)
+		(layer "F.Cu")
+		(net 2)
+		(uuid "0b9bda38-d117-43e8-98b8-5c351247619d")
+	)
+	(segment
+		(start 133.25 109.75)
+		(end 135.2 107.8)
+		(width 0.5)
+		(layer "F.Cu")
+		(net 2)
+		(uuid "cf7e2c96-c91b-43be-b883-28444b21320b")
+	)
+	(segment
+		(start 132.5 114.5)
+		(end 133.25 113.75)
+		(width 0.5)
+		(layer "F.Cu")
+		(net 2)
+		(uuid "d319ff2e-617a-4206-850d-7d4e8644468b")
+	)
+	(segment
+		(start 120.45 118.05)
 		(end 120.45 122.46)
 		(width 0.5)
 		(layer "F.Cu")
 		(net 2)
-		(uuid "28491903-e029-44a5-bdd3-9a8333d2de66")
-	)
-	(segment
-		(start 135.2 107.8)
-		(end 135.2 105.7)
-		(width 0.5)
-		(layer "F.Cu")
-		(net 2)
-		(uuid "434922e3-ed1f-4b5d-a633-eb86a55ce156")
-	)
-	(segment
-		(start 120.3 105.8)
-		(end 120.45 105.95)
-		(width 0.5)
-		(layer "F.Cu")
-		(net 2)
-		(uuid "57f8b405-76dd-48f1-b329-9e4026a08e5c")
+		(uuid "d7c8ebf0-547a-4d9c-8eaa-9f83a0ab0393")
 	)
 	(via
-		(at 120.3 105.8)
+		(at 121.75 116.75)
 		(size 0.8)
 		(drill 0.4)
 		(layers "F.Cu" "B.Cu")
@@ -5227,7 +6467,7 @@
 		(uuid "b562fdef-53cf-4658-b4b6-4dcc535444cf")
 	)
 	(via
-		(at 135.2 105.7)
+		(at 132.5 114.5)
 		(size 0.8)
 		(drill 0.4)
 		(layers "F.Cu" "B.Cu")
@@ -5235,28 +6475,36 @@
 		(uuid "e5c7f9d4-f3bc-4882-b97d-29823dc8cd39")
 	)
 	(segment
-		(start 120.4 105.7)
-		(end 120.3 105.8)
+		(start 121.75 116.75)
+		(end 123.5 115)
 		(width 0.5)
 		(layer "B.Cu")
 		(net 2)
-		(uuid "4f31a27c-a569-4751-9f24-831fd3bc5231")
+		(uuid "7142326a-437e-47bf-9aea-ac6ffcf6aa93")
 	)
 	(segment
-		(start 135.2 105.7)
-		(end 120.4 105.7)
+		(start 123.5 115)
+		(end 132 115)
 		(width 0.5)
 		(layer "B.Cu")
 		(net 2)
-		(uuid "7d5d44f6-bf96-469b-a530-601394182261")
+		(uuid "b603eee1-3c43-4da2-a1da-944079e5c6c8")
+	)
+	(segment
+		(start 132 115)
+		(end 132.5 114.5)
+		(width 0.5)
+		(layer "B.Cu")
+		(net 2)
+		(uuid "e10b0468-7921-4d61-b789-9c00836600bb")
 	)
 	(segment
 		(start 131.1 111.9)
-		(end 131.1 123.8)
+		(end 131.1 119.75)
 		(width 0.5)
 		(layer "F.Cu")
 		(net 3)
-		(uuid "1ea9da50-8b9a-4967-bbdf-33a83afe11dd")
+		(uuid "629f7c76-d471-4f0e-8de1-88e4828b0667")
 	)
 	(segment
 		(start 122.7 123.8)
@@ -5283,7 +6531,7 @@
 		(uuid "58a4b9db-e49d-4674-b926-4981ba217f54")
 	)
 	(via
-		(at 131.1 123.8)
+		(at 131.1 119.75)
 		(size 0.8)
 		(drill 0.4)
 		(layers "F.Cu" "B.Cu")
@@ -5291,12 +6539,28 @@
 		(uuid "c8ad4f1d-c1f3-4029-b2d6-9e6bdea83f8c")
 	)
 	(segment
-		(start 131.1 123.8)
+		(start 131.1 120.098844)
+		(end 127.398844 123.8)
+		(width 0.5)
+		(layer "B.Cu")
+		(net 3)
+		(uuid "1b548637-7a32-4be2-97fe-7ba683dc14ea")
+	)
+	(segment
+		(start 127.398844 123.8)
 		(end 122.7 123.8)
 		(width 0.5)
 		(layer "B.Cu")
 		(net 3)
-		(uuid "2736aa97-2cbf-4981-a1c4-8fbb43ae890b")
+		(uuid "46c3cad3-4a98-4514-94aa-614df188c326")
+	)
+	(segment
+		(start 131.1 119.75)
+		(end 131.1 120.098844)
+		(width 0.5)
+		(layer "B.Cu")
+		(net 3)
+		(uuid "e8e612e8-f72c-47e0-bb25-3f714e01a3d8")
 	)
 	(segment
 		(start 126.7 127.3)
@@ -5387,39 +6651,47 @@
 		(uuid "ed7576cc-714f-4253-9044-fb7313958e08")
 	)
 	(segment
-		(start 123.2 118.7)
-		(end 123.2 111.67)
-		(width 0.5)
-		(layer "F.Cu")
-		(net 8)
-		(uuid "119f3dd9-21f2-4b1c-b62e-24f56f8711f4")
-	)
-	(segment
-		(start 133.975 121.49)
-		(end 133.975 120.025)
-		(width 0.5)
-		(layer "F.Cu")
-		(net 8)
-		(uuid "85a261bc-7fbc-41f9-9586-fcc76fbf484e")
-	)
-	(segment
-		(start 123.2 111.67)
+		(start 125 110.23)
 		(end 124.82 110.05)
 		(width 0.5)
 		(layer "F.Cu")
 		(net 8)
-		(uuid "9e4ee16a-6509-4081-a808-e424c00d4b05")
+		(uuid "4c26f774-631d-423c-8f53-e263cf8dd8da")
 	)
 	(segment
-		(start 133.975 120.025)
-		(end 134 120)
+		(start 133.975 118.975)
+		(end 133.975 121.49)
 		(width 0.5)
 		(layer "F.Cu")
 		(net 8)
-		(uuid "de49f032-47ef-4677-89b8-b22a08ff2af5")
+		(uuid "80c458c3-33f5-456b-8a1b-87316de1719f")
+	)
+	(segment
+		(start 124.82 117.32)
+		(end 124.82 110.05)
+		(width 0.5)
+		(layer "F.Cu")
+		(net 8)
+		(uuid "8a9d77e4-cef9-41cf-be2b-b55a3a58be66")
+	)
+	(segment
+		(start 133.625 118.625)
+		(end 133.975 118.975)
+		(width 0.5)
+		(layer "F.Cu")
+		(net 8)
+		(uuid "aac894d1-d300-4151-ab19-c98b0e65e8e3")
+	)
+	(segment
+		(start 125.25 117.75)
+		(end 124.82 117.32)
+		(width 0.5)
+		(layer "F.Cu")
+		(net 8)
+		(uuid "e93706ef-2124-40dd-90ec-69024283bf62")
 	)
 	(via
-		(at 134 120)
+		(at 133.625 118.625)
 		(size 0.8)
 		(drill 0.4)
 		(layers "F.Cu" "B.Cu")
@@ -5427,7 +6699,7 @@
 		(uuid "1e928ec0-a7fc-4b4b-9a3f-ec1ede6da1dc")
 	)
 	(via
-		(at 123.2 118.7)
+		(at 125.25 117.75)
 		(size 0.8)
 		(drill 0.4)
 		(layers "F.Cu" "B.Cu")
@@ -5435,20 +6707,28 @@
 		(uuid "e4d12914-e714-4f3e-ba72-2d8df11c03e7")
 	)
 	(segment
-		(start 134 120)
-		(end 132.7 118.7)
+		(start 125.75 118.25)
+		(end 125.25 117.75)
 		(width 0.5)
 		(layer "B.Cu")
 		(net 8)
-		(uuid "544d57ce-9258-4dbc-93e6-93b53454da21")
+		(uuid "19161b66-3ce9-452a-a99d-6675ffa2ff81")
 	)
 	(segment
-		(start 132.7 118.7)
-		(end 123.2 118.7)
+		(start 133.625 118.625)
+		(end 133.25 118.25)
 		(width 0.5)
 		(layer "B.Cu")
 		(net 8)
-		(uuid "5b8b3497-06c7-4c75-98e7-786051319d98")
+		(uuid "1bf6eab4-0ec5-4e82-9d58-60c0150d2140")
+	)
+	(segment
+		(start 133.25 118.25)
+		(end 125.75 118.25)
+		(width 0.5)
+		(layer "B.Cu")
+		(net 8)
+		(uuid "42865b7f-419d-499c-a455-8ee1f5affde2")
 	)
 	(segment
 		(start 143.4 108.6)
@@ -5499,63 +6779,71 @@
 		(uuid "e6064646-7eb5-42a2-be31-03455d475b09")
 	)
 	(segment
-		(start 121.5 100.8)
-		(end 122.6 99.7)
+		(start 128.5 119.75)
+		(end 132.78 124.03)
 		(width 0.5)
 		(layer "F.Cu")
 		(net 10)
-		(uuid "21ca390e-fd22-498d-ad04-ca634c3971c4")
+		(uuid "035254d0-f2c0-4f0e-9d49-d90343187481")
 	)
 	(segment
-		(start 121.5 119.9)
-		(end 121.5 100.8)
+		(start 123.5 111.5)
+		(end 122.75 110.75)
 		(width 0.5)
 		(layer "F.Cu")
 		(net 10)
-		(uuid "2725ee73-72fc-40c1-9256-0f51f7b93442")
+		(uuid "313df52a-00c3-412c-b2cc-c5e1d497ed1d")
 	)
 	(segment
-		(start 130.1 125.4)
-		(end 132.605 125.4)
-		(width 0.5)
-		(layer "F.Cu")
-		(net 10)
-		(uuid "38bd01db-2741-4745-9a40-aafdd1bf212d")
-	)
-	(segment
-		(start 121.5 119.9)
-		(end 122.5 120.9)
-		(width 0.5)
-		(layer "F.Cu")
-		(net 10)
-		(uuid "5052c375-507e-4c48-a956-f206c3efb7a4")
-	)
-	(segment
-		(start 132.605 125.4)
+		(start 132.78 124.03)
 		(end 133.975 124.03)
 		(width 0.5)
 		(layer "F.Cu")
 		(net 10)
-		(uuid "5cffdfda-9888-4bb4-bc78-255e87c7f54e")
+		(uuid "42a73218-b104-4bc4-96b9-1a860e77968b")
 	)
 	(segment
-		(start 129.1 121)
-		(end 129.1 124.4)
+		(start 122.75 107)
+		(end 120.5 104.75)
 		(width 0.5)
 		(layer "F.Cu")
 		(net 10)
-		(uuid "849b2a37-e527-474c-80fd-540471c68458")
+		(uuid "47fb8faa-0d5f-441b-86a1-6e1e97704df0")
 	)
 	(segment
-		(start 129.1 124.4)
-		(end 130.1 125.4)
+		(start 120.5 101.8)
+		(end 122.6 99.7)
 		(width 0.5)
 		(layer "F.Cu")
 		(net 10)
-		(uuid "b331a5e0-efce-4672-99e1-814c7d24bedd")
+		(uuid "5a9a81e7-ec82-41d1-84a6-00b72936d92c")
+	)
+	(segment
+		(start 122.75 110.75)
+		(end 122.75 107)
+		(width 0.5)
+		(layer "F.Cu")
+		(net 10)
+		(uuid "ba2720cf-20f3-464d-843f-294c2530ee85")
+	)
+	(segment
+		(start 123.5 118.25)
+		(end 123.5 111.5)
+		(width 0.5)
+		(layer "F.Cu")
+		(net 10)
+		(uuid "da1765c0-7328-4813-8483-af4c803b91b5")
+	)
+	(segment
+		(start 120.5 104.75)
+		(end 120.5 101.8)
+		(width 0.5)
+		(layer "F.Cu")
+		(net 10)
+		(uuid "ed633ad3-574b-47d6-9437-8b0b47da0b1e")
 	)
 	(via
-		(at 122.5 120.9)
+		(at 123.5 118.25)
 		(size 0.8)
 		(drill 0.4)
 		(layers "F.Cu" "B.Cu")
@@ -5563,7 +6851,7 @@
 		(uuid "148ffc9e-9c8d-4cc2-9613-18310a2df908")
 	)
 	(via
-		(at 129.1 121)
+		(at 128.5 119.75)
 		(size 0.8)
 		(drill 0.4)
 		(layers "F.Cu" "B.Cu")
@@ -5571,20 +6859,28 @@
 		(uuid "2086ff72-b368-4a92-8b2b-58fd1b607dc7")
 	)
 	(segment
-		(start 122.6 121)
-		(end 129.1 121)
+		(start 128 119.25)
+		(end 124.5 119.25)
 		(width 0.5)
 		(layer "B.Cu")
 		(net 10)
-		(uuid "1b6d5343-dd2c-4f6a-afe4-6fb377c0a9f1")
+		(uuid "10d849c8-7c33-426e-b72e-1af837b0cd9a")
 	)
 	(segment
-		(start 122.5 120.9)
-		(end 122.6 121)
+		(start 128.5 119.75)
+		(end 128 119.25)
 		(width 0.5)
 		(layer "B.Cu")
 		(net 10)
-		(uuid "90949380-6be8-410c-a037-de29a8f06d86")
+		(uuid "6af0214c-a760-4c23-95d2-bf484520e027")
+	)
+	(segment
+		(start 124.5 119.25)
+		(end 123.5 118.25)
+		(width 0.5)
+		(layer "B.Cu")
+		(net 10)
+		(uuid "912d2774-e91a-4d36-aa7b-b10662cc740d")
 	)
 	(segment
 		(start 139.025 124.03)
@@ -5635,22 +6931,6 @@
 		(uuid "950ca481-f62b-411a-9a68-0ad413bf6a4a")
 	)
 	(segment
-		(start 133.975 126.57)
-		(end 131.83 126.57)
-		(width 0.5)
-		(layer "F.Cu")
-		(net 12)
-		(uuid "06d5916a-2fc7-46f5-b76f-80ef6a348a97")
-	)
-	(segment
-		(start 131.83 126.57)
-		(end 128.6 129.8)
-		(width 0.5)
-		(layer "F.Cu")
-		(net 12)
-		(uuid "0861dfc3-fdf2-419c-80a1-ac4074d7a7cc")
-	)
-	(segment
 		(start 125.6 98.4)
 		(end 126.25 97.75)
 		(width 0.5)
@@ -5659,20 +6939,44 @@
 		(uuid "248bf052-8903-4f04-b248-bcf952e34e73")
 	)
 	(segment
-		(start 112.6 130.1)
-		(end 112.6 102.1)
+		(start 128.2 129.25)
+		(end 129.15 129.25)
 		(width 0.5)
 		(layer "F.Cu")
 		(net 12)
-		(uuid "56db2592-197d-45de-93d4-ed7c19d7151f")
+		(uuid "80e6af82-b939-4b9a-87dd-e4531ec25014")
 	)
 	(segment
-		(start 128.6 129.8)
-		(end 128.2 130.2)
+		(start 112.6 106.9)
+		(end 114.5 105)
 		(width 0.5)
 		(layer "F.Cu")
 		(net 12)
-		(uuid "af0ba0fd-e112-4274-b335-00aa1316737a")
+		(uuid "bc0b48af-7591-4d40-9b65-3650aad41f4c")
+	)
+	(segment
+		(start 112.6 127.5)
+		(end 112.6 106.9)
+		(width 0.5)
+		(layer "F.Cu")
+		(net 12)
+		(uuid "cee0e84d-366e-4b0c-af82-5fcd001e8448")
+	)
+	(segment
+		(start 131.83 126.57)
+		(end 133.975 126.57)
+		(width 0.5)
+		(layer "F.Cu")
+		(net 12)
+		(uuid "e09f6499-ac9e-44d6-8970-dd76061bbb74")
+	)
+	(segment
+		(start 129.15 129.25)
+		(end 131.83 126.57)
+		(width 0.5)
+		(layer "F.Cu")
+		(net 12)
+		(uuid "e2ead0ac-9d77-4a10-8555-db8da7fe36e3")
 	)
 	(segment
 		(start 125.6 102.1)
@@ -5683,7 +6987,7 @@
 		(uuid "f9b959fe-ce5c-47b4-9645-ea4806ddb44b")
 	)
 	(via
-		(at 112.6 130.1)
+		(at 112.6 127.5)
 		(size 0.8)
 		(drill 0.4)
 		(layers "F.Cu" "B.Cu")
@@ -5691,7 +6995,7 @@
 		(uuid "04b2c62e-8d0d-4bcc-b4e7-29c7f35e7442")
 	)
 	(via
-		(at 128.2 130.2)
+		(at 128.2 129.25)
 		(size 0.8)
 		(drill 0.4)
 		(layers "F.Cu" "B.Cu")
@@ -5699,7 +7003,7 @@
 		(uuid "2c790292-dff2-49b5-b8aa-9c4e14387ae4")
 	)
 	(via
-		(at 112.6 102.1)
+		(at 114.5 105)
 		(size 0.8)
 		(drill 0.4)
 		(layers "F.Cu" "B.Cu")
@@ -5715,28 +7019,44 @@
 		(uuid "adcd453f-c839-4e1c-9a68-ab2db5fc6fa9")
 	)
 	(segment
-		(start 112.7 130.2)
-		(end 112.6 130.1)
-		(width 0.5)
-		(layer "B.Cu")
-		(net 12)
-		(uuid "1df5366c-52aa-4033-bf65-cc6e0460391e")
-	)
-	(segment
-		(start 112.6 102.1)
+		(start 117.4 102.1)
 		(end 125.6 102.1)
 		(width 0.5)
 		(layer "B.Cu")
 		(net 12)
-		(uuid "51d779de-6c5f-485f-a7bf-f7cab4de1f4f")
+		(uuid "420d7dfc-d0ed-4a60-8ad5-0baf96c0ba1e")
 	)
 	(segment
-		(start 128.2 130.2)
-		(end 112.7 130.2)
+		(start 128.2 129.25)
+		(end 114.35 129.25)
 		(width 0.5)
 		(layer "B.Cu")
 		(net 12)
-		(uuid "e0a945b7-c433-49d1-a1af-a82dec708aec")
+		(uuid "5865705e-26d8-4f56-9b4b-38adc5f3d665")
+	)
+	(segment
+		(start 114.5 105)
+		(end 117.4 102.1)
+		(width 0.5)
+		(layer "B.Cu")
+		(net 12)
+		(uuid "96301573-cd9d-4f3c-b833-022700727ba4")
+	)
+	(segment
+		(start 114.35 129.25)
+		(end 112.6 127.5)
+		(width 0.5)
+		(layer "B.Cu")
+		(net 12)
+		(uuid "a6b030f9-2b48-4d7c-9fe6-9788d4979ee3")
+	)
+	(segment
+		(start 129.2 114.7)
+		(end 129.2 117.2)
+		(width 0.5)
+		(layer "F.Cu")
+		(net 13)
+		(uuid "39dd8ef8-5897-4f58-bd7d-378a54396480")
 	)
 	(segment
 		(start 143.7 122.97)
@@ -5747,12 +7067,12 @@
 		(uuid "54d44b2e-86f3-4c9f-a654-59ee7c8b4c08")
 	)
 	(segment
-		(start 126.2 95.1)
-		(end 124.4 95.1)
+		(start 124.25 98.5)
+		(end 123.5 97.75)
 		(width 0.5)
 		(layer "F.Cu")
 		(net 13)
-		(uuid "642a789f-04b6-4500-80ff-3cfb36af4f32")
+		(uuid "68f2ebed-a2e7-4201-b68b-4fedd3f1ba44")
 	)
 	(segment
 		(start 143.1 117.2)
@@ -5763,28 +7083,20 @@
 		(uuid "7177c9a5-3479-438e-8a29-09de9792cb21")
 	)
 	(segment
-		(start 129.2 114.7)
-		(end 127.3 112.8)
-		(width 0.5)
-		(layer "F.Cu")
-		(net 13)
-		(uuid "7586edb4-c741-42bb-8e5e-a73069a732de")
-	)
-	(segment
-		(start 124.4 95.1)
+		(start 123.5 97.75)
 		(end 123.5 96)
 		(width 0.5)
 		(layer "F.Cu")
 		(net 13)
-		(uuid "8010763a-52ec-43e9-ad90-bc9b651cb357")
+		(uuid "a9d17ca6-5b1a-439c-96ad-b2ff04470758")
 	)
 	(segment
 		(start 127.3 112.8)
-		(end 127.3 100.5)
+		(end 129.2 114.7)
 		(width 0.5)
 		(layer "F.Cu")
 		(net 13)
-		(uuid "a395c92a-f1d3-4bcf-b4a2-22f4f41dfec5")
+		(uuid "bea063a0-59bd-40d8-a3ad-44b627297691")
 	)
 	(segment
 		(start 143.7 117.8)
@@ -5795,20 +7107,20 @@
 		(uuid "e57e5e9a-b3c4-40c6-8719-63203d3de2e8")
 	)
 	(segment
-		(start 129.2 117.2)
-		(end 129.2 114.7)
-		(width 0.5)
-		(layer "F.Cu")
-		(net 13)
-		(uuid "e79d88d1-3687-4d2c-adb2-feef2653dbcb")
-	)
-	(segment
 		(start 140.1 126.57)
 		(end 139.025 126.57)
 		(width 0.5)
 		(layer "F.Cu")
 		(net 13)
 		(uuid "e8222cf3-00ea-41e4-a547-56c1fcfddabd")
+	)
+	(segment
+		(start 127.3 101.5)
+		(end 127.3 112.8)
+		(width 0.5)
+		(layer "F.Cu")
+		(net 13)
+		(uuid "fcb82673-3632-4adc-b028-5b3f1bc9b049")
 	)
 	(via
 		(at 129.2 117.2)
@@ -5819,7 +7131,7 @@
 		(uuid "15420c7c-c0a2-48eb-bace-54c95c19a805")
 	)
 	(via
-		(at 127.3 100.5)
+		(at 127.3 101.5)
 		(size 0.8)
 		(drill 0.4)
 		(layers "F.Cu" "B.Cu")
@@ -5827,7 +7139,7 @@
 		(uuid "327ef8e7-1c37-4458-96b3-e15483b854d9")
 	)
 	(via
-		(at 126.2 95.1)
+		(at 124.25 98.5)
 		(size 0.8)
 		(drill 0.4)
 		(layers "F.Cu" "B.Cu")
@@ -5843,20 +7155,12 @@
 		(uuid "bd19f380-6a7f-49ae-a504-8d2f51cf473a")
 	)
 	(segment
-		(start 127.3 100.5)
-		(end 127.3 96.2)
+		(start 127.25 101.5)
+		(end 124.25 98.5)
 		(width 0.5)
 		(layer "B.Cu")
 		(net 13)
-		(uuid "42e681e3-809f-48a3-ba5f-886667c9b1fb")
-	)
-	(segment
-		(start 127.3 96.2)
-		(end 126.2 95.1)
-		(width 0.5)
-		(layer "B.Cu")
-		(net 13)
-		(uuid "b8a00fac-f9fd-4a68-884b-ef6124732e14")
+		(uuid "39528d9c-21d0-4f79-a30b-9ea607ba8180")
 	)
 	(segment
 		(start 129.2 117.2)
@@ -5865,6 +7169,14 @@
 		(layer "B.Cu")
 		(net 13)
 		(uuid "ceb60bd6-e5e2-451d-9b8f-817ad783fb70")
+	)
+	(segment
+		(start 127.3 101.5)
+		(end 127.25 101.5)
+		(width 0.5)
+		(layer "B.Cu")
+		(net 13)
+		(uuid "f0bdf44b-0151-42da-abb3-a5889dad3616")
 	)
 	(segment
 		(start 149.775 114.175)
@@ -5923,39 +7235,39 @@
 		(uuid "9c352537-fda1-487c-97c4-f501c68d167b")
 	)
 	(segment
-		(start 115.1 117.2)
-		(end 115.1 109.3)
+		(start 114 108.5)
+		(end 114 116.1)
 		(width 0.5)
 		(layer "F.Cu")
 		(net 15)
-		(uuid "16a99493-f5a8-4a07-8331-a4f784363bd8")
-	)
-	(segment
-		(start 139.2 107.7)
-		(end 139.2 110.1)
-		(width 0.5)
-		(layer "F.Cu")
-		(net 15)
-		(uuid "293c0ba6-170a-4fac-98be-b14e0851f73e")
+		(uuid "3274df99-86e2-4e47-8990-13c3ca0318f0")
 	)
 	(segment
 		(start 116.55 118.65)
-		(end 115.1 117.2)
+		(end 116.55 122.46)
 		(width 0.5)
 		(layer "F.Cu")
 		(net 15)
-		(uuid "5eb74332-7a13-476f-ba39-1b310fda172a")
+		(uuid "a8b11361-f639-494e-918c-111bcd722200")
 	)
 	(segment
-		(start 116.55 122.46)
+		(start 114 116.1)
 		(end 116.55 118.65)
 		(width 0.5)
 		(layer "F.Cu")
 		(net 15)
-		(uuid "de8433c5-5665-4c55-8b69-bcf3c704512d")
+		(uuid "c47fff41-9a32-44b1-b1c2-3627d9cde355")
+	)
+	(segment
+		(start 139.2 107.7)
+		(end 139.2 105.75)
+		(width 0.5)
+		(layer "F.Cu")
+		(net 15)
+		(uuid "e1bc52c8-24ec-4943-b438-841630f5a5f4")
 	)
 	(via
-		(at 139.2 110.1)
+		(at 139.2 105.75)
 		(size 0.8)
 		(drill 0.4)
 		(layers "F.Cu" "B.Cu")
@@ -5963,7 +7275,7 @@
 		(uuid "3065baab-f6be-4938-aad1-2787fde12642")
 	)
 	(via
-		(at 115.1 109.3)
+		(at 114 108.5)
 		(size 0.8)
 		(drill 0.4)
 		(layers "F.Cu" "B.Cu")
@@ -5971,60 +7283,68 @@
 		(uuid "8c8f7b78-133a-4756-9876-7ac5dca9ab90")
 	)
 	(segment
-		(start 138.839733 109.739733)
-		(end 121.039733 109.739733)
+		(start 128.25 105.5)
+		(end 138.95 105.5)
 		(width 0.5)
 		(layer "B.Cu")
 		(net 15)
-		(uuid "2a15fb25-b1b7-44a5-9275-bc50401efcd1")
+		(uuid "1969b7da-56a3-4d91-8411-35efab79183a")
 	)
 	(segment
-		(start 120 108.7)
-		(end 115.7 108.7)
+		(start 114 108.5)
+		(end 115.5 107)
 		(width 0.5)
 		(layer "B.Cu")
 		(net 15)
-		(uuid "674d795e-9608-4264-9485-ae795bdc837e")
+		(uuid "239a2dfa-5a9b-4480-8d0f-a6955b1d871e")
 	)
 	(segment
-		(start 115.7 108.7)
-		(end 115.1 109.3)
+		(start 126.75 107)
+		(end 128.25 105.5)
 		(width 0.5)
 		(layer "B.Cu")
 		(net 15)
-		(uuid "aefb5e36-c8dc-4f1b-ad32-c48b70536728")
+		(uuid "4d638e90-7c5b-4533-acfc-9c0a2a11c2b1")
 	)
 	(segment
-		(start 139.2 110.1)
-		(end 138.839733 109.739733)
+		(start 138.95 105.5)
+		(end 139.2 105.75)
 		(width 0.5)
 		(layer "B.Cu")
 		(net 15)
-		(uuid "ca087f48-3bc4-48f6-ab69-d2adb47f9671")
+		(uuid "6229c0da-826f-4930-a79f-60063bf7773c")
 	)
 	(segment
-		(start 121.039733 109.739733)
-		(end 120 108.7)
+		(start 115.5 107)
+		(end 126.75 107)
 		(width 0.5)
 		(layer "B.Cu")
 		(net 15)
-		(uuid "d18b7d67-c6a0-4b6f-be64-99e3edd7256a")
+		(uuid "87ac5486-9f79-4291-8290-25b9aa347ea2")
 	)
 	(segment
-		(start 154.825 121.49)
-		(end 153.3 119.965)
+		(start 148.75 103.723)
+		(end 151.5 106.473)
 		(width 0.5)
 		(layer "F.Cu")
 		(net 16)
-		(uuid "29538556-53b5-4668-9b34-b11b9d949e15")
+		(uuid "1a32577c-bb57-4613-a616-a72eb54938f0")
 	)
 	(segment
-		(start 153.3 119.965)
-		(end 153.3 103.6)
+		(start 151.5 106.473)
+		(end 151.5 118.165)
 		(width 0.5)
 		(layer "F.Cu")
 		(net 16)
-		(uuid "a7bc6684-f551-4d1d-b09a-40157a3486a0")
+		(uuid "22122438-fb50-4a3b-834b-121f3dfff1d0")
+	)
+	(segment
+		(start 151.5 118.165)
+		(end 154.825 121.49)
+		(width 0.5)
+		(layer "F.Cu")
+		(net 16)
+		(uuid "2c88b659-8cc7-4128-a74c-8fdbc91e9b82")
 	)
 	(segment
 		(start 134 103.3)
@@ -6043,7 +7363,7 @@
 		(uuid "dc7edb21-6e13-4dac-b706-68816e6ee6cf")
 	)
 	(via
-		(at 153.3 103.6)
+		(at 148.75 103.723)
 		(size 0.8)
 		(drill 0.4)
 		(layers "F.Cu" "B.Cu")
@@ -6059,12 +7379,20 @@
 		(uuid "240a3c9a-2298-4c72-8e84-3b063b555fff")
 	)
 	(segment
-		(start 153.3 103.6)
+		(start 148.75 103.723)
+		(end 148.627 103.6)
+		(width 0.5)
+		(layer "B.Cu")
+		(net 16)
+		(uuid "6ac3b4bb-80ef-4475-bf9a-88d012fe62d2")
+	)
+	(segment
+		(start 148.627 103.6)
 		(end 134.3 103.6)
 		(width 0.5)
 		(layer "B.Cu")
 		(net 16)
-		(uuid "140d53a3-31d9-4c94-a902-211ddf366534")
+		(uuid "b6fc5758-f80a-447c-b29b-dd8f58f73c09")
 	)
 	(segment
 		(start 134.3 103.6)
@@ -6072,7 +7400,7 @@
 		(width 0.5)
 		(layer "B.Cu")
 		(net 16)
-		(uuid "40e6957b-f53f-488a-99b8-de9c6c82bf1e")
+		(uuid "d65997ef-ce37-4604-8afc-b0cc3567c2b4")
 	)
 	(segment
 		(start 138.1 102.1)
@@ -6139,36 +7467,28 @@
 		(uuid "3718ba27-9d97-4416-ac50-7db7c8a9d8e5")
 	)
 	(segment
-		(start 154.5 104.5)
-		(end 155 105)
+		(start 152.5 115)
+		(end 157.8 120.3)
 		(width 0.5)
 		(layer "F.Cu")
 		(net 18)
-		(uuid "177a6d08-5959-4e8f-a430-5bee9caf0e35")
+		(uuid "037e2f0a-28c1-445b-b652-d5f6159d3a33")
 	)
 	(segment
-		(start 155 114)
-		(end 157.8 116.8)
+		(start 152.5 106)
+		(end 151 104.5)
 		(width 0.5)
 		(layer "F.Cu")
 		(net 18)
-		(uuid "3f53b03f-d0eb-4512-927c-1cb58d8a1795")
+		(uuid "0910801e-41a1-4c8e-8539-a88a512f23d8")
 	)
 	(segment
-		(start 157.8 116.8)
-		(end 157.8 123.4)
-		(width 0.5)
-		(layer "F.Cu")
-		(net 18)
-		(uuid "4ba01b3f-1382-4674-8fbc-1e4b86d52005")
-	)
-	(segment
-		(start 157.8 123.4)
+		(start 154.825 124.03)
 		(end 157.17 124.03)
 		(width 0.5)
 		(layer "F.Cu")
 		(net 18)
-		(uuid "7ba5a3b3-b39a-49e9-bd48-803b11078e61")
+		(uuid "6bfb0436-6d80-42c1-b072-b4637b414127")
 	)
 	(segment
 		(start 124.025 104.5)
@@ -6179,12 +7499,20 @@
 		(uuid "7fc13937-c91e-400d-be67-80e9a5dc8324")
 	)
 	(segment
-		(start 155 105)
-		(end 155 114)
+		(start 152.5 106)
+		(end 152.5 115)
 		(width 0.5)
 		(layer "F.Cu")
 		(net 18)
-		(uuid "886f4c54-091b-4789-92c4-43a4ddfda30b")
+		(uuid "a65cd115-51d7-4899-96ca-a3730459d58b")
+	)
+	(segment
+		(start 157.8 123.4)
+		(end 157.8 120.3)
+		(width 0.5)
+		(layer "F.Cu")
+		(net 18)
+		(uuid "ac3bd8b9-5f5f-4860-85e0-0c49bfbb76e7")
 	)
 	(segment
 		(start 125.8 104.5)
@@ -6196,14 +7524,14 @@
 	)
 	(segment
 		(start 157.17 124.03)
-		(end 154.825 124.03)
+		(end 157.8 123.4)
 		(width 0.5)
 		(layer "F.Cu")
 		(net 18)
-		(uuid "c0109a6d-8142-4d78-8671-dfd2a15baca2")
+		(uuid "cd5bddee-9cf3-4771-b67c-7bbfc33bdc18")
 	)
 	(via
-		(at 154.5 104.5)
+		(at 151 104.5)
 		(size 0.8)
 		(drill 0.4)
 		(layers "F.Cu" "B.Cu")
@@ -6219,36 +7547,12 @@
 		(uuid "d9d3b6ca-17b1-4deb-8d60-5ccff564a6e1")
 	)
 	(segment
-		(start 154.5 104.5)
+		(start 151 104.5)
 		(end 125.8 104.5)
 		(width 0.5)
 		(layer "B.Cu")
 		(net 18)
-		(uuid "9b6a77b5-3b86-4b9f-8b2e-2d896d8990ef")
-	)
-	(segment
-		(start 129.25 109.25)
-		(end 129.25 108.95)
-		(width 0.5)
-		(layer "F.Cu")
-		(net 19)
-		(uuid "2c622a5b-b2d7-4ddd-9a40-19a7eceae204")
-	)
-	(segment
-		(start 148.7 126.57)
-		(end 149.775 126.57)
-		(width 0.5)
-		(layer "F.Cu")
-		(net 19)
-		(uuid "55fec3f5-8713-4491-9a8c-21ea3dae7ea3")
-	)
-	(segment
-		(start 145.4 107.3)
-		(end 145.9 107.8)
-		(width 0.5)
-		(layer "F.Cu")
-		(net 19)
-		(uuid "608f11d4-2085-453e-9adf-cc5d2250afe9")
+		(uuid "35ea9235-5cdb-4e97-b5b0-080986beca95")
 	)
 	(segment
 		(start 145.9 123.77)
@@ -6256,26 +7560,42 @@
 		(width 0.5)
 		(layer "F.Cu")
 		(net 19)
-		(uuid "679c8cec-f8cc-481c-9764-5e4e0b02f5c1")
+		(uuid "16c54256-d7fa-4b1c-8de7-6631c79c2255")
 	)
 	(segment
-		(start 129.25 108.95)
-		(end 130.9 107.3)
+		(start 148.7 126.57)
+		(end 149.775 126.57)
 		(width 0.5)
 		(layer "F.Cu")
 		(net 19)
-		(uuid "a585117f-c55b-4395-b376-369d848d8bf9")
+		(uuid "3480fe6d-2413-49f6-956f-9ee2b5b333bb")
 	)
 	(segment
-		(start 145.9 107.8)
+		(start 145.9 110.15)
 		(end 145.9 123.77)
 		(width 0.5)
 		(layer "F.Cu")
 		(net 19)
-		(uuid "b5dc3fee-dd7d-4c44-9f8e-5c2e2ae068a6")
+		(uuid "38967c93-d750-4778-af7a-245b107c0d77")
+	)
+	(segment
+		(start 131.5 109.25)
+		(end 129.25 109.25)
+		(width 0.5)
+		(layer "F.Cu")
+		(net 19)
+		(uuid "6db2b693-16e7-433c-9350-1580ec3aeb5a")
+	)
+	(segment
+		(start 145.25 109.5)
+		(end 145.9 110.15)
+		(width 0.5)
+		(layer "F.Cu")
+		(net 19)
+		(uuid "a6cfb1f0-8cd7-4757-84a9-295f6090b3cf")
 	)
 	(via
-		(at 130.9 107.3)
+		(at 131.5 109.25)
 		(size 0.8)
 		(drill 0.4)
 		(layers "F.Cu" "B.Cu")
@@ -6283,7 +7603,7 @@
 		(uuid "713c6b1f-3c29-439b-88a9-c6ce773f53d0")
 	)
 	(via
-		(at 145.4 107.3)
+		(at 145.25 109.5)
 		(size 0.8)
 		(drill 0.4)
 		(layers "F.Cu" "B.Cu")
@@ -6291,12 +7611,36 @@
 		(uuid "b1a756e3-d07a-4604-87b5-e49f7721e485")
 	)
 	(segment
-		(start 130.9 107.3)
-		(end 145.4 107.3)
+		(start 141.25 110.25)
+		(end 132.5 110.25)
 		(width 0.5)
 		(layer "B.Cu")
 		(net 19)
-		(uuid "a7f0c14d-c311-4d8d-940b-b9246f649fe8")
+		(uuid "09022890-ad77-4f45-ab9d-f9ec5c805427")
+	)
+	(segment
+		(start 145.25 109.5)
+		(end 142 109.5)
+		(width 0.5)
+		(layer "B.Cu")
+		(net 19)
+		(uuid "7905af05-beab-4d8a-8817-e5de2741226d")
+	)
+	(segment
+		(start 132.5 110.25)
+		(end 131.5 109.25)
+		(width 0.5)
+		(layer "B.Cu")
+		(net 19)
+		(uuid "be4237a6-e93d-4c41-b6ed-0d3c8ef42ac5")
+	)
+	(segment
+		(start 142 109.5)
+		(end 141.25 110.25)
+		(width 0.5)
+		(layer "B.Cu")
+		(net 19)
+		(uuid "dd8da2d3-52a6-4151-bace-a78255182fa1")
 	)
 	(segment
 		(start 142.4 100.4)
@@ -6307,36 +7651,28 @@
 		(uuid "27d1215f-d15f-4cd2-a85b-9a9420ea3a88")
 	)
 	(segment
-		(start 155.9 113.2)
-		(end 155.9 100.3)
+		(start 153.5 114.25)
+		(end 159.127 119.877)
 		(width 0.5)
 		(layer "F.Cu")
 		(net 20)
-		(uuid "78c1e3a5-a852-4936-87d5-29f963808190")
+		(uuid "2906f831-1b04-4dc0-85e0-89c0b81eaac8")
 	)
 	(segment
-		(start 159.127 124.343)
-		(end 159.127 116.427)
+		(start 159.127 119.877)
+		(end 159.127 124.343)
 		(width 0.5)
 		(layer "F.Cu")
 		(net 20)
-		(uuid "9f46b86a-e0ac-4e77-9d8b-86ab0974481c")
+		(uuid "62615b47-2a06-45ba-96c0-3bef993cb853")
 	)
 	(segment
-		(start 154.825 126.57)
-		(end 156.9 126.57)
+		(start 149.25 100.25)
+		(end 153.5 104.5)
 		(width 0.5)
 		(layer "F.Cu")
 		(net 20)
-		(uuid "a8c4a1fb-8e2f-4404-bc15-7fad6e5be23e")
-	)
-	(segment
-		(start 159.127 116.427)
-		(end 156.1 113.4)
-		(width 0.5)
-		(layer "F.Cu")
-		(net 20)
-		(uuid "b1f5e652-f894-4296-ad3f-7581c796d426")
+		(uuid "80e6483f-8f6c-46d2-8faf-a3291f3f4276")
 	)
 	(segment
 		(start 140.6 100.4)
@@ -6348,22 +7684,30 @@
 	)
 	(segment
 		(start 156.9 126.57)
-		(end 159.127 124.343)
+		(end 154.825 126.57)
 		(width 0.5)
 		(layer "F.Cu")
 		(net 20)
-		(uuid "d5543a98-5eef-4d3c-bdac-3bb5eae1a9b3")
+		(uuid "b2d2a193-3a3e-4aa6-8c8c-132788992245")
 	)
 	(segment
-		(start 156.1 113.4)
-		(end 155.9 113.2)
+		(start 153.5 104.5)
+		(end 153.5 114.25)
 		(width 0.5)
 		(layer "F.Cu")
 		(net 20)
-		(uuid "e90c2daf-4c20-4d61-85be-ec2bf0ca210a")
+		(uuid "fcf3de71-e3fc-47a5-bcfa-7162b7a2aabb")
+	)
+	(segment
+		(start 159.127 124.343)
+		(end 156.9 126.57)
+		(width 0.5)
+		(layer "F.Cu")
+		(net 20)
+		(uuid "fde633ea-f6e4-487f-9f5c-c666a7ef6831")
 	)
 	(via
-		(at 155.9 100.3)
+		(at 149.25 100.25)
 		(size 0.8)
 		(drill 0.4)
 		(layers "F.Cu" "B.Cu")
@@ -6379,12 +7723,12 @@
 		(uuid "54dc5e8f-73e5-4873-aa80-4785ee45e014")
 	)
 	(segment
-		(start 155.9 100.3)
-		(end 142.5 100.3)
+		(start 149.25 100.25)
+		(end 149.2 100.3)
 		(width 0.5)
 		(layer "B.Cu")
 		(net 20)
-		(uuid "87757da5-5afd-482d-93cd-6bd977961994")
+		(uuid "8982b09d-4276-4360-a8cd-4a1bca0b60a9")
 	)
 	(segment
 		(start 142.5 100.3)
@@ -6392,6 +7736,14 @@
 		(width 0.5)
 		(layer "B.Cu")
 		(net 20)
-		(uuid "f77c547e-5369-4f61-9584-7123c9563711")
+		(uuid "a2bc685c-6f40-48d7-9b0c-febcaf00c2bb")
+	)
+	(segment
+		(start 149.2 100.3)
+		(end 142.5 100.3)
+		(width 0.5)
+		(layer "B.Cu")
+		(net 20)
+		(uuid "aed10c6d-ff2b-46b1-b4a6-6913263d8f38")
 	)
 )
