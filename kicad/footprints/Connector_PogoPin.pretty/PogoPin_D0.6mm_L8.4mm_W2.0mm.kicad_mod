@@ -197,4 +197,15 @@
 		(remove_unused_layers no)
 		(uuid "a51017a3-63e6-48fe-ae2a-9cc5524a1e45")
 	)
+	(model "${KIPRJMOD}/3d/parts/PogoPin_Xinyangze_YZ188015084P-01.step"
+		(offset
+			(xyz 0 0 0)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz 0 0 0)
+		)
+	)
 )
