@@ -518,9 +518,9 @@
       "plot": "",
       "pos_files": "",
       "specctra_dsn": "",
-      "step": "output/3d/microjig_v0.3.0.step",
+      "step": "output/3d/microjig_v0.4.0.step",
       "svg": "",
-      "vrml": "output/3d/microjig_v0.3.0.wrl"
+      "vrml": "output/3d/microjig_v0.4.0.wrl"
     },
     "page_layout_descr_file": ""
   },
