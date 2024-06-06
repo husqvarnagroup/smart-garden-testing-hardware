@@ -11700,7 +11700,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://wmsc.lcsc.com/wmsc/upload/file/pdf/v2/lcsc/2006112255_HRS-Hirose-U-FL-R-SMT-1-01_C598199.pdf"
+		(property "Datasheet" "https://wmsc.lcsc.com/wmsc/upload/file/pdf/v2/lcsc/1811091710_HRS-Hirose-U-FL-R-SMT-1-80_C88374.pdf"
 			(at 201.93 129.54 0)
 			(effects
 				(font
@@ -11718,7 +11718,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC" "C598199"
+		(property "LCSC" "C88374"
 			(at 201.93 129.54 0)
 			(effects
 				(font
@@ -11736,7 +11736,7 @@
 				(hide yes)
 			)
 		)
-		(property "Part Number" "U.FL-R-SMT-1(01)"
+		(property "Part Number" "U.FL-R-SMT-1(80)"
 			(at 201.93 129.54 0)
 			(effects
 				(font

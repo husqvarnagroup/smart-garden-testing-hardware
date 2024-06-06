@@ -3952,7 +3952,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" "https://wmsc.lcsc.com/wmsc/upload/file/pdf/v2/lcsc/1912111437_Murata-Electronics-GJM0335C1H1R0BB01D_C237514.pdf"
 			(at 119.38 27.94 0)
 			(effects
 				(font
@@ -3961,7 +3961,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "50V 1pF C0G ±0.05pF 0201"
+		(property "Description" "50V 1pF C0G 0201 MLCC"
 			(at 119.38 27.94 0)
 			(effects
 				(font
@@ -3970,7 +3970,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC" "C723324"
+		(property "LCSC" "C237514"
 			(at 119.38 27.94 0)
 			(effects
 				(font
@@ -3988,7 +3988,7 @@
 				(hide yes)
 			)
 		)
-		(property "Part Number" "GJM0335C1H1R0WB01D"
+		(property "Part Number" "GJM0335C1H1R0BB01D"
 			(at 119.38 27.94 0)
 			(effects
 				(font
