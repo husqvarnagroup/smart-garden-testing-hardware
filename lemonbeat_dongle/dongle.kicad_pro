@@ -529,7 +529,7 @@
       "gencad": "",
       "idf": "",
       "netlist": "",
-      "plot": "",
+      "plot": "output/v0.4.0/gerber/",
       "pos_files": "",
       "specctra_dsn": "",
       "step": "output/3d/dongle_v0.4.0.step",
