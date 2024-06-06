@@ -3849,7 +3849,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" "https://wmsc.lcsc.com/wmsc/upload/file/pdf/v2/lcsc/2201242130_Murata-Electronics-LQW15AN6N8G80D_C882467.pdf"
 			(at 151.13 88.9 0)
 			(effects
 				(font
@@ -3858,7 +3858,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "1.5A 6.8nH ±2% 63mΩ 0402"
+		(property "Description" "1.45A 6.8nH ±2% 0402 Power Inductors ROHS"
 			(at 151.13 88.9 0)
 			(effects
 				(font
@@ -3867,7 +3867,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC" "C335566"
+		(property "LCSC" "C882467"
 			(at 151.13 88.9 0)
 			(effects
 				(font
@@ -3876,7 +3876,7 @@
 				(hide yes)
 			)
 		)
-		(property "Manufacturer" "Coilcraft"
+		(property "Manufacturer" "Murata Electronics"
 			(at 151.13 88.9 0)
 			(effects
 				(font
@@ -3885,7 +3885,16 @@
 				(hide yes)
 			)
 		)
-		(property "Part Number" "0402DC-6N8XGRW"
+		(property "Part Number" "LQW15AN6N8G80D"
+			(at 151.13 88.9 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Comment" "Si4467 board uses CoilCraft 0402HP-6N8XJL with 5% tolerance and 1500 mA current rating."
 			(at 151.13 88.9 0)
 			(effects
 				(font
@@ -4933,7 +4942,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" "https://wmsc.lcsc.com/wmsc/upload/file/pdf/v2/lcsc/1811081516_Murata-Electronics-LQW15AN8N2G00D_C84404.pdf"
 			(at 115.57 88.9 0)
 			(effects
 				(font
@@ -4942,7 +4951,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "8.2nH ±5% 380mA 280mΩ 0402 HF Inductors"
+		(property "Description" "540mA 8.2nH ±2% 0402 Power Inductors ROHS"
 			(at 115.57 88.9 0)
 			(effects
 				(font
@@ -4951,7 +4960,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC" "C87185"
+		(property "LCSC" "C84404"
 			(at 115.57 88.9 0)
 			(effects
 				(font
@@ -4960,7 +4969,7 @@
 				(hide yes)
 			)
 		)
-		(property "Manufacturer" "Taiyo Yuden"
+		(property "Manufacturer" "Murata Electronics"
 			(at 115.57 88.9 0)
 			(effects
 				(font
@@ -4969,8 +4978,17 @@
 				(hide yes)
 			)
 		)
-		(property "Part Number" "HK10058N2J-T"
+		(property "Part Number" "LQW15AN8N2G00D"
 			(at 115.57 88.9 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Comment" "Si4467 board uses CoilCraft 0402HP-8N2XJL with 5% tolerance."
+			(at 115.57 88.9 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5629,7 +5647,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" "https://wmsc.lcsc.com/wmsc/upload/file/pdf/v2/lcsc/1811081614_Murata-Electronics-LQG15HSR12J02D_C86067.pdf"
 			(at 106.68 81.28 0)
 			(effects
 				(font
@@ -5638,7 +5656,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "310mA 120nH ±2% 1.6Ω 0402"
+		(property "Description" "200mA 120nH ±5% 1.3Ω 0402 Inductors (SMD)"
 			(at 106.68 81.28 0)
 			(effects
 				(font
@@ -5647,7 +5665,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC" "C335569"
+		(property "LCSC" "C86067"
 			(at 106.68 81.28 0)
 			(effects
 				(font
@@ -5656,7 +5674,7 @@
 				(hide yes)
 			)
 		)
-		(property "Manufacturer" "Coilcraft"
+		(property "Manufacturer" "Murata Electronics"
 			(at 106.68 81.28 0)
 			(effects
 				(font
@@ -5665,7 +5683,16 @@
 				(hide yes)
 			)
 		)
-		(property "Part Number" "0402DC-R12XGRW"
+		(property "Part Number" "LQG15HSR12J02D"
+			(at 106.68 81.28 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Comment" "Si4467 board uses CoilcCraft 0402HPH-R12XJL with 5% tolerance, 310 mA current rating and 1.2Ω DCR."
 			(at 106.68 81.28 0)
 			(effects
 				(font
@@ -5886,7 +5913,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" "https://wmsc.lcsc.com/wmsc/upload/file/pdf/v2/lcsc/2201242130_Murata-Electronics-LQW15AN6N8G80D_C882467.pdf"
 			(at 138.43 88.9 0)
 			(effects
 				(font
@@ -5895,7 +5922,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "1.5A 6.8nH ±2% 63mΩ 0402"
+		(property "Description" "1.45A 6.8nH ±2% 0402 Power Inductors ROHS"
 			(at 138.43 88.9 0)
 			(effects
 				(font
@@ -5904,7 +5931,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC" "C335566"
+		(property "LCSC" "C882467"
 			(at 138.43 88.9 0)
 			(effects
 				(font
@@ -5913,7 +5940,7 @@
 				(hide yes)
 			)
 		)
-		(property "Manufacturer" "Coilcraft"
+		(property "Manufacturer" "Murata Electronics"
 			(at 138.43 88.9 0)
 			(effects
 				(font
@@ -5922,7 +5949,16 @@
 				(hide yes)
 			)
 		)
-		(property "Part Number" "0402DC-6N8XGRW"
+		(property "Part Number" "LQW15AN6N8G80D"
+			(at 138.43 88.9 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Comment" "Si4467 board uses CoilCraft 0402HP-6N8XJL with 5% tolerance and 1500 mA current rating."
 			(at 138.43 88.9 0)
 			(effects
 				(font

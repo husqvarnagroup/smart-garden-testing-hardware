@@ -7825,7 +7825,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" "https://wmsc.lcsc.com/wmsc/upload/file/pdf/v2/lcsc/2207281830_Sunway-SC0201F2R20I1BNRH_C3152027.pdf"
 			(at 60.96 21.59 0)
 			(effects
 				(font
@@ -7834,7 +7834,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "50mW ±300ppm/℃ ±1% 2.2Ω 0201 Chip Resistor - Surface Mount ROHS"
 			(at 60.96 21.59 0)
 			(effects
 				(font
@@ -7843,7 +7843,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC" "C247442"
+		(property "LCSC" "C3152027"
 			(at 60.96 21.59 0)
 			(effects
 				(font
@@ -7852,7 +7852,7 @@
 				(hide yes)
 			)
 		)
-		(property "Manufacturer" "Uniroyal Elec"
+		(property "Manufacturer" "Sunway"
 			(at 60.96 21.59 0)
 			(effects
 				(font
@@ -7861,7 +7861,7 @@
 				(hide yes)
 			)
 		)
-		(property "Part Number" "0201WMF220KTCE"
+		(property "Part Number" "SC0201F2R20I1BNRH"
 			(at 60.96 21.59 0)
 			(effects
 				(font
@@ -8492,7 +8492,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://datasheet.lcsc.com/lcsc/1811141857_microgate-MGLB1005M221T1R0-LF_C281196.pdf"
+		(property "Datasheet" "https://wmsc.lcsc.com/wmsc/upload/file/pdf/v2/lcsc/2108070930_Murata-Electronics-BLM15EG221SH1D_C2662025.pdf"
 			(at 199.39 101.6 0)
 			(effects
 				(font
@@ -8501,7 +8501,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "220 Ω @ 100 MHz, 1000 mA, 150 mΩ max"
+		(property "Description" "280mΩ ±25% 220Ω@100MHz 0402 Ferrite Beads ROHS"
 			(at 199.39 101.6 0)
 			(effects
 				(font
@@ -8519,7 +8519,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC" "C281196"
+		(property "LCSC" "C2662025"
 			(at 199.39 101.6 0)
 			(effects
 				(font
@@ -8528,7 +8528,7 @@
 				(hide yes)
 			)
 		)
-		(property "Manufacturer" "microgate"
+		(property "Manufacturer" "Murata Electronics"
 			(at 199.39 101.6 0)
 			(effects
 				(font
@@ -8537,7 +8537,7 @@
 				(hide yes)
 			)
 		)
-		(property "Part Number" "MGLB1005M221T1R0-LF "
+		(property "Part Number" "BLM15EG221SH1D"
 			(at 199.39 101.6 0)
 			(effects
 				(font
@@ -11700,7 +11700,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://datasheet.lcsc.com/lcsc/1811122108_HRS-Hirose-U-FL-R-SMT-1-10_C88373.pdf"
+		(property "Datasheet" "https://wmsc.lcsc.com/wmsc/upload/file/pdf/v2/lcsc/2006112255_HRS-Hirose-U-FL-R-SMT-1-01_C598199.pdf"
 			(at 201.93 129.54 0)
 			(effects
 				(font
@@ -11709,7 +11709,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "coaxial connector (BNC, SMA, SMB, SMC, Cinch/RCA, LEMO, ...)"
+		(property "Description" "1 Inner needle IPEX Board Edge 1.25mm -40℃~+90℃ 6GHz 50Ω 2mm SMD RF Connectors / Coaxial Connectors ROHS"
 			(at 201.93 129.54 0)
 			(effects
 				(font
@@ -11718,7 +11718,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC" "C88373"
+		(property "LCSC" "C598199"
 			(at 201.93 129.54 0)
 			(effects
 				(font
@@ -11736,7 +11736,7 @@
 				(hide yes)
 			)
 		)
-		(property "Part Number" "U.FL-R-SMT-1(10)"
+		(property "Part Number" "U.FL-R-SMT-1(01)"
 			(at 201.93 129.54 0)
 			(effects
 				(font
@@ -14792,7 +14792,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://datasheet.lcsc.com/lcsc/1811141857_microgate-MGLB1005M221T1R0-LF_C281196.pdf"
+		(property "Datasheet" "https://wmsc.lcsc.com/wmsc/upload/file/pdf/v2/lcsc/2108070930_Murata-Electronics-BLM15EG221SH1D_C2662025.pdf"
 			(at 229.87 50.8 0)
 			(effects
 				(font
@@ -14801,7 +14801,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "220 Ω @ 100 MHz, 1000 mA, 150 mΩ max"
+		(property "Description" "280mΩ ±25% 220Ω@100MHz 0402 Ferrite Beads ROHS"
 			(at 229.87 50.8 0)
 			(effects
 				(font
@@ -14819,7 +14819,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC" "C281196"
+		(property "LCSC" "C2662025"
 			(at 229.87 50.8 0)
 			(effects
 				(font
@@ -14828,7 +14828,7 @@
 				(hide yes)
 			)
 		)
-		(property "Manufacturer" "microgate"
+		(property "Manufacturer" "Murata Electronics"
 			(at 229.87 50.8 0)
 			(effects
 				(font
@@ -14837,7 +14837,7 @@
 				(hide yes)
 			)
 		)
-		(property "Part Number" "MGLB1005M221T1R0-LF "
+		(property "Part Number" "BLM15EG221SH1D"
 			(at 229.87 50.8 0)
 			(effects
 				(font
