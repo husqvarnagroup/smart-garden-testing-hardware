@@ -5,9 +5,9 @@
 	(uuid "baecd03a-8d48-4020-876a-32289b953936")
 	(paper "A4")
 	(title_block
-		(title "BNW Lemonbeat Donlge")
-		(date "22.9.2023")
-		(rev "0.4.0")
+		(title "BNW Lemonbeat Dongle MicroJig")
+		(date "25.6.2024")
+		(rev "0.4.1")
 	)
 	(lib_symbols
 		(symbol "Connector:TestPoint"
