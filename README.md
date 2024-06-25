@@ -50,6 +50,12 @@ testing & programming the Lemonbeat dongle.
 
 ![Lemonbeat Dongle MicroJig v0.4.0](doc/img/lemonbeat_dongle_microjig_v0.4.0.png =500x)
 
+## WoR DK
+
+The directory `wor_dk/` contains a minimal BNW Wake-On-Radio
+Development Kit with support for electrically disconnecting SWD & UART
+to support accurate power measurement.
+
 
 # Further Info
 
