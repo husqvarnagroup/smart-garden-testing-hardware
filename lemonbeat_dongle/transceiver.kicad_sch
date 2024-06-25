@@ -4155,7 +4155,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" "https://wmsc.lcsc.com/wmsc/upload/file/pdf/v2/lcsc/2201131100_Murata-Electronics-GJM0335C1E3R0CB01D_C701301.pdf"
 			(at 113.03 46.99 0)
 			(effects
 				(font
@@ -4173,7 +4173,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC" "C161388"
+		(property "LCSC" "C701301"
 			(at 113.03 46.99 0)
 			(effects
 				(font
@@ -4191,7 +4191,7 @@
 				(hide yes)
 			)
 		)
-		(property "Part Number" "GRM0335C1E3R0CA01D"
+		(property "Part Number" "GJM0335C1E3R0CB01D"
 			(at 113.03 46.99 0)
 			(effects
 				(font
