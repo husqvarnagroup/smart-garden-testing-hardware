@@ -47,3 +47,6 @@ output/*.step
 # FreeCAD
 *.FCStd1
 *.FCBak
+
+# KiCad Backup folders
+*-backups/
