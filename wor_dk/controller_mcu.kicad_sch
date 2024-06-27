@@ -8,173 +8,6 @@
 		(title "Controller MCU")
 	)
 	(lib_symbols
-		(symbol "Connector:Conn_Coaxial"
-			(pin_names
-				(offset 1.016) hide)
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(property "Reference" "J"
-				(at 0.254 3.048 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Value" "Conn_Coaxial"
-				(at 2.921 0 90)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Footprint" ""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Datasheet" " ~"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Description" "coaxial connector (BNC, SMA, SMB, SMC, Cinch/RCA, LEMO, ...)"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_keywords" "BNC SMA SMB SMC LEMO coaxial connector CINCH RCA MCX MMCX U.FL UMRF"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_fp_filters" "*BNC* *SMA* *SMB* *SMC* *Cinch* *LEMO* *UMRF* *MCX* *U.FL*"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(symbol "Conn_Coaxial_0_1"
-				(arc
-					(start -1.778 -0.508)
-					(mid 0.2311 -1.8066)
-					(end 1.778 0)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy -2.54 0) (xy -0.508 0)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 0 -2.54) (xy 0 -1.778)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(circle
-					(center 0 0)
-					(radius 0.508)
-					(stroke
-						(width 0.2032)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(arc
-					(start 1.778 0)
-					(mid 0.2099 1.8101)
-					(end -1.778 0.508)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-			)
-			(symbol "Conn_Coaxial_1_1"
-				(pin passive line
-					(at -5.08 0 0)
-					(length 2.54)
-					(name "In"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 0 -5.08 90)
-					(length 2.54)
-					(name "Ext"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-		)
 		(symbol "Connector:TestPoint"
 			(pin_numbers hide)
 			(pin_names
@@ -1107,174 +940,6 @@
 				)
 			)
 		)
-		(symbol "Device:Crystal"
-			(pin_numbers hide)
-			(pin_names
-				(offset 1.016) hide)
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(property "Reference" "Y"
-				(at 0 3.81 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Value" "Crystal"
-				(at 0 -3.81 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Footprint" ""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Datasheet" "~"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Description" "Two pin crystal"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_keywords" "quartz ceramic resonator oscillator"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_fp_filters" "Crystal*"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(symbol "Crystal_0_1"
-				(rectangle
-					(start -1.143 2.54)
-					(end 1.143 -2.54)
-					(stroke
-						(width 0.3048)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy -2.54 0) (xy -1.905 0)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy -1.905 -1.27) (xy -1.905 1.27)
-					)
-					(stroke
-						(width 0.508)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 1.905 -1.27) (xy 1.905 1.27)
-					)
-					(stroke
-						(width 0.508)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 2.54 0) (xy 1.905 0)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-			)
-			(symbol "Crystal_1_1"
-				(pin passive line
-					(at -3.81 0 0)
-					(length 1.27)
-					(name "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 3.81 0 180)
-					(length 1.27)
-					(name "2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-		)
 		(symbol "Device:Crystal_GND24"
 			(pin_names
 				(offset 1.016) hide)
@@ -1658,163 +1323,6 @@
 					(at 0 -3.81 90)
 					(length 2.54)
 					(name "~"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-		)
-		(symbol "Device:L"
-			(pin_numbers hide)
-			(pin_names
-				(offset 1.016) hide)
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(property "Reference" "L"
-				(at -1.27 0 90)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Value" "L"
-				(at 1.905 0 90)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Footprint" ""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Datasheet" "~"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Description" "Inductor"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_keywords" "inductor choke coil reactor magnetic"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_fp_filters" "Choke_* *Coil* Inductor_* L_*"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(symbol "L_0_1"
-				(arc
-					(start 0 -2.54)
-					(mid 0.6323 -1.905)
-					(end 0 -1.27)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(arc
-					(start 0 -1.27)
-					(mid 0.6323 -0.635)
-					(end 0 0)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(arc
-					(start 0 0)
-					(mid 0.6323 0.635)
-					(end 0 1.27)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(arc
-					(start 0 1.27)
-					(mid 0.6323 1.905)
-					(end 0 2.54)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-			)
-			(symbol "L_1_1"
-				(pin passive line
-					(at 0 3.81 270)
-					(length 1.27)
-					(name "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 0 -3.81 90)
-					(length 1.27)
-					(name "2"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -4536,12 +4044,6 @@
 		(uuid "06e247e5-9faa-40a0-848a-d3806bd669a5")
 	)
 	(junction
-		(at 133.35 50.8)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "106d24d4-abf3-48cf-bf10-52d247cae4a4")
-	)
-	(junction
 		(at 149.86 19.05)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -4614,12 +4116,6 @@
 		(uuid "65f12857-bca2-4c30-afc1-85fe248f02a6")
 	)
 	(junction
-		(at 157.48 60.96)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "7749911d-1fa0-4308-9630-83c2ae2e0f6d")
-	)
-	(junction
 		(at 43.18 123.19)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -4668,18 +4164,6 @@
 		(uuid "ad70a5ee-1b7f-43a2-8cb3-69c3f63693c0")
 	)
 	(junction
-		(at 167.64 129.54)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "b73b2276-6bd9-4d2d-834b-6b294f5266f5")
-	)
-	(junction
-		(at 133.35 60.96)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "b8231326-5710-4cbc-9131-585cca12ce6e")
-	)
-	(junction
 		(at 237.49 133.35)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -4704,22 +4188,10 @@
 		(uuid "cf6317be-ca98-4841-9e06-0bad4f791b4e")
 	)
 	(junction
-		(at 187.96 129.54)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "d4713da0-797e-407b-b227-6828da7fb148")
-	)
-	(junction
 		(at 91.44 43.18)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "e97c3f9f-c21c-44e1-abc1-0da7eff89f7d")
-	)
-	(junction
-		(at 177.8 129.54)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "ec0cfa19-d328-4398-8525-f6b452981d8e")
 	)
 	(junction
 		(at 237.49 138.43)
@@ -4792,6 +4264,14 @@
 		(uuid "6cb5d0b8-46ba-4a62-91bd-fbb5fd290843")
 	)
 	(no_connect
+		(at 121.92 57.15)
+		(uuid "6ee85b26-b709-45e8-880f-a9920aa906ec")
+	)
+	(no_connect
+		(at 121.92 54.61)
+		(uuid "7413d0dd-c910-46d0-a125-b3ca41e5753e")
+	)
+	(no_connect
 		(at 121.92 85.09)
 		(uuid "7d0ef111-3d6b-4f18-a5f8-6285cd61bef2")
 	)
@@ -4848,6 +4328,10 @@
 		(uuid "d4a44e70-58c3-4e82-8988-eb40e4ee44e3")
 	)
 	(no_connect
+		(at 55.88 72.39)
+		(uuid "d4c94ea2-fe18-4754-8b54-59230e27a868")
+	)
+	(no_connect
 		(at 121.92 90.17)
 		(uuid "dbab748e-526c-47d6-9e26-ceacaac64da2")
 	)
@@ -4877,16 +4361,6 @@
 	)
 	(wire
 		(pts
-			(xy 157.48 60.96) (xy 157.48 67.31)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "01fcc1e1-b1c9-4388-a099-9623febd64a6")
-	)
-	(wire
-		(pts
 			(xy 254 130.81) (xy 264.16 130.81)
 		)
 		(stroke
@@ -4897,16 +4371,6 @@
 	)
 	(wire
 		(pts
-			(xy 121.92 57.15) (xy 129.54 57.15)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "02fe2bc7-b36e-44bb-9200-5048b33bf246")
-	)
-	(wire
-		(pts
 			(xy 36.83 118.11) (xy 36.83 119.38)
 		)
 		(stroke
@@ -4914,16 +4378,6 @@
 			(type default)
 		)
 		(uuid "040168fb-ddc7-4892-a999-bd62d6a7a255")
-	)
-	(wire
-		(pts
-			(xy 167.64 130.81) (xy 167.64 129.54)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "069d4cd2-ff57-428d-9c63-ce4ae5543d2b")
 	)
 	(wire
 		(pts
@@ -4974,16 +4428,6 @@
 			(type default)
 		)
 		(uuid "0a15ab11-2b6d-43ea-bc19-1a892a47d826")
-	)
-	(polyline
-		(pts
-			(xy 128.27 49.53) (xy 170.18 49.53)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "0a6c4209-f625-4841-a966-02668309623a")
 	)
 	(wire
 		(pts
@@ -5037,16 +4481,6 @@
 	)
 	(wire
 		(pts
-			(xy 187.96 129.54) (xy 187.96 130.81)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "0cd279f3-8783-4465-b5cc-163f956472c5")
-	)
-	(wire
-		(pts
 			(xy 121.92 87.63) (xy 124.46 87.63)
 		)
 		(stroke
@@ -5064,16 +4498,6 @@
 			(type default)
 		)
 		(uuid "117fbb17-3ec4-4ee8-9914-1e98c65dc3c0")
-	)
-	(wire
-		(pts
-			(xy 129.54 50.8) (xy 133.35 50.8)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "11b3d8fe-5995-4f15-b70c-5a4efc912f5a")
 	)
 	(wire
 		(pts
@@ -5205,16 +4629,6 @@
 		)
 		(uuid "217bd2e6-f6a3-4fdc-90ff-b60b9819789d")
 	)
-	(polyline
-		(pts
-			(xy 128.27 49.53) (xy 128.27 63.5)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "21fc5dec-4e30-4869-a139-8f782f52ea80")
-	)
 	(wire
 		(pts
 			(xy 76.2 35.56) (xy 76.2 46.99)
@@ -5345,16 +4759,6 @@
 		)
 		(uuid "341d4aa3-91c1-4391-b5e6-15fb5c983972")
 	)
-	(wire
-		(pts
-			(xy 187.96 129.54) (xy 196.85 129.54)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "396a1fcc-0302-4290-baec-4e28b4fdfde7")
-	)
 	(polyline
 		(pts
 			(xy 44.45 25.4) (xy 44.45 55.88)
@@ -5437,16 +4841,6 @@
 	)
 	(wire
 		(pts
-			(xy 129.54 60.96) (xy 133.35 60.96)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "41143f18-5927-4feb-858f-dfad078cdc15")
-	)
-	(wire
-		(pts
 			(xy 160.02 172.72) (xy 160.02 175.26)
 		)
 		(stroke
@@ -5514,16 +4908,6 @@
 			(type default)
 		)
 		(uuid "49168e3d-3c5e-40b3-bbee-adaa91233661")
-	)
-	(wire
-		(pts
-			(xy 176.53 129.54) (xy 177.8 129.54)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "4af8b988-bea4-4de5-a662-781f84464608")
 	)
 	(wire
 		(pts
@@ -5614,16 +4998,6 @@
 			(type default)
 		)
 		(uuid "54d0f40f-4ac1-41a0-b881-031f216fa5e5")
-	)
-	(wire
-		(pts
-			(xy 177.8 139.7) (xy 177.8 138.43)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "54e89e77-fef5-4cbe-98d7-f12c2a29d122")
 	)
 	(wire
 		(pts
@@ -5777,16 +5151,6 @@
 	)
 	(wire
 		(pts
-			(xy 133.35 50.8) (xy 133.35 52.07)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "648b4f62-cdbd-4f1b-9c49-53aaa21c3feb")
-	)
-	(wire
-		(pts
 			(xy 88.9 189.23) (xy 88.9 190.5)
 		)
 		(stroke
@@ -5895,16 +5259,6 @@
 		)
 		(uuid "70ae6ac3-3bcd-4a81-92e9-880f37e03ec7")
 	)
-	(polyline
-		(pts
-			(xy 151.13 118.11) (xy 151.13 147.32)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "70b02a2b-c1a2-480a-b577-82459a129ccd")
-	)
 	(wire
 		(pts
 			(xy 121.92 69.85) (xy 124.46 69.85)
@@ -5954,16 +5308,6 @@
 			(type default)
 		)
 		(uuid "7564877c-8d2f-4ccb-875a-6f58a588cb65")
-	)
-	(wire
-		(pts
-			(xy 129.54 57.15) (xy 129.54 60.96)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "76354715-9d64-4437-9c0f-c628b7d9f8be")
 	)
 	(wire
 		(pts
@@ -6017,16 +5361,6 @@
 	)
 	(wire
 		(pts
-			(xy 133.35 60.96) (xy 133.35 59.69)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "821a4389-ab23-4a5b-812d-32eeccf088fb")
-	)
-	(wire
-		(pts
 			(xy 80.01 190.5) (xy 80.01 193.04)
 		)
 		(stroke
@@ -6034,16 +5368,6 @@
 			(type default)
 		)
 		(uuid "82de8368-4830-45ff-be32-fac683597bfe")
-	)
-	(wire
-		(pts
-			(xy 157.48 50.8) (xy 157.48 60.96)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "834a5c99-b1aa-438a-8fa7-9f13131ecbcf")
 	)
 	(wire
 		(pts
@@ -6117,16 +5441,6 @@
 	)
 	(wire
 		(pts
-			(xy 133.35 60.96) (xy 147.32 60.96)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "8b17d28d-0719-4b0d-ab6b-73e72e27d29c")
-	)
-	(wire
-		(pts
 			(xy 81.28 46.99) (xy 81.28 35.56)
 		)
 		(stroke
@@ -6134,16 +5448,6 @@
 			(type default)
 		)
 		(uuid "8b2fcace-de11-4565-8675-cde80fe14785")
-	)
-	(polyline
-		(pts
-			(xy 151.13 118.11) (xy 215.9 118.11)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "8c294114-8b0a-4f08-b3f3-3ee792b6e34a")
 	)
 	(wire
 		(pts
@@ -6154,16 +5458,6 @@
 			(type default)
 		)
 		(uuid "90de26bf-6562-4fef-8e8b-fd7a52fe8731")
-	)
-	(wire
-		(pts
-			(xy 177.8 129.54) (xy 187.96 129.54)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "9233d8d0-9da5-4efe-a414-be338851caa4")
 	)
 	(wire
 		(pts
@@ -6184,16 +5478,6 @@
 			(type default)
 		)
 		(uuid "969f1cd0-3f61-4411-9d09-cc25307b2658")
-	)
-	(wire
-		(pts
-			(xy 121.92 54.61) (xy 129.54 54.61)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "97efc239-8493-42ee-816a-6a0160b50261")
 	)
 	(wire
 		(pts
@@ -6254,16 +5538,6 @@
 			(type default)
 		)
 		(uuid "9f334990-60b8-451e-b536-d34dc20684fa")
-	)
-	(wire
-		(pts
-			(xy 133.35 50.8) (xy 147.32 50.8)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "9fa16c61-7c2f-40bf-8ede-befb0b09dee1")
 	)
 	(wire
 		(pts
@@ -6335,16 +5609,6 @@
 		)
 		(uuid "ac38b180-ca82-414c-a76e-5d1e18f11ab1")
 	)
-	(wire
-		(pts
-			(xy 129.54 54.61) (xy 129.54 50.8)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "ac538c55-0bd1-421e-ae30-88cf7ee3e396")
-	)
 	(polyline
 		(pts
 			(xy 279.4 114.3) (xy 279.4 35.56)
@@ -6404,16 +5668,6 @@
 			(type default)
 		)
 		(uuid "baa6adc7-3b5a-491a-ab9b-5117316596bc")
-	)
-	(wire
-		(pts
-			(xy 167.64 129.54) (xy 168.91 129.54)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "bbad416c-fa9e-4960-b12c-0f3cd87008f1")
 	)
 	(wire
 		(pts
@@ -6495,16 +5749,6 @@
 		)
 		(uuid "c203dfe2-a063-4841-aa3f-0890cd2c84d9")
 	)
-	(polyline
-		(pts
-			(xy 170.18 63.5) (xy 128.27 63.5)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "c20e157e-22b0-434b-b9b4-721a0c91b50e")
-	)
 	(wire
 		(pts
 			(xy 31.75 161.29) (xy 55.88 161.29)
@@ -6577,16 +5821,6 @@
 	)
 	(wire
 		(pts
-			(xy 167.64 139.7) (xy 167.64 138.43)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "c964564d-4244-429d-bbb6-0ff59230f163")
-	)
-	(wire
-		(pts
 			(xy 237.49 138.43) (xy 241.3 138.43)
 		)
 		(stroke
@@ -6625,16 +5859,6 @@
 		)
 		(uuid "ccd049fe-eab8-40da-9311-cac49ed9b983")
 	)
-	(polyline
-		(pts
-			(xy 170.18 49.53) (xy 170.18 63.5)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "cd9887b6-9eff-48b3-afda-adbbc08cc17d")
-	)
 	(wire
 		(pts
 			(xy 209.55 66.04) (xy 209.55 72.39)
@@ -6657,16 +5881,6 @@
 	)
 	(wire
 		(pts
-			(xy 157.48 60.96) (xy 154.94 60.96)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "d304405b-fd49-4ca4-bc77-218a1074b0ae")
-	)
-	(wire
-		(pts
 			(xy 223.52 50.8) (xy 223.52 53.34)
 		)
 		(stroke
@@ -6674,26 +5888,6 @@
 			(type default)
 		)
 		(uuid "d4574cbb-f124-4fb9-8635-39ede4762ea5")
-	)
-	(wire
-		(pts
-			(xy 187.96 139.7) (xy 187.96 138.43)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "d5789c06-596d-4f21-bc1d-5a96d9a9ac6c")
-	)
-	(wire
-		(pts
-			(xy 201.93 134.62) (xy 201.93 139.7)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "d65dcadb-3702-4e06-9116-b70d531b16fc")
 	)
 	(wire
 		(pts
@@ -6805,16 +5999,6 @@
 		)
 		(uuid "e638e760-08a4-419d-a520-36b66fe7ebd7")
 	)
-	(polyline
-		(pts
-			(xy 215.9 147.32) (xy 215.9 118.11)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "e657c141-557a-4fd4-8425-99a02155cefe")
-	)
 	(wire
 		(pts
 			(xy 208.28 93.98) (xy 208.28 95.25)
@@ -6824,26 +6008,6 @@
 			(type default)
 		)
 		(uuid "e7dabc7d-42ce-47db-916b-25a36cf658f2")
-	)
-	(wire
-		(pts
-			(xy 156.21 129.54) (xy 167.64 129.54)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "e81cbca5-affd-45f2-8085-bdc00951645c")
-	)
-	(wire
-		(pts
-			(xy 177.8 129.54) (xy 177.8 130.81)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "ea7145a2-0349-4e32-a39f-852fa85e5fd7")
 	)
 	(wire
 		(pts
@@ -6867,16 +6031,6 @@
 	)
 	(wire
 		(pts
-			(xy 154.94 50.8) (xy 157.48 50.8)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "eb176f7f-c54f-4a6a-9e0a-cf180b30a1f4")
-	)
-	(wire
-		(pts
 			(xy 199.39 87.63) (xy 199.39 95.25)
 		)
 		(stroke
@@ -6884,16 +6038,6 @@
 			(type default)
 		)
 		(uuid "ed4bd141-c63f-41de-a2dd-8586bb8e2863")
-	)
-	(wire
-		(pts
-			(xy 46.99 72.39) (xy 55.88 72.39)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "ee2ca9a6-4c86-4407-b2bc-b3fe189a60a0")
 	)
 	(polyline
 		(pts
@@ -6974,16 +6118,6 @@
 			(type default)
 		)
 		(uuid "fd86445c-d48a-4ba1-a12b-b30361d9b05f")
-	)
-	(polyline
-		(pts
-			(xy 151.13 147.32) (xy 215.9 147.32)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "fe99df24-03ff-46a4-bf40-f8423002c626")
 	)
 	(rectangle
 		(start 154.94 74.93)
@@ -7096,17 +6230,6 @@
 		)
 		(uuid "629ceff3-27f0-49a5-b318-3ec3886965c5")
 	)
-	(text "LFXO\n(Optional)"
-		(exclude_from_sim no)
-		(at 158.75 54.61 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "74e20994-291b-4eb1-8b33-96ccd5c6dbe8")
-	)
 	(text "Application LED"
 		(exclude_from_sim no)
 		(at 164.084 76.962 0)
@@ -7127,17 +6250,6 @@
 			(justify left bottom)
 		)
 		(uuid "8c89901e-a445-4e48-a729-6564079af509")
-	)
-	(text "Bluetooth RF connector"
-		(exclude_from_sim no)
-		(at 152.4 120.65 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "bc989748-af1f-4f8f-844f-9929ac31b6da")
 	)
 	(text "Needed to route\nRESET via pin \non outer ring."
 		(exclude_from_sim no)
@@ -7194,17 +6306,6 @@
 		)
 		(uuid "070a195f-64a2-40cd-bc3e-988df74589b0")
 	)
-	(label "ANT"
-		(at 49.53 72.39 0)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "0fa90fe8-7f2d-43cb-8846-84b2a623a465")
-	)
 	(label "SWDCLK"
 		(at 46.99 163.83 0)
 		(fields_autoplaced yes)
@@ -7248,17 +6349,6 @@
 			(justify left bottom)
 		)
 		(uuid "21db7c28-8fdb-4b11-b4e3-1e6ff1f481c0")
-	)
-	(label "ANT"
-		(at 156.21 129.54 0)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "25ac3b06-7032-4e69-bf1d-e20f3eb35c51")
 	)
 	(label "D_P"
 		(at 269.24 77.47 0)
@@ -7688,115 +6778,6 @@
 			(project "dongle"
 				(path "/baecd03a-8d48-4020-876a-32289b953936/49f47eff-be71-45a3-baa2-ec3b29bb6923"
 					(reference "#PWR0225")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:C")
-		(at 151.13 50.8 270)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom no)
-		(on_board yes)
-		(dnp yes)
-		(uuid "04fa82a7-9ba4-42a2-8917-cb4e00e5bf87")
-		(property "Reference" "C417"
-			(at 151.13 46.99 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "22pF"
-			(at 151.13 54.61 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
-			(at 147.32 51.7652 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "https://datasheet.lcsc.com/lcsc/2206281830_Murata-Electronics-GCM1555C1H220FA16D_C882582.pdf"
-			(at 151.13 50.8 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "50V 22pF C0G,NP0 ±1% 0402"
-			(at 151.13 50.8 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "LCSC" "C882582"
-			(at 151.13 50.8 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer" "Murata Electronics"
-			(at 151.13 50.8 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Part Number" "GCM1555C1H220FA16D"
-			(at 151.13 50.8 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Comment" ""
-			(at 151.13 50.8 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "6f8c0015-a613-487f-b0a4-f0b6013072c3")
-		)
-		(pin "2"
-			(uuid "4f99aec1-e29c-493e-88ee-19d170eb8dfb")
-		)
-		(instances
-			(project "dongle"
-				(path "/8d3147eb-060b-4f65-bf42-ed06a58b21ba/54153e10-3ce2-49f9-ba26-dfcdedab58b6"
-					(reference "C417")
-					(unit 1)
-				)
-			)
-			(project "dongle"
-				(path "/baecd03a-8d48-4020-876a-32289b953936/49f47eff-be71-45a3-baa2-ec3b29bb6923"
-					(reference "C203")
 					(unit 1)
 				)
 			)
@@ -8560,77 +7541,6 @@
 		)
 	)
 	(symbol
-		(lib_id "power:GND")
-		(at 167.64 139.7 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "2115186e-d727-4585-a3fa-be1ac7e5058b")
-		(property "Reference" "#PWR0428"
-			(at 167.64 146.05 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "GND"
-			(at 167.64 143.51 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 167.64 139.7 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 167.64 139.7 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 167.64 139.7 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "ec7e0351-b994-4ce0-838c-9c22b280abdc")
-		)
-		(instances
-			(project "dongle"
-				(path "/8d3147eb-060b-4f65-bf42-ed06a58b21ba/54153e10-3ce2-49f9-ba26-dfcdedab58b6"
-					(reference "#PWR0428")
-					(unit 1)
-				)
-			)
-			(project "dongle"
-				(path "/baecd03a-8d48-4020-876a-32289b953936/49f47eff-be71-45a3-baa2-ec3b29bb6923"
-					(reference "#PWR0230")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "Device:R")
 		(at 196.85 91.44 0)
 		(unit 1)
@@ -8743,108 +7653,6 @@
 	)
 	(symbol
 		(lib_id "Device:C")
-		(at 167.64 134.62 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "2a633681-e42a-459a-81db-119aa0e3a0cb")
-		(property "Reference" "C420"
-			(at 167.64 132.08 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "0.8pF"
-			(at 168.91 137.16 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "Capacitor_SMD:C_0201_0603Metric"
-			(at 168.6052 138.43 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 167.64 134.62 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "25V 0.8pF C0G ±0.1pF 0201"
-			(at 167.64 134.62 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "LCSC" "C161294"
-			(at 167.64 134.62 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer" "Murata Electronics"
-			(at 167.64 134.62 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Part Number" "GJM0335C1ER80BB01D"
-			(at 167.64 134.62 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "50518772-64c5-427c-9695-2c0f4fe1ddb5")
-		)
-		(pin "2"
-			(uuid "ecbf8ab0-4113-4d8f-8d93-3fc198d4ff1b")
-		)
-		(instances
-			(project "dongle"
-				(path "/8d3147eb-060b-4f65-bf42-ed06a58b21ba/54153e10-3ce2-49f9-ba26-dfcdedab58b6"
-					(reference "C420")
-					(unit 1)
-				)
-			)
-			(project "dongle"
-				(path "/baecd03a-8d48-4020-876a-32289b953936/49f47eff-be71-45a3-baa2-ec3b29bb6923"
-					(reference "C223")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:C")
 		(at 236.22 57.15 0)
 		(unit 1)
 		(exclude_from_sim no)
@@ -8941,81 +7749,6 @@
 			(project "dongle"
 				(path "/baecd03a-8d48-4020-876a-32289b953936/49f47eff-be71-45a3-baa2-ec3b29bb6923"
 					(reference "C206")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:C")
-		(at 187.96 134.62 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom no)
-		(on_board yes)
-		(dnp yes)
-		(uuid "3178bd77-5048-427e-aaa0-03a87c8eda5b")
-		(property "Reference" "C422"
-			(at 187.96 132.08 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "N.C."
-			(at 189.23 137.16 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "Capacitor_SMD:C_0201_0603Metric"
-			(at 188.9252 138.43 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 187.96 134.62 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 187.96 134.62 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "8b9ad14e-0e88-4e2f-b7f0-dc29c9a53b51")
-		)
-		(pin "2"
-			(uuid "b8e6ca3b-1836-4a6c-94b5-921f3579e5fd")
-		)
-		(instances
-			(project "dongle"
-				(path "/8d3147eb-060b-4f65-bf42-ed06a58b21ba/54153e10-3ce2-49f9-ba26-dfcdedab58b6"
-					(reference "C422")
-					(unit 1)
-				)
-			)
-			(project "dongle"
-				(path "/baecd03a-8d48-4020-876a-32289b953936/49f47eff-be71-45a3-baa2-ec3b29bb6923"
-					(reference "C225")
 					(unit 1)
 				)
 			)
@@ -9736,186 +8469,6 @@
 	)
 	(symbol
 		(lib_id "Device:C")
-		(at 151.13 60.96 90)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom no)
-		(on_board yes)
-		(dnp yes)
-		(uuid "43ed45a4-7543-4d10-a537-a8c50f38610b")
-		(property "Reference" "C418"
-			(at 151.13 57.15 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "22pF"
-			(at 151.13 64.77 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
-			(at 154.94 59.9948 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "https://datasheet.lcsc.com/lcsc/2206281830_Murata-Electronics-GCM1555C1H220FA16D_C882582.pdf"
-			(at 151.13 60.96 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "50V 22pF C0G,NP0 ±1% 0402"
-			(at 151.13 60.96 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "LCSC" "C882582"
-			(at 151.13 60.96 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer" "Murata Electronics"
-			(at 151.13 60.96 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Part Number" "GCM1555C1H220FA16D"
-			(at 151.13 60.96 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Comment" ""
-			(at 151.13 60.96 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "9477f982-bf27-4a61-9d16-08ac62d5d1fc")
-		)
-		(pin "2"
-			(uuid "767168e1-a76c-4aad-b866-4ef0c24075f1")
-		)
-		(instances
-			(project "dongle"
-				(path "/8d3147eb-060b-4f65-bf42-ed06a58b21ba/54153e10-3ce2-49f9-ba26-dfcdedab58b6"
-					(reference "C418")
-					(unit 1)
-				)
-			)
-			(project "dongle"
-				(path "/baecd03a-8d48-4020-876a-32289b953936/49f47eff-be71-45a3-baa2-ec3b29bb6923"
-					(reference "C204")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:GND")
-		(at 177.8 139.7 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "4489f220-21f6-47d4-b842-8ac9dc804047")
-		(property "Reference" "#PWR0429"
-			(at 177.8 146.05 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "GND"
-			(at 177.8 143.51 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 177.8 139.7 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 177.8 139.7 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 177.8 139.7 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "07d66df9-36b9-498e-929e-8be6ff82b2a6")
-		)
-		(instances
-			(project "dongle"
-				(path "/8d3147eb-060b-4f65-bf42-ed06a58b21ba/54153e10-3ce2-49f9-ba26-dfcdedab58b6"
-					(reference "#PWR0429")
-					(unit 1)
-				)
-			)
-			(project "dongle"
-				(path "/baecd03a-8d48-4020-876a-32289b953936/49f47eff-be71-45a3-baa2-ec3b29bb6923"
-					(reference "#PWR0231")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:C")
 		(at 162.56 24.13 0)
 		(unit 1)
 		(exclude_from_sim no)
@@ -10274,7 +8827,7 @@
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
-		(dnp yes)
+		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "4dedbd76-3cc6-4f5e-a222-af1b69269d87")
 		(property "Reference" "J403"
@@ -10502,108 +9055,6 @@
 			(project "dongle"
 				(path "/baecd03a-8d48-4020-876a-32289b953936/49f47eff-be71-45a3-baa2-ec3b29bb6923"
 					(reference "#PWR0210")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:C")
-		(at 177.8 134.62 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "53382ddd-a010-4f1d-9b06-35e30fe0cb2d")
-		(property "Reference" "C421"
-			(at 177.8 132.08 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "0.5pF"
-			(at 177.8 137.16 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "Capacitor_SMD:C_0201_0603Metric"
-			(at 178.7652 138.43 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 177.8 134.62 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "50V 0.5pF C0G ±0.1pF 0201"
-			(at 177.8 134.62 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "LCSC" "C85920"
-			(at 177.8 134.62 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer" "Murata Electronics"
-			(at 177.8 134.62 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Part Number" "GRM0335C1HR50BA01D"
-			(at 177.8 134.62 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "e398834b-9fc5-44d5-8bad-1caf991e61d2")
-		)
-		(pin "2"
-			(uuid "9f9542d2-7b59-45a3-8395-e047f2c4c81b")
-		)
-		(instances
-			(project "dongle"
-				(path "/8d3147eb-060b-4f65-bf42-ed06a58b21ba/54153e10-3ce2-49f9-ba26-dfcdedab58b6"
-					(reference "C421")
-					(unit 1)
-				)
-			)
-			(project "dongle"
-				(path "/baecd03a-8d48-4020-876a-32289b953936/49f47eff-be71-45a3-baa2-ec3b29bb6923"
-					(reference "C224")
 					(unit 1)
 				)
 			)
@@ -12083,118 +10534,6 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:Crystal")
-		(at 133.35 55.88 90)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom no)
-		(on_board yes)
-		(dnp yes)
-		(fields_autoplaced yes)
-		(uuid "68cefd17-c0d1-4302-b13c-562f19cff4f1")
-		(property "Reference" "Y402"
-			(at 137.16 54.6099 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Value" "32.768kHz"
-			(at 137.16 57.1499 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Footprint" "Crystal:Crystal_SMD_3215-2Pin_3.2x1.5mm"
-			(at 133.35 55.88 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "https://datasheet.lcsc.com/lcsc/1810171817_Seiko-Epson-Q13FC1350000400_C32346.pdf"
-			(at 133.35 55.88 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "32.768kHz SMD Crystal Resonator 12.5pF 70kΩ ±20ppm -40℃~+85℃ SMD3215-2P "
-			(at 133.35 55.88 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Comment" ""
-			(at 133.35 55.88 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "LCSC" "C32346"
-			(at 133.35 55.88 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer" "Seiko Epson"
-			(at 133.35 55.88 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Part Number" "Q13FC1350000400"
-			(at 133.35 55.88 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "69bd2a48-6c5b-4b7a-9947-08e5d36b4368")
-		)
-		(pin "2"
-			(uuid "ab6d92f6-7fc5-40b3-8c97-9740c3e015a3")
-		)
-		(instances
-			(project "dongle"
-				(path "/8d3147eb-060b-4f65-bf42-ed06a58b21ba/54153e10-3ce2-49f9-ba26-dfcdedab58b6"
-					(reference "Y402")
-					(unit 1)
-				)
-			)
-			(project "dongle"
-				(path "/baecd03a-8d48-4020-876a-32289b953936/49f47eff-be71-45a3-baa2-ec3b29bb6923"
-					(reference "Y202")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "power:GND")
 		(at 236.22 60.96 0)
 		(unit 1)
@@ -13421,115 +11760,6 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:L")
-		(at 172.72 129.54 90)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "903fa2a7-903e-480d-a7bf-9dda1c27e150")
-		(property "Reference" "L401"
-			(at 172.72 124.46 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "4.7nH"
-			(at 172.72 127 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "Inductor_SMD:L_0201_0603Metric"
-			(at 172.72 129.54 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 172.72 129.54 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "350mA 4.7nH ±3% 400mΩ 0201"
-			(at 172.72 129.54 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Comment" "same part as nRF52 dongle"
-			(at 172.72 129.54 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "LCSC" "C86126"
-			(at 172.72 129.54 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer" "Murata Electronics"
-			(at 172.72 129.54 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Part Number" "LQP03TN4N7H02D"
-			(at 172.72 129.54 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "bc749f01-7462-41fb-8ed9-68e9999237bd")
-		)
-		(pin "2"
-			(uuid "3bbbafb0-dce8-451e-bf9e-835ea55bc02c")
-		)
-		(instances
-			(project "dongle"
-				(path "/8d3147eb-060b-4f65-bf42-ed06a58b21ba/54153e10-3ce2-49f9-ba26-dfcdedab58b6"
-					(reference "L401")
-					(unit 1)
-				)
-			)
-			(project "dongle"
-				(path "/baecd03a-8d48-4020-876a-32289b953936/49f47eff-be71-45a3-baa2-ec3b29bb6923"
-					(reference "L204")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "Device:C")
 		(at 15.24 44.45 0)
 		(unit 1)
@@ -13800,77 +12030,6 @@
 			(project "dongle"
 				(path "/baecd03a-8d48-4020-876a-32289b953936/49f47eff-be71-45a3-baa2-ec3b29bb6923"
 					(reference "#PWR02")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:GND")
-		(at 201.93 139.7 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "96b4690b-7a1b-442c-bee3-8b634598fb4c")
-		(property "Reference" "#PWR0432"
-			(at 201.93 146.05 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "GND"
-			(at 201.93 143.51 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 201.93 139.7 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 201.93 139.7 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 201.93 139.7 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "21a1e09f-7411-49fc-9d24-7f02d3fe892b")
-		)
-		(instances
-			(project "dongle"
-				(path "/8d3147eb-060b-4f65-bf42-ed06a58b21ba/54153e10-3ce2-49f9-ba26-dfcdedab58b6"
-					(reference "#PWR0432")
-					(unit 1)
-				)
-			)
-			(project "dongle"
-				(path "/baecd03a-8d48-4020-876a-32289b953936/49f47eff-be71-45a3-baa2-ec3b29bb6923"
-					(reference "#PWR0227")
 					(unit 1)
 				)
 			)
@@ -15341,77 +13500,6 @@
 		)
 	)
 	(symbol
-		(lib_id "power:GND")
-		(at 187.96 139.7 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "e14f1fed-8447-49e5-949f-8bdb8e5b55f0")
-		(property "Reference" "#PWR0430"
-			(at 187.96 146.05 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "GND"
-			(at 187.96 143.51 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 187.96 139.7 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 187.96 139.7 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 187.96 139.7 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "28c41d4c-6192-4153-99e8-e8104f8ad11c")
-		)
-		(instances
-			(project "dongle"
-				(path "/8d3147eb-060b-4f65-bf42-ed06a58b21ba/54153e10-3ce2-49f9-ba26-dfcdedab58b6"
-					(reference "#PWR0430")
-					(unit 1)
-				)
-			)
-			(project "dongle"
-				(path "/baecd03a-8d48-4020-876a-32289b953936/49f47eff-be71-45a3-baa2-ec3b29bb6923"
-					(reference "#PWR0232")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "Device:C")
 		(at 19.05 87.63 180)
 		(unit 1)
@@ -15736,77 +13824,6 @@
 		)
 	)
 	(symbol
-		(lib_id "power:GND")
-		(at 157.48 67.31 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "eeb75c0b-8003-4bf8-ad18-b0b5a2d59718")
-		(property "Reference" "#PWR0424"
-			(at 157.48 73.66 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "GND"
-			(at 157.48 71.12 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 157.48 67.31 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 157.48 67.31 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 157.48 67.31 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "93ac006a-61db-4bed-99db-bb0d00dd2d70")
-		)
-		(instances
-			(project "dongle"
-				(path "/8d3147eb-060b-4f65-bf42-ed06a58b21ba/54153e10-3ce2-49f9-ba26-dfcdedab58b6"
-					(reference "#PWR0424")
-					(unit 1)
-				)
-			)
-			(project "dongle"
-				(path "/baecd03a-8d48-4020-876a-32289b953936/49f47eff-be71-45a3-baa2-ec3b29bb6923"
-					(reference "#PWR0204")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "power:PWR_FLAG")
 		(at 73.66 20.32 0)
 		(unit 1)
@@ -16052,109 +14069,6 @@
 			(project "dongle"
 				(path "/baecd03a-8d48-4020-876a-32289b953936/49f47eff-be71-45a3-baa2-ec3b29bb6923"
 					(reference "#PWR0223")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Connector:Conn_Coaxial")
-		(at 201.93 129.54 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "f50ea0b6-28a1-449a-90b1-ace30c47c6b6")
-		(property "Reference" "J402"
-			(at 205.74 128.5631 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "u.FL"
-			(at 205.74 131.1031 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "Connector_Coaxial:U.FL_Hirose_U.FL-R-SMT-1_Vertical"
-			(at 201.93 129.54 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "https://wmsc.lcsc.com/wmsc/upload/file/pdf/v2/lcsc/1811091710_HRS-Hirose-U-FL-R-SMT-1-80_C88374.pdf"
-			(at 201.93 129.54 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "1 Inner needle IPEX Board Edge 1.25mm -40℃~+90℃ 6GHz 50Ω 2mm SMD RF Connectors / Coaxial Connectors ROHS"
-			(at 201.93 129.54 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "LCSC" "C88374"
-			(at 201.93 129.54 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer" "Hirose"
-			(at 201.93 129.54 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Part Number" "U.FL-R-SMT-1(80)"
-			(at 201.93 129.54 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "00173d2f-c58f-4234-83e2-be2320400ae5")
-		)
-		(pin "2"
-			(uuid "96dbbf02-1990-4f7d-af85-0b3bae3ec623")
-		)
-		(instances
-			(project "dongle"
-				(path "/8d3147eb-060b-4f65-bf42-ed06a58b21ba/54153e10-3ce2-49f9-ba26-dfcdedab58b6"
-					(reference "J402")
-					(unit 1)
-				)
-			)
-			(project "dongle"
-				(path "/baecd03a-8d48-4020-876a-32289b953936/49f47eff-be71-45a3-baa2-ec3b29bb6923"
-					(reference "J203")
 					(unit 1)
 				)
 			)
