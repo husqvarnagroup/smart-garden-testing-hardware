@@ -5,7 +5,7 @@
 	(uuid "86fc660b-97fd-4d8e-ba8d-67763281b5ad")
 	(paper "A4")
 	(title_block
-		(title "MCU")
+		(title "Main MCU")
 	)
 	(lib_symbols
 		(symbol "Connector:Conn_Coaxial"
@@ -7719,6 +7719,12 @@
 		)
 		(instances
 			(project "dongle"
+				(path "/8d3147eb-060b-4f65-bf42-ed06a58b21ba/9b741a5c-1fa6-4ec7-876c-f0b1f25b18e4"
+					(reference "F201")
+					(unit 1)
+				)
+			)
+			(project "dongle"
 				(path "/baecd03a-8d48-4020-876a-32289b953936/49f47eff-be71-45a3-baa2-ec3b29bb6923"
 					(reference "F201")
 					(unit 1)
@@ -7783,6 +7789,12 @@
 			(uuid "e082dd9c-b034-49b8-83d9-241505c7c013")
 		)
 		(instances
+			(project "dongle"
+				(path "/8d3147eb-060b-4f65-bf42-ed06a58b21ba/9b741a5c-1fa6-4ec7-876c-f0b1f25b18e4"
+					(reference "#PWR0214")
+					(unit 1)
+				)
+			)
 			(project "dongle"
 				(path "/baecd03a-8d48-4020-876a-32289b953936/49f47eff-be71-45a3-baa2-ec3b29bb6923"
 					(reference "#PWR0214")
@@ -7877,6 +7889,12 @@
 			(uuid "abb3c331-167f-4e88-ac21-df44ed9d131f")
 		)
 		(instances
+			(project "dongle"
+				(path "/8d3147eb-060b-4f65-bf42-ed06a58b21ba/9b741a5c-1fa6-4ec7-876c-f0b1f25b18e4"
+					(reference "R203")
+					(unit 1)
+				)
+			)
 			(project "dongle"
 				(path "/baecd03a-8d48-4020-876a-32289b953936/49f47eff-be71-45a3-baa2-ec3b29bb6923"
 					(reference "R203")
@@ -7974,6 +7992,12 @@
 			(uuid "efda8f24-0e3a-46b3-a082-73a1de7ec3f2")
 		)
 		(instances
+			(project "dongle"
+				(path "/8d3147eb-060b-4f65-bf42-ed06a58b21ba/9b741a5c-1fa6-4ec7-876c-f0b1f25b18e4"
+					(reference "C214")
+					(unit 1)
+				)
+			)
 			(project "dongle"
 				(path "/baecd03a-8d48-4020-876a-32289b953936/49f47eff-be71-45a3-baa2-ec3b29bb6923"
 					(reference "C214")
@@ -8081,6 +8105,12 @@
 		)
 		(instances
 			(project "dongle"
+				(path "/8d3147eb-060b-4f65-bf42-ed06a58b21ba/9b741a5c-1fa6-4ec7-876c-f0b1f25b18e4"
+					(reference "R202")
+					(unit 1)
+				)
+			)
+			(project "dongle"
 				(path "/baecd03a-8d48-4020-876a-32289b953936/49f47eff-be71-45a3-baa2-ec3b29bb6923"
 					(reference "R202")
 					(unit 1)
@@ -8147,6 +8177,12 @@
 			(uuid "e6961e5d-8d3b-4c1e-8a39-85814ba34fc8")
 		)
 		(instances
+			(project "dongle"
+				(path "/8d3147eb-060b-4f65-bf42-ed06a58b21ba/9b741a5c-1fa6-4ec7-876c-f0b1f25b18e4"
+					(reference "TP202")
+					(unit 1)
+				)
+			)
 			(project "dongle"
 				(path "/baecd03a-8d48-4020-876a-32289b953936/49f47eff-be71-45a3-baa2-ec3b29bb6923"
 					(reference "TP202")
@@ -8253,6 +8289,12 @@
 		)
 		(instances
 			(project "dongle"
+				(path "/8d3147eb-060b-4f65-bf42-ed06a58b21ba/9b741a5c-1fa6-4ec7-876c-f0b1f25b18e4"
+					(reference "C215")
+					(unit 1)
+				)
+			)
+			(project "dongle"
 				(path "/baecd03a-8d48-4020-876a-32289b953936/49f47eff-be71-45a3-baa2-ec3b29bb6923"
 					(reference "C215")
 					(unit 1)
@@ -8317,6 +8359,12 @@
 			(uuid "6ebbf164-6045-442a-a3a6-a79b18d6a0c4")
 		)
 		(instances
+			(project "dongle"
+				(path "/8d3147eb-060b-4f65-bf42-ed06a58b21ba/9b741a5c-1fa6-4ec7-876c-f0b1f25b18e4"
+					(reference "#PWR0235")
+					(unit 1)
+				)
+			)
 			(project "dongle"
 				(path "/baecd03a-8d48-4020-876a-32289b953936/49f47eff-be71-45a3-baa2-ec3b29bb6923"
 					(reference "#PWR0235")
@@ -8383,6 +8431,12 @@
 		)
 		(instances
 			(project "dongle"
+				(path "/8d3147eb-060b-4f65-bf42-ed06a58b21ba/9b741a5c-1fa6-4ec7-876c-f0b1f25b18e4"
+					(reference "#PWR0223")
+					(unit 1)
+				)
+			)
+			(project "dongle"
 				(path "/baecd03a-8d48-4020-876a-32289b953936/49f47eff-be71-45a3-baa2-ec3b29bb6923"
 					(reference "#PWR0223")
 					(unit 1)
@@ -8447,6 +8501,12 @@
 			(uuid "5a99bdab-0f09-4902-9c40-871d1e416c31")
 		)
 		(instances
+			(project "dongle"
+				(path "/8d3147eb-060b-4f65-bf42-ed06a58b21ba/9b741a5c-1fa6-4ec7-876c-f0b1f25b18e4"
+					(reference "#PWR0202")
+					(unit 1)
+				)
+			)
 			(project "dongle"
 				(path "/baecd03a-8d48-4020-876a-32289b953936/49f47eff-be71-45a3-baa2-ec3b29bb6923"
 					(reference "#PWR0202")
@@ -8554,6 +8614,12 @@
 		)
 		(instances
 			(project "dongle"
+				(path "/8d3147eb-060b-4f65-bf42-ed06a58b21ba/9b741a5c-1fa6-4ec7-876c-f0b1f25b18e4"
+					(reference "FB201")
+					(unit 1)
+				)
+			)
+			(project "dongle"
 				(path "/baecd03a-8d48-4020-876a-32289b953936/49f47eff-be71-45a3-baa2-ec3b29bb6923"
 					(reference "FB201")
 					(unit 1)
@@ -8651,6 +8717,12 @@
 		)
 		(instances
 			(project "dongle"
+				(path "/8d3147eb-060b-4f65-bf42-ed06a58b21ba/9b741a5c-1fa6-4ec7-876c-f0b1f25b18e4"
+					(reference "C226")
+					(unit 1)
+				)
+			)
+			(project "dongle"
 				(path "/baecd03a-8d48-4020-876a-32289b953936/49f47eff-be71-45a3-baa2-ec3b29bb6923"
 					(reference "C226")
 					(unit 1)
@@ -8747,6 +8819,12 @@
 		)
 		(instances
 			(project "dongle"
+				(path "/8d3147eb-060b-4f65-bf42-ed06a58b21ba/9b741a5c-1fa6-4ec7-876c-f0b1f25b18e4"
+					(reference "C224")
+					(unit 1)
+				)
+			)
+			(project "dongle"
 				(path "/baecd03a-8d48-4020-876a-32289b953936/49f47eff-be71-45a3-baa2-ec3b29bb6923"
 					(reference "C224")
 					(unit 1)
@@ -8812,6 +8890,12 @@
 		)
 		(instances
 			(project "dongle"
+				(path "/8d3147eb-060b-4f65-bf42-ed06a58b21ba/9b741a5c-1fa6-4ec7-876c-f0b1f25b18e4"
+					(reference "#PWR0217")
+					(unit 1)
+				)
+			)
+			(project "dongle"
 				(path "/baecd03a-8d48-4020-876a-32289b953936/49f47eff-be71-45a3-baa2-ec3b29bb6923"
 					(reference "#PWR0217")
 					(unit 1)
@@ -8876,6 +8960,12 @@
 			(uuid "7be5b97c-d70a-4617-af02-969d54900be6")
 		)
 		(instances
+			(project "dongle"
+				(path "/8d3147eb-060b-4f65-bf42-ed06a58b21ba/9b741a5c-1fa6-4ec7-876c-f0b1f25b18e4"
+					(reference "#PWR0224")
+					(unit 1)
+				)
+			)
 			(project "dongle"
 				(path "/baecd03a-8d48-4020-876a-32289b953936/49f47eff-be71-45a3-baa2-ec3b29bb6923"
 					(reference "#PWR0224")
@@ -8983,6 +9073,12 @@
 		)
 		(instances
 			(project "dongle"
+				(path "/8d3147eb-060b-4f65-bf42-ed06a58b21ba/9b741a5c-1fa6-4ec7-876c-f0b1f25b18e4"
+					(reference "C213")
+					(unit 1)
+				)
+			)
+			(project "dongle"
 				(path "/baecd03a-8d48-4020-876a-32289b953936/49f47eff-be71-45a3-baa2-ec3b29bb6923"
 					(reference "C213")
 					(unit 1)
@@ -9047,6 +9143,12 @@
 			(uuid "56de538b-6e56-438b-8946-b82d22b42cde")
 		)
 		(instances
+			(project "dongle"
+				(path "/8d3147eb-060b-4f65-bf42-ed06a58b21ba/9b741a5c-1fa6-4ec7-876c-f0b1f25b18e4"
+					(reference "#PWR0220")
+					(unit 1)
+				)
+			)
 			(project "dongle"
 				(path "/baecd03a-8d48-4020-876a-32289b953936/49f47eff-be71-45a3-baa2-ec3b29bb6923"
 					(reference "#PWR0220")
@@ -9145,6 +9247,12 @@
 		)
 		(instances
 			(project "dongle"
+				(path "/8d3147eb-060b-4f65-bf42-ed06a58b21ba/9b741a5c-1fa6-4ec7-876c-f0b1f25b18e4"
+					(reference "C206")
+					(unit 1)
+				)
+			)
+			(project "dongle"
 				(path "/baecd03a-8d48-4020-876a-32289b953936/49f47eff-be71-45a3-baa2-ec3b29bb6923"
 					(reference "C206")
 					(unit 1)
@@ -9209,6 +9317,12 @@
 			(uuid "e5595771-5b0c-4c29-a2d5-f73b48d5a5b6")
 		)
 		(instances
+			(project "dongle"
+				(path "/8d3147eb-060b-4f65-bf42-ed06a58b21ba/9b741a5c-1fa6-4ec7-876c-f0b1f25b18e4"
+					(reference "#PWR0229")
+					(unit 1)
+				)
+			)
 			(project "dongle"
 				(path "/baecd03a-8d48-4020-876a-32289b953936/49f47eff-be71-45a3-baa2-ec3b29bb6923"
 					(reference "#PWR0229")
@@ -9310,6 +9424,12 @@
 		)
 		(instances
 			(project "dongle"
+				(path "/8d3147eb-060b-4f65-bf42-ed06a58b21ba/9b741a5c-1fa6-4ec7-876c-f0b1f25b18e4"
+					(reference "Y201")
+					(unit 1)
+				)
+			)
+			(project "dongle"
 				(path "/baecd03a-8d48-4020-876a-32289b953936/49f47eff-be71-45a3-baa2-ec3b29bb6923"
 					(reference "Y201")
 					(unit 1)
@@ -9374,6 +9494,12 @@
 			(uuid "df00746f-93de-4a62-b05e-0296ba596c78")
 		)
 		(instances
+			(project "dongle"
+				(path "/8d3147eb-060b-4f65-bf42-ed06a58b21ba/9b741a5c-1fa6-4ec7-876c-f0b1f25b18e4"
+					(reference "#PWR0222")
+					(unit 1)
+				)
+			)
 			(project "dongle"
 				(path "/baecd03a-8d48-4020-876a-32289b953936/49f47eff-be71-45a3-baa2-ec3b29bb6923"
 					(reference "#PWR0222")
@@ -9479,6 +9605,12 @@
 			(uuid "c832f8bf-9d68-449b-9dc8-0dcda287686a")
 		)
 		(instances
+			(project "dongle"
+				(path "/8d3147eb-060b-4f65-bf42-ed06a58b21ba/9b741a5c-1fa6-4ec7-876c-f0b1f25b18e4"
+					(reference "C212")
+					(unit 1)
+				)
+			)
 			(project "dongle"
 				(path "/baecd03a-8d48-4020-876a-32289b953936/49f47eff-be71-45a3-baa2-ec3b29bb6923"
 					(reference "C212")
@@ -9586,6 +9718,12 @@
 		)
 		(instances
 			(project "dongle"
+				(path "/8d3147eb-060b-4f65-bf42-ed06a58b21ba/9b741a5c-1fa6-4ec7-876c-f0b1f25b18e4"
+					(reference "D203")
+					(unit 1)
+				)
+			)
+			(project "dongle"
 				(path "/baecd03a-8d48-4020-876a-32289b953936/49f47eff-be71-45a3-baa2-ec3b29bb6923"
 					(reference "D203")
 					(unit 1)
@@ -9651,6 +9789,12 @@
 		)
 		(instances
 			(project "dongle"
+				(path "/8d3147eb-060b-4f65-bf42-ed06a58b21ba/9b741a5c-1fa6-4ec7-876c-f0b1f25b18e4"
+					(reference "#PWR0232")
+					(unit 1)
+				)
+			)
+			(project "dongle"
 				(path "/baecd03a-8d48-4020-876a-32289b953936/49f47eff-be71-45a3-baa2-ec3b29bb6923"
 					(reference "#PWR0232")
 					(unit 1)
@@ -9715,6 +9859,12 @@
 			(uuid "2177f545-a34f-424c-a80b-a6c486e2da14")
 		)
 		(instances
+			(project "dongle"
+				(path "/8d3147eb-060b-4f65-bf42-ed06a58b21ba/9b741a5c-1fa6-4ec7-876c-f0b1f25b18e4"
+					(reference "#PWR0234")
+					(unit 1)
+				)
+			)
 			(project "dongle"
 				(path "/baecd03a-8d48-4020-876a-32289b953936/49f47eff-be71-45a3-baa2-ec3b29bb6923"
 					(reference "#PWR0234")
@@ -9812,6 +9962,12 @@
 			(uuid "45a368c7-3938-4960-bda7-5de3846671a9")
 		)
 		(instances
+			(project "dongle"
+				(path "/8d3147eb-060b-4f65-bf42-ed06a58b21ba/9b741a5c-1fa6-4ec7-876c-f0b1f25b18e4"
+					(reference "C217")
+					(unit 1)
+				)
+			)
 			(project "dongle"
 				(path "/baecd03a-8d48-4020-876a-32289b953936/49f47eff-be71-45a3-baa2-ec3b29bb6923"
 					(reference "C217")
@@ -9919,6 +10075,12 @@
 		)
 		(instances
 			(project "dongle"
+				(path "/8d3147eb-060b-4f65-bf42-ed06a58b21ba/9b741a5c-1fa6-4ec7-876c-f0b1f25b18e4"
+					(reference "R205")
+					(unit 1)
+				)
+			)
+			(project "dongle"
 				(path "/baecd03a-8d48-4020-876a-32289b953936/49f47eff-be71-45a3-baa2-ec3b29bb6923"
 					(reference "R205")
 					(unit 1)
@@ -10025,6 +10187,12 @@
 		)
 		(instances
 			(project "dongle"
+				(path "/8d3147eb-060b-4f65-bf42-ed06a58b21ba/9b741a5c-1fa6-4ec7-876c-f0b1f25b18e4"
+					(reference "R206")
+					(unit 1)
+				)
+			)
+			(project "dongle"
 				(path "/baecd03a-8d48-4020-876a-32289b953936/49f47eff-be71-45a3-baa2-ec3b29bb6923"
 					(reference "R206")
 					(unit 1)
@@ -10130,6 +10298,12 @@
 		)
 		(instances
 			(project "dongle"
+				(path "/8d3147eb-060b-4f65-bf42-ed06a58b21ba/9b741a5c-1fa6-4ec7-876c-f0b1f25b18e4"
+					(reference "C222")
+					(unit 1)
+				)
+			)
+			(project "dongle"
 				(path "/baecd03a-8d48-4020-876a-32289b953936/49f47eff-be71-45a3-baa2-ec3b29bb6923"
 					(reference "C222")
 					(unit 1)
@@ -10233,6 +10407,12 @@
 		)
 		(instances
 			(project "dongle"
+				(path "/8d3147eb-060b-4f65-bf42-ed06a58b21ba/9b741a5c-1fa6-4ec7-876c-f0b1f25b18e4"
+					(reference "C204")
+					(unit 1)
+				)
+			)
+			(project "dongle"
 				(path "/baecd03a-8d48-4020-876a-32289b953936/49f47eff-be71-45a3-baa2-ec3b29bb6923"
 					(reference "C204")
 					(unit 1)
@@ -10297,6 +10477,12 @@
 			(uuid "387c0166-5d0f-470c-a2d1-b782418bd7fd")
 		)
 		(instances
+			(project "dongle"
+				(path "/8d3147eb-060b-4f65-bf42-ed06a58b21ba/9b741a5c-1fa6-4ec7-876c-f0b1f25b18e4"
+					(reference "#FLG0102")
+					(unit 1)
+				)
+			)
 			(project "dongle"
 				(path "/baecd03a-8d48-4020-876a-32289b953936/49f47eff-be71-45a3-baa2-ec3b29bb6923"
 					(reference "#FLG0102")
@@ -10363,6 +10549,12 @@
 		)
 		(instances
 			(project "dongle"
+				(path "/8d3147eb-060b-4f65-bf42-ed06a58b21ba/9b741a5c-1fa6-4ec7-876c-f0b1f25b18e4"
+					(reference "#PWR0226")
+					(unit 1)
+				)
+			)
+			(project "dongle"
 				(path "/baecd03a-8d48-4020-876a-32289b953936/49f47eff-be71-45a3-baa2-ec3b29bb6923"
 					(reference "#PWR0226")
 					(unit 1)
@@ -10427,6 +10619,12 @@
 			(uuid "1440c6a8-e054-45f1-961c-a34147816720")
 		)
 		(instances
+			(project "dongle"
+				(path "/8d3147eb-060b-4f65-bf42-ed06a58b21ba/9b741a5c-1fa6-4ec7-876c-f0b1f25b18e4"
+					(reference "#PWR0201")
+					(unit 1)
+				)
+			)
 			(project "dongle"
 				(path "/baecd03a-8d48-4020-876a-32289b953936/49f47eff-be71-45a3-baa2-ec3b29bb6923"
 					(reference "#PWR0201")
@@ -10520,6 +10718,12 @@
 		)
 		(instances
 			(project "dongle"
+				(path "/8d3147eb-060b-4f65-bf42-ed06a58b21ba/9b741a5c-1fa6-4ec7-876c-f0b1f25b18e4"
+					(reference "J202")
+					(unit 1)
+				)
+			)
+			(project "dongle"
 				(path "/baecd03a-8d48-4020-876a-32289b953936/49f47eff-be71-45a3-baa2-ec3b29bb6923"
 					(reference "J202")
 					(unit 1)
@@ -10584,6 +10788,12 @@
 			(uuid "e424e3d0-1534-40ee-890d-5273066c2cfe")
 		)
 		(instances
+			(project "dongle"
+				(path "/8d3147eb-060b-4f65-bf42-ed06a58b21ba/9b741a5c-1fa6-4ec7-876c-f0b1f25b18e4"
+					(reference "#PWR0205")
+					(unit 1)
+				)
+			)
 			(project "dongle"
 				(path "/baecd03a-8d48-4020-876a-32289b953936/49f47eff-be71-45a3-baa2-ec3b29bb6923"
 					(reference "#PWR0205")
@@ -10650,6 +10860,12 @@
 			(uuid "e133a49d-df9b-4179-bd6e-fb9f680baa77")
 		)
 		(instances
+			(project "dongle"
+				(path "/8d3147eb-060b-4f65-bf42-ed06a58b21ba/9b741a5c-1fa6-4ec7-876c-f0b1f25b18e4"
+					(reference "TP205")
+					(unit 1)
+				)
+			)
 			(project "dongle"
 				(path "/baecd03a-8d48-4020-876a-32289b953936/49f47eff-be71-45a3-baa2-ec3b29bb6923"
 					(reference "TP205")
@@ -10748,6 +10964,12 @@
 		)
 		(instances
 			(project "dongle"
+				(path "/8d3147eb-060b-4f65-bf42-ed06a58b21ba/9b741a5c-1fa6-4ec7-876c-f0b1f25b18e4"
+					(reference "C205")
+					(unit 1)
+				)
+			)
+			(project "dongle"
 				(path "/baecd03a-8d48-4020-876a-32289b953936/49f47eff-be71-45a3-baa2-ec3b29bb6923"
 					(reference "C205")
 					(unit 1)
@@ -10812,6 +11034,12 @@
 			(uuid "21a1e09f-7411-49fc-9d24-7f02d3fe892b")
 		)
 		(instances
+			(project "dongle"
+				(path "/8d3147eb-060b-4f65-bf42-ed06a58b21ba/9b741a5c-1fa6-4ec7-876c-f0b1f25b18e4"
+					(reference "#PWR0227")
+					(unit 1)
+				)
+			)
 			(project "dongle"
 				(path "/baecd03a-8d48-4020-876a-32289b953936/49f47eff-be71-45a3-baa2-ec3b29bb6923"
 					(reference "#PWR0227")
@@ -10909,6 +11137,12 @@
 		)
 		(instances
 			(project "dongle"
+				(path "/8d3147eb-060b-4f65-bf42-ed06a58b21ba/9b741a5c-1fa6-4ec7-876c-f0b1f25b18e4"
+					(reference "C209")
+					(unit 1)
+				)
+			)
+			(project "dongle"
 				(path "/baecd03a-8d48-4020-876a-32289b953936/49f47eff-be71-45a3-baa2-ec3b29bb6923"
 					(reference "C209")
 					(unit 1)
@@ -10973,6 +11207,12 @@
 			(uuid "753faccb-46d7-40f4-8bbc-8124084f5f3b")
 		)
 		(instances
+			(project "dongle"
+				(path "/8d3147eb-060b-4f65-bf42-ed06a58b21ba/9b741a5c-1fa6-4ec7-876c-f0b1f25b18e4"
+					(reference "#FLG0101")
+					(unit 1)
+				)
+			)
 			(project "dongle"
 				(path "/baecd03a-8d48-4020-876a-32289b953936/49f47eff-be71-45a3-baa2-ec3b29bb6923"
 					(reference "#FLG0101")
@@ -11043,6 +11283,12 @@
 		)
 		(instances
 			(project "dongle"
+				(path "/8d3147eb-060b-4f65-bf42-ed06a58b21ba/9b741a5c-1fa6-4ec7-876c-f0b1f25b18e4"
+					(reference "C225")
+					(unit 1)
+				)
+			)
+			(project "dongle"
 				(path "/baecd03a-8d48-4020-876a-32289b953936/49f47eff-be71-45a3-baa2-ec3b29bb6923"
 					(reference "C225")
 					(unit 1)
@@ -11108,6 +11354,12 @@
 			(uuid "e024f512-e5d4-48c5-8179-64d19aa28d47")
 		)
 		(instances
+			(project "dongle"
+				(path "/8d3147eb-060b-4f65-bf42-ed06a58b21ba/9b741a5c-1fa6-4ec7-876c-f0b1f25b18e4"
+					(reference "#PWR02")
+					(unit 1)
+				)
+			)
 			(project "dongle"
 				(path "/baecd03a-8d48-4020-876a-32289b953936/49f47eff-be71-45a3-baa2-ec3b29bb6923"
 					(reference "#PWR02")
@@ -11212,6 +11464,12 @@
 		)
 		(instances
 			(project "dongle"
+				(path "/8d3147eb-060b-4f65-bf42-ed06a58b21ba/9b741a5c-1fa6-4ec7-876c-f0b1f25b18e4"
+					(reference "C202")
+					(unit 1)
+				)
+			)
+			(project "dongle"
 				(path "/baecd03a-8d48-4020-876a-32289b953936/49f47eff-be71-45a3-baa2-ec3b29bb6923"
 					(reference "C202")
 					(unit 1)
@@ -11315,6 +11573,12 @@
 		)
 		(instances
 			(project "dongle"
+				(path "/8d3147eb-060b-4f65-bf42-ed06a58b21ba/9b741a5c-1fa6-4ec7-876c-f0b1f25b18e4"
+					(reference "C203")
+					(unit 1)
+				)
+			)
+			(project "dongle"
 				(path "/baecd03a-8d48-4020-876a-32289b953936/49f47eff-be71-45a3-baa2-ec3b29bb6923"
 					(reference "C203")
 					(unit 1)
@@ -11380,6 +11644,12 @@
 		)
 		(instances
 			(project "dongle"
+				(path "/8d3147eb-060b-4f65-bf42-ed06a58b21ba/9b741a5c-1fa6-4ec7-876c-f0b1f25b18e4"
+					(reference "#PWR0236")
+					(unit 1)
+				)
+			)
+			(project "dongle"
 				(path "/baecd03a-8d48-4020-876a-32289b953936/49f47eff-be71-45a3-baa2-ec3b29bb6923"
 					(reference "#PWR0236")
 					(unit 1)
@@ -11444,6 +11714,12 @@
 			(uuid "03cdbdc1-b340-41fc-a9ff-ebe8bbb2aef8")
 		)
 		(instances
+			(project "dongle"
+				(path "/8d3147eb-060b-4f65-bf42-ed06a58b21ba/9b741a5c-1fa6-4ec7-876c-f0b1f25b18e4"
+					(reference "#PWR0219")
+					(unit 1)
+				)
+			)
 			(project "dongle"
 				(path "/baecd03a-8d48-4020-876a-32289b953936/49f47eff-be71-45a3-baa2-ec3b29bb6923"
 					(reference "#PWR0219")
@@ -11551,6 +11827,12 @@
 		)
 		(instances
 			(project "dongle"
+				(path "/8d3147eb-060b-4f65-bf42-ed06a58b21ba/9b741a5c-1fa6-4ec7-876c-f0b1f25b18e4"
+					(reference "Y202")
+					(unit 1)
+				)
+			)
+			(project "dongle"
 				(path "/baecd03a-8d48-4020-876a-32289b953936/49f47eff-be71-45a3-baa2-ec3b29bb6923"
 					(reference "Y202")
 					(unit 1)
@@ -11656,6 +11938,12 @@
 		)
 		(instances
 			(project "dongle"
+				(path "/8d3147eb-060b-4f65-bf42-ed06a58b21ba/9b741a5c-1fa6-4ec7-876c-f0b1f25b18e4"
+					(reference "C221")
+					(unit 1)
+				)
+			)
+			(project "dongle"
 				(path "/baecd03a-8d48-4020-876a-32289b953936/49f47eff-be71-45a3-baa2-ec3b29bb6923"
 					(reference "C221")
 					(unit 1)
@@ -11753,6 +12041,12 @@
 		)
 		(instances
 			(project "dongle"
+				(path "/8d3147eb-060b-4f65-bf42-ed06a58b21ba/9b741a5c-1fa6-4ec7-876c-f0b1f25b18e4"
+					(reference "J203")
+					(unit 1)
+				)
+			)
+			(project "dongle"
 				(path "/baecd03a-8d48-4020-876a-32289b953936/49f47eff-be71-45a3-baa2-ec3b29bb6923"
 					(reference "J203")
 					(unit 1)
@@ -11820,6 +12114,12 @@
 		)
 		(instances
 			(project "dongle"
+				(path "/8d3147eb-060b-4f65-bf42-ed06a58b21ba/9b741a5c-1fa6-4ec7-876c-f0b1f25b18e4"
+					(reference "TP201")
+					(unit 1)
+				)
+			)
+			(project "dongle"
 				(path "/baecd03a-8d48-4020-876a-32289b953936/49f47eff-be71-45a3-baa2-ec3b29bb6923"
 					(reference "TP201")
 					(unit 1)
@@ -11884,6 +12184,12 @@
 			(uuid "6ebb1170-9a23-4d20-a6ab-79f6c86722e3")
 		)
 		(instances
+			(project "dongle"
+				(path "/8d3147eb-060b-4f65-bf42-ed06a58b21ba/9b741a5c-1fa6-4ec7-876c-f0b1f25b18e4"
+					(reference "#PWR0209")
+					(unit 1)
+				)
+			)
 			(project "dongle"
 				(path "/baecd03a-8d48-4020-876a-32289b953936/49f47eff-be71-45a3-baa2-ec3b29bb6923"
 					(reference "#PWR0209")
@@ -11988,6 +12294,12 @@
 		)
 		(instances
 			(project "dongle"
+				(path "/8d3147eb-060b-4f65-bf42-ed06a58b21ba/9b741a5c-1fa6-4ec7-876c-f0b1f25b18e4"
+					(reference "L204")
+					(unit 1)
+				)
+			)
+			(project "dongle"
 				(path "/baecd03a-8d48-4020-876a-32289b953936/49f47eff-be71-45a3-baa2-ec3b29bb6923"
 					(reference "L204")
 					(unit 1)
@@ -12084,6 +12396,12 @@
 		)
 		(instances
 			(project "dongle"
+				(path "/8d3147eb-060b-4f65-bf42-ed06a58b21ba/9b741a5c-1fa6-4ec7-876c-f0b1f25b18e4"
+					(reference "C208")
+					(unit 1)
+				)
+			)
+			(project "dongle"
 				(path "/baecd03a-8d48-4020-876a-32289b953936/49f47eff-be71-45a3-baa2-ec3b29bb6923"
 					(reference "C208")
 					(unit 1)
@@ -12148,6 +12466,12 @@
 			(uuid "9e8b1577-a385-451f-96f3-e13ec7c13c0b")
 		)
 		(instances
+			(project "dongle"
+				(path "/8d3147eb-060b-4f65-bf42-ed06a58b21ba/9b741a5c-1fa6-4ec7-876c-f0b1f25b18e4"
+					(reference "#PWR0228")
+					(unit 1)
+				)
+			)
 			(project "dongle"
 				(path "/baecd03a-8d48-4020-876a-32289b953936/49f47eff-be71-45a3-baa2-ec3b29bb6923"
 					(reference "#PWR0228")
@@ -12254,6 +12578,12 @@
 		)
 		(instances
 			(project "dongle"
+				(path "/8d3147eb-060b-4f65-bf42-ed06a58b21ba/9b741a5c-1fa6-4ec7-876c-f0b1f25b18e4"
+					(reference "C207")
+					(unit 1)
+				)
+			)
+			(project "dongle"
 				(path "/baecd03a-8d48-4020-876a-32289b953936/49f47eff-be71-45a3-baa2-ec3b29bb6923"
 					(reference "C207")
 					(unit 1)
@@ -12318,6 +12648,12 @@
 			(uuid "60409c63-b553-4529-868c-3eb362a19ed3")
 		)
 		(instances
+			(project "dongle"
+				(path "/8d3147eb-060b-4f65-bf42-ed06a58b21ba/9b741a5c-1fa6-4ec7-876c-f0b1f25b18e4"
+					(reference "#PWR0221")
+					(unit 1)
+				)
+			)
 			(project "dongle"
 				(path "/baecd03a-8d48-4020-876a-32289b953936/49f47eff-be71-45a3-baa2-ec3b29bb6923"
 					(reference "#PWR0221")
@@ -12432,6 +12768,12 @@
 		)
 		(instances
 			(project "dongle"
+				(path "/8d3147eb-060b-4f65-bf42-ed06a58b21ba/9b741a5c-1fa6-4ec7-876c-f0b1f25b18e4"
+					(reference "J201")
+					(unit 1)
+				)
+			)
+			(project "dongle"
 				(path "/baecd03a-8d48-4020-876a-32289b953936/49f47eff-be71-45a3-baa2-ec3b29bb6923"
 					(reference "J201")
 					(unit 1)
@@ -12527,6 +12869,12 @@
 		)
 		(instances
 			(project "dongle"
+				(path "/8d3147eb-060b-4f65-bf42-ed06a58b21ba/9b741a5c-1fa6-4ec7-876c-f0b1f25b18e4"
+					(reference "SW201")
+					(unit 1)
+				)
+			)
+			(project "dongle"
 				(path "/baecd03a-8d48-4020-876a-32289b953936/49f47eff-be71-45a3-baa2-ec3b29bb6923"
 					(reference "SW201")
 					(unit 1)
@@ -12594,6 +12942,12 @@
 		)
 		(instances
 			(project "dongle"
+				(path "/8d3147eb-060b-4f65-bf42-ed06a58b21ba/9b741a5c-1fa6-4ec7-876c-f0b1f25b18e4"
+					(reference "TP204")
+					(unit 1)
+				)
+			)
+			(project "dongle"
 				(path "/baecd03a-8d48-4020-876a-32289b953936/49f47eff-be71-45a3-baa2-ec3b29bb6923"
 					(reference "TP204")
 					(unit 1)
@@ -12658,6 +13012,12 @@
 			(uuid "eee77fd7-b8c0-4d7f-b6fd-09a66623330f")
 		)
 		(instances
+			(project "dongle"
+				(path "/8d3147eb-060b-4f65-bf42-ed06a58b21ba/9b741a5c-1fa6-4ec7-876c-f0b1f25b18e4"
+					(reference "#FLG0103")
+					(unit 1)
+				)
+			)
 			(project "dongle"
 				(path "/baecd03a-8d48-4020-876a-32289b953936/49f47eff-be71-45a3-baa2-ec3b29bb6923"
 					(reference "#FLG0103")
@@ -12765,6 +13125,12 @@
 		)
 		(instances
 			(project "dongle"
+				(path "/8d3147eb-060b-4f65-bf42-ed06a58b21ba/9b741a5c-1fa6-4ec7-876c-f0b1f25b18e4"
+					(reference "C219")
+					(unit 1)
+				)
+			)
+			(project "dongle"
 				(path "/baecd03a-8d48-4020-876a-32289b953936/49f47eff-be71-45a3-baa2-ec3b29bb6923"
 					(reference "C219")
 					(unit 1)
@@ -12831,6 +13197,12 @@
 		)
 		(instances
 			(project "dongle"
+				(path "/8d3147eb-060b-4f65-bf42-ed06a58b21ba/9b741a5c-1fa6-4ec7-876c-f0b1f25b18e4"
+					(reference "#PWR0215")
+					(unit 1)
+				)
+			)
+			(project "dongle"
 				(path "/baecd03a-8d48-4020-876a-32289b953936/49f47eff-be71-45a3-baa2-ec3b29bb6923"
 					(reference "#PWR0215")
 					(unit 1)
@@ -12895,6 +13267,12 @@
 			(uuid "f8b25f8f-f2f5-431a-9e67-62ca56003ff9")
 		)
 		(instances
+			(project "dongle"
+				(path "/8d3147eb-060b-4f65-bf42-ed06a58b21ba/9b741a5c-1fa6-4ec7-876c-f0b1f25b18e4"
+					(reference "#PWR0203")
+					(unit 1)
+				)
+			)
 			(project "dongle"
 				(path "/baecd03a-8d48-4020-876a-32289b953936/49f47eff-be71-45a3-baa2-ec3b29bb6923"
 					(reference "#PWR0203")
@@ -12993,6 +13371,12 @@
 		)
 		(instances
 			(project "dongle"
+				(path "/8d3147eb-060b-4f65-bf42-ed06a58b21ba/9b741a5c-1fa6-4ec7-876c-f0b1f25b18e4"
+					(reference "C216")
+					(unit 1)
+				)
+			)
+			(project "dongle"
 				(path "/baecd03a-8d48-4020-876a-32289b953936/49f47eff-be71-45a3-baa2-ec3b29bb6923"
 					(reference "C216")
 					(unit 1)
@@ -13057,6 +13441,12 @@
 			(uuid "7c45750a-0f45-4d83-a88f-c48b2b6e831c")
 		)
 		(instances
+			(project "dongle"
+				(path "/8d3147eb-060b-4f65-bf42-ed06a58b21ba/9b741a5c-1fa6-4ec7-876c-f0b1f25b18e4"
+					(reference "#PWR0207")
+					(unit 1)
+				)
+			)
 			(project "dongle"
 				(path "/baecd03a-8d48-4020-876a-32289b953936/49f47eff-be71-45a3-baa2-ec3b29bb6923"
 					(reference "#PWR0207")
@@ -13125,6 +13515,12 @@
 		)
 		(instances
 			(project "dongle"
+				(path "/8d3147eb-060b-4f65-bf42-ed06a58b21ba/9b741a5c-1fa6-4ec7-876c-f0b1f25b18e4"
+					(reference "TP203")
+					(unit 1)
+				)
+			)
+			(project "dongle"
 				(path "/baecd03a-8d48-4020-876a-32289b953936/49f47eff-be71-45a3-baa2-ec3b29bb6923"
 					(reference "TP203")
 					(unit 1)
@@ -13189,6 +13585,12 @@
 			(uuid "4240b853-4e0c-4ac5-b0f0-b00e4d178805")
 		)
 		(instances
+			(project "dongle"
+				(path "/8d3147eb-060b-4f65-bf42-ed06a58b21ba/9b741a5c-1fa6-4ec7-876c-f0b1f25b18e4"
+					(reference "#PWR01")
+					(unit 1)
+				)
+			)
 			(project "dongle"
 				(path "/baecd03a-8d48-4020-876a-32289b953936/49f47eff-be71-45a3-baa2-ec3b29bb6923"
 					(reference "#PWR01")
@@ -13256,6 +13658,12 @@
 		)
 		(instances
 			(project "dongle"
+				(path "/8d3147eb-060b-4f65-bf42-ed06a58b21ba/9b741a5c-1fa6-4ec7-876c-f0b1f25b18e4"
+					(reference "TP206")
+					(unit 1)
+				)
+			)
+			(project "dongle"
 				(path "/baecd03a-8d48-4020-876a-32289b953936/49f47eff-be71-45a3-baa2-ec3b29bb6923"
 					(reference "TP206")
 					(unit 1)
@@ -13321,6 +13729,12 @@
 		)
 		(instances
 			(project "dongle"
+				(path "/8d3147eb-060b-4f65-bf42-ed06a58b21ba/9b741a5c-1fa6-4ec7-876c-f0b1f25b18e4"
+					(reference "#PWR0210")
+					(unit 1)
+				)
+			)
+			(project "dongle"
 				(path "/baecd03a-8d48-4020-876a-32289b953936/49f47eff-be71-45a3-baa2-ec3b29bb6923"
 					(reference "#PWR0210")
 					(unit 1)
@@ -13385,6 +13799,12 @@
 			(uuid "ec7e0351-b994-4ce0-838c-9c22b280abdc")
 		)
 		(instances
+			(project "dongle"
+				(path "/8d3147eb-060b-4f65-bf42-ed06a58b21ba/9b741a5c-1fa6-4ec7-876c-f0b1f25b18e4"
+					(reference "#PWR0230")
+					(unit 1)
+				)
+			)
 			(project "dongle"
 				(path "/baecd03a-8d48-4020-876a-32289b953936/49f47eff-be71-45a3-baa2-ec3b29bb6923"
 					(reference "#PWR0230")
@@ -13482,6 +13902,12 @@
 		)
 		(instances
 			(project "dongle"
+				(path "/8d3147eb-060b-4f65-bf42-ed06a58b21ba/9b741a5c-1fa6-4ec7-876c-f0b1f25b18e4"
+					(reference "C223")
+					(unit 1)
+				)
+			)
+			(project "dongle"
 				(path "/baecd03a-8d48-4020-876a-32289b953936/49f47eff-be71-45a3-baa2-ec3b29bb6923"
 					(reference "C223")
 					(unit 1)
@@ -13546,6 +13972,12 @@
 			(uuid "041bd3a8-6300-483c-85e1-fc0af801f44d")
 		)
 		(instances
+			(project "dongle"
+				(path "/8d3147eb-060b-4f65-bf42-ed06a58b21ba/9b741a5c-1fa6-4ec7-876c-f0b1f25b18e4"
+					(reference "#FLG0104")
+					(unit 1)
+				)
+			)
 			(project "dongle"
 				(path "/baecd03a-8d48-4020-876a-32289b953936/49f47eff-be71-45a3-baa2-ec3b29bb6923"
 					(reference "#FLG0104")
@@ -13612,6 +14044,12 @@
 		)
 		(instances
 			(project "dongle"
+				(path "/8d3147eb-060b-4f65-bf42-ed06a58b21ba/9b741a5c-1fa6-4ec7-876c-f0b1f25b18e4"
+					(reference "#PWR0225")
+					(unit 1)
+				)
+			)
+			(project "dongle"
 				(path "/baecd03a-8d48-4020-876a-32289b953936/49f47eff-be71-45a3-baa2-ec3b29bb6923"
 					(reference "#PWR0225")
 					(unit 1)
@@ -13676,6 +14114,12 @@
 			(uuid "be4fe11f-7e1a-4759-b38f-8c0d163cfe01")
 		)
 		(instances
+			(project "dongle"
+				(path "/8d3147eb-060b-4f65-bf42-ed06a58b21ba/9b741a5c-1fa6-4ec7-876c-f0b1f25b18e4"
+					(reference "#PWR0113")
+					(unit 1)
+				)
+			)
 			(project "dongle"
 				(path "/baecd03a-8d48-4020-876a-32289b953936/49f47eff-be71-45a3-baa2-ec3b29bb6923"
 					(reference "#PWR0113")
@@ -13773,6 +14217,12 @@
 			(uuid "ffc889ab-a6fc-44d3-a92f-3a1f6c9c1604")
 		)
 		(instances
+			(project "dongle"
+				(path "/8d3147eb-060b-4f65-bf42-ed06a58b21ba/9b741a5c-1fa6-4ec7-876c-f0b1f25b18e4"
+					(reference "C218")
+					(unit 1)
+				)
+			)
 			(project "dongle"
 				(path "/baecd03a-8d48-4020-876a-32289b953936/49f47eff-be71-45a3-baa2-ec3b29bb6923"
 					(reference "C218")
@@ -13877,6 +14327,12 @@
 		)
 		(instances
 			(project "dongle"
+				(path "/8d3147eb-060b-4f65-bf42-ed06a58b21ba/9b741a5c-1fa6-4ec7-876c-f0b1f25b18e4"
+					(reference "C201")
+					(unit 1)
+				)
+			)
+			(project "dongle"
 				(path "/baecd03a-8d48-4020-876a-32289b953936/49f47eff-be71-45a3-baa2-ec3b29bb6923"
 					(reference "C201")
 					(unit 1)
@@ -13941,6 +14397,12 @@
 			(uuid "10f31a1e-b736-4fc8-bc9c-0905a03b3603")
 		)
 		(instances
+			(project "dongle"
+				(path "/8d3147eb-060b-4f65-bf42-ed06a58b21ba/9b741a5c-1fa6-4ec7-876c-f0b1f25b18e4"
+					(reference "#PWR0216")
+					(unit 1)
+				)
+			)
 			(project "dongle"
 				(path "/baecd03a-8d48-4020-876a-32289b953936/49f47eff-be71-45a3-baa2-ec3b29bb6923"
 					(reference "#PWR0216")
@@ -14048,6 +14510,12 @@
 		)
 		(instances
 			(project "dongle"
+				(path "/8d3147eb-060b-4f65-bf42-ed06a58b21ba/9b741a5c-1fa6-4ec7-876c-f0b1f25b18e4"
+					(reference "R204")
+					(unit 1)
+				)
+			)
+			(project "dongle"
 				(path "/baecd03a-8d48-4020-876a-32289b953936/49f47eff-be71-45a3-baa2-ec3b29bb6923"
 					(reference "R204")
 					(unit 1)
@@ -14112,6 +14580,12 @@
 			(uuid "07d66df9-36b9-498e-929e-8be6ff82b2a6")
 		)
 		(instances
+			(project "dongle"
+				(path "/8d3147eb-060b-4f65-bf42-ed06a58b21ba/9b741a5c-1fa6-4ec7-876c-f0b1f25b18e4"
+					(reference "#PWR0231")
+					(unit 1)
+				)
+			)
 			(project "dongle"
 				(path "/baecd03a-8d48-4020-876a-32289b953936/49f47eff-be71-45a3-baa2-ec3b29bb6923"
 					(reference "#PWR0231")
@@ -14218,6 +14692,12 @@
 		)
 		(instances
 			(project "dongle"
+				(path "/8d3147eb-060b-4f65-bf42-ed06a58b21ba/9b741a5c-1fa6-4ec7-876c-f0b1f25b18e4"
+					(reference "R201")
+					(unit 1)
+				)
+			)
+			(project "dongle"
 				(path "/baecd03a-8d48-4020-876a-32289b953936/49f47eff-be71-45a3-baa2-ec3b29bb6923"
 					(reference "R201")
 					(unit 1)
@@ -14282,6 +14762,12 @@
 			(uuid "015e4725-f83a-4da5-a605-2c6f91b8a221")
 		)
 		(instances
+			(project "dongle"
+				(path "/8d3147eb-060b-4f65-bf42-ed06a58b21ba/9b741a5c-1fa6-4ec7-876c-f0b1f25b18e4"
+					(reference "#PWR0206")
+					(unit 1)
+				)
+			)
 			(project "dongle"
 				(path "/baecd03a-8d48-4020-876a-32289b953936/49f47eff-be71-45a3-baa2-ec3b29bb6923"
 					(reference "#PWR0206")
@@ -14348,6 +14834,12 @@
 		)
 		(instances
 			(project "dongle"
+				(path "/8d3147eb-060b-4f65-bf42-ed06a58b21ba/9b741a5c-1fa6-4ec7-876c-f0b1f25b18e4"
+					(reference "#PWR0218")
+					(unit 1)
+				)
+			)
+			(project "dongle"
 				(path "/baecd03a-8d48-4020-876a-32289b953936/49f47eff-be71-45a3-baa2-ec3b29bb6923"
 					(reference "#PWR0218")
 					(unit 1)
@@ -14412,6 +14904,12 @@
 			(uuid "93ac006a-61db-4bed-99db-bb0d00dd2d70")
 		)
 		(instances
+			(project "dongle"
+				(path "/8d3147eb-060b-4f65-bf42-ed06a58b21ba/9b741a5c-1fa6-4ec7-876c-f0b1f25b18e4"
+					(reference "#PWR0204")
+					(unit 1)
+				)
+			)
 			(project "dongle"
 				(path "/baecd03a-8d48-4020-876a-32289b953936/49f47eff-be71-45a3-baa2-ec3b29bb6923"
 					(reference "#PWR0204")
@@ -14479,6 +14977,12 @@
 			(uuid "00cd7bba-3593-4b66-9078-fcfcad1fbfda")
 		)
 		(instances
+			(project "dongle"
+				(path "/8d3147eb-060b-4f65-bf42-ed06a58b21ba/9b741a5c-1fa6-4ec7-876c-f0b1f25b18e4"
+					(reference "TP207")
+					(unit 1)
+				)
+			)
 			(project "dongle"
 				(path "/baecd03a-8d48-4020-876a-32289b953936/49f47eff-be71-45a3-baa2-ec3b29bb6923"
 					(reference "TP207")
@@ -14580,6 +15084,12 @@
 		)
 		(instances
 			(project "dongle"
+				(path "/8d3147eb-060b-4f65-bf42-ed06a58b21ba/9b741a5c-1fa6-4ec7-876c-f0b1f25b18e4"
+					(reference "D201")
+					(unit 1)
+				)
+			)
+			(project "dongle"
 				(path "/baecd03a-8d48-4020-876a-32289b953936/49f47eff-be71-45a3-baa2-ec3b29bb6923"
 					(reference "D201")
 					(unit 1)
@@ -14644,6 +15154,12 @@
 			(uuid "23f2229e-69d5-4e4e-8b43-8042b645e257")
 		)
 		(instances
+			(project "dongle"
+				(path "/8d3147eb-060b-4f65-bf42-ed06a58b21ba/9b741a5c-1fa6-4ec7-876c-f0b1f25b18e4"
+					(reference "#PWR0212")
+					(unit 1)
+				)
+			)
 			(project "dongle"
 				(path "/baecd03a-8d48-4020-876a-32289b953936/49f47eff-be71-45a3-baa2-ec3b29bb6923"
 					(reference "#PWR0212")
@@ -14751,6 +15267,12 @@
 		)
 		(instances
 			(project "dongle"
+				(path "/8d3147eb-060b-4f65-bf42-ed06a58b21ba/9b741a5c-1fa6-4ec7-876c-f0b1f25b18e4"
+					(reference "D202")
+					(unit 1)
+				)
+			)
+			(project "dongle"
 				(path "/baecd03a-8d48-4020-876a-32289b953936/49f47eff-be71-45a3-baa2-ec3b29bb6923"
 					(reference "D202")
 					(unit 1)
@@ -14854,6 +15376,12 @@
 		)
 		(instances
 			(project "dongle"
+				(path "/8d3147eb-060b-4f65-bf42-ed06a58b21ba/9b741a5c-1fa6-4ec7-876c-f0b1f25b18e4"
+					(reference "FB202")
+					(unit 1)
+				)
+			)
+			(project "dongle"
 				(path "/baecd03a-8d48-4020-876a-32289b953936/49f47eff-be71-45a3-baa2-ec3b29bb6923"
 					(reference "FB202")
 					(unit 1)
@@ -14950,6 +15478,12 @@
 			(uuid "cba453d0-8e5e-4bde-ace0-a88283aec7b8")
 		)
 		(instances
+			(project "dongle"
+				(path "/8d3147eb-060b-4f65-bf42-ed06a58b21ba/9b741a5c-1fa6-4ec7-876c-f0b1f25b18e4"
+					(reference "SW202")
+					(unit 1)
+				)
+			)
 			(project "dongle"
 				(path "/baecd03a-8d48-4020-876a-32289b953936/49f47eff-be71-45a3-baa2-ec3b29bb6923"
 					(reference "SW202")
@@ -15057,6 +15591,12 @@
 		)
 		(instances
 			(project "dongle"
+				(path "/8d3147eb-060b-4f65-bf42-ed06a58b21ba/9b741a5c-1fa6-4ec7-876c-f0b1f25b18e4"
+					(reference "C220")
+					(unit 1)
+				)
+			)
+			(project "dongle"
 				(path "/baecd03a-8d48-4020-876a-32289b953936/49f47eff-be71-45a3-baa2-ec3b29bb6923"
 					(reference "C220")
 					(unit 1)
@@ -15121,6 +15661,12 @@
 			(uuid "2dd5da87-ed3a-4bdc-aa5f-b5ca1148a512")
 		)
 		(instances
+			(project "dongle"
+				(path "/8d3147eb-060b-4f65-bf42-ed06a58b21ba/9b741a5c-1fa6-4ec7-876c-f0b1f25b18e4"
+					(reference "#PWR0208")
+					(unit 1)
+				)
+			)
 			(project "dongle"
 				(path "/baecd03a-8d48-4020-876a-32289b953936/49f47eff-be71-45a3-baa2-ec3b29bb6923"
 					(reference "#PWR0208")
@@ -15190,6 +15736,12 @@
 			(uuid "c46c62bd-8e94-4daa-8579-1b198fe4dfe8")
 		)
 		(instances
+			(project "dongle"
+				(path "/8d3147eb-060b-4f65-bf42-ed06a58b21ba/9b741a5c-1fa6-4ec7-876c-f0b1f25b18e4"
+					(reference "C210")
+					(unit 1)
+				)
+			)
 			(project "dongle"
 				(path "/baecd03a-8d48-4020-876a-32289b953936/49f47eff-be71-45a3-baa2-ec3b29bb6923"
 					(reference "C210")
@@ -15286,6 +15838,12 @@
 			(uuid "22fd3975-ed66-4255-bd67-9728ae978125")
 		)
 		(instances
+			(project "dongle"
+				(path "/8d3147eb-060b-4f65-bf42-ed06a58b21ba/9b741a5c-1fa6-4ec7-876c-f0b1f25b18e4"
+					(reference "C211")
+					(unit 1)
+				)
+			)
 			(project "dongle"
 				(path "/baecd03a-8d48-4020-876a-32289b953936/49f47eff-be71-45a3-baa2-ec3b29bb6923"
 					(reference "C211")
@@ -15600,6 +16158,12 @@
 		)
 		(instances
 			(project "dongle"
+				(path "/8d3147eb-060b-4f65-bf42-ed06a58b21ba/9b741a5c-1fa6-4ec7-876c-f0b1f25b18e4"
+					(reference "U201")
+					(unit 1)
+				)
+			)
+			(project "dongle"
 				(path "/baecd03a-8d48-4020-876a-32289b953936/49f47eff-be71-45a3-baa2-ec3b29bb6923"
 					(reference "U201")
 					(unit 1)
@@ -15664,6 +16228,12 @@
 			(uuid "88c9b943-e594-4bc9-9271-95bc09576d17")
 		)
 		(instances
+			(project "dongle"
+				(path "/8d3147eb-060b-4f65-bf42-ed06a58b21ba/9b741a5c-1fa6-4ec7-876c-f0b1f25b18e4"
+					(reference "#PWR0233")
+					(unit 1)
+				)
+			)
 			(project "dongle"
 				(path "/baecd03a-8d48-4020-876a-32289b953936/49f47eff-be71-45a3-baa2-ec3b29bb6923"
 					(reference "#PWR0233")
@@ -15730,6 +16300,12 @@
 		)
 		(instances
 			(project "dongle"
+				(path "/8d3147eb-060b-4f65-bf42-ed06a58b21ba/9b741a5c-1fa6-4ec7-876c-f0b1f25b18e4"
+					(reference "#PWR0213")
+					(unit 1)
+				)
+			)
+			(project "dongle"
 				(path "/baecd03a-8d48-4020-876a-32289b953936/49f47eff-be71-45a3-baa2-ec3b29bb6923"
 					(reference "#PWR0213")
 					(unit 1)
@@ -15795,6 +16371,12 @@
 		)
 		(instances
 			(project "dongle"
+				(path "/8d3147eb-060b-4f65-bf42-ed06a58b21ba/9b741a5c-1fa6-4ec7-876c-f0b1f25b18e4"
+					(reference "#PWR0211")
+					(unit 1)
+				)
+			)
+			(project "dongle"
 				(path "/baecd03a-8d48-4020-876a-32289b953936/49f47eff-be71-45a3-baa2-ec3b29bb6923"
 					(reference "#PWR0211")
 					(unit 1)
@@ -15859,6 +16441,12 @@
 			(uuid "2d5b4317-7b65-4a97-9600-3a4038a38803")
 		)
 		(instances
+			(project "dongle"
+				(path "/8d3147eb-060b-4f65-bf42-ed06a58b21ba/9b741a5c-1fa6-4ec7-876c-f0b1f25b18e4"
+					(reference "#FLG0105")
+					(unit 1)
+				)
+			)
 			(project "dongle"
 				(path "/baecd03a-8d48-4020-876a-32289b953936/49f47eff-be71-45a3-baa2-ec3b29bb6923"
 					(reference "#FLG0105")
