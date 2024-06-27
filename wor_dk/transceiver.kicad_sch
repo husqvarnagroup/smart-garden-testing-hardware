@@ -3171,7 +3171,7 @@
 				(hide yes)
 			)
 		)
-		(property "Value" "VDD"
+		(property "Value" "VDD_DUT"
 			(at 82.55 76.2 0)
 			(effects
 				(font
@@ -3242,7 +3242,7 @@
 				(hide yes)
 			)
 		)
-		(property "Value" "VDD"
+		(property "Value" "VDD_DUT"
 			(at 106.68 64.77 0)
 			(effects
 				(font
@@ -4010,7 +4010,7 @@
 				(hide yes)
 			)
 		)
-		(property "Value" "VDD"
+		(property "Value" "VDD_DUT"
 			(at 97.79 142.24 0)
 			(effects
 				(font

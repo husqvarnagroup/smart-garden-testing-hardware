@@ -1038,6 +1038,163 @@
 				)
 			)
 		)
+		(symbol "Device:L"
+			(pin_numbers hide)
+			(pin_names
+				(offset 1.016) hide)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "L"
+				(at -1.27 0 90)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "L"
+				(at 1.905 0 90)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "~"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Inductor"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "inductor choke coil reactor magnetic"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "Choke_* *Coil* Inductor_* L_*"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "L_0_1"
+				(arc
+					(start 0 -2.54)
+					(mid 0.6323 -1.905)
+					(end 0 -1.27)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(arc
+					(start 0 -1.27)
+					(mid 0.6323 -0.635)
+					(end 0 0)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(arc
+					(start 0 0)
+					(mid 0.6323 0.635)
+					(end 0 1.27)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(arc
+					(start 0 1.27)
+					(mid 0.6323 1.905)
+					(end 0 2.54)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "L_1_1"
+				(pin passive line
+					(at 0 3.81 270)
+					(length 1.27)
+					(name "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 0 -3.81 90)
+					(length 1.27)
+					(name "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+		)
 		(symbol "Device:R"
 			(pin_numbers hide)
 			(pin_names
@@ -3037,18 +3194,6 @@
 		(uuid "023eda8c-e1a1-4112-8ff9-9b8b7f7d041e")
 	)
 	(junction
-		(at 27.94 62.23)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "02f04e91-ec8d-49a2-8605-5f900b52a51b")
-	)
-	(junction
-		(at 73.66 21.59)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "0384afae-1d92-45fa-b3dd-1a8d84ebef9c")
-	)
-	(junction
 		(at 113.03 19.05)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -3067,22 +3212,22 @@
 		(uuid "1b5be237-4a0f-4d65-be2f-b9919dc62e95")
 	)
 	(junction
+		(at 132.08 19.05)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "2e84d0eb-f692-43c6-9c61-6cbcf2940378")
+	)
+	(junction
 		(at 80.01 190.5)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "2ff1b6d9-a9ed-40ef-b223-ade528bcdcf9")
 	)
 	(junction
-		(at 69.85 21.59)
+		(at 88.9 40.64)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "30584573-8393-4419-a575-a6f5d0ead84d")
-	)
-	(junction
-		(at 93.98 43.18)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "3c756f49-4d84-4330-b814-9e670ec3b862")
+		(uuid "3c5ef699-f900-4274-8682-3f5c145de642")
 	)
 	(junction
 		(at 31.75 161.29)
@@ -3095,6 +3240,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "601eea25-535a-4771-b2c3-d158d67d1915")
+	)
+	(junction
+		(at 226.06 38.1)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "66b72236-699e-4c1f-930e-117541506154")
 	)
 	(junction
 		(at 157.48 60.96)
@@ -3113,6 +3264,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "7f6beaa6-abf1-42c6-863d-15ff6cca85f8")
+	)
+	(junction
+		(at 162.56 19.05)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "8ea9c2e7-adb8-40f4-b385-a794ae244c56")
 	)
 	(junction
 		(at 101.6 19.05)
@@ -3157,22 +3314,16 @@
 		(uuid "c8fd5c68-c596-4b3e-8d26-a96dc59cbf92")
 	)
 	(junction
-		(at 91.44 43.18)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "e97c3f9f-c21c-44e1-abc1-0da7eff89f7d")
-	)
-	(junction
 		(at 237.49 138.43)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "ef872698-4715-45f5-8c6d-cd18485e59c0")
 	)
 	(junction
-		(at 97.79 19.05)
+		(at 236.22 38.1)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "fdcea9ba-25e5-4015-8df3-b4ffed499b66")
+		(uuid "fc00304a-7a42-4d02-b014-42d2bde1e7b0")
 	)
 	(no_connect
 		(at 121.92 138.43)
@@ -3299,10 +3450,6 @@
 		(uuid "c42fa695-c232-4dd8-932b-b2fac9c63859")
 	)
 	(no_connect
-		(at 99.06 46.99)
-		(uuid "d4a44e70-58c3-4e82-8988-eb40e4ee44e3")
-	)
-	(no_connect
 		(at 121.92 90.17)
 		(uuid "dbab748e-526c-47d6-9e26-ceacaac64da2")
 	)
@@ -3317,6 +3464,10 @@
 	(no_connect
 		(at 121.92 128.27)
 		(uuid "ef5c3086-f94e-4539-b5ca-bb7033100f38")
+	)
+	(no_connect
+		(at 83.82 46.99)
+		(uuid "ef5f5ec4-7bb1-4247-a584-bc8770dff451")
 	)
 	(no_connect
 		(at 121.92 120.65)
@@ -3380,26 +3531,6 @@
 		)
 		(uuid "076233d3-bcca-40c5-9823-8b741143ddbb")
 	)
-	(wire
-		(pts
-			(xy 69.85 30.48) (xy 69.85 31.75)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "08ba323d-eecd-4c26-830c-4747000ebd98")
-	)
-	(wire
-		(pts
-			(xy 19.05 83.82) (xy 19.05 81.28)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "0969aaf0-1404-44ec-8a9f-3a095af40fd3")
-	)
 	(polyline
 		(pts
 			(xy 128.27 49.53) (xy 170.18 49.53)
@@ -3422,16 +3553,6 @@
 	)
 	(wire
 		(pts
-			(xy 124.46 19.05) (xy 138.43 19.05)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "0ac68c98-4f19-49ea-8411-bddb226e3b44")
-	)
-	(wire
-		(pts
 			(xy 91.44 189.23) (xy 91.44 190.5)
 		)
 		(stroke
@@ -3449,6 +3570,16 @@
 			(type default)
 		)
 		(uuid "0d7a10e3-d8c4-4ec1-b6d0-57402f1b2262")
+	)
+	(wire
+		(pts
+			(xy 88.9 40.64) (xy 88.9 46.99)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "0e62999b-f651-4afb-bc04-43a9fa579816")
 	)
 	(wire
 		(pts
@@ -3612,13 +3743,13 @@
 	)
 	(wire
 		(pts
-			(xy 19.05 81.28) (xy 26.67 81.28)
+			(xy 93.98 46.99) (xy 93.98 25.4)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "2f33c534-6c2f-4465-9367-a60c68e872e7")
+		(uuid "2edff746-7970-41e5-9924-ee8c99d3d4e2")
 	)
 	(polyline
 		(pts
@@ -3629,6 +3760,16 @@
 			(type default)
 		)
 		(uuid "2ffc5375-f598-41c5-913f-37e3c54ebbe0")
+	)
+	(wire
+		(pts
+			(xy 219.71 38.1) (xy 226.06 38.1)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "30d7073e-dfd6-46d9-ba97-84504a4553e1")
 	)
 	(polyline
 		(pts
@@ -3650,6 +3791,26 @@
 		)
 		(uuid "32d52bd5-0e8d-4194-9d4f-8601e055b6a9")
 	)
+	(wire
+		(pts
+			(xy 162.56 19.05) (xy 175.26 19.05)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "333a6eff-2646-4435-9303-dc3597b1f37e")
+	)
+	(wire
+		(pts
+			(xy 132.08 19.05) (xy 124.46 19.05)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "36ab81ab-2e37-489c-b796-bfa3f5531120")
+	)
 	(polyline
 		(pts
 			(xy 44.45 25.4) (xy 44.45 55.88)
@@ -3662,13 +3823,13 @@
 	)
 	(wire
 		(pts
-			(xy 93.98 43.18) (xy 91.44 43.18)
+			(xy 132.08 19.05) (xy 138.43 19.05)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "3c946c1d-2453-4271-bc88-c7a064dfeeaf")
+		(uuid "3d986ddd-16f1-482f-a82a-e1016666a88b")
 	)
 	(polyline
 		(pts
@@ -3732,6 +3893,16 @@
 	)
 	(wire
 		(pts
+			(xy 210.82 38.1) (xy 212.09 38.1)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "485db965-b7f6-4307-8f18-9bcfb8ee2eb0")
+	)
+	(wire
+		(pts
 			(xy 31.75 113.03) (xy 43.18 113.03)
 		)
 		(stroke
@@ -3782,16 +3953,6 @@
 	)
 	(wire
 		(pts
-			(xy 64.77 21.59) (xy 69.85 21.59)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "50c67c3a-9547-4479-bf7d-3d6e0f63e7d5")
-	)
-	(wire
-		(pts
 			(xy 162.56 27.94) (xy 162.56 29.21)
 		)
 		(stroke
@@ -3832,23 +3993,13 @@
 	)
 	(wire
 		(pts
-			(xy 17.78 62.23) (xy 27.94 62.23)
+			(xy 99.06 40.64) (xy 104.14 40.64)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "56908b31-d0e2-45bd-97d5-64b5e2582a50")
-	)
-	(wire
-		(pts
-			(xy 17.78 62.23) (xy 17.78 63.5)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "56a92312-92dd-437e-8fd6-6d485b66a84c")
+		(uuid "56c6c147-424b-4499-965c-4bf6e12f0544")
 	)
 	(wire
 		(pts
@@ -3962,16 +4113,6 @@
 	)
 	(wire
 		(pts
-			(xy 101.6 19.05) (xy 107.95 19.05)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "68e1c506-e062-43b5-8c04-3101fd7d5a46")
-	)
-	(wire
-		(pts
 			(xy 31.75 147.32) (xy 31.75 151.13)
 		)
 		(stroke
@@ -4022,6 +4163,16 @@
 	)
 	(wire
 		(pts
+			(xy 236.22 38.1) (xy 251.46 38.1)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "702b9160-ad41-44d9-9b46-fb145c83df2b")
+	)
+	(wire
+		(pts
 			(xy 31.75 158.75) (xy 31.75 161.29)
 		)
 		(stroke
@@ -4042,16 +4193,6 @@
 	)
 	(wire
 		(pts
-			(xy 93.98 46.99) (xy 93.98 43.18)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "720df510-588d-444a-90b3-cb7580e8fee4")
-	)
-	(wire
-		(pts
 			(xy 35.56 48.26) (xy 35.56 49.53)
 		)
 		(stroke
@@ -4062,26 +4203,6 @@
 	)
 	(wire
 		(pts
-			(xy 49.53 21.59) (xy 57.15 21.59)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "750cdb0a-9755-4bda-a136-881fb6e9fee6")
-	)
-	(wire
-		(pts
-			(xy 97.79 19.05) (xy 101.6 19.05)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "7564877c-8d2f-4ccb-875a-6f58a588cb65")
-	)
-	(wire
-		(pts
 			(xy 129.54 57.15) (xy 129.54 60.96)
 		)
 		(stroke
@@ -4089,26 +4210,6 @@
 			(type default)
 		)
 		(uuid "76354715-9d64-4437-9c0f-c628b7d9f8be")
-	)
-	(wire
-		(pts
-			(xy 27.94 62.23) (xy 27.94 63.5)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "7a414b6f-0846-4802-b9d3-18ba310ecb9b")
-	)
-	(wire
-		(pts
-			(xy 73.66 20.32) (xy 73.66 21.59)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "7afb03f9-40ff-475c-8f03-305c14eba5d8")
 	)
 	(wire
 		(pts
@@ -4172,6 +4273,16 @@
 	)
 	(wire
 		(pts
+			(xy 107.95 19.05) (xy 101.6 19.05)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "855df9f4-b06b-4baa-8074-8eede02daeaf")
+	)
+	(wire
+		(pts
 			(xy 237.49 130.81) (xy 237.49 133.35)
 		)
 		(stroke
@@ -4182,13 +4293,13 @@
 	)
 	(wire
 		(pts
-			(xy 69.85 21.59) (xy 73.66 21.59)
+			(xy 91.44 46.99) (xy 91.44 40.64)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "86591c9f-9ecf-458c-a994-e0134b0432bf")
+		(uuid "87f9a0c9-7683-4b8b-8a33-cda674d015e9")
 	)
 	(wire
 		(pts
@@ -4209,6 +4320,16 @@
 			(type default)
 		)
 		(uuid "8b2fcace-de11-4565-8675-cde80fe14785")
+	)
+	(wire
+		(pts
+			(xy 93.98 25.4) (xy 96.52 25.4)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "8dc4ad04-e995-41dc-b029-3b1b5544e9c0")
 	)
 	(wire
 		(pts
@@ -4252,6 +4373,16 @@
 	)
 	(wire
 		(pts
+			(xy 236.22 38.1) (xy 236.22 39.37)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "9c0f2fd4-c295-4f5f-a088-a29e65a5ce00")
+	)
+	(wire
+		(pts
 			(xy 101.6 19.05) (xy 101.6 20.32)
 		)
 		(stroke
@@ -4262,16 +4393,6 @@
 	)
 	(wire
 		(pts
-			(xy 91.44 21.59) (xy 91.44 43.18)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "9d5f8dc0-e8ad-44d5-b867-18b2475ba689")
-	)
-	(wire
-		(pts
 			(xy 124.46 59.69) (xy 124.46 46.99)
 		)
 		(stroke
@@ -4279,16 +4400,6 @@
 			(type default)
 		)
 		(uuid "9f278894-d05b-468c-8f84-f9a54ef8413c")
-	)
-	(wire
-		(pts
-			(xy 69.85 21.59) (xy 69.85 22.86)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "9f334990-60b8-451e-b536-d34dc20684fa")
 	)
 	(wire
 		(pts
@@ -4312,16 +4423,6 @@
 	)
 	(wire
 		(pts
-			(xy 73.66 21.59) (xy 91.44 21.59)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "a2d3b093-8683-4fd1-85b9-a4655a2c0e4a")
-	)
-	(wire
-		(pts
 			(xy 15.24 48.26) (xy 15.24 49.53)
 		)
 		(stroke
@@ -4332,7 +4433,7 @@
 	)
 	(wire
 		(pts
-			(xy 88.9 19.05) (xy 97.79 19.05)
+			(xy 88.9 19.05) (xy 101.6 19.05)
 		)
 		(stroke
 			(width 0)
@@ -4362,16 +4463,6 @@
 	)
 	(wire
 		(pts
-			(xy 91.44 43.18) (xy 91.44 46.99)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "b02e386f-85cf-48fd-861e-025513528428")
-	)
-	(wire
-		(pts
 			(xy 43.18 123.19) (xy 31.75 123.19)
 		)
 		(stroke
@@ -4379,6 +4470,26 @@
 			(type default)
 		)
 		(uuid "b12d7999-a19b-4e8e-b9d8-bc27385af501")
+	)
+	(wire
+		(pts
+			(xy 96.52 25.4) (xy 96.52 27.94)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b296a3b5-00b4-41d7-b071-89d384d2f0a5")
+	)
+	(wire
+		(pts
+			(xy 226.06 38.1) (xy 226.06 39.37)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b3011e1e-d722-468c-bd06-88ede61eb748")
 	)
 	(wire
 		(pts
@@ -4392,16 +4503,6 @@
 	)
 	(wire
 		(pts
-			(xy 27.94 62.23) (xy 43.18 62.23)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "baa6adc7-3b5a-491a-ab9b-5117316596bc")
-	)
-	(wire
-		(pts
 			(xy 149.86 20.32) (xy 149.86 19.05)
 		)
 		(stroke
@@ -4409,16 +4510,6 @@
 			(type default)
 		)
 		(uuid "bcbc7092-c33e-4336-b7f9-06a11030fc6b")
-	)
-	(wire
-		(pts
-			(xy 83.82 39.37) (xy 83.82 46.99)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "bf708bdb-b44f-4e2f-b9af-9cf375a4fa21")
 	)
 	(wire
 		(pts
@@ -4512,7 +4603,17 @@
 	)
 	(wire
 		(pts
-			(xy 88.9 19.05) (xy 88.9 46.99)
+			(xy 226.06 38.1) (xy 236.22 38.1)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c3adb983-3589-45eb-90dc-ac942534a34d")
+	)
+	(wire
+		(pts
+			(xy 88.9 19.05) (xy 88.9 40.64)
 		)
 		(stroke
 			(width 0)
@@ -4582,6 +4683,16 @@
 	)
 	(wire
 		(pts
+			(xy 91.44 40.64) (xy 88.9 40.64)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d5c27e6d-0d52-4743-b780-a3374f86445c")
+	)
+	(wire
+		(pts
 			(xy 254 138.43) (xy 264.16 138.43)
 		)
 		(stroke
@@ -4642,6 +4753,16 @@
 	)
 	(wire
 		(pts
+			(xy 196.85 38.1) (xy 203.2 38.1)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e8f1dc2a-b546-49f6-ba64-caeb9f04bf2b")
+	)
+	(wire
+		(pts
 			(xy 113.03 19.05) (xy 124.46 19.05)
 		)
 		(stroke
@@ -4672,16 +4793,6 @@
 	)
 	(wire
 		(pts
-			(xy 19.05 91.44) (xy 19.05 92.71)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "f3c36c5a-a115-43c8-bcb6-7c2346acc975")
-	)
-	(wire
-		(pts
 			(xy 241.3 130.81) (xy 237.49 130.81)
 		)
 		(stroke
@@ -4709,6 +4820,28 @@
 			(type default)
 		)
 		(uuid "fd86445c-d48a-4ba1-a12b-b30361d9b05f")
+	)
+	(wire
+		(pts
+			(xy 99.06 46.99) (xy 99.06 40.64)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ffd432f8-fd94-43c7-8206-7f9d918e4588")
+	)
+	(rectangle
+		(start 194.31 27.94)
+		(end 257.81 53.34)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(fill
+			(type none)
+		)
+		(uuid c3ccae31-4d88-4dd5-b596-1da2d9a38c5a)
 	)
 	(text "Programming"
 		(exclude_from_sim no)
@@ -4743,9 +4876,9 @@
 		)
 		(uuid "317f59ff-58c2-4282-9565-cae0dcf8bec9")
 	)
-	(text "The nRF52840 schematic is adapted from the schematic for the nRF52840\ndongle. It also mostly matches the nRF52840 reference circuit config. 1."
+	(text "The nRF52840 schematic is adapted nRF52840 reference circuit config. 5 and 6\n(DCC configuration from config. 5, without NFC & USB as in config. 6, no Bluetooth)."
 		(exclude_from_sim no)
-		(at 180.34 173.99 0)
+		(at 179.832 172.974 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -4765,9 +4898,9 @@
 		)
 		(uuid "5c0803ec-a2d7-4808-ab9e-6673765f9df4")
 	)
-	(text "LFXO\n(Optional)"
+	(text "LFXO"
 		(exclude_from_sim no)
-		(at 158.75 54.61 0)
+		(at 163.576 52.832 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -4775,6 +4908,16 @@
 			(justify left bottom)
 		)
 		(uuid "74e20994-291b-4eb1-8b33-96ccd5c6dbe8")
+	)
+	(text "DC/DC REG1"
+		(exclude_from_sim no)
+		(at 201.422 30.226 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "94e26cc5-592b-46b3-9f25-6b8243775c04")
 	)
 	(text "Needed to route\nRESET via pin \non outer ring."
 		(exclude_from_sim no)
@@ -4786,6 +4929,17 @@
 			(justify left bottom)
 		)
 		(uuid "d02be2ac-30bf-4d27-becf-f9a344acb915")
+	)
+	(label "DCC"
+		(at 196.85 38.1 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "1a578822-982e-4ecb-b1b8-e87474091df7")
 	)
 	(label "DEC2"
 		(at 71.12 46.99 90)
@@ -4809,17 +4963,6 @@
 		)
 		(uuid "5fabd43e-9bb9-4b85-ab81-b69baa6bba16")
 	)
-	(label "VBUS_nRF"
-		(at 78.74 21.59 0)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "63d62447-2cec-4e2a-934b-190905e13fd7")
-	)
 	(label "RESET"
 		(at 128.27 97.79 0)
 		(fields_autoplaced yes)
@@ -4831,8 +4974,8 @@
 		)
 		(uuid "64929446-dc82-4dd2-9fd2-288768f79227")
 	)
-	(label "VBUS"
-		(at 50.8 21.59 0)
+	(label "DCC"
+		(at 99.06 40.64 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -4840,7 +4983,18 @@
 			)
 			(justify left bottom)
 		)
-		(uuid "6639cd8b-b858-46f2-a788-cd747edf2c64")
+		(uuid "740d8a44-dd07-47f6-8a66-4d9ada75f4a7")
+	)
+	(label "DEC4_6"
+		(at 243.84 38.1 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "7c5724b9-be32-4486-9948-6fec29c03024")
 	)
 	(label "SWDCLK"
 		(at 257.81 130.81 0)
@@ -4874,17 +5028,6 @@
 			(justify left bottom)
 		)
 		(uuid "9b450c2e-c09d-4b10-8a31-00ad3ad52d9e")
-	)
-	(label "DEC4_6"
-		(at 35.56 62.23 0)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "a420a5d6-dd6d-4ce5-ae37-9388a1ad3623")
 	)
 	(label "DEC3"
 		(at 73.66 46.99 90)
@@ -4952,17 +5095,6 @@
 		)
 		(uuid "c4ee4058-c279-4aaa-a382-501a5fff505d")
 	)
-	(label "DECUSB"
-		(at 26.67 81.28 180)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right bottom)
-		)
-		(uuid "d43ee985-7bad-4fc0-b2fa-980de75e277a")
-	)
 	(label "SWDCLK"
 		(at 46.99 163.83 0)
 		(fields_autoplaced yes)
@@ -4973,17 +5105,6 @@
 			(justify left bottom)
 		)
 		(uuid "d60593aa-4213-4652-b2e2-a1b1333ed848")
-	)
-	(label "DECUSB"
-		(at 83.82 46.99 90)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "d961da0d-ca1e-476b-9948-813526d7748e")
 	)
 	(label "DEC1"
 		(at 15.24 39.37 90)
@@ -5138,6 +5259,18 @@
 		)
 		(uuid "e0128e4e-3888-4ea3-9dfa-fdb8c26ccfc0")
 	)
+	(hierarchical_label "VDD"
+		(shape input)
+		(at 175.26 19.05 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "e8e9008d-ef26-4fc1-b2d3-9fca521aab7e")
+	)
 	(symbol
 		(lib_id "power:GND")
 		(at 25.4 49.53 0)
@@ -5147,7 +5280,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "03a1ff05-72ef-42fb-8e27-ce367f55b048")
-		(property "Reference" "#PWR0214"
+		(property "Reference" "#PWR0212"
 			(at 25.4 55.88 0)
 			(effects
 				(font
@@ -5197,113 +5330,13 @@
 		(instances
 			(project "dongle"
 				(path "/8d3147eb-060b-4f65-bf42-ed06a58b21ba/9b741a5c-1fa6-4ec7-876c-f0b1f25b18e4"
-					(reference "#PWR0214")
+					(reference "#PWR0212")
 					(unit 1)
 				)
 			)
 			(project "dongle"
 				(path "/baecd03a-8d48-4020-876a-32289b953936/49f47eff-be71-45a3-baa2-ec3b29bb6923"
 					(reference "#PWR0214")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:R")
-		(at 60.96 21.59 90)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "03c1e878-1503-4f92-8853-38797e278858")
-		(property "Reference" "R203"
-			(at 60.96 16.51 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "2R2"
-			(at 60.96 19.05 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "Resistor_SMD:R_0201_0603Metric"
-			(at 60.96 23.368 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "https://wmsc.lcsc.com/wmsc/upload/file/pdf/v2/lcsc/2207281830_Sunway-SC0201F2R20I1BNRH_C3152027.pdf"
-			(at 60.96 21.59 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "50mW ±300ppm/℃ ±1% 2.2Ω 0201 Chip Resistor - Surface Mount ROHS"
-			(at 60.96 21.59 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "LCSC" "C3152027"
-			(at 60.96 21.59 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer" "Sunway"
-			(at 60.96 21.59 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Part Number" "SC0201F2R20I1BNRH"
-			(at 60.96 21.59 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "933e0d5a-99d5-4e04-9f2b-7378ab82d073")
-		)
-		(pin "2"
-			(uuid "abb3c331-167f-4e88-ac21-df44ed9d131f")
-		)
-		(instances
-			(project "dongle"
-				(path "/8d3147eb-060b-4f65-bf42-ed06a58b21ba/9b741a5c-1fa6-4ec7-876c-f0b1f25b18e4"
-					(reference "R203")
-					(unit 1)
-				)
-			)
-			(project "dongle"
-				(path "/baecd03a-8d48-4020-876a-32289b953936/49f47eff-be71-45a3-baa2-ec3b29bb6923"
-					(reference "R203")
 					(unit 1)
 				)
 			)
@@ -5319,7 +5352,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "095eaf8d-f5e9-4a70-bc77-3a2de2454100")
-		(property "Reference" "C214"
+		(property "Reference" "C217"
 			(at 35.56 166.3699 0)
 			(effects
 				(font
@@ -5400,7 +5433,7 @@
 		(instances
 			(project "dongle"
 				(path "/8d3147eb-060b-4f65-bf42-ed06a58b21ba/9b741a5c-1fa6-4ec7-876c-f0b1f25b18e4"
-					(reference "C214")
+					(reference "C217")
 					(unit 1)
 				)
 			)
@@ -5422,7 +5455,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "0d4f444d-ffe0-447e-9cab-27d4afe31146")
-		(property "Reference" "R202"
+		(property "Reference" "R201"
 			(at 34.29 153.6699 0)
 			(effects
 				(font
@@ -5512,7 +5545,7 @@
 		(instances
 			(project "dongle"
 				(path "/8d3147eb-060b-4f65-bf42-ed06a58b21ba/9b741a5c-1fa6-4ec7-876c-f0b1f25b18e4"
-					(reference "R202")
+					(reference "R201")
 					(unit 1)
 				)
 			)
@@ -5534,7 +5567,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "0dee3f0f-bcbe-439d-8218-8723da7d0842")
-		(property "Reference" "TP202"
+		(property "Reference" "TP201"
 			(at 110.49 14.4779 0)
 			(effects
 				(font
@@ -5585,124 +5618,13 @@
 		(instances
 			(project "dongle"
 				(path "/8d3147eb-060b-4f65-bf42-ed06a58b21ba/9b741a5c-1fa6-4ec7-876c-f0b1f25b18e4"
-					(reference "TP202")
+					(reference "TP201")
 					(unit 1)
 				)
 			)
 			(project "dongle"
 				(path "/baecd03a-8d48-4020-876a-32289b953936/49f47eff-be71-45a3-baa2-ec3b29bb6923"
 					(reference "TP202")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:C")
-		(at 69.85 26.67 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "11695994-e175-4a58-a118-c1771771e03f")
-		(property "Reference" "C215"
-			(at 60.96 25.4 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "4.7uF"
-			(at 60.96 27.94 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
-			(at 70.8152 30.48 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 69.85 26.67 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "10V 4.7uF X5R ±20% 0402"
-			(at 69.85 26.67 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Comment" "JLCPCB basic part; nRF52 dongle has ±20% 0402 here"
-			(at 69.85 26.67 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "LCSC" "C23733"
-			(at 69.85 26.67 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer" "Samsung Electro-Mechanics"
-			(at 69.85 26.67 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Part Number" "CL05A475MP5NRNC"
-			(at 69.85 26.67 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "f9a29db9-d562-40e1-9ba0-9fef5748de87")
-		)
-		(pin "2"
-			(uuid "595df495-ba93-4aaa-b9a7-c4c5640ab71f")
-		)
-		(instances
-			(project "dongle"
-				(path "/8d3147eb-060b-4f65-bf42-ed06a58b21ba/9b741a5c-1fa6-4ec7-876c-f0b1f25b18e4"
-					(reference "C215")
-					(unit 1)
-				)
-			)
-			(project "dongle"
-				(path "/baecd03a-8d48-4020-876a-32289b953936/49f47eff-be71-45a3-baa2-ec3b29bb6923"
-					(reference "C215")
 					(unit 1)
 				)
 			)
@@ -5717,7 +5639,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "1537c8e4-8a7c-43e8-aa40-f573d3c63271")
-		(property "Reference" "#PWR0223"
+		(property "Reference" "#PWR0204"
 			(at 113.03 34.29 0)
 			(effects
 				(font
@@ -5767,7 +5689,7 @@
 		(instances
 			(project "dongle"
 				(path "/8d3147eb-060b-4f65-bf42-ed06a58b21ba/9b741a5c-1fa6-4ec7-876c-f0b1f25b18e4"
-					(reference "#PWR0223")
+					(reference "#PWR0204")
 					(unit 1)
 				)
 			)
@@ -5788,7 +5710,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "177def71-d49b-4d41-8900-4f87827c0082")
-		(property "Reference" "#PWR0202"
+		(property "Reference" "#PWR0216"
 			(at 36.83 125.73 0)
 			(effects
 				(font
@@ -5838,7 +5760,7 @@
 		(instances
 			(project "dongle"
 				(path "/8d3147eb-060b-4f65-bf42-ed06a58b21ba/9b741a5c-1fa6-4ec7-876c-f0b1f25b18e4"
-					(reference "#PWR0202")
+					(reference "#PWR0216")
 					(unit 1)
 				)
 			)
@@ -5860,7 +5782,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "1c270780-6db8-46a6-875f-f7c7cee1aa5a")
-		(property "Reference" "C226"
+		(property "Reference" "C206"
 			(at 166.37 22.8599 0)
 			(effects
 				(font
@@ -5941,7 +5863,7 @@
 		(instances
 			(project "dongle"
 				(path "/8d3147eb-060b-4f65-bf42-ed06a58b21ba/9b741a5c-1fa6-4ec7-876c-f0b1f25b18e4"
-					(reference "C226")
+					(reference "C206")
 					(unit 1)
 				)
 			)
@@ -5962,7 +5884,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "1f14ecbf-1917-4870-b136-6d6d533f6a6d")
-		(property "Reference" "#PWR0217"
+		(property "Reference" "#PWR0213"
 			(at 35.56 55.88 0)
 			(effects
 				(font
@@ -6012,7 +5934,7 @@
 		(instances
 			(project "dongle"
 				(path "/8d3147eb-060b-4f65-bf42-ed06a58b21ba/9b741a5c-1fa6-4ec7-876c-f0b1f25b18e4"
-					(reference "#PWR0217")
+					(reference "#PWR0213")
 					(unit 1)
 				)
 			)
@@ -6033,7 +5955,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "1f1e21d7-dd56-462f-91ba-df67423e9025")
-		(property "Reference" "#PWR0224"
+		(property "Reference" "#PWR0205"
 			(at 124.46 34.29 0)
 			(effects
 				(font
@@ -6083,7 +6005,7 @@
 		(instances
 			(project "dongle"
 				(path "/8d3147eb-060b-4f65-bf42-ed06a58b21ba/9b741a5c-1fa6-4ec7-876c-f0b1f25b18e4"
-					(reference "#PWR0224")
+					(reference "#PWR0205")
 					(unit 1)
 				)
 			)
@@ -6096,35 +6018,32 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:C")
-		(at 19.05 87.63 180)
+		(lib_id "Device:L")
+		(at 215.9 38.1 90)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "23f20c03-1c48-4874-a1f5-204d51f4d721")
-		(property "Reference" "C213"
-			(at 22.86 86.3599 0)
+		(uuid "227581cc-3a75-49ab-a068-68dae6336746")
+		(property "Reference" "L202"
+			(at 215.9 35.56 90)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify right)
 			)
 		)
-		(property "Value" "4.7uF"
-			(at 22.86 88.8999 0)
+		(property "Value" "15nH"
+			(at 215.9 39.37 90)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify right)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
-			(at 18.0848 83.82 0)
+		(property "Footprint" "Inductor_SMD:L_0402_1005Metric"
+			(at 215.9 38.1 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6133,7 +6052,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 19.05 87.63 0)
+			(at 215.9 38.1 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6141,8 +6060,8 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "16V 4.7uF X5R ±10% 0603"
-			(at 19.05 87.63 0)
+		(property "Description" "300mA 15nH ±5% 500mΩ 0402"
+			(at 215.9 38.1 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6150,8 +6069,8 @@
 				(hide yes)
 			)
 		)
-		(property "Comment" "JLCPCB basic part; nRF52 dongle has ±10% 0603 here"
-			(at 19.05 87.63 0)
+		(property "Comment" "JLCPCB basic part; nRF52 dongle has 320mA, ±5%, 0402 (Taiyo Yuden HK100515NJ-T; C87189 at JLCPCB but out of stock)"
+			(at 215.9 38.1 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6159,8 +6078,8 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC" "C19666"
-			(at 19.05 87.63 0)
+		(property "LCSC" "C27143"
+			(at 215.9 38.1 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6168,8 +6087,8 @@
 				(hide yes)
 			)
 		)
-		(property "Manufacturer" "Samsung Electro-Mechanics"
-			(at 19.05 87.63 0)
+		(property "Manufacturer" "Sunlord"
+			(at 215.9 38.1 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6177,8 +6096,8 @@
 				(hide yes)
 			)
 		)
-		(property "Part Number" "CL10A475KO8NNNC"
-			(at 19.05 87.63 0)
+		(property "Part Number" "SDCL1005C15NJTDF"
+			(at 215.9 38.1 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6187,21 +6106,15 @@
 			)
 		)
 		(pin "1"
-			(uuid "78bdb8f2-f75a-4e44-b1f6-46019fb71f3c")
+			(uuid "f0e1c3de-4837-46c4-ad0e-25ca8dc4ad5d")
 		)
 		(pin "2"
-			(uuid "473890a9-958d-4b1b-9ba2-3690cccdd2ab")
+			(uuid "5fba1d2c-b5be-4b13-a709-fe12e02c9c2e")
 		)
 		(instances
-			(project "dongle"
+			(project "wor_dk"
 				(path "/8d3147eb-060b-4f65-bf42-ed06a58b21ba/9b741a5c-1fa6-4ec7-876c-f0b1f25b18e4"
-					(reference "C213")
-					(unit 1)
-				)
-			)
-			(project "dongle"
-				(path "/baecd03a-8d48-4020-876a-32289b953936/49f47eff-be71-45a3-baa2-ec3b29bb6923"
-					(reference "C213")
+					(reference "L202")
 					(unit 1)
 				)
 			)
@@ -6216,7 +6129,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "2424dfb7-080d-4933-a65c-66d25bfb5b88")
-		(property "Reference" "#PWR0220"
+		(property "Reference" "#PWR0201"
 			(at 88.9 22.86 0)
 			(effects
 				(font
@@ -6225,7 +6138,7 @@
 				(hide yes)
 			)
 		)
-		(property "Value" "VDD"
+		(property "Value" "VDD_DUT"
 			(at 88.9 15.24 0)
 			(effects
 				(font
@@ -6266,7 +6179,7 @@
 		(instances
 			(project "dongle"
 				(path "/8d3147eb-060b-4f65-bf42-ed06a58b21ba/9b741a5c-1fa6-4ec7-876c-f0b1f25b18e4"
-					(reference "#PWR0220")
+					(reference "#PWR0201")
 					(unit 1)
 				)
 			)
@@ -6287,7 +6200,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "2ebdbc5c-2883-4139-836a-06037b91eafe")
-		(property "Reference" "#PWR0229"
+		(property "Reference" "#PWR0207"
 			(at 149.86 34.29 0)
 			(effects
 				(font
@@ -6337,7 +6250,7 @@
 		(instances
 			(project "dongle"
 				(path "/8d3147eb-060b-4f65-bf42-ed06a58b21ba/9b741a5c-1fa6-4ec7-876c-f0b1f25b18e4"
-					(reference "#PWR0229")
+					(reference "#PWR0207")
 					(unit 1)
 				)
 			)
@@ -6358,7 +6271,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "2f53fdec-ac1d-4ff0-b7b4-a2370f0293e8")
-		(property "Reference" "Y201"
+		(property "Reference" "Y202"
 			(at 43.18 107.95 90)
 			(effects
 				(font
@@ -6443,7 +6356,7 @@
 		(instances
 			(project "dongle"
 				(path "/8d3147eb-060b-4f65-bf42-ed06a58b21ba/9b741a5c-1fa6-4ec7-876c-f0b1f25b18e4"
-					(reference "Y201")
+					(reference "Y202")
 					(unit 1)
 				)
 			)
@@ -6464,7 +6377,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "310f8037-fcce-428a-bc77-53df19ae70b0")
-		(property "Reference" "#PWR0222"
+		(property "Reference" "#PWR0203"
 			(at 101.6 34.29 0)
 			(effects
 				(font
@@ -6514,7 +6427,7 @@
 		(instances
 			(project "dongle"
 				(path "/8d3147eb-060b-4f65-bf42-ed06a58b21ba/9b741a5c-1fa6-4ec7-876c-f0b1f25b18e4"
-					(reference "#PWR0222")
+					(reference "#PWR0203")
 					(unit 1)
 				)
 			)
@@ -6646,7 +6559,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "374570b5-53ff-4f59-8824-b9dd609e38d3")
-		(property "Reference" "#PWR0234"
+		(property "Reference" "#PWR0220"
 			(at 237.49 147.32 0)
 			(effects
 				(font
@@ -6696,7 +6609,7 @@
 		(instances
 			(project "dongle"
 				(path "/8d3147eb-060b-4f65-bf42-ed06a58b21ba/9b741a5c-1fa6-4ec7-876c-f0b1f25b18e4"
-					(reference "#PWR0234")
+					(reference "#PWR0220")
 					(unit 1)
 				)
 			)
@@ -6718,7 +6631,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "3cc1b113-bbdf-4402-b239-5ea368455a93")
-		(property "Reference" "C217"
+		(property "Reference" "C202"
 			(at 116.84 22.8599 0)
 			(effects
 				(font
@@ -6799,124 +6712,13 @@
 		(instances
 			(project "dongle"
 				(path "/8d3147eb-060b-4f65-bf42-ed06a58b21ba/9b741a5c-1fa6-4ec7-876c-f0b1f25b18e4"
-					(reference "C217")
+					(reference "C202")
 					(unit 1)
 				)
 			)
 			(project "dongle"
 				(path "/baecd03a-8d48-4020-876a-32289b953936/49f47eff-be71-45a3-baa2-ec3b29bb6923"
 					(reference "C217")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:C")
-		(at 27.94 67.31 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom no)
-		(on_board yes)
-		(dnp yes)
-		(uuid "4227af44-63cc-4765-8cb6-584a73ccd107")
-		(property "Reference" "C222"
-			(at 29.21 64.77 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "47nF"
-			(at 29.21 69.85 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "Capacitor_SMD:C_0201_0603Metric"
-			(at 28.9052 71.12 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 27.94 67.31 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "6.3V 47nF X5R ±10% 0201"
-			(at 27.94 67.31 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "LCSC" "C126621"
-			(at 27.94 67.31 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer" "Murata Electronics"
-			(at 27.94 67.31 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Part Number" "GRT033R60J473KE01D"
-			(at 27.94 67.31 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Comment" "Exists in dongle schematic, but N.C. in reference circuit from datasheet. Only relevant for DCDC mode."
-			(at 27.94 67.31 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "58062759-66a7-4feb-b63f-6f257f2d6eee")
-		)
-		(pin "2"
-			(uuid "f7eac15b-736e-499d-9d42-e887b49904c6")
-		)
-		(instances
-			(project "dongle"
-				(path "/8d3147eb-060b-4f65-bf42-ed06a58b21ba/9b741a5c-1fa6-4ec7-876c-f0b1f25b18e4"
-					(reference "C222")
-					(unit 1)
-				)
-			)
-			(project "dongle"
-				(path "/baecd03a-8d48-4020-876a-32289b953936/49f47eff-be71-45a3-baa2-ec3b29bb6923"
-					(reference "C222")
 					(unit 1)
 				)
 			)
@@ -6931,7 +6733,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "43c7c14f-4aff-433c-9f6d-ee89ac55a48d")
-		(property "Reference" "C204"
+		(property "Reference" "C214"
 			(at 151.13 57.15 90)
 			(effects
 				(font
@@ -7019,84 +6821,13 @@
 		(instances
 			(project "dongle"
 				(path "/8d3147eb-060b-4f65-bf42-ed06a58b21ba/9b741a5c-1fa6-4ec7-876c-f0b1f25b18e4"
-					(reference "C204")
+					(reference "C214")
 					(unit 1)
 				)
 			)
 			(project "dongle"
 				(path "/baecd03a-8d48-4020-876a-32289b953936/49f47eff-be71-45a3-baa2-ec3b29bb6923"
 					(reference "C204")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:PWR_FLAG")
-		(at 73.66 20.32 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "47f93906-56cc-4ebf-a753-6af47d8f821d")
-		(property "Reference" "#FLG0102"
-			(at 73.66 18.415 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "PWR_FLAG"
-			(at 73.66 16.51 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 73.66 20.32 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 73.66 20.32 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Special symbol for telling ERC where power comes from"
-			(at 73.66 20.32 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "387c0166-5d0f-470c-a2d1-b782418bd7fd")
-		)
-		(instances
-			(project "dongle"
-				(path "/8d3147eb-060b-4f65-bf42-ed06a58b21ba/9b741a5c-1fa6-4ec7-876c-f0b1f25b18e4"
-					(reference "#FLG0102")
-					(unit 1)
-				)
-			)
-			(project "dongle"
-				(path "/baecd03a-8d48-4020-876a-32289b953936/49f47eff-be71-45a3-baa2-ec3b29bb6923"
-					(reference "#FLG0102")
 					(unit 1)
 				)
 			)
@@ -7111,7 +6842,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "50fab28c-70e7-4aeb-8fc1-8907a4e7f62b")
-		(property "Reference" "#PWR0226"
+		(property "Reference" "#PWR0206"
 			(at 138.43 34.29 0)
 			(effects
 				(font
@@ -7161,7 +6892,7 @@
 		(instances
 			(project "dongle"
 				(path "/8d3147eb-060b-4f65-bf42-ed06a58b21ba/9b741a5c-1fa6-4ec7-876c-f0b1f25b18e4"
-					(reference "#PWR0226")
+					(reference "#PWR0206")
 					(unit 1)
 				)
 			)
@@ -7182,7 +6913,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "55a48147-ab83-4af5-80a4-8600d2e60ead")
-		(property "Reference" "#PWR0201"
+		(property "Reference" "#PWR0219"
 			(at 21.59 134.62 0)
 			(effects
 				(font
@@ -7232,7 +6963,7 @@
 		(instances
 			(project "dongle"
 				(path "/8d3147eb-060b-4f65-bf42-ed06a58b21ba/9b741a5c-1fa6-4ec7-876c-f0b1f25b18e4"
-					(reference "#PWR0201")
+					(reference "#PWR0219")
 					(unit 1)
 				)
 			)
@@ -7254,7 +6985,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "5661a638-9003-4b96-a721-a7f33d64da75")
-		(property "Reference" "J202"
+		(property "Reference" "J201"
 			(at 247.65 121.92 0)
 			(effects
 				(font
@@ -7330,7 +7061,7 @@
 		(instances
 			(project "dongle"
 				(path "/8d3147eb-060b-4f65-bf42-ed06a58b21ba/9b741a5c-1fa6-4ec7-876c-f0b1f25b18e4"
-					(reference "J202")
+					(reference "J201")
 					(unit 1)
 				)
 			)
@@ -7351,7 +7082,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "593bb878-1265-41b4-baff-6835f8e9952a")
-		(property "Reference" "TP205"
+		(property "Reference" "TP203"
 			(at 133.35 119.38 0)
 			(effects
 				(font
@@ -7402,7 +7133,7 @@
 		(instances
 			(project "dongle"
 				(path "/8d3147eb-060b-4f65-bf42-ed06a58b21ba/9b741a5c-1fa6-4ec7-876c-f0b1f25b18e4"
-					(reference "TP205")
+					(reference "TP203")
 					(unit 1)
 				)
 			)
@@ -7525,7 +7256,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "695fdbeb-c439-4be3-b1da-eb0c75aa4ff9")
-		(property "Reference" "C202"
+		(property "Reference" "C216"
 			(at 27.94 116.84 90)
 			(effects
 				(font
@@ -7613,7 +7344,7 @@
 		(instances
 			(project "dongle"
 				(path "/8d3147eb-060b-4f65-bf42-ed06a58b21ba/9b741a5c-1fa6-4ec7-876c-f0b1f25b18e4"
-					(reference "C202")
+					(reference "C216")
 					(unit 1)
 				)
 			)
@@ -7634,7 +7365,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "6d39e881-2857-4683-b295-189607977a33")
-		(property "Reference" "C203"
+		(property "Reference" "C213"
 			(at 151.13 46.99 90)
 			(effects
 				(font
@@ -7722,84 +7453,13 @@
 		(instances
 			(project "dongle"
 				(path "/8d3147eb-060b-4f65-bf42-ed06a58b21ba/9b741a5c-1fa6-4ec7-876c-f0b1f25b18e4"
-					(reference "C203")
+					(reference "C213")
 					(unit 1)
 				)
 			)
 			(project "dongle"
 				(path "/baecd03a-8d48-4020-876a-32289b953936/49f47eff-be71-45a3-baa2-ec3b29bb6923"
 					(reference "C203")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:GND")
-		(at 69.85 31.75 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "7adf774d-4869-4fbb-81a7-d3fd3317e34b")
-		(property "Reference" "#PWR0219"
-			(at 69.85 38.1 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "GND"
-			(at 66.04 33.02 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 69.85 31.75 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 69.85 31.75 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 69.85 31.75 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "03cdbdc1-b340-41fc-a9ff-ebe8bbb2aef8")
-		)
-		(instances
-			(project "dongle"
-				(path "/8d3147eb-060b-4f65-bf42-ed06a58b21ba/9b741a5c-1fa6-4ec7-876c-f0b1f25b18e4"
-					(reference "#PWR0219")
-					(unit 1)
-				)
-			)
-			(project "dongle"
-				(path "/baecd03a-8d48-4020-876a-32289b953936/49f47eff-be71-45a3-baa2-ec3b29bb6923"
-					(reference "#PWR0219")
 					(unit 1)
 				)
 			)
@@ -7815,7 +7475,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "7c738cd2-048c-4ed7-9790-13a1e4d73e30")
-		(property "Reference" "Y202"
+		(property "Reference" "Y201"
 			(at 137.16 54.6099 90)
 			(effects
 				(font
@@ -7905,197 +7565,13 @@
 		(instances
 			(project "dongle"
 				(path "/8d3147eb-060b-4f65-bf42-ed06a58b21ba/9b741a5c-1fa6-4ec7-876c-f0b1f25b18e4"
-					(reference "Y202")
+					(reference "Y201")
 					(unit 1)
 				)
 			)
 			(project "dongle"
 				(path "/baecd03a-8d48-4020-876a-32289b953936/49f47eff-be71-45a3-baa2-ec3b29bb6923"
 					(reference "Y202")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:C")
-		(at 17.78 67.31 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "8273c65b-9b21-434e-b6de-4b210edf3e22")
-		(property "Reference" "C221"
-			(at 19.05 64.77 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "1uF"
-			(at 19.05 69.85 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
-			(at 18.7452 71.12 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 17.78 67.31 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "50V 1uF X5R ±10% 0603"
-			(at 17.78 67.31 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "LCSC" "C15849"
-			(at 17.78 67.31 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer" "Samsung Electro-Mechanics"
-			(at 17.78 67.31 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Part Number" "CL10A105KB8NNNC"
-			(at 17.78 67.31 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Comment" "JLCPCB basic part"
-			(at 17.78 67.31 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "bc6341ca-543a-4b80-9796-a96b88474e06")
-		)
-		(pin "2"
-			(uuid "9dec833b-8ed6-4998-9c22-8a0f6f84bdb6")
-		)
-		(instances
-			(project "dongle"
-				(path "/8d3147eb-060b-4f65-bf42-ed06a58b21ba/9b741a5c-1fa6-4ec7-876c-f0b1f25b18e4"
-					(reference "C221")
-					(unit 1)
-				)
-			)
-			(project "dongle"
-				(path "/baecd03a-8d48-4020-876a-32289b953936/49f47eff-be71-45a3-baa2-ec3b29bb6923"
-					(reference "C221")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Connector:TestPoint")
-		(at 93.98 43.18 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "8929dc0e-0df9-4162-b28e-6dc4f9d8aa2f")
-		(property "Reference" "TP201"
-			(at 96.52 38.6079 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "TestPoint"
-			(at 96.52 41.1479 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "TestPoint:TestPoint_Pad_D1.0mm"
-			(at 99.06 43.18 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 99.06 43.18 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 93.98 43.18 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "87a6a5e1-fbb3-4944-9320-f3ab1e6e4f7d")
-		)
-		(instances
-			(project "dongle"
-				(path "/8d3147eb-060b-4f65-bf42-ed06a58b21ba/9b741a5c-1fa6-4ec7-876c-f0b1f25b18e4"
-					(reference "TP201")
-					(unit 1)
-				)
-			)
-			(project "dongle"
-				(path "/baecd03a-8d48-4020-876a-32289b953936/49f47eff-be71-45a3-baa2-ec3b29bb6923"
-					(reference "TP201")
 					(unit 1)
 				)
 			)
@@ -8103,15 +7579,16 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 27.94 71.12 0)
+		(at 96.52 27.94 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(uuid "8fa53d5b-b63e-4aa8-adaf-f8fb36cc3094")
-		(property "Reference" "#PWR0228"
-			(at 27.94 77.47 0)
+		(fields_autoplaced yes)
+		(uuid "7e8bf22d-3b9a-42eb-961d-783e55194117")
+		(property "Reference" "#PWR0202"
+			(at 96.52 34.29 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8120,7 +7597,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 25.4 73.66 0)
+			(at 96.52 33.02 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8128,7 +7605,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 27.94 71.12 0)
+			(at 96.52 27.94 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8137,7 +7614,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 27.94 71.12 0)
+			(at 96.52 27.94 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8146,7 +7623,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 27.94 71.12 0)
+			(at 96.52 27.94 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8155,18 +7632,77 @@
 			)
 		)
 		(pin "1"
-			(uuid "9e8b1577-a385-451f-96f3-e13ec7c13c0b")
+			(uuid "57a95873-d985-4cf5-8cf0-cf51dbddcc0f")
 		)
 		(instances
-			(project "dongle"
+			(project ""
 				(path "/8d3147eb-060b-4f65-bf42-ed06a58b21ba/9b741a5c-1fa6-4ec7-876c-f0b1f25b18e4"
-					(reference "#PWR0228")
+					(reference "#PWR0202")
 					(unit 1)
 				)
 			)
-			(project "dongle"
-				(path "/baecd03a-8d48-4020-876a-32289b953936/49f47eff-be71-45a3-baa2-ec3b29bb6923"
-					(reference "#PWR0228")
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 236.22 46.99 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "9166fc0a-07be-4114-8290-178495128035")
+		(property "Reference" "#PWR0210"
+			(at 236.22 53.34 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 233.68 49.53 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 236.22 46.99 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 236.22 46.99 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 236.22 46.99 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "b90135df-7af7-4897-86a1-004edc7a4311")
+		)
+		(instances
+			(project "wor_dk"
+				(path "/8d3147eb-060b-4f65-bf42-ed06a58b21ba/9b741a5c-1fa6-4ec7-876c-f0b1f25b18e4"
+					(reference "#PWR0210")
 					(unit 1)
 				)
 			)
@@ -8181,7 +7717,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "967c3362-414d-4f13-a676-9a4298d031fa")
-		(property "Reference" "#PWR0221"
+		(property "Reference" "#PWR0224"
 			(at 80.01 199.39 0)
 			(effects
 				(font
@@ -8231,7 +7767,7 @@
 		(instances
 			(project "dongle"
 				(path "/8d3147eb-060b-4f65-bf42-ed06a58b21ba/9b741a5c-1fa6-4ec7-876c-f0b1f25b18e4"
-					(reference "#PWR0221")
+					(reference "#PWR0224")
 					(unit 1)
 				)
 			)
@@ -8354,7 +7890,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "a087da64-84d0-44c3-8b40-44d67b4c9eda")
-		(property "Reference" "TP204"
+		(property "Reference" "TP202"
 			(at 127 42.4179 0)
 			(effects
 				(font
@@ -8405,7 +7941,7 @@
 		(instances
 			(project "dongle"
 				(path "/8d3147eb-060b-4f65-bf42-ed06a58b21ba/9b741a5c-1fa6-4ec7-876c-f0b1f25b18e4"
-					(reference "TP204")
+					(reference "TP202")
 					(unit 1)
 				)
 			)
@@ -8427,7 +7963,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "ad6f11fd-fc7e-4195-811d-d264f7f41c7f")
-		(property "Reference" "C219"
+		(property "Reference" "C204"
 			(at 142.24 22.8599 0)
 			(effects
 				(font
@@ -8517,7 +8053,7 @@
 		(instances
 			(project "dongle"
 				(path "/8d3147eb-060b-4f65-bf42-ed06a58b21ba/9b741a5c-1fa6-4ec7-876c-f0b1f25b18e4"
-					(reference "C219")
+					(reference "C204")
 					(unit 1)
 				)
 			)
@@ -8539,7 +8075,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "b0fc63df-b6b2-4f67-8486-2c5827bc3738")
-		(property "Reference" "#PWR0215"
+		(property "Reference" "#PWR0221"
 			(at 31.75 151.13 0)
 			(effects
 				(font
@@ -8548,12 +8084,13 @@
 				(hide yes)
 			)
 		)
-		(property "Value" "VDD"
-			(at 31.75 142.24 0)
+		(property "Value" "VDD_DUT"
+			(at 34.29 146.0499 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(justify left)
 			)
 		)
 		(property "Footprint" ""
@@ -8589,7 +8126,7 @@
 		(instances
 			(project "dongle"
 				(path "/8d3147eb-060b-4f65-bf42-ed06a58b21ba/9b741a5c-1fa6-4ec7-876c-f0b1f25b18e4"
-					(reference "#PWR0215")
+					(reference "#PWR0221")
 					(unit 1)
 				)
 			)
@@ -8610,7 +8147,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "b41e2894-4308-4275-a14f-5fde0fbdd857")
-		(property "Reference" "#PWR0203"
+		(property "Reference" "#PWR0217"
 			(at 49.53 125.73 0)
 			(effects
 				(font
@@ -8660,7 +8197,7 @@
 		(instances
 			(project "dongle"
 				(path "/8d3147eb-060b-4f65-bf42-ed06a58b21ba/9b741a5c-1fa6-4ec7-876c-f0b1f25b18e4"
-					(reference "#PWR0203")
+					(reference "#PWR0217")
 					(unit 1)
 				)
 			)
@@ -8682,7 +8219,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "b4db95be-156b-4cd0-b3a7-9c155b62f5bd")
-		(property "Reference" "C216"
+		(property "Reference" "C201"
 			(at 105.41 22.8599 0)
 			(effects
 				(font
@@ -8763,7 +8300,7 @@
 		(instances
 			(project "dongle"
 				(path "/8d3147eb-060b-4f65-bf42-ed06a58b21ba/9b741a5c-1fa6-4ec7-876c-f0b1f25b18e4"
-					(reference "C216")
+					(reference "C201")
 					(unit 1)
 				)
 			)
@@ -8784,7 +8321,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "b6a8b4d3-9f4a-4ac0-afdc-672c9147308d")
-		(property "Reference" "TP206"
+		(property "Reference" "TP204"
 			(at 139.7 121.92 0)
 			(effects
 				(font
@@ -8835,7 +8372,7 @@
 		(instances
 			(project "dongle"
 				(path "/8d3147eb-060b-4f65-bf42-ed06a58b21ba/9b741a5c-1fa6-4ec7-876c-f0b1f25b18e4"
-					(reference "TP206")
+					(reference "TP204")
 					(unit 1)
 				)
 			)
@@ -8849,15 +8386,15 @@
 	)
 	(symbol
 		(lib_id "power:PWR_FLAG")
-		(at 97.79 19.05 0)
+		(at 132.08 19.05 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
 		(uuid "c09a1a16-440d-4e82-a8e0-b6a6249cb60e")
-		(property "Reference" "#FLG0104"
-			(at 97.79 17.145 0)
+		(property "Reference" "#FLG0201"
+			(at 132.08 17.145 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8866,7 +8403,7 @@
 			)
 		)
 		(property "Value" "PWR_FLAG"
-			(at 97.79 15.24 0)
+			(at 132.08 15.24 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8874,7 +8411,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 97.79 19.05 0)
+			(at 132.08 19.05 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8883,7 +8420,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 97.79 19.05 0)
+			(at 132.08 19.05 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8892,7 +8429,7 @@
 			)
 		)
 		(property "Description" "Special symbol for telling ERC where power comes from"
-			(at 97.79 19.05 0)
+			(at 132.08 19.05 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8906,84 +8443,13 @@
 		(instances
 			(project "dongle"
 				(path "/8d3147eb-060b-4f65-bf42-ed06a58b21ba/9b741a5c-1fa6-4ec7-876c-f0b1f25b18e4"
-					(reference "#FLG0104")
+					(reference "#FLG0201")
 					(unit 1)
 				)
 			)
 			(project "dongle"
 				(path "/baecd03a-8d48-4020-876a-32289b953936/49f47eff-be71-45a3-baa2-ec3b29bb6923"
 					(reference "#FLG0104")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:GND")
-		(at 17.78 71.12 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "c46e68cd-aa67-4d0c-9e07-bf2e72a294db")
-		(property "Reference" "#PWR0225"
-			(at 17.78 77.47 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "GND"
-			(at 15.24 73.66 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 17.78 71.12 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 17.78 71.12 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 17.78 71.12 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "f9794b5f-a0f0-4509-b54e-61471ac0c6de")
-		)
-		(instances
-			(project "dongle"
-				(path "/8d3147eb-060b-4f65-bf42-ed06a58b21ba/9b741a5c-1fa6-4ec7-876c-f0b1f25b18e4"
-					(reference "#PWR0225")
-					(unit 1)
-				)
-			)
-			(project "dongle"
-				(path "/baecd03a-8d48-4020-876a-32289b953936/49f47eff-be71-45a3-baa2-ec3b29bb6923"
-					(reference "#PWR0225")
 					(unit 1)
 				)
 			)
@@ -8998,7 +8464,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "c5a37987-fcf8-49e8-82eb-d82f89fdc761")
-		(property "Reference" "#PWR0113"
+		(property "Reference" "#PWR0218"
 			(at 237.49 130.81 0)
 			(effects
 				(font
@@ -9007,7 +8473,7 @@
 				(hide yes)
 			)
 		)
-		(property "Value" "VDD"
+		(property "Value" "VDD_DUT"
 			(at 237.49 123.19 0)
 			(effects
 				(font
@@ -9048,7 +8514,7 @@
 		(instances
 			(project "dongle"
 				(path "/8d3147eb-060b-4f65-bf42-ed06a58b21ba/9b741a5c-1fa6-4ec7-876c-f0b1f25b18e4"
-					(reference "#PWR0113")
+					(reference "#PWR0218")
 					(unit 1)
 				)
 			)
@@ -9070,7 +8536,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "cba47bb5-4dde-479c-a5a8-df48eefcb428")
-		(property "Reference" "C218"
+		(property "Reference" "C203"
 			(at 128.27 22.8599 0)
 			(effects
 				(font
@@ -9151,7 +8617,7 @@
 		(instances
 			(project "dongle"
 				(path "/8d3147eb-060b-4f65-bf42-ed06a58b21ba/9b741a5c-1fa6-4ec7-876c-f0b1f25b18e4"
-					(reference "C218")
+					(reference "C203")
 					(unit 1)
 				)
 			)
@@ -9172,7 +8638,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "ccfccc8b-2389-4e3f-92c5-ac1ec268a187")
-		(property "Reference" "C201"
+		(property "Reference" "C215"
 			(at 27.94 106.68 90)
 			(effects
 				(font
@@ -9260,7 +8726,7 @@
 		(instances
 			(project "dongle"
 				(path "/8d3147eb-060b-4f65-bf42-ed06a58b21ba/9b741a5c-1fa6-4ec7-876c-f0b1f25b18e4"
-					(reference "C201")
+					(reference "C215")
 					(unit 1)
 				)
 			)
@@ -9281,7 +8747,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "cdb3edf2-0574-4ac7-b6d1-d353d4ec79b6")
-		(property "Reference" "#PWR0216"
+		(property "Reference" "#PWR0223"
 			(at 31.75 177.8 0)
 			(effects
 				(font
@@ -9331,7 +8797,7 @@
 		(instances
 			(project "dongle"
 				(path "/8d3147eb-060b-4f65-bf42-ed06a58b21ba/9b741a5c-1fa6-4ec7-876c-f0b1f25b18e4"
-					(reference "#PWR0216")
+					(reference "#PWR0223")
 					(unit 1)
 				)
 			)
@@ -9352,7 +8818,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "d8f80d3e-674c-4994-a162-f54abeb1abbe")
-		(property "Reference" "#PWR0218"
+		(property "Reference" "#PWR0214"
 			(at 49.53 55.88 0)
 			(effects
 				(font
@@ -9402,7 +8868,7 @@
 		(instances
 			(project "dongle"
 				(path "/8d3147eb-060b-4f65-bf42-ed06a58b21ba/9b741a5c-1fa6-4ec7-876c-f0b1f25b18e4"
-					(reference "#PWR0218")
+					(reference "#PWR0214")
 					(unit 1)
 				)
 			)
@@ -9423,7 +8889,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "da4be41f-f5fd-4e3b-b4ed-71ef34aec16b")
-		(property "Reference" "#PWR0204"
+		(property "Reference" "#PWR0215"
 			(at 157.48 73.66 0)
 			(effects
 				(font
@@ -9473,13 +8939,109 @@
 		(instances
 			(project "dongle"
 				(path "/8d3147eb-060b-4f65-bf42-ed06a58b21ba/9b741a5c-1fa6-4ec7-876c-f0b1f25b18e4"
-					(reference "#PWR0204")
+					(reference "#PWR0215")
 					(unit 1)
 				)
 			)
 			(project "dongle"
 				(path "/baecd03a-8d48-4020-876a-32289b953936/49f47eff-be71-45a3-baa2-ec3b29bb6923"
 					(reference "#PWR0204")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:C")
+		(at 236.22 43.18 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "dab6e86c-5f50-4990-9c3f-3ce2b9d0064c")
+		(property "Reference" "C208"
+			(at 237.49 40.64 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "47nF"
+			(at 237.49 45.72 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0201_0603Metric"
+			(at 237.1852 46.99 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 236.22 43.18 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "6.3V 47nF X5R ±10% 0201"
+			(at 236.22 43.18 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C126621"
+			(at 236.22 43.18 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "Murata Electronics"
+			(at 236.22 43.18 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Part Number" "GRT033R60J473KE01D"
+			(at 236.22 43.18 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "ef19bb57-582c-48c9-ae14-40742fac41f8")
+		)
+		(pin "2"
+			(uuid "1add979c-dda9-4c0f-9274-1d3fb50d532f")
+		)
+		(instances
+			(project "wor_dk"
+				(path "/8d3147eb-060b-4f65-bf42-ed06a58b21ba/9b741a5c-1fa6-4ec7-876c-f0b1f25b18e4"
+					(reference "C208")
 					(unit 1)
 				)
 			)
@@ -9495,7 +9057,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "dba0db5c-91d4-49bd-b5ac-14b4a0ed6e54")
-		(property "Reference" "TP207"
+		(property "Reference" "TP205"
 			(at 48.26 152.9079 0)
 			(effects
 				(font
@@ -9546,7 +9108,7 @@
 		(instances
 			(project "dongle"
 				(path "/8d3147eb-060b-4f65-bf42-ed06a58b21ba/9b741a5c-1fa6-4ec7-876c-f0b1f25b18e4"
-					(reference "TP207")
+					(reference "TP205")
 					(unit 1)
 				)
 			)
@@ -9567,7 +9129,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "dbac95f8-c6a6-4324-b9f9-b18fe7a5a893")
-		(property "Reference" "#PWR0212"
+		(property "Reference" "#PWR0211"
 			(at 15.24 55.88 0)
 			(effects
 				(font
@@ -9617,13 +9179,118 @@
 		(instances
 			(project "dongle"
 				(path "/8d3147eb-060b-4f65-bf42-ed06a58b21ba/9b741a5c-1fa6-4ec7-876c-f0b1f25b18e4"
-					(reference "#PWR0212")
+					(reference "#PWR0211")
 					(unit 1)
 				)
 			)
 			(project "dongle"
 				(path "/baecd03a-8d48-4020-876a-32289b953936/49f47eff-be71-45a3-baa2-ec3b29bb6923"
 					(reference "#PWR0212")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:C")
+		(at 226.06 43.18 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "e3cb0898-53c4-48a5-b826-ff44b59aa00f")
+		(property "Reference" "C207"
+			(at 227.33 40.64 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "1uF"
+			(at 227.33 45.72 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
+			(at 227.0252 46.99 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 226.06 43.18 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "50V 1uF X5R ±10% 0603"
+			(at 226.06 43.18 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C15849"
+			(at 226.06 43.18 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "Samsung Electro-Mechanics"
+			(at 226.06 43.18 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Part Number" "CL10A105KB8NNNC"
+			(at 226.06 43.18 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Comment" "JLCPCB basic part"
+			(at 226.06 43.18 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "3fb5d4f5-7751-43ef-af98-e4569850d435")
+		)
+		(pin "2"
+			(uuid "f8ffe340-fe37-4165-b861-c3b6cc6a6eea")
+		)
+		(instances
+			(project "wor_dk"
+				(path "/8d3147eb-060b-4f65-bf42-ed06a58b21ba/9b741a5c-1fa6-4ec7-876c-f0b1f25b18e4"
+					(reference "C207")
 					(unit 1)
 				)
 			)
@@ -9639,7 +9306,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "e5a6b89c-e5c5-416c-9f3e-028d57df5d7e")
-		(property "Reference" "C220"
+		(property "Reference" "C205"
 			(at 153.67 22.8599 0)
 			(effects
 				(font
@@ -9729,13 +9396,116 @@
 		(instances
 			(project "dongle"
 				(path "/8d3147eb-060b-4f65-bf42-ed06a58b21ba/9b741a5c-1fa6-4ec7-876c-f0b1f25b18e4"
-					(reference "C220")
+					(reference "C205")
 					(unit 1)
 				)
 			)
 			(project "dongle"
 				(path "/baecd03a-8d48-4020-876a-32289b953936/49f47eff-be71-45a3-baa2-ec3b29bb6923"
 					(reference "C220")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:L")
+		(at 207.01 38.1 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "e870c86a-8c98-4f50-8bd9-2fb38b101c34")
+		(property "Reference" "L201"
+			(at 207.01 35.56 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "10μH"
+			(at 207.01 39.37 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Inductor_SMD:L_0603_1608Metric"
+			(at 207.01 38.1 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 207.01 38.1 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "80mA 10uH ±10% 360mΩ 0603"
+			(at 207.01 38.1 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Comment" "same part as nRF52 dongle"
+			(at 207.01 38.1 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C87216"
+			(at 207.01 38.1 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "Taiyo Yuden"
+			(at 207.01 38.1 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Part Number" "LBMF1608T100K"
+			(at 207.01 38.1 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "252712d7-3b62-4dbf-863a-a527697cff59")
+		)
+		(pin "2"
+			(uuid "2edd496a-b9b6-4e23-9ba1-e5855d79b643")
+		)
+		(instances
+			(project "wor_dk"
+				(path "/8d3147eb-060b-4f65-bf42-ed06a58b21ba/9b741a5c-1fa6-4ec7-876c-f0b1f25b18e4"
+					(reference "L201")
 					(unit 1)
 				)
 			)
@@ -10246,7 +10016,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "ef098c7c-cd98-44e3-b1b6-6de319aa344e")
-		(property "Reference" "#PWR0233"
+		(property "Reference" "#PWR0208"
 			(at 162.56 35.56 0)
 			(effects
 				(font
@@ -10296,7 +10066,7 @@
 		(instances
 			(project "dongle"
 				(path "/8d3147eb-060b-4f65-bf42-ed06a58b21ba/9b741a5c-1fa6-4ec7-876c-f0b1f25b18e4"
-					(reference "#PWR0233")
+					(reference "#PWR0208")
 					(unit 1)
 				)
 			)
@@ -10310,15 +10080,15 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 19.05 92.71 0)
+		(at 226.06 46.99 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(uuid "f9c51b7d-bc4e-4480-b48d-a10716a573fc")
-		(property "Reference" "#PWR0213"
-			(at 19.05 99.06 0)
+		(uuid "fa0e648b-d120-4ff8-95f7-01040f4fce16")
+		(property "Reference" "#PWR0209"
+			(at 226.06 53.34 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10327,7 +10097,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 19.05 96.52 0)
+			(at 223.52 49.53 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10335,7 +10105,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 19.05 92.71 0)
+			(at 226.06 46.99 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10344,7 +10114,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 19.05 92.71 0)
+			(at 226.06 46.99 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10352,8 +10122,8 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 19.05 92.71 0)
+		(property "Description" ""
+			(at 226.06 46.99 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10362,18 +10132,12 @@
 			)
 		)
 		(pin "1"
-			(uuid "73fd849d-8e31-4523-9d58-018ee8c4316b")
+			(uuid "62418d57-4d56-4f44-b364-f3472bc980b7")
 		)
 		(instances
-			(project "dongle"
+			(project "wor_dk"
 				(path "/8d3147eb-060b-4f65-bf42-ed06a58b21ba/9b741a5c-1fa6-4ec7-876c-f0b1f25b18e4"
-					(reference "#PWR0213")
-					(unit 1)
-				)
-			)
-			(project "dongle"
-				(path "/baecd03a-8d48-4020-876a-32289b953936/49f47eff-be71-45a3-baa2-ec3b29bb6923"
-					(reference "#PWR0213")
+					(reference "#PWR0209")
 					(unit 1)
 				)
 			)
@@ -10388,7 +10152,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "fa14387f-9ba5-45be-bcea-8ad8cdae6f3f")
-		(property "Reference" "#PWR0211"
+		(property "Reference" "#PWR0222"
 			(at 17.78 177.8 0)
 			(effects
 				(font
@@ -10438,7 +10202,7 @@
 		(instances
 			(project "dongle"
 				(path "/8d3147eb-060b-4f65-bf42-ed06a58b21ba/9b741a5c-1fa6-4ec7-876c-f0b1f25b18e4"
-					(reference "#PWR0211")
+					(reference "#PWR0222")
 					(unit 1)
 				)
 			)
@@ -10459,7 +10223,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "fe8958a5-40f8-4ce1-acfe-cb0d4374fdea")
-		(property "Reference" "#FLG0105"
+		(property "Reference" "#FLG0202"
 			(at 80.01 187.325 0)
 			(effects
 				(font
@@ -10509,7 +10273,7 @@
 		(instances
 			(project "dongle"
 				(path "/8d3147eb-060b-4f65-bf42-ed06a58b21ba/9b741a5c-1fa6-4ec7-876c-f0b1f25b18e4"
-					(reference "#FLG0105")
+					(reference "#FLG0202")
 					(unit 1)
 				)
 			)

@@ -437,6 +437,16 @@
 			)
 			(uuid "bc197f50-73a1-4990-b218-b43f20ea59d6")
 		)
+		(pin "VDD" input
+			(at 68.58 39.37 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "0c50ef28-ead8-4552-b7fe-68cefbbfcd3c")
+		)
 		(instances
 			(project "wor_dk"
 				(path "/8d3147eb-060b-4f65-bf42-ed06a58b21ba"
