@@ -1,0 +1,9 @@
+EESchema-DOCLIB  Version 2.0
+#
+$CMP TMUX1112PWR
+D Analog Switch ICs 5V SWITCH PROTOTYPE
+K
+F https://www.ti.com/lit/gpn/TMUX1112
+$ENDCMP
+#
+#End Doc Library
