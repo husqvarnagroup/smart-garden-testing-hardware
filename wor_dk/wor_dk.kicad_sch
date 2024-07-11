@@ -131,6 +131,42 @@
 			)
 		)
 	)
+	(junction
+		(at 101.6 97.79)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "316fb19f-dcc9-41d3-a102-ee8e5157a421")
+	)
+	(wire
+		(pts
+			(xy 101.6 97.79) (xy 106.68 97.79)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "01e31a3a-fb79-4ad1-8bfd-7accc9bac832")
+	)
+	(wire
+		(pts
+			(xy 101.6 93.98) (xy 101.6 97.79)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "02fff744-3c60-4fa4-9ef5-88cea0fed3b0")
+	)
+	(wire
+		(pts
+			(xy 96.52 148.59) (xy 96.52 97.79)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "102183c6-5313-4b41-8bfa-7635de9ede15")
+	)
 	(wire
 		(pts
 			(xy 143.51 95.25) (xy 148.59 95.25)
@@ -153,13 +189,13 @@
 	)
 	(wire
 		(pts
-			(xy 76.2 93.98) (xy 106.68 93.98)
+			(xy 81.28 143.51) (xy 165.1 143.51)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "41c9b511-b10c-48e7-927b-f3c5e1e68b7b")
+		(uuid "4b682891-c830-4ba5-80ef-52ea2c54d28c")
 	)
 	(wire
 		(pts
@@ -173,13 +209,13 @@
 	)
 	(wire
 		(pts
-			(xy 76.2 97.79) (xy 106.68 97.79)
+			(xy 167.64 110.49) (xy 156.21 110.49)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "5efb9f85-6335-4fe0-a524-2360c916c3d7")
+		(uuid "557adc17-1f46-423b-813d-7a4f277359e3")
 	)
 	(wire
 		(pts
@@ -193,6 +229,16 @@
 	)
 	(wire
 		(pts
+			(xy 106.68 93.98) (xy 101.6 93.98)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "6cc105ff-bfa1-4f84-a3f2-6ffc2664ea8a")
+	)
+	(wire
+		(pts
 			(xy 143.51 107.95) (xy 148.59 107.95)
 		)
 		(stroke
@@ -200,6 +246,16 @@
 			(type default)
 		)
 		(uuid "6d1842f3-1a9d-42c9-8e70-d78b68df6ead")
+	)
+	(wire
+		(pts
+			(xy 165.1 143.51) (xy 165.1 113.03)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "713b0c8f-8c94-4b3a-b068-1faad23639ee")
 	)
 	(wire
 		(pts
@@ -233,6 +289,26 @@
 	)
 	(wire
 		(pts
+			(xy 81.28 148.59) (xy 96.52 148.59)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "8d198ac8-a457-4432-8c76-e74bf26fd624")
+	)
+	(wire
+		(pts
+			(xy 96.52 97.79) (xy 101.6 97.79)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "9d026584-134a-4acd-8d11-1c61305a2258")
+	)
+	(wire
+		(pts
 			(xy 143.51 102.87) (xy 148.59 102.87)
 		)
 		(stroke
@@ -240,6 +316,16 @@
 			(type default)
 		)
 		(uuid "ab24828b-cf8a-42d1-a67c-ad8da5f4379a")
+	)
+	(wire
+		(pts
+			(xy 165.1 113.03) (xy 156.21 113.03)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ab7c7689-3345-40ff-9cfb-477c2fdf5148")
 	)
 	(wire
 		(pts
@@ -293,6 +379,16 @@
 	)
 	(wire
 		(pts
+			(xy 81.28 139.7) (xy 87.63 139.7)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "cdd88101-b26e-424e-93d7-d9dc7754c2ca")
+	)
+	(wire
+		(pts
 			(xy 143.51 113.03) (xy 148.59 113.03)
 		)
 		(stroke
@@ -313,6 +409,16 @@
 	)
 	(wire
 		(pts
+			(xy 87.63 139.7) (xy 87.63 68.58)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e94ee4b3-964e-432e-a20e-e22ec194140d")
+	)
+	(wire
+		(pts
 			(xy 143.51 77.47) (xy 149.86 77.47)
 		)
 		(stroke
@@ -323,6 +429,26 @@
 	)
 	(wire
 		(pts
+			(xy 87.63 68.58) (xy 106.68 68.58)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f55ea407-23c7-488d-ae5a-e9a12b5b7640")
+	)
+	(wire
+		(pts
+			(xy 81.28 146.05) (xy 167.64 146.05)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f8cdb963-2733-467b-86ec-22fb5cc078f6")
+	)
+	(wire
+		(pts
 			(xy 143.51 71.12) (xy 149.86 71.12)
 		)
 		(stroke
@@ -330,6 +456,16 @@
 			(type default)
 		)
 		(uuid "fb1f13e3-5fd7-4711-9c4f-367bd08e680b")
+	)
+	(wire
+		(pts
+			(xy 167.64 146.05) (xy 167.64 110.49)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "fb90f472-6093-45bc-adc9-cd842c5d3c11")
 	)
 	(rectangle
 		(start 91.44 50.8)
@@ -345,7 +481,7 @@
 	)
 	(text "Device Under Test"
 		(exclude_from_sim no)
-		(at 100.33 45.72 0)
+		(at 101.346 53.086 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -1089,6 +1225,84 @@
 			(project "wor_dk"
 				(path "/8d3147eb-060b-4f65-bf42-ed06a58b21ba"
 					(page "4")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 30.48 132.08)
+		(size 50.8 35.56)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "711499aa-b4ff-4669-a7c0-a5db1aab8120")
+		(property "Sheetname" "FT232R"
+			(at 30.48 131.3684 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "ft232r.kicad_sch"
+			(at 30.48 168.2246 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(pin "3V3OUT" output
+			(at 81.28 139.7 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "8e291059-4216-4446-9070-a950a2d6ff86")
+		)
+		(pin "TXD" output
+			(at 81.28 143.51 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "9005c17a-3634-47d4-9eeb-f822b9fe5cf9")
+		)
+		(pin "RXD" input
+			(at 81.28 146.05 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "53f41df0-7628-4603-893e-c18f43fba0bd")
+		)
+		(pin "DTR" output
+			(at 81.28 148.59 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "440517da-4db5-4d1c-a5cd-81b40ff8e71b")
+		)
+		(instances
+			(project "wor_dk"
+				(path "/8d3147eb-060b-4f65-bf42-ed06a58b21ba"
+					(page "5")
 				)
 			)
 		)
