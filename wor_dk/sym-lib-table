@@ -1,4 +1,5 @@
 (sym_lib_table
   (version 7)
-  (lib (name "TexasInstruments")(type "KiCad")(uri "${KIPRJMOD}/../components/symbols/TexasInstruments.kicad_sym")(options "")(descr ""))
+  (lib (name "TexasInstruments")(type "KiCad")(uri "${KIPRJMOD}/../components/symbols/TexasInstruments.kicad_sym")(options "")(descr "Texas Instrument components"))
+  (lib (name "NXP")(type "KiCad")(uri "${KIPRJMOD}/../components/symbols/NXP.kicad_sym")(options "")(descr "NXP components"))
 )
