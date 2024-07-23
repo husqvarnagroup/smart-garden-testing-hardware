@@ -594,6 +594,10 @@
     [
       "711499aa-b4ff-4669-a7c0-a5db1aab8120",
       "FT232R"
+    ],
+    [
+      "8ac0f979-ce0c-42a5-9e8d-dda3e347b4b7",
+      "LPC11U35 DAPLink Programmer"
     ]
   ],
   "text_variables": {}

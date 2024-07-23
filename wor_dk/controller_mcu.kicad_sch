@@ -8095,7 +8095,7 @@
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
-		(dnp no)
+		(dnp yes)
 		(uuid "282d0400-9039-4c0b-aee7-e2ce14133c1c")
 		(property "Reference" "R402"
 			(at 190.5 90.17 0)
