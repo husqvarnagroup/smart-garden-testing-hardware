@@ -1,0 +1,4 @@
+(fp_lib_table
+  (version 7)
+  (lib (name "TexasInstruments")(type "KiCad")(uri "${KIPRJMOD}/../components/footprints/TexasInstruments.pretty")(options "")(descr "Footprints for Texas Instruments components"))
+)
