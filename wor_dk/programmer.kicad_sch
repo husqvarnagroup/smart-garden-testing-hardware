@@ -1629,6 +1629,152 @@
 				)
 			)
 		)
+		(symbol "Device:Polyfuse"
+			(pin_numbers hide)
+			(pin_names
+				(offset 0)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "F"
+				(at -2.54 0 90)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "Polyfuse"
+				(at 2.54 0 90)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 1.27 -5.08 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "~"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Resettable fuse, polymeric positive temperature coefficient"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "resettable fuse PTC PPTC polyfuse polyswitch"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "*polyfuse* *PTC*"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "Polyfuse_0_1"
+				(rectangle
+					(start -0.762 2.54)
+					(end 0.762 -2.54)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 2.54) (xy 0 -2.54)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -1.524 2.54) (xy -1.524 1.524) (xy 1.524 -1.524) (xy 1.524 -2.54)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "Polyfuse_1_1"
+				(pin passive line
+					(at 0 3.81 270)
+					(length 1.27)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 0 -3.81 90)
+					(length 1.27)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+		)
 		(symbol "Device:R"
 			(pin_numbers hide)
 			(pin_names
@@ -3669,12 +3815,6 @@
 		(uuid "432f71b5-ce03-4971-b165-cb77b94ca468")
 	)
 	(junction
-		(at 72.39 26.67)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "46b0cc04-6b4a-49b1-ab38-f25c138a5396")
-	)
-	(junction
 		(at 29.21 173.99)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -3697,6 +3837,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "6260f519-a5d2-432f-9a4b-e1c31dac7acd")
+	)
+	(junction
+		(at 55.88 26.67)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "734408e2-a434-48be-a25f-d34e9a0ca11d")
 	)
 	(junction
 		(at 220.98 92.71)
@@ -3864,16 +4010,6 @@
 	)
 	(wire
 		(pts
-			(xy 43.18 26.67) (xy 72.39 26.67)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "15779396-439d-4728-964e-d5c73c0669f0")
-	)
-	(wire
-		(pts
 			(xy 220.98 82.55) (xy 232.41 82.55)
 		)
 		(stroke
@@ -4034,6 +4170,16 @@
 	)
 	(wire
 		(pts
+			(xy 43.18 26.67) (xy 55.88 26.67)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "25f96130-80fe-423c-9553-1b2c009efefd")
+	)
+	(wire
+		(pts
 			(xy 44.45 39.37) (xy 43.18 39.37)
 		)
 		(stroke
@@ -4134,6 +4280,16 @@
 	)
 	(wire
 		(pts
+			(xy 71.12 26.67) (xy 73.66 26.67)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3228522e-3bb3-49cd-a0ba-af05d7694574")
+	)
+	(wire
+		(pts
 			(xy 120.65 172.72) (xy 120.65 173.99)
 		)
 		(stroke
@@ -4191,6 +4347,16 @@
 			(type default)
 		)
 		(uuid "3d0f5be6-3964-4f35-8f7f-c1974d2ba58f")
+	)
+	(wire
+		(pts
+			(xy 72.39 31.75) (xy 55.88 31.75)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "43647fd3-5e4a-48b0-9f16-2345dc13d683")
 	)
 	(wire
 		(pts
@@ -4404,6 +4570,16 @@
 	)
 	(wire
 		(pts
+			(xy 72.39 46.99) (xy 72.39 31.75)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "6791a22f-95d6-4941-8416-14305ab936ce")
+	)
+	(wire
+		(pts
 			(xy 226.06 31.75) (xy 241.3 31.75)
 		)
 		(stroke
@@ -4551,16 +4727,6 @@
 			(type default)
 		)
 		(uuid "8002b7c2-a4aa-435f-addd-5735c034f5d3")
-	)
-	(wire
-		(pts
-			(xy 72.39 26.67) (xy 73.66 26.67)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "805a3c10-dbbf-47bf-95f1-4ce5401eb7ed")
 	)
 	(wire
 		(pts
@@ -4714,6 +4880,16 @@
 	)
 	(wire
 		(pts
+			(xy 55.88 31.75) (xy 55.88 26.67)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "951ab640-b42f-4ab9-99d8-abd0a7893474")
+	)
+	(wire
+		(pts
 			(xy 199.39 107.95) (xy 238.76 107.95)
 		)
 		(stroke
@@ -4771,6 +4947,16 @@
 			(type default)
 		)
 		(uuid "a1111392-a81d-4fc9-a687-b819501a303f")
+	)
+	(wire
+		(pts
+			(xy 55.88 26.67) (xy 63.5 26.67)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a29e2b5e-6980-4b09-a655-ffde55850084")
 	)
 	(wire
 		(pts
@@ -5031,16 +5217,6 @@
 			(type default)
 		)
 		(uuid "c9a7350e-0ec5-4853-93b1-7cbafc24bde2")
-	)
-	(wire
-		(pts
-			(xy 72.39 46.99) (xy 72.39 26.67)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "c9eec873-e345-48c0-8228-70a4e1367de9")
 	)
 	(wire
 		(pts
@@ -10461,6 +10637,111 @@
 			(project "wor_dk"
 				(path "/8d3147eb-060b-4f65-bf42-ed06a58b21ba/8ac0f979-ce0c-42a5-9e8d-dda3e347b4b7"
 					(reference "C607")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:Polyfuse")
+		(at 67.31 26.67 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "e60a0108-ff59-4b07-a393-0d9c48250e88")
+		(property "Reference" "F601"
+			(at 67.31 20.32 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "100mA"
+			(at 67.31 22.86 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Fuse:Fuse_0603_1608Metric"
+			(at 72.39 25.4 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://datasheet.lcsc.com/lcsc/1809211423_TECHFUSE-SMD0603-010_C70047.pdf"
+			(at 67.31 26.67 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "15V 100mA 40A 300mA 0603"
+			(at 67.31 26.67 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C70047"
+			(at 67.31 26.67 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "TECHFUSE"
+			(at 67.31 26.67 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Part Number" "SMD0603-010"
+			(at 67.31 26.67 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Comment" "100mA is max we are allowed to draw without negatiation; host side should also have a fuse (at higher current)."
+			(at 67.31 26.67 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "bd5f3483-3e94-4abb-9a7c-9786f27acb1b")
+		)
+		(pin "2"
+			(uuid "58fb725c-1b01-4d30-ac74-166eb95a712e")
+		)
+		(instances
+			(project "wor_dk"
+				(path "/8d3147eb-060b-4f65-bf42-ed06a58b21ba/8ac0f979-ce0c-42a5-9e8d-dda3e347b4b7"
+					(reference "F601")
 					(unit 1)
 				)
 			)
