@@ -39,7 +39,7 @@
 					(hide yes)
 				)
 			)
-			(property "Datasheet" " ~"
+			(property "Datasheet" "~"
 				(at 0 0 0)
 				(effects
 					(font
@@ -3917,7 +3917,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" " ~"
+		(property "Datasheet" "https://www.cinch.com/products/rf-microwave/connectors/142-0701-851"
 			(at 217.17 93.98 0)
 			(effects
 				(font
@@ -3926,7 +3926,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "coaxial connector (BNC, SMA, SMB, SMC, Cinch/RCA, LEMO, ...)"
+		(property "Description" "Edge mount SMA connector"
 			(at 217.17 93.98 0)
 			(effects
 				(font
