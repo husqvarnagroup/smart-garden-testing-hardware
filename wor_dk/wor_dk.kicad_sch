@@ -189,26 +189,6 @@
 	)
 	(wire
 		(pts
-			(xy 140.97 100.33) (xy 146.05 100.33)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "191da776-0a06-41de-822c-3f53a30497ac")
-	)
-	(wire
-		(pts
-			(xy 153.67 100.33) (xy 260.35 100.33)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "2fea5e90-3cfb-4693-b80c-c56453c4b50d")
-	)
-	(wire
-		(pts
 			(xy 140.97 92.71) (xy 147.32 92.71)
 		)
 		(stroke
@@ -339,16 +319,6 @@
 	)
 	(wire
 		(pts
-			(xy 260.35 100.33) (xy 260.35 38.1)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "890fff04-f1b7-4f56-9555-9c1d475c43d8")
-	)
-	(wire
-		(pts
 			(xy 140.97 105.41) (xy 146.05 105.41)
 		)
 		(stroke
@@ -376,16 +346,6 @@
 			(type default)
 		)
 		(uuid "9d026584-134a-4acd-8d11-1c61305a2258")
-	)
-	(wire
-		(pts
-			(xy 260.35 38.1) (xy 251.46 38.1)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "9f8bc05d-c7b0-47e0-94ff-c449905cd684")
 	)
 	(wire
 		(pts
@@ -951,74 +911,6 @@
 	)
 	(symbol
 		(lib_id "Device:R")
-		(at 149.86 100.33 270)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "ad33c38e-c1f6-4d3e-83ba-6e5c5719c4a6")
-		(property "Reference" "R101"
-			(at 149.86 100.33 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "0"
-			(at 149.86 102.362 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Footprint" ""
-			(at 149.86 98.552 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 149.86 100.33 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Resistor"
-			(at 149.86 100.33 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "93b996dd-d2cc-4a94-822e-00bf5b71c94c")
-		)
-		(pin "2"
-			(uuid "6041a68d-79b0-4d5a-a38c-b799d4b8e143")
-		)
-		(instances
-			(project ""
-				(path "/8d3147eb-060b-4f65-bf42-ed06a58b21ba"
-					(reference "R101")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:R")
 		(at 149.86 113.03 270)
 		(unit 1)
 		(exclude_from_sim no)
@@ -1466,16 +1358,6 @@
 				(justify right)
 			)
 			(uuid "0acbc26c-552d-43d3-9303-68416dd865a8")
-		)
-		(pin "VDD_SENSE" input
-			(at 251.46 38.1 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-			(uuid "bdb64a22-8279-44b3-b971-d715d4c7efd6")
 		)
 		(pin "DTR" output
 			(at 251.46 57.15 0)
