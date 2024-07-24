@@ -1409,108 +1409,108 @@
 		)
 	)
 	(junction
-		(at 113.03 27.94)
+		(at 153.67 33.02)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "11945890-373a-4871-9811-419e4cde9830")
 	)
 	(junction
-		(at 104.14 147.32)
+		(at 63.5 39.37)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "1d16829e-a34b-477d-bd8f-385e3271c68b")
 	)
 	(junction
-		(at 106.68 73.66)
+		(at 147.32 78.74)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "23de04fc-e416-42da-bdf0-661ca0af9830")
 	)
 	(junction
-		(at 82.55 81.28)
+		(at 123.19 86.36)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "719e8863-d511-42c7-8dd8-e9b366ac8992")
 	)
 	(junction
-		(at 92.71 158.75)
+		(at 52.07 50.8)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "762a4765-df32-4bf6-9d45-d1a717334437")
 	)
 	(junction
-		(at 113.03 40.64)
+		(at 153.67 45.72)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "7d98cd5d-78e1-4156-8485-5cfeaca91a32")
 	)
 	(junction
-		(at 132.08 88.9)
+		(at 172.72 93.98)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "81df2938-b34d-40d7-bd77-9be4600c1b74")
 	)
 	(junction
-		(at 104.14 158.75)
+		(at 63.5 50.8)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "8b026e38-c34e-4a84-888a-063508da46b7")
 	)
 	(junction
-		(at 97.79 147.32)
+		(at 57.15 39.37)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "8da97ea3-106f-4f8c-94c6-3cd90de12231")
 	)
 	(junction
-		(at 52.07 104.14)
+		(at 92.71 109.22)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "910a9aed-5d1a-44da-9a8a-ddd29e32b1f7")
 	)
 	(junction
-		(at 157.48 88.9)
+		(at 198.12 93.98)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "996e7dff-c9a3-4abd-b812-7eb77b67c1e9")
 	)
 	(junction
-		(at 144.78 88.9)
+		(at 185.42 93.98)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "a0e14b6e-73ff-4323-b354-d61b809934cb")
 	)
 	(junction
-		(at 92.71 147.32)
+		(at 52.07 39.37)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "a4b6faf3-b037-4426-9e01-668baf5f57f1")
 	)
 	(junction
-		(at 97.79 158.75)
+		(at 57.15 50.8)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "bf8cc71e-dd66-4465-a386-ec10baabb74f")
 	)
 	(junction
-		(at 106.68 88.9)
+		(at 147.32 93.98)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "d3647c22-9386-4c85-a0c6-14e7dd82edb1")
 	)
 	(junction
-		(at 125.73 34.29)
+		(at 166.37 39.37)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "dea41e40-3aec-4034-a24b-6dc9dc9cb5ba")
 	)
 	(no_connect
-		(at 91.44 93.98)
+		(at 132.08 99.06)
 		(uuid "aac1aa51-f448-4496-acf3-5685cfa1d666")
 	)
 	(wire
 		(pts
-			(xy 91.44 114.3) (xy 96.52 114.3)
+			(xy 132.08 119.38) (xy 137.16 119.38)
 		)
 		(stroke
 			(width 0)
@@ -1520,7 +1520,7 @@
 	)
 	(wire
 		(pts
-			(xy 52.07 104.14) (xy 52.07 105.41)
+			(xy 92.71 109.22) (xy 92.71 110.49)
 		)
 		(stroke
 			(width 0)
@@ -1530,7 +1530,7 @@
 	)
 	(wire
 		(pts
-			(xy 59.69 93.98) (xy 71.12 93.98)
+			(xy 100.33 99.06) (xy 111.76 99.06)
 		)
 		(stroke
 			(width 0)
@@ -1540,7 +1540,7 @@
 	)
 	(wire
 		(pts
-			(xy 157.48 88.9) (xy 157.48 92.71)
+			(xy 198.12 93.98) (xy 198.12 97.79)
 		)
 		(stroke
 			(width 0)
@@ -1550,7 +1550,7 @@
 	)
 	(wire
 		(pts
-			(xy 59.69 91.44) (xy 59.69 93.98)
+			(xy 100.33 96.52) (xy 100.33 99.06)
 		)
 		(stroke
 			(width 0)
@@ -1560,7 +1560,7 @@
 	)
 	(wire
 		(pts
-			(xy 142.24 88.9) (xy 144.78 88.9)
+			(xy 182.88 93.98) (xy 185.42 93.98)
 		)
 		(stroke
 			(width 0)
@@ -1570,7 +1570,7 @@
 	)
 	(wire
 		(pts
-			(xy 97.79 158.75) (xy 97.79 160.02)
+			(xy 57.15 50.8) (xy 57.15 52.07)
 		)
 		(stroke
 			(width 0)
@@ -1580,7 +1580,7 @@
 	)
 	(wire
 		(pts
-			(xy 92.71 147.32) (xy 81.28 147.32)
+			(xy 52.07 39.37) (xy 40.64 39.37)
 		)
 		(stroke
 			(width 0)
@@ -1590,7 +1590,7 @@
 	)
 	(wire
 		(pts
-			(xy 129.54 88.9) (xy 132.08 88.9)
+			(xy 170.18 93.98) (xy 172.72 93.98)
 		)
 		(stroke
 			(width 0)
@@ -1600,7 +1600,7 @@
 	)
 	(wire
 		(pts
-			(xy 154.94 88.9) (xy 157.48 88.9)
+			(xy 195.58 93.98) (xy 198.12 93.98)
 		)
 		(stroke
 			(width 0)
@@ -1610,7 +1610,7 @@
 	)
 	(wire
 		(pts
-			(xy 132.08 92.71) (xy 132.08 88.9)
+			(xy 172.72 97.79) (xy 172.72 93.98)
 		)
 		(stroke
 			(width 0)
@@ -1620,7 +1620,7 @@
 	)
 	(wire
 		(pts
-			(xy 97.79 147.32) (xy 92.71 147.32)
+			(xy 57.15 39.37) (xy 52.07 39.37)
 		)
 		(stroke
 			(width 0)
@@ -1630,7 +1630,7 @@
 	)
 	(wire
 		(pts
-			(xy 106.68 77.47) (xy 106.68 73.66)
+			(xy 147.32 82.55) (xy 147.32 78.74)
 		)
 		(stroke
 			(width 0)
@@ -1640,7 +1640,7 @@
 	)
 	(wire
 		(pts
-			(xy 81.28 83.82) (xy 81.28 81.28)
+			(xy 121.92 88.9) (xy 121.92 86.36)
 		)
 		(stroke
 			(width 0)
@@ -1650,7 +1650,7 @@
 	)
 	(wire
 		(pts
-			(xy 92.71 158.75) (xy 97.79 158.75)
+			(xy 52.07 50.8) (xy 57.15 50.8)
 		)
 		(stroke
 			(width 0)
@@ -1660,7 +1660,7 @@
 	)
 	(wire
 		(pts
-			(xy 69.85 114.3) (xy 71.12 114.3)
+			(xy 110.49 119.38) (xy 111.76 119.38)
 		)
 		(stroke
 			(width 0)
@@ -1670,7 +1670,7 @@
 	)
 	(wire
 		(pts
-			(xy 125.73 34.29) (xy 125.73 40.64)
+			(xy 166.37 39.37) (xy 166.37 45.72)
 		)
 		(stroke
 			(width 0)
@@ -1680,7 +1680,7 @@
 	)
 	(wire
 		(pts
-			(xy 81.28 158.75) (xy 92.71 158.75)
+			(xy 40.64 50.8) (xy 52.07 50.8)
 		)
 		(stroke
 			(width 0)
@@ -1690,7 +1690,7 @@
 	)
 	(wire
 		(pts
-			(xy 59.69 99.06) (xy 59.69 101.6)
+			(xy 100.33 104.14) (xy 100.33 106.68)
 		)
 		(stroke
 			(width 0)
@@ -1700,7 +1700,7 @@
 	)
 	(wire
 		(pts
-			(xy 57.15 96.52) (xy 57.15 104.14)
+			(xy 97.79 101.6) (xy 97.79 109.22)
 		)
 		(stroke
 			(width 0)
@@ -1710,7 +1710,7 @@
 	)
 	(wire
 		(pts
-			(xy 144.78 88.9) (xy 147.32 88.9)
+			(xy 185.42 93.98) (xy 187.96 93.98)
 		)
 		(stroke
 			(width 0)
@@ -1720,7 +1720,7 @@
 	)
 	(wire
 		(pts
-			(xy 82.55 81.28) (xy 83.82 81.28)
+			(xy 123.19 86.36) (xy 124.46 86.36)
 		)
 		(stroke
 			(width 0)
@@ -1730,7 +1730,7 @@
 	)
 	(wire
 		(pts
-			(xy 69.85 88.9) (xy 71.12 88.9)
+			(xy 110.49 93.98) (xy 111.76 93.98)
 		)
 		(stroke
 			(width 0)
@@ -1740,7 +1740,7 @@
 	)
 	(wire
 		(pts
-			(xy 113.03 40.64) (xy 113.03 43.18)
+			(xy 153.67 45.72) (xy 153.67 48.26)
 		)
 		(stroke
 			(width 0)
@@ -1750,7 +1750,7 @@
 	)
 	(wire
 		(pts
-			(xy 81.28 119.38) (xy 81.28 121.92)
+			(xy 121.92 124.46) (xy 121.92 127)
 		)
 		(stroke
 			(width 0)
@@ -1760,7 +1760,7 @@
 	)
 	(wire
 		(pts
-			(xy 91.44 88.9) (xy 106.68 88.9)
+			(xy 132.08 93.98) (xy 147.32 93.98)
 		)
 		(stroke
 			(width 0)
@@ -1770,7 +1770,7 @@
 	)
 	(wire
 		(pts
-			(xy 132.08 88.9) (xy 132.08 34.29)
+			(xy 172.72 93.98) (xy 172.72 39.37)
 		)
 		(stroke
 			(width 0)
@@ -1780,7 +1780,7 @@
 	)
 	(wire
 		(pts
-			(xy 91.44 101.6) (xy 97.79 101.6)
+			(xy 132.08 106.68) (xy 138.43 106.68)
 		)
 		(stroke
 			(width 0)
@@ -1790,7 +1790,7 @@
 	)
 	(wire
 		(pts
-			(xy 91.44 109.22) (xy 96.52 109.22)
+			(xy 132.08 114.3) (xy 137.16 114.3)
 		)
 		(stroke
 			(width 0)
@@ -1800,7 +1800,7 @@
 	)
 	(wire
 		(pts
-			(xy 45.72 104.14) (xy 52.07 104.14)
+			(xy 86.36 109.22) (xy 92.71 109.22)
 		)
 		(stroke
 			(width 0)
@@ -1810,7 +1810,7 @@
 	)
 	(wire
 		(pts
-			(xy 97.79 158.75) (xy 104.14 158.75)
+			(xy 57.15 50.8) (xy 63.5 50.8)
 		)
 		(stroke
 			(width 0)
@@ -1820,7 +1820,7 @@
 	)
 	(wire
 		(pts
-			(xy 91.44 99.06) (xy 95.25 99.06)
+			(xy 132.08 104.14) (xy 135.89 104.14)
 		)
 		(stroke
 			(width 0)
@@ -1830,7 +1830,7 @@
 	)
 	(wire
 		(pts
-			(xy 97.79 101.6) (xy 97.79 27.94)
+			(xy 138.43 106.68) (xy 138.43 33.02)
 		)
 		(stroke
 			(width 0)
@@ -1840,7 +1840,7 @@
 	)
 	(wire
 		(pts
-			(xy 115.57 147.32) (xy 104.14 147.32)
+			(xy 74.93 39.37) (xy 63.5 39.37)
 		)
 		(stroke
 			(width 0)
@@ -1850,7 +1850,7 @@
 	)
 	(wire
 		(pts
-			(xy 91.44 111.76) (xy 96.52 111.76)
+			(xy 132.08 116.84) (xy 137.16 116.84)
 		)
 		(stroke
 			(width 0)
@@ -1860,7 +1860,7 @@
 	)
 	(wire
 		(pts
-			(xy 132.08 100.33) (xy 132.08 102.87)
+			(xy 172.72 105.41) (xy 172.72 107.95)
 		)
 		(stroke
 			(width 0)
@@ -1870,7 +1870,7 @@
 	)
 	(wire
 		(pts
-			(xy 104.14 157.48) (xy 104.14 158.75)
+			(xy 63.5 49.53) (xy 63.5 50.8)
 		)
 		(stroke
 			(width 0)
@@ -1880,7 +1880,7 @@
 	)
 	(wire
 		(pts
-			(xy 157.48 88.9) (xy 160.02 88.9)
+			(xy 198.12 93.98) (xy 200.66 93.98)
 		)
 		(stroke
 			(width 0)
@@ -1890,7 +1890,7 @@
 	)
 	(wire
 		(pts
-			(xy 115.57 158.75) (xy 115.57 157.48)
+			(xy 74.93 50.8) (xy 74.93 49.53)
 		)
 		(stroke
 			(width 0)
@@ -1900,7 +1900,7 @@
 	)
 	(wire
 		(pts
-			(xy 46.99 96.52) (xy 45.72 96.52)
+			(xy 87.63 101.6) (xy 86.36 101.6)
 		)
 		(stroke
 			(width 0)
@@ -1910,7 +1910,7 @@
 	)
 	(wire
 		(pts
-			(xy 83.82 81.28) (xy 83.82 83.82)
+			(xy 124.46 86.36) (xy 124.46 88.9)
 		)
 		(stroke
 			(width 0)
@@ -1920,7 +1920,7 @@
 	)
 	(wire
 		(pts
-			(xy 81.28 157.48) (xy 81.28 158.75)
+			(xy 40.64 49.53) (xy 40.64 50.8)
 		)
 		(stroke
 			(width 0)
@@ -1930,7 +1930,7 @@
 	)
 	(wire
 		(pts
-			(xy 52.07 101.6) (xy 52.07 100.33)
+			(xy 92.71 106.68) (xy 92.71 105.41)
 		)
 		(stroke
 			(width 0)
@@ -1940,7 +1940,7 @@
 	)
 	(wire
 		(pts
-			(xy 81.28 81.28) (xy 82.55 81.28)
+			(xy 121.92 86.36) (xy 123.19 86.36)
 		)
 		(stroke
 			(width 0)
@@ -1950,7 +1950,7 @@
 	)
 	(wire
 		(pts
-			(xy 106.68 85.09) (xy 106.68 88.9)
+			(xy 147.32 90.17) (xy 147.32 93.98)
 		)
 		(stroke
 			(width 0)
@@ -1960,7 +1960,7 @@
 	)
 	(wire
 		(pts
-			(xy 115.57 149.86) (xy 115.57 147.32)
+			(xy 74.93 41.91) (xy 74.93 39.37)
 		)
 		(stroke
 			(width 0)
@@ -1970,7 +1970,7 @@
 	)
 	(wire
 		(pts
-			(xy 95.25 40.64) (xy 113.03 40.64)
+			(xy 135.89 45.72) (xy 153.67 45.72)
 		)
 		(stroke
 			(width 0)
@@ -1980,7 +1980,7 @@
 	)
 	(wire
 		(pts
-			(xy 157.48 100.33) (xy 157.48 102.87)
+			(xy 198.12 105.41) (xy 198.12 107.95)
 		)
 		(stroke
 			(width 0)
@@ -1990,7 +1990,7 @@
 	)
 	(wire
 		(pts
-			(xy 59.69 101.6) (xy 52.07 101.6)
+			(xy 100.33 106.68) (xy 92.71 106.68)
 		)
 		(stroke
 			(width 0)
@@ -2000,7 +2000,7 @@
 	)
 	(wire
 		(pts
-			(xy 95.25 99.06) (xy 95.25 40.64)
+			(xy 135.89 104.14) (xy 135.89 45.72)
 		)
 		(stroke
 			(width 0)
@@ -2010,7 +2010,7 @@
 	)
 	(wire
 		(pts
-			(xy 92.71 157.48) (xy 92.71 158.75)
+			(xy 52.07 49.53) (xy 52.07 50.8)
 		)
 		(stroke
 			(width 0)
@@ -2020,7 +2020,7 @@
 	)
 	(wire
 		(pts
-			(xy 91.44 106.68) (xy 96.52 106.68)
+			(xy 132.08 111.76) (xy 137.16 111.76)
 		)
 		(stroke
 			(width 0)
@@ -2030,7 +2030,7 @@
 	)
 	(wire
 		(pts
-			(xy 113.03 40.64) (xy 115.57 40.64)
+			(xy 153.67 45.72) (xy 156.21 45.72)
 		)
 		(stroke
 			(width 0)
@@ -2040,7 +2040,7 @@
 	)
 	(wire
 		(pts
-			(xy 52.07 92.71) (xy 52.07 91.44)
+			(xy 92.71 97.79) (xy 92.71 96.52)
 		)
 		(stroke
 			(width 0)
@@ -2050,7 +2050,7 @@
 	)
 	(wire
 		(pts
-			(xy 97.79 27.94) (xy 113.03 27.94)
+			(xy 138.43 33.02) (xy 153.67 33.02)
 		)
 		(stroke
 			(width 0)
@@ -2060,7 +2060,7 @@
 	)
 	(wire
 		(pts
-			(xy 92.71 149.86) (xy 92.71 147.32)
+			(xy 52.07 41.91) (xy 52.07 39.37)
 		)
 		(stroke
 			(width 0)
@@ -2070,7 +2070,7 @@
 	)
 	(wire
 		(pts
-			(xy 69.85 109.22) (xy 71.12 109.22)
+			(xy 110.49 114.3) (xy 111.76 114.3)
 		)
 		(stroke
 			(width 0)
@@ -2080,7 +2080,7 @@
 	)
 	(wire
 		(pts
-			(xy 45.72 96.52) (xy 45.72 104.14)
+			(xy 86.36 101.6) (xy 86.36 109.22)
 		)
 		(stroke
 			(width 0)
@@ -2090,7 +2090,7 @@
 	)
 	(wire
 		(pts
-			(xy 57.15 104.14) (xy 52.07 104.14)
+			(xy 97.79 109.22) (xy 92.71 109.22)
 		)
 		(stroke
 			(width 0)
@@ -2100,7 +2100,7 @@
 	)
 	(wire
 		(pts
-			(xy 113.03 27.94) (xy 115.57 27.94)
+			(xy 153.67 33.02) (xy 156.21 33.02)
 		)
 		(stroke
 			(width 0)
@@ -2110,7 +2110,7 @@
 	)
 	(wire
 		(pts
-			(xy 144.78 88.9) (xy 144.78 92.71)
+			(xy 185.42 93.98) (xy 185.42 97.79)
 		)
 		(stroke
 			(width 0)
@@ -2120,7 +2120,7 @@
 	)
 	(wire
 		(pts
-			(xy 106.68 68.58) (xy 106.68 73.66)
+			(xy 147.32 73.66) (xy 147.32 78.74)
 		)
 		(stroke
 			(width 0)
@@ -2130,7 +2130,7 @@
 	)
 	(wire
 		(pts
-			(xy 81.28 149.86) (xy 81.28 147.32)
+			(xy 40.64 41.91) (xy 40.64 39.37)
 		)
 		(stroke
 			(width 0)
@@ -2140,7 +2140,7 @@
 	)
 	(wire
 		(pts
-			(xy 97.79 146.05) (xy 97.79 147.32)
+			(xy 57.15 38.1) (xy 57.15 39.37)
 		)
 		(stroke
 			(width 0)
@@ -2150,7 +2150,7 @@
 	)
 	(wire
 		(pts
-			(xy 119.38 88.9) (xy 121.92 88.9)
+			(xy 160.02 93.98) (xy 162.56 93.98)
 		)
 		(stroke
 			(width 0)
@@ -2160,7 +2160,7 @@
 	)
 	(wire
 		(pts
-			(xy 82.55 80.01) (xy 82.55 81.28)
+			(xy 123.19 85.09) (xy 123.19 86.36)
 		)
 		(stroke
 			(width 0)
@@ -2170,7 +2170,7 @@
 	)
 	(wire
 		(pts
-			(xy 123.19 27.94) (xy 125.73 27.94)
+			(xy 163.83 33.02) (xy 166.37 33.02)
 		)
 		(stroke
 			(width 0)
@@ -2180,7 +2180,7 @@
 	)
 	(wire
 		(pts
-			(xy 176.53 93.98) (xy 176.53 96.52)
+			(xy 217.17 99.06) (xy 217.17 101.6)
 		)
 		(stroke
 			(width 0)
@@ -2190,7 +2190,7 @@
 	)
 	(wire
 		(pts
-			(xy 106.68 73.66) (xy 110.49 73.66)
+			(xy 147.32 78.74) (xy 151.13 78.74)
 		)
 		(stroke
 			(width 0)
@@ -2200,7 +2200,7 @@
 	)
 	(wire
 		(pts
-			(xy 69.85 104.14) (xy 71.12 104.14)
+			(xy 110.49 109.22) (xy 111.76 109.22)
 		)
 		(stroke
 			(width 0)
@@ -2210,7 +2210,7 @@
 	)
 	(wire
 		(pts
-			(xy 113.03 50.8) (xy 113.03 52.07)
+			(xy 153.67 55.88) (xy 153.67 57.15)
 		)
 		(stroke
 			(width 0)
@@ -2220,7 +2220,7 @@
 	)
 	(wire
 		(pts
-			(xy 125.73 40.64) (xy 123.19 40.64)
+			(xy 166.37 45.72) (xy 163.83 45.72)
 		)
 		(stroke
 			(width 0)
@@ -2230,7 +2230,7 @@
 	)
 	(wire
 		(pts
-			(xy 144.78 100.33) (xy 144.78 102.87)
+			(xy 185.42 105.41) (xy 185.42 107.95)
 		)
 		(stroke
 			(width 0)
@@ -2240,7 +2240,7 @@
 	)
 	(wire
 		(pts
-			(xy 69.85 111.76) (xy 71.12 111.76)
+			(xy 110.49 116.84) (xy 111.76 116.84)
 		)
 		(stroke
 			(width 0)
@@ -2250,7 +2250,7 @@
 	)
 	(wire
 		(pts
-			(xy 69.85 106.68) (xy 71.12 106.68)
+			(xy 110.49 111.76) (xy 111.76 111.76)
 		)
 		(stroke
 			(width 0)
@@ -2260,7 +2260,7 @@
 	)
 	(wire
 		(pts
-			(xy 120.65 76.2) (xy 120.65 73.66)
+			(xy 161.29 81.28) (xy 161.29 78.74)
 		)
 		(stroke
 			(width 0)
@@ -2270,7 +2270,7 @@
 	)
 	(wire
 		(pts
-			(xy 59.69 99.06) (xy 71.12 99.06)
+			(xy 100.33 104.14) (xy 111.76 104.14)
 		)
 		(stroke
 			(width 0)
@@ -2280,7 +2280,7 @@
 	)
 	(wire
 		(pts
-			(xy 132.08 88.9) (xy 134.62 88.9)
+			(xy 172.72 93.98) (xy 175.26 93.98)
 		)
 		(stroke
 			(width 0)
@@ -2290,7 +2290,7 @@
 	)
 	(wire
 		(pts
-			(xy 113.03 30.48) (xy 113.03 27.94)
+			(xy 153.67 35.56) (xy 153.67 33.02)
 		)
 		(stroke
 			(width 0)
@@ -2300,7 +2300,7 @@
 	)
 	(wire
 		(pts
-			(xy 52.07 91.44) (xy 59.69 91.44)
+			(xy 92.71 96.52) (xy 100.33 96.52)
 		)
 		(stroke
 			(width 0)
@@ -2310,7 +2310,7 @@
 	)
 	(wire
 		(pts
-			(xy 125.73 27.94) (xy 125.73 34.29)
+			(xy 166.37 33.02) (xy 166.37 39.37)
 		)
 		(stroke
 			(width 0)
@@ -2320,7 +2320,7 @@
 	)
 	(wire
 		(pts
-			(xy 104.14 158.75) (xy 115.57 158.75)
+			(xy 63.5 50.8) (xy 74.93 50.8)
 		)
 		(stroke
 			(width 0)
@@ -2330,7 +2330,7 @@
 	)
 	(wire
 		(pts
-			(xy 120.65 73.66) (xy 118.11 73.66)
+			(xy 161.29 78.74) (xy 158.75 78.74)
 		)
 		(stroke
 			(width 0)
@@ -2340,7 +2340,7 @@
 	)
 	(wire
 		(pts
-			(xy 104.14 147.32) (xy 97.79 147.32)
+			(xy 63.5 39.37) (xy 57.15 39.37)
 		)
 		(stroke
 			(width 0)
@@ -2350,7 +2350,7 @@
 	)
 	(wire
 		(pts
-			(xy 104.14 149.86) (xy 104.14 147.32)
+			(xy 63.5 41.91) (xy 63.5 39.37)
 		)
 		(stroke
 			(width 0)
@@ -2360,7 +2360,7 @@
 	)
 	(wire
 		(pts
-			(xy 106.68 88.9) (xy 111.76 88.9)
+			(xy 147.32 93.98) (xy 152.4 93.98)
 		)
 		(stroke
 			(width 0)
@@ -2370,7 +2370,7 @@
 	)
 	(wire
 		(pts
-			(xy 167.64 88.9) (xy 171.45 88.9)
+			(xy 208.28 93.98) (xy 212.09 93.98)
 		)
 		(stroke
 			(width 0)
@@ -2380,7 +2380,7 @@
 	)
 	(wire
 		(pts
-			(xy 132.08 34.29) (xy 125.73 34.29)
+			(xy 172.72 39.37) (xy 166.37 39.37)
 		)
 		(stroke
 			(width 0)
@@ -2390,7 +2390,7 @@
 	)
 	(wire
 		(pts
-			(xy 113.03 38.1) (xy 113.03 40.64)
+			(xy 153.67 43.18) (xy 153.67 45.72)
 		)
 		(stroke
 			(width 0)
@@ -2411,7 +2411,7 @@
 	)
 	(text "Note:\nSi4467 has integrated XO capacitors\n(adjustable up to 11 pF)."
 		(exclude_from_sim no)
-		(at 25.4 87.63 0)
+		(at 66.04 92.71 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -2422,7 +2422,7 @@
 	)
 	(hierarchical_label "MISO"
 		(shape output)
-		(at 69.85 109.22 180)
+		(at 110.49 114.3 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -2434,7 +2434,7 @@
 	)
 	(hierarchical_label "GPIO2"
 		(shape bidirectional)
-		(at 96.52 111.76 0)
+		(at 137.16 116.84 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -2446,7 +2446,7 @@
 	)
 	(hierarchical_label "MOSI"
 		(shape input)
-		(at 69.85 106.68 180)
+		(at 110.49 111.76 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -2458,7 +2458,7 @@
 	)
 	(hierarchical_label "NIRQ"
 		(shape output)
-		(at 69.85 114.3 180)
+		(at 110.49 119.38 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -2470,7 +2470,7 @@
 	)
 	(hierarchical_label "GPIO0"
 		(shape bidirectional)
-		(at 96.52 106.68 0)
+		(at 137.16 111.76 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -2482,7 +2482,7 @@
 	)
 	(hierarchical_label "GPIO3"
 		(shape bidirectional)
-		(at 96.52 114.3 0)
+		(at 137.16 119.38 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -2494,7 +2494,7 @@
 	)
 	(hierarchical_label "SCLK"
 		(shape input)
-		(at 69.85 104.14 180)
+		(at 110.49 109.22 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -2506,7 +2506,7 @@
 	)
 	(hierarchical_label "SDN"
 		(shape input)
-		(at 69.85 88.9 180)
+		(at 110.49 93.98 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -2518,7 +2518,7 @@
 	)
 	(hierarchical_label "NSEL"
 		(shape input)
-		(at 69.85 111.76 180)
+		(at 110.49 116.84 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -2530,7 +2530,7 @@
 	)
 	(hierarchical_label "GPIO1"
 		(shape bidirectional)
-		(at 96.52 109.22 0)
+		(at 137.16 114.3 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -2542,7 +2542,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 157.48 102.87 0)
+		(at 198.12 107.95 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -2550,7 +2550,7 @@
 		(dnp no)
 		(uuid "047f6e24-550f-4d8e-98f1-7a13a7805805")
 		(property "Reference" "#PWR0103"
-			(at 157.48 109.22 0)
+			(at 198.12 114.3 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2559,7 +2559,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 157.48 106.68 0)
+			(at 198.12 111.76 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2567,7 +2567,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 157.48 102.87 0)
+			(at 198.12 107.95 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2576,7 +2576,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 157.48 102.87 0)
+			(at 198.12 107.95 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2585,7 +2585,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 157.48 102.87 0)
+			(at 198.12 107.95 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2613,7 +2613,7 @@
 	)
 	(symbol
 		(lib_id "Device:Crystal_GND24")
-		(at 52.07 96.52 270)
+		(at 92.71 101.6 270)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -2621,7 +2621,7 @@
 		(dnp no)
 		(uuid "07a99dfc-85f4-4f25-b22d-cdad7497eeb3")
 		(property "Reference" "Y301"
-			(at 44.45 92.71 90)
+			(at 85.09 97.79 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2629,7 +2629,7 @@
 			)
 		)
 		(property "Value" "26MHz"
-			(at 43.18 95.25 90)
+			(at 83.82 100.33 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2637,7 +2637,7 @@
 			)
 		)
 		(property "Footprint" "Crystal:Crystal_SMD_2016-4Pin_2.0x1.6mm"
-			(at 52.07 96.52 0)
+			(at 92.71 101.6 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2646,7 +2646,7 @@
 			)
 		)
 		(property "Datasheet" "https://www.ndk.com/images/products/catalog/c_NX2016SA_e.pdf"
-			(at 52.07 96.52 0)
+			(at 92.71 101.6 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2655,7 +2655,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 52.07 96.52 0)
+			(at 92.71 101.6 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2664,7 +2664,7 @@
 			)
 		)
 		(property "Comment" "4467CPCE10D868 uses NX2016SA-26MHZ-EXS00A-CS07337"
-			(at 52.07 96.52 0)
+			(at 92.71 101.6 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2673,7 +2673,7 @@
 			)
 		)
 		(property "Part Number" "NX2016SA-26MHZ-EXS00A-CS08835"
-			(at 52.07 96.52 0)
+			(at 92.71 101.6 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2682,7 +2682,7 @@
 			)
 		)
 		(property "LCSC" "C2762193"
-			(at 52.07 96.52 0)
+			(at 92.71 101.6 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2691,7 +2691,7 @@
 			)
 		)
 		(property "Manufacturer" "NDK"
-			(at 52.07 96.52 0)
+			(at 92.71 101.6 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2728,7 +2728,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 81.28 121.92 0)
+		(at 121.92 127 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -2736,7 +2736,7 @@
 		(dnp no)
 		(uuid "17eb2c7a-fb78-4f38-8953-4c2d5f037967")
 		(property "Reference" "#PWR0106"
-			(at 81.28 128.27 0)
+			(at 121.92 133.35 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2745,7 +2745,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 81.28 125.73 0)
+			(at 121.92 130.81 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2753,7 +2753,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 81.28 121.92 0)
+			(at 121.92 127 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2762,7 +2762,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 81.28 121.92 0)
+			(at 121.92 127 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2771,7 +2771,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 81.28 121.92 0)
+			(at 121.92 127 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2799,7 +2799,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 52.07 105.41 0)
+		(at 92.71 110.49 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -2807,7 +2807,7 @@
 		(dnp no)
 		(uuid "1a8619a6-7f0d-400c-a3be-dc28136e7399")
 		(property "Reference" "#PWR0108"
-			(at 52.07 111.76 0)
+			(at 92.71 116.84 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2816,7 +2816,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 52.07 109.22 0)
+			(at 92.71 114.3 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2824,7 +2824,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 52.07 105.41 0)
+			(at 92.71 110.49 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2833,7 +2833,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 52.07 105.41 0)
+			(at 92.71 110.49 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2842,7 +2842,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 52.07 105.41 0)
+			(at 92.71 110.49 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2870,7 +2870,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 97.79 160.02 0)
+		(at 57.15 52.07 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -2878,7 +2878,7 @@
 		(dnp no)
 		(uuid "1baad273-3178-46a0-9c3b-6cdc6462cfaf")
 		(property "Reference" "#PWR0105"
-			(at 97.79 166.37 0)
+			(at 57.15 58.42 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2887,7 +2887,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 97.79 163.83 0)
+			(at 57.15 55.88 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2895,7 +2895,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 97.79 160.02 0)
+			(at 57.15 52.07 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2904,7 +2904,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 97.79 160.02 0)
+			(at 57.15 52.07 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2913,7 +2913,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 97.79 160.02 0)
+			(at 57.15 52.07 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2941,7 +2941,7 @@
 	)
 	(symbol
 		(lib_id "Device:C")
-		(at 144.78 96.52 0)
+		(at 185.42 101.6 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -2950,7 +2950,7 @@
 		(fields_autoplaced yes)
 		(uuid "3378ae94-2c0d-4eb1-9e5c-b3f9367e3251")
 		(property "Reference" "C310"
-			(at 148.59 95.2499 0)
+			(at 189.23 100.3299 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2959,7 +2959,7 @@
 			)
 		)
 		(property "Value" "10pF"
-			(at 148.59 97.7899 0)
+			(at 189.23 102.8699 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2968,7 +2968,7 @@
 			)
 		)
 		(property "Footprint" "Capacitor_SMD:C_0201_0603Metric"
-			(at 145.7452 100.33 0)
+			(at 186.3852 105.41 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2977,7 +2977,7 @@
 			)
 		)
 		(property "Datasheet" "https://wmsc.lcsc.com/wmsc/upload/file/pdf/v2/lcsc/1912111437_Murata-Electronics-GJM0335C1E100GB01D_C237422.pdf"
-			(at 144.78 96.52 0)
+			(at 185.42 101.6 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2986,7 +2986,7 @@
 			)
 		)
 		(property "Description" "25V 10pF C0G ±2% 0201 MLCC"
-			(at 144.78 96.52 0)
+			(at 185.42 101.6 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2995,7 +2995,7 @@
 			)
 		)
 		(property "LCSC" "C237422"
-			(at 144.78 96.52 0)
+			(at 185.42 101.6 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3004,7 +3004,7 @@
 			)
 		)
 		(property "Manufacturer" "Murata Electronics"
-			(at 144.78 96.52 0)
+			(at 185.42 101.6 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3013,7 +3013,7 @@
 			)
 		)
 		(property "Part Number" "GJM0335C1E100GB01D"
-			(at 144.78 96.52 0)
+			(at 185.42 101.6 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3044,7 +3044,7 @@
 	)
 	(symbol
 		(lib_id "Device:C")
-		(at 81.28 153.67 0)
+		(at 40.64 45.72 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -3052,7 +3052,7 @@
 		(dnp no)
 		(uuid "33ed8011-2eb7-4fee-b2d6-2004058cd6bc")
 		(property "Reference" "C301"
-			(at 83.82 152.4 0)
+			(at 43.18 44.45 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3061,7 +3061,7 @@
 			)
 		)
 		(property "Value" "2.2uF"
-			(at 83.82 154.94 0)
+			(at 43.18 46.99 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3070,7 +3070,7 @@
 			)
 		)
 		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
-			(at 82.2452 157.48 0)
+			(at 41.6052 49.53 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3079,7 +3079,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 81.28 153.67 0)
+			(at 40.64 45.72 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3088,7 +3088,7 @@
 			)
 		)
 		(property "Description" "6.3V 2.2uF X5R ±20% 0402"
-			(at 81.28 153.67 0)
+			(at 40.64 45.72 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3097,7 +3097,7 @@
 			)
 		)
 		(property "Comment" "JLCPCB basic part"
-			(at 81.28 153.67 0)
+			(at 40.64 45.72 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3106,7 +3106,7 @@
 			)
 		)
 		(property "LCSC" "C12530"
-			(at 81.28 153.67 0)
+			(at 40.64 45.72 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3115,7 +3115,7 @@
 			)
 		)
 		(property "Manufacturer" "Samsung Electro-Mechanics"
-			(at 81.28 153.67 0)
+			(at 40.64 45.72 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3124,7 +3124,7 @@
 			)
 		)
 		(property "Part Number" "CL05A225MQ5NSNC"
-			(at 81.28 153.67 0)
+			(at 40.64 45.72 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3155,7 +3155,7 @@
 	)
 	(symbol
 		(lib_id "power:VDD")
-		(at 82.55 80.01 0)
+		(at 123.19 85.09 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -3163,7 +3163,7 @@
 		(dnp no)
 		(uuid "376a3075-c847-4f0e-bb09-fa01cdbda593")
 		(property "Reference" "#PWR0109"
-			(at 82.55 83.82 0)
+			(at 123.19 88.9 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3172,7 +3172,7 @@
 			)
 		)
 		(property "Value" "VDD_DUT"
-			(at 82.55 76.2 0)
+			(at 123.19 81.28 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3180,7 +3180,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 82.55 80.01 0)
+			(at 123.19 85.09 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3189,7 +3189,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 82.55 80.01 0)
+			(at 123.19 85.09 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3198,7 +3198,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"VDD\""
-			(at 82.55 80.01 0)
+			(at 123.19 85.09 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3226,7 +3226,7 @@
 	)
 	(symbol
 		(lib_id "power:VDD")
-		(at 106.68 68.58 0)
+		(at 147.32 73.66 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -3234,7 +3234,7 @@
 		(dnp no)
 		(uuid "3c3ad420-b3ca-4e56-972a-ba65d4f41b5d")
 		(property "Reference" "#PWR0112"
-			(at 106.68 72.39 0)
+			(at 147.32 77.47 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3243,7 +3243,7 @@
 			)
 		)
 		(property "Value" "VDD_DUT"
-			(at 106.68 64.77 0)
+			(at 147.32 69.85 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3251,7 +3251,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 106.68 68.58 0)
+			(at 147.32 73.66 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3260,7 +3260,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 106.68 68.58 0)
+			(at 147.32 73.66 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3269,7 +3269,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"VDD\""
-			(at 106.68 68.58 0)
+			(at 147.32 73.66 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3297,7 +3297,7 @@
 	)
 	(symbol
 		(lib_id "Device:L")
-		(at 151.13 88.9 90)
+		(at 191.77 93.98 90)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -3305,7 +3305,7 @@
 		(dnp no)
 		(uuid "406c1914-ac74-470e-a822-dbfeb6253c36")
 		(property "Reference" "L306"
-			(at 151.13 86.36 90)
+			(at 191.77 91.44 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3313,7 +3313,7 @@
 			)
 		)
 		(property "Value" "6.8nH"
-			(at 151.13 91.44 90)
+			(at 191.77 96.52 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3321,7 +3321,7 @@
 			)
 		)
 		(property "Footprint" "Inductor_SMD:L_0402_1005Metric"
-			(at 151.13 88.9 0)
+			(at 191.77 93.98 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3330,7 +3330,7 @@
 			)
 		)
 		(property "Datasheet" "https://wmsc.lcsc.com/wmsc/upload/file/pdf/v2/lcsc/2201242130_Murata-Electronics-LQW15AN6N8G80D_C882467.pdf"
-			(at 151.13 88.9 0)
+			(at 191.77 93.98 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3339,7 +3339,7 @@
 			)
 		)
 		(property "Description" "1.45A 6.8nH ±2% 0402 Power Inductors ROHS"
-			(at 151.13 88.9 0)
+			(at 191.77 93.98 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3348,7 +3348,7 @@
 			)
 		)
 		(property "LCSC" "C882467"
-			(at 151.13 88.9 0)
+			(at 191.77 93.98 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3357,7 +3357,7 @@
 			)
 		)
 		(property "Manufacturer" "Murata Electronics"
-			(at 151.13 88.9 0)
+			(at 191.77 93.98 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3366,7 +3366,7 @@
 			)
 		)
 		(property "Part Number" "LQW15AN6N8G80D"
-			(at 151.13 88.9 0)
+			(at 191.77 93.98 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3375,7 +3375,7 @@
 			)
 		)
 		(property "Comment" "Si4467 board uses CoilCraft 0402HP-6N8XJL with 5% tolerance and 1500 mA current rating."
-			(at 151.13 88.9 0)
+			(at 191.77 93.98 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3406,7 +3406,7 @@
 	)
 	(symbol
 		(lib_id "Device:C")
-		(at 119.38 27.94 90)
+		(at 160.02 33.02 90)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -3414,7 +3414,7 @@
 		(dnp no)
 		(uuid "45f7b97d-5376-472c-867d-da8ce26b8a12")
 		(property "Reference" "C307"
-			(at 119.38 24.13 90)
+			(at 160.02 29.21 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3422,7 +3422,7 @@
 			)
 		)
 		(property "Value" "1.0pF"
-			(at 119.38 31.75 90)
+			(at 160.02 36.83 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3430,7 +3430,7 @@
 			)
 		)
 		(property "Footprint" "Capacitor_SMD:C_0201_0603Metric"
-			(at 123.19 26.9748 0)
+			(at 163.83 32.0548 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3439,7 +3439,7 @@
 			)
 		)
 		(property "Datasheet" "https://wmsc.lcsc.com/wmsc/upload/file/pdf/v2/lcsc/1912111437_Murata-Electronics-GJM0335C1H1R0BB01D_C237514.pdf"
-			(at 119.38 27.94 0)
+			(at 160.02 33.02 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3448,7 +3448,7 @@
 			)
 		)
 		(property "Description" "50V 1pF C0G 0201 MLCC"
-			(at 119.38 27.94 0)
+			(at 160.02 33.02 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3457,7 +3457,7 @@
 			)
 		)
 		(property "LCSC" "C237514"
-			(at 119.38 27.94 0)
+			(at 160.02 33.02 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3466,7 +3466,7 @@
 			)
 		)
 		(property "Manufacturer" "Murata Electronics"
-			(at 119.38 27.94 0)
+			(at 160.02 33.02 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3475,7 +3475,7 @@
 			)
 		)
 		(property "Part Number" "GJM0335C1H1R0BB01D"
-			(at 119.38 27.94 0)
+			(at 160.02 33.02 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3506,7 +3506,7 @@
 	)
 	(symbol
 		(lib_id "Device:C")
-		(at 113.03 46.99 0)
+		(at 153.67 52.07 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -3515,7 +3515,7 @@
 		(fields_autoplaced yes)
 		(uuid "47f71ffd-13a8-4c11-88b0-d404f93de0c8")
 		(property "Reference" "C305"
-			(at 116.84 45.7199 0)
+			(at 157.48 50.7999 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3524,7 +3524,7 @@
 			)
 		)
 		(property "Value" "3pF"
-			(at 116.84 48.2599 0)
+			(at 157.48 53.3399 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3533,7 +3533,7 @@
 			)
 		)
 		(property "Footprint" "Capacitor_SMD:C_0201_0603Metric"
-			(at 113.9952 50.8 0)
+			(at 154.6352 55.88 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3542,7 +3542,7 @@
 			)
 		)
 		(property "Datasheet" "https://wmsc.lcsc.com/wmsc/upload/file/pdf/v2/lcsc/2201131100_Murata-Electronics-GJM0335C1E3R0CB01D_C701301.pdf"
-			(at 113.03 46.99 0)
+			(at 153.67 52.07 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3551,7 +3551,7 @@
 			)
 		)
 		(property "Description" "25V 3pF C0G ±0.25pF 0201"
-			(at 113.03 46.99 0)
+			(at 153.67 52.07 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3560,7 +3560,7 @@
 			)
 		)
 		(property "LCSC" "C701301"
-			(at 113.03 46.99 0)
+			(at 153.67 52.07 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3569,7 +3569,7 @@
 			)
 		)
 		(property "Manufacturer" "Murata Electronics"
-			(at 113.03 46.99 0)
+			(at 153.67 52.07 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3578,7 +3578,7 @@
 			)
 		)
 		(property "Part Number" "GJM0335C1E3R0CB01D"
-			(at 113.03 46.99 0)
+			(at 153.67 52.07 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3609,7 +3609,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 113.03 52.07 0)
+		(at 153.67 57.15 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -3617,7 +3617,7 @@
 		(dnp no)
 		(uuid "564ea9c2-6e76-451c-b684-50329439e4f0")
 		(property "Reference" "#PWR0111"
-			(at 113.03 58.42 0)
+			(at 153.67 63.5 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3626,7 +3626,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 113.03 55.88 0)
+			(at 153.67 60.96 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3634,7 +3634,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 113.03 52.07 0)
+			(at 153.67 57.15 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3643,7 +3643,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 113.03 52.07 0)
+			(at 153.67 57.15 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3652,7 +3652,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 113.03 52.07 0)
+			(at 153.67 57.15 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3680,7 +3680,7 @@
 	)
 	(symbol
 		(lib_id "Device:C")
-		(at 115.57 153.67 0)
+		(at 74.93 45.72 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -3688,7 +3688,7 @@
 		(dnp no)
 		(uuid "59b74184-6bda-4ae5-b4b5-1bbc78c3681c")
 		(property "Reference" "C304"
-			(at 118.11 152.4 0)
+			(at 77.47 44.45 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3697,7 +3697,7 @@
 			)
 		)
 		(property "Value" "33pF"
-			(at 118.11 154.94 0)
+			(at 77.47 46.99 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3706,7 +3706,7 @@
 			)
 		)
 		(property "Footprint" "Capacitor_SMD:C_0201_0603Metric"
-			(at 116.5352 157.48 0)
+			(at 75.8952 49.53 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3715,7 +3715,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 115.57 153.67 0)
+			(at 74.93 45.72 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3724,7 +3724,7 @@
 			)
 		)
 		(property "Description" "25V 33pF NP0 ±5% 0201"
-			(at 115.57 153.67 0)
+			(at 74.93 45.72 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3733,7 +3733,7 @@
 			)
 		)
 		(property "LCSC" "C513616"
-			(at 115.57 153.67 0)
+			(at 74.93 45.72 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3742,7 +3742,7 @@
 			)
 		)
 		(property "Manufacturer" "YAGEO"
-			(at 115.57 153.67 0)
+			(at 74.93 45.72 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3751,7 +3751,7 @@
 			)
 		)
 		(property "Part Number" "CC0201JRNPO8BN330"
-			(at 115.57 153.67 0)
+			(at 74.93 45.72 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3782,7 +3782,7 @@
 	)
 	(symbol
 		(lib_id "Device:C")
-		(at 125.73 88.9 90)
+		(at 166.37 93.98 90)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -3790,7 +3790,7 @@
 		(dnp no)
 		(uuid "5ac437de-fba3-4c1d-8ebe-5f7b4b512eb8")
 		(property "Reference" "C308"
-			(at 125.73 85.09 90)
+			(at 166.37 90.17 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3798,7 +3798,7 @@
 			)
 		)
 		(property "Value" "33pF"
-			(at 125.73 92.71 90)
+			(at 166.37 97.79 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3806,7 +3806,7 @@
 			)
 		)
 		(property "Footprint" "Capacitor_SMD:C_0201_0603Metric"
-			(at 129.54 87.9348 0)
+			(at 170.18 93.0148 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3815,7 +3815,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 125.73 88.9 0)
+			(at 166.37 93.98 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3824,7 +3824,7 @@
 			)
 		)
 		(property "Description" "25V 33pF NP0 ±5% 0201"
-			(at 125.73 88.9 0)
+			(at 166.37 93.98 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3833,7 +3833,7 @@
 			)
 		)
 		(property "LCSC" "C513616"
-			(at 125.73 88.9 0)
+			(at 166.37 93.98 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3842,7 +3842,7 @@
 			)
 		)
 		(property "Manufacturer" "YAGEO"
-			(at 125.73 88.9 0)
+			(at 166.37 93.98 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3851,7 +3851,7 @@
 			)
 		)
 		(property "Part Number" "CC0201JRNPO8BN330"
-			(at 125.73 88.9 0)
+			(at 166.37 93.98 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3882,7 +3882,7 @@
 	)
 	(symbol
 		(lib_id "Connector:Conn_Coaxial")
-		(at 176.53 88.9 0)
+		(at 217.17 93.98 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -3891,7 +3891,7 @@
 		(fields_autoplaced yes)
 		(uuid "6bbaf116-dc96-4719-871a-ff24a6c99d22")
 		(property "Reference" "J301"
-			(at 180.34 87.9231 0)
+			(at 220.98 93.0031 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3900,7 +3900,7 @@
 			)
 		)
 		(property "Value" "SMA"
-			(at 180.34 90.4631 0)
+			(at 220.98 95.5431 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3909,7 +3909,7 @@
 			)
 		)
 		(property "Footprint" "Connector_Coaxial:SMA_Amphenol_132289_EdgeMount"
-			(at 176.53 88.9 0)
+			(at 217.17 93.98 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3918,7 +3918,7 @@
 			)
 		)
 		(property "Datasheet" " ~"
-			(at 176.53 88.9 0)
+			(at 217.17 93.98 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3927,7 +3927,7 @@
 			)
 		)
 		(property "Description" "coaxial connector (BNC, SMA, SMB, SMC, Cinch/RCA, LEMO, ...)"
-			(at 176.53 88.9 0)
+			(at 217.17 93.98 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3936,7 +3936,7 @@
 			)
 		)
 		(property "Manufacturer" "Johnson"
-			(at 176.53 88.9 0)
+			(at 217.17 93.98 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3945,7 +3945,7 @@
 			)
 		)
 		(property "Part Number" "142-0701-851"
-			(at 176.53 88.9 0)
+			(at 217.17 93.98 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3954,7 +3954,7 @@
 			)
 		)
 		(property "LCSC" "C9900004170"
-			(at 176.53 88.9 0)
+			(at 217.17 93.98 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3963,7 +3963,7 @@
 			)
 		)
 		(property "Comment" "Alternative suitable part: Amphenol RF 901-10309"
-			(at 176.53 88.9 0)
+			(at 217.17 93.98 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3994,7 +3994,7 @@
 	)
 	(symbol
 		(lib_id "power:VDD")
-		(at 97.79 146.05 0)
+		(at 57.15 38.1 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -4002,7 +4002,7 @@
 		(dnp no)
 		(uuid "6f961cf8-7de1-46ba-8276-80c32fd0c695")
 		(property "Reference" "#PWR0107"
-			(at 97.79 149.86 0)
+			(at 57.15 41.91 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4011,7 +4011,7 @@
 			)
 		)
 		(property "Value" "VDD_DUT"
-			(at 97.79 142.24 0)
+			(at 57.15 34.29 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4019,7 +4019,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 97.79 146.05 0)
+			(at 57.15 38.1 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4028,7 +4028,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 97.79 146.05 0)
+			(at 57.15 38.1 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4037,7 +4037,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"VDD\""
-			(at 97.79 146.05 0)
+			(at 57.15 38.1 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4065,7 +4065,7 @@
 	)
 	(symbol
 		(lib_id "Device:C")
-		(at 132.08 96.52 0)
+		(at 172.72 101.6 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -4073,7 +4073,7 @@
 		(dnp no)
 		(uuid "70c18784-8653-4f59-b45e-e5a3a60baab3")
 		(property "Reference" "C309"
-			(at 135.89 95.25 0)
+			(at 176.53 100.33 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4082,7 +4082,7 @@
 			)
 		)
 		(property "Value" "5.1pF"
-			(at 135.89 97.7899 0)
+			(at 176.53 102.8699 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4091,7 +4091,7 @@
 			)
 		)
 		(property "Footprint" "Capacitor_SMD:C_0201_0603Metric"
-			(at 133.0452 100.33 0)
+			(at 173.6852 105.41 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4100,7 +4100,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 132.08 96.52 0)
+			(at 172.72 101.6 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4109,7 +4109,7 @@
 			)
 		)
 		(property "Description" "50V 5.1pF C0G ±0.1pF 0201"
-			(at 132.08 96.52 0)
+			(at 172.72 101.6 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4118,7 +4118,7 @@
 			)
 		)
 		(property "LCSC" "C441749"
-			(at 132.08 96.52 0)
+			(at 172.72 101.6 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4127,7 +4127,7 @@
 			)
 		)
 		(property "Manufacturer" "Murata Electronics"
-			(at 132.08 96.52 0)
+			(at 172.72 101.6 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4136,7 +4136,7 @@
 			)
 		)
 		(property "Part Number" "GRM0335C1H5R1BA01D"
-			(at 132.08 96.52 0)
+			(at 172.72 101.6 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4167,7 +4167,7 @@
 	)
 	(symbol
 		(lib_id "Device:L")
-		(at 115.57 88.9 90)
+		(at 156.21 93.98 90)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -4175,7 +4175,7 @@
 		(dnp no)
 		(uuid "7a9148b8-8461-4d70-8491-e5eeed3d7e9a")
 		(property "Reference" "L303"
-			(at 115.57 86.36 90)
+			(at 156.21 91.44 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4183,7 +4183,7 @@
 			)
 		)
 		(property "Value" "8.2nH"
-			(at 115.57 91.44 90)
+			(at 156.21 96.52 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4191,7 +4191,7 @@
 			)
 		)
 		(property "Footprint" "Inductor_SMD:L_0402_1005Metric"
-			(at 115.57 88.9 0)
+			(at 156.21 93.98 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4200,7 +4200,7 @@
 			)
 		)
 		(property "Datasheet" "https://wmsc.lcsc.com/wmsc/upload/file/pdf/v2/lcsc/1811081516_Murata-Electronics-LQW15AN8N2G00D_C84404.pdf"
-			(at 115.57 88.9 0)
+			(at 156.21 93.98 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4209,7 +4209,7 @@
 			)
 		)
 		(property "Description" "540mA 8.2nH ±2% 0402 Power Inductors ROHS"
-			(at 115.57 88.9 0)
+			(at 156.21 93.98 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4218,7 +4218,7 @@
 			)
 		)
 		(property "LCSC" "C84404"
-			(at 115.57 88.9 0)
+			(at 156.21 93.98 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4227,7 +4227,7 @@
 			)
 		)
 		(property "Manufacturer" "Murata Electronics"
-			(at 115.57 88.9 0)
+			(at 156.21 93.98 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4236,7 +4236,7 @@
 			)
 		)
 		(property "Part Number" "LQW15AN8N2G00D"
-			(at 115.57 88.9 0)
+			(at 156.21 93.98 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4245,7 +4245,7 @@
 			)
 		)
 		(property "Comment" "Si4467 board uses CoilCraft 0402HP-8N2XJL with 5% tolerance."
-			(at 115.57 88.9 90)
+			(at 156.21 93.98 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4276,7 +4276,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 144.78 102.87 0)
+		(at 185.42 107.95 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -4284,7 +4284,7 @@
 		(dnp no)
 		(uuid "90ea6193-1bce-4f59-8a1f-22eb3a025089")
 		(property "Reference" "#PWR0101"
-			(at 144.78 109.22 0)
+			(at 185.42 114.3 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4293,7 +4293,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 144.78 106.68 0)
+			(at 185.42 111.76 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4301,7 +4301,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 144.78 102.87 0)
+			(at 185.42 107.95 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4310,7 +4310,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 144.78 102.87 0)
+			(at 185.42 107.95 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4319,7 +4319,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 144.78 102.87 0)
+			(at 185.42 107.95 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4347,7 +4347,7 @@
 	)
 	(symbol
 		(lib_id "Device:C")
-		(at 157.48 96.52 0)
+		(at 198.12 101.6 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -4356,7 +4356,7 @@
 		(fields_autoplaced yes)
 		(uuid "93ed0074-b9a8-4a71-a4cb-b97a439b4d18")
 		(property "Reference" "C311"
-			(at 161.29 95.2499 0)
+			(at 201.93 100.3299 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4365,7 +4365,7 @@
 			)
 		)
 		(property "Value" "5.1pF"
-			(at 161.29 97.7899 0)
+			(at 201.93 102.8699 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4374,7 +4374,7 @@
 			)
 		)
 		(property "Footprint" "Capacitor_SMD:C_0201_0603Metric"
-			(at 158.4452 100.33 0)
+			(at 199.0852 105.41 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4383,7 +4383,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 157.48 96.52 0)
+			(at 198.12 101.6 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4392,7 +4392,7 @@
 			)
 		)
 		(property "Description" "50V 5.1pF C0G ±0.1pF 0201"
-			(at 157.48 96.52 0)
+			(at 198.12 101.6 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4401,7 +4401,7 @@
 			)
 		)
 		(property "LCSC" "C441749"
-			(at 157.48 96.52 0)
+			(at 198.12 101.6 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4410,7 +4410,7 @@
 			)
 		)
 		(property "Manufacturer" "Murata Electronics"
-			(at 157.48 96.52 0)
+			(at 198.12 101.6 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4419,7 +4419,7 @@
 			)
 		)
 		(property "Part Number" "GRM0335C1H5R1BA01D"
-			(at 157.48 96.52 0)
+			(at 198.12 101.6 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4450,7 +4450,7 @@
 	)
 	(symbol
 		(lib_id "Device:C")
-		(at 114.3 73.66 90)
+		(at 154.94 78.74 90)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -4458,7 +4458,7 @@
 		(dnp no)
 		(uuid "aa329b82-8f80-42d0-9f93-01f70605c0f3")
 		(property "Reference" "C306"
-			(at 114.3 69.85 90)
+			(at 154.94 74.93 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4466,7 +4466,7 @@
 			)
 		)
 		(property "Value" "68pF"
-			(at 114.3 77.47 90)
+			(at 154.94 82.55 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4474,7 +4474,7 @@
 			)
 		)
 		(property "Footprint" "Capacitor_SMD:C_0201_0603Metric"
-			(at 118.11 72.6948 0)
+			(at 158.75 77.7748 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4483,7 +4483,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 114.3 73.66 0)
+			(at 154.94 78.74 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4492,7 +4492,7 @@
 			)
 		)
 		(property "Description" "50V 68pF C0G ±2% 0201"
-			(at 114.3 73.66 0)
+			(at 154.94 78.74 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4501,7 +4501,7 @@
 			)
 		)
 		(property "LCSC" "C161433"
-			(at 114.3 73.66 0)
+			(at 154.94 78.74 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4510,7 +4510,7 @@
 			)
 		)
 		(property "Manufacturer" "Murata Electronics"
-			(at 114.3 73.66 0)
+			(at 154.94 78.74 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4519,7 +4519,7 @@
 			)
 		)
 		(property "Part Number" "GRM0335C1H680GA01D"
-			(at 114.3 73.66 0)
+			(at 154.94 78.74 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4550,7 +4550,7 @@
 	)
 	(symbol
 		(lib_id "RF:Si4460")
-		(at 81.28 101.6 0)
+		(at 121.92 106.68 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -4558,7 +4558,7 @@
 		(dnp no)
 		(uuid "b9510f9f-e21e-4eb0-8cda-8602a434c0ba")
 		(property "Reference" "U301"
-			(at 83.2994 119.38 0)
+			(at 123.9394 124.46 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4567,7 +4567,7 @@
 			)
 		)
 		(property "Value" "Si4467"
-			(at 83.2994 121.92 0)
+			(at 123.9394 127 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4576,7 +4576,7 @@
 			)
 		)
 		(property "Footprint" "Package_DFN_QFN:QFN-20-1EP_4x4mm_P0.5mm_EP2.6x2.6mm_ThermalVias"
-			(at 81.28 71.12 0)
+			(at 121.92 76.2 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4585,7 +4585,7 @@
 			)
 		)
 		(property "Datasheet" "https://www.silabs.com/documents/public/data-sheets/Si4464-63-61-60.pdf"
-			(at 73.66 104.14 0)
+			(at 114.3 109.22 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4594,7 +4594,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 81.28 101.6 0)
+			(at 121.92 106.68 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4603,7 +4603,7 @@
 			)
 		)
 		(property "LCSC" "C1526137"
-			(at 81.28 101.6 0)
+			(at 121.92 106.68 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4612,7 +4612,7 @@
 			)
 		)
 		(property "Manufacturer" "Silicon Labs"
-			(at 81.28 101.6 0)
+			(at 121.92 106.68 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4621,7 +4621,7 @@
 			)
 		)
 		(property "Part Number" "SI4467-A2A-IM"
-			(at 81.28 101.6 0)
+			(at 121.92 106.68 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4709,7 +4709,7 @@
 	)
 	(symbol
 		(lib_id "Device:C")
-		(at 104.14 153.67 0)
+		(at 63.5 45.72 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -4717,7 +4717,7 @@
 		(dnp no)
 		(uuid "c2f80019-2209-4f09-94bb-11003cbf51d0")
 		(property "Reference" "C303"
-			(at 106.68 152.4 0)
+			(at 66.04 44.45 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4726,7 +4726,7 @@
 			)
 		)
 		(property "Value" "100pF"
-			(at 106.68 154.94 0)
+			(at 66.04 46.99 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4735,7 +4735,7 @@
 			)
 		)
 		(property "Footprint" "Capacitor_SMD:C_0201_0603Metric"
-			(at 105.1052 157.48 0)
+			(at 64.4652 49.53 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4744,7 +4744,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 104.14 153.67 0)
+			(at 63.5 45.72 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4753,7 +4753,7 @@
 			)
 		)
 		(property "Description" "50V 100pF C0G ±5% 0201"
-			(at 104.14 153.67 0)
+			(at 63.5 45.72 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4762,7 +4762,7 @@
 			)
 		)
 		(property "LCSC" "C76922"
-			(at 104.14 153.67 0)
+			(at 63.5 45.72 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4771,7 +4771,7 @@
 			)
 		)
 		(property "Manufacturer" "Murata Electronics"
-			(at 104.14 153.67 0)
+			(at 63.5 45.72 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4780,7 +4780,7 @@
 			)
 		)
 		(property "Part Number" "GRM0335C1H101JA01D"
-			(at 104.14 153.67 0)
+			(at 63.5 45.72 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4811,7 +4811,7 @@
 	)
 	(symbol
 		(lib_id "Device:L")
-		(at 119.38 40.64 90)
+		(at 160.02 45.72 90)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -4819,7 +4819,7 @@
 		(dnp no)
 		(uuid "c874fd1d-c8a9-42b1-91dd-a39aa6e81057")
 		(property "Reference" "L304"
-			(at 119.38 38.1 90)
+			(at 160.02 43.18 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4827,7 +4827,7 @@
 			)
 		)
 		(property "Value" "24nH"
-			(at 119.38 41.91 90)
+			(at 160.02 46.99 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4835,7 +4835,7 @@
 			)
 		)
 		(property "Footprint" "Inductor_SMD:L_0402_1005Metric"
-			(at 119.38 40.64 0)
+			(at 160.02 45.72 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4844,7 +4844,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 119.38 40.64 0)
+			(at 160.02 45.72 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4853,7 +4853,7 @@
 			)
 		)
 		(property "Description" "280mA 24nH ±2% 520mΩ 0402"
-			(at 119.38 40.64 0)
+			(at 160.02 45.72 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4862,7 +4862,7 @@
 			)
 		)
 		(property "LCSC" "C167472"
-			(at 119.38 40.64 0)
+			(at 160.02 45.72 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4871,7 +4871,7 @@
 			)
 		)
 		(property "Manufacturer" "Murata Electronics"
-			(at 119.38 40.64 0)
+			(at 160.02 45.72 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4880,7 +4880,7 @@
 			)
 		)
 		(property "Part Number" "LQW15AN24NG00D"
-			(at 119.38 40.64 0)
+			(at 160.02 45.72 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4911,7 +4911,7 @@
 	)
 	(symbol
 		(lib_id "Device:L")
-		(at 106.68 81.28 180)
+		(at 147.32 86.36 180)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -4920,7 +4920,7 @@
 		(fields_autoplaced yes)
 		(uuid "cb0a7048-5aa2-4776-9043-4f5803a93298")
 		(property "Reference" "L301"
-			(at 107.95 80.0099 0)
+			(at 148.59 85.0899 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4929,7 +4929,7 @@
 			)
 		)
 		(property "Value" "120nH"
-			(at 107.95 82.5499 0)
+			(at 148.59 87.6299 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4938,7 +4938,7 @@
 			)
 		)
 		(property "Footprint" "Inductor_SMD:L_0402_1005Metric"
-			(at 106.68 81.28 0)
+			(at 147.32 86.36 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4947,7 +4947,7 @@
 			)
 		)
 		(property "Datasheet" "https://wmsc.lcsc.com/wmsc/upload/file/pdf/v2/lcsc/1811081614_Murata-Electronics-LQG15HSR12J02D_C86067.pdf"
-			(at 106.68 81.28 0)
+			(at 147.32 86.36 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4956,7 +4956,7 @@
 			)
 		)
 		(property "Description" "200mA 120nH ±5% 1.3Ω 0402 Inductors (SMD)"
-			(at 106.68 81.28 0)
+			(at 147.32 86.36 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4965,7 +4965,7 @@
 			)
 		)
 		(property "LCSC" "C86067"
-			(at 106.68 81.28 0)
+			(at 147.32 86.36 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4974,7 +4974,7 @@
 			)
 		)
 		(property "Manufacturer" "Murata Electronics"
-			(at 106.68 81.28 0)
+			(at 147.32 86.36 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4983,7 +4983,7 @@
 			)
 		)
 		(property "Part Number" "LQG15HSR12J02D"
-			(at 106.68 81.28 0)
+			(at 147.32 86.36 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4992,7 +4992,7 @@
 			)
 		)
 		(property "Comment" "Si4467 board uses CoilcCraft 0402HPH-R12XJL with 5% tolerance, 310 mA current rating and 1.2Ω DCR."
-			(at 106.68 81.28 0)
+			(at 147.32 86.36 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5023,7 +5023,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 176.53 96.52 0)
+		(at 217.17 101.6 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -5032,7 +5032,7 @@
 		(fields_autoplaced yes)
 		(uuid "cc287320-cccc-491b-90a8-91447da8750e")
 		(property "Reference" "#PWR0104"
-			(at 176.53 102.87 0)
+			(at 217.17 107.95 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5041,7 +5041,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 176.53 101.6 0)
+			(at 217.17 106.68 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5049,7 +5049,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 176.53 96.52 0)
+			(at 217.17 101.6 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5058,7 +5058,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 176.53 96.52 0)
+			(at 217.17 101.6 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5067,7 +5067,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 176.53 96.52 0)
+			(at 217.17 101.6 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5095,7 +5095,7 @@
 	)
 	(symbol
 		(lib_id "Device:L")
-		(at 113.03 34.29 180)
+		(at 153.67 39.37 180)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -5104,7 +5104,7 @@
 		(fields_autoplaced yes)
 		(uuid "d6985657-f125-45d1-ab37-baefb218ee88")
 		(property "Reference" "L302"
-			(at 111.76 33.0199 0)
+			(at 152.4 38.0999 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5113,7 +5113,7 @@
 			)
 		)
 		(property "Value" "20nH"
-			(at 111.76 35.5599 0)
+			(at 152.4 40.6399 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5122,7 +5122,7 @@
 			)
 		)
 		(property "Footprint" "Inductor_SMD:L_0603_1608Metric"
-			(at 113.03 34.29 0)
+			(at 153.67 39.37 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5131,7 +5131,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 113.03 34.29 0)
+			(at 153.67 39.37 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5140,7 +5140,7 @@
 			)
 		)
 		(property "Description" "550mA 20nH ±5% 160mΩ 0603"
-			(at 113.03 34.29 0)
+			(at 153.67 39.37 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5149,7 +5149,7 @@
 			)
 		)
 		(property "LCSC" "C98070"
-			(at 113.03 34.29 0)
+			(at 153.67 39.37 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5158,7 +5158,7 @@
 			)
 		)
 		(property "Manufacturer" "Murata Electronics"
-			(at 113.03 34.29 0)
+			(at 153.67 39.37 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5167,7 +5167,7 @@
 			)
 		)
 		(property "Part Number" "LQW18AN20NJ00D"
-			(at 113.03 34.29 0)
+			(at 153.67 39.37 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5198,7 +5198,7 @@
 	)
 	(symbol
 		(lib_id "Device:L")
-		(at 138.43 88.9 90)
+		(at 179.07 93.98 90)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -5206,7 +5206,7 @@
 		(dnp no)
 		(uuid "db8cf63b-079e-40e5-a13e-a22a0f6305f1")
 		(property "Reference" "L305"
-			(at 138.43 86.36 90)
+			(at 179.07 91.44 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5214,7 +5214,7 @@
 			)
 		)
 		(property "Value" "6.8nH"
-			(at 138.43 91.44 90)
+			(at 179.07 96.52 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5222,7 +5222,7 @@
 			)
 		)
 		(property "Footprint" "Inductor_SMD:L_0402_1005Metric"
-			(at 138.43 88.9 0)
+			(at 179.07 93.98 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5231,7 +5231,7 @@
 			)
 		)
 		(property "Datasheet" "https://wmsc.lcsc.com/wmsc/upload/file/pdf/v2/lcsc/2201242130_Murata-Electronics-LQW15AN6N8G80D_C882467.pdf"
-			(at 138.43 88.9 0)
+			(at 179.07 93.98 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5240,7 +5240,7 @@
 			)
 		)
 		(property "Description" "1.45A 6.8nH ±2% 0402 Power Inductors ROHS"
-			(at 138.43 88.9 0)
+			(at 179.07 93.98 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5249,7 +5249,7 @@
 			)
 		)
 		(property "LCSC" "C882467"
-			(at 138.43 88.9 0)
+			(at 179.07 93.98 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5258,7 +5258,7 @@
 			)
 		)
 		(property "Manufacturer" "Murata Electronics"
-			(at 138.43 88.9 0)
+			(at 179.07 93.98 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5267,7 +5267,7 @@
 			)
 		)
 		(property "Part Number" "LQW15AN6N8G80D"
-			(at 138.43 88.9 0)
+			(at 179.07 93.98 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5276,7 +5276,7 @@
 			)
 		)
 		(property "Comment" "Si4467 board uses CoilCraft 0402HP-6N8XJL with 5% tolerance and 1500 mA current rating."
-			(at 138.43 88.9 0)
+			(at 179.07 93.98 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5307,7 +5307,7 @@
 	)
 	(symbol
 		(lib_id "Device:C")
-		(at 163.83 88.9 90)
+		(at 204.47 93.98 90)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -5315,7 +5315,7 @@
 		(dnp no)
 		(uuid "de9af608-950a-4a75-92da-01ac5bd18d73")
 		(property "Reference" "C312"
-			(at 163.83 85.09 90)
+			(at 204.47 90.17 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5323,7 +5323,7 @@
 			)
 		)
 		(property "Value" "68pF"
-			(at 163.83 92.71 90)
+			(at 204.47 97.79 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5331,7 +5331,7 @@
 			)
 		)
 		(property "Footprint" "Capacitor_SMD:C_0201_0603Metric"
-			(at 167.64 87.9348 0)
+			(at 208.28 93.0148 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5340,7 +5340,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 163.83 88.9 0)
+			(at 204.47 93.98 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5349,7 +5349,7 @@
 			)
 		)
 		(property "Description" "50V 68pF C0G ±2% 0201"
-			(at 163.83 88.9 0)
+			(at 204.47 93.98 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5358,7 +5358,7 @@
 			)
 		)
 		(property "LCSC" "C161433"
-			(at 163.83 88.9 0)
+			(at 204.47 93.98 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5367,7 +5367,7 @@
 			)
 		)
 		(property "Manufacturer" "Murata Electronics"
-			(at 163.83 88.9 0)
+			(at 204.47 93.98 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5376,7 +5376,7 @@
 			)
 		)
 		(property "Part Number" "GRM0335C1H680GA01D"
-			(at 163.83 88.9 0)
+			(at 204.47 93.98 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5407,7 +5407,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 132.08 102.87 0)
+		(at 172.72 107.95 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -5415,7 +5415,7 @@
 		(dnp no)
 		(uuid "e7c7ec23-6af9-4613-9ebb-b656ab020394")
 		(property "Reference" "#PWR0102"
-			(at 132.08 109.22 0)
+			(at 172.72 114.3 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5424,7 +5424,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 132.08 106.68 0)
+			(at 172.72 111.76 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5432,7 +5432,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 132.08 102.87 0)
+			(at 172.72 107.95 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5441,7 +5441,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 132.08 102.87 0)
+			(at 172.72 107.95 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5450,7 +5450,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 132.08 102.87 0)
+			(at 172.72 107.95 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5478,7 +5478,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 120.65 76.2 0)
+		(at 161.29 81.28 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -5486,7 +5486,7 @@
 		(dnp no)
 		(uuid "f0ecfc28-8323-497d-b507-83381c1072a9")
 		(property "Reference" "#PWR0110"
-			(at 120.65 82.55 0)
+			(at 161.29 87.63 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5495,7 +5495,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 120.65 80.01 0)
+			(at 161.29 85.09 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5503,7 +5503,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 120.65 76.2 0)
+			(at 161.29 81.28 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5512,7 +5512,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 120.65 76.2 0)
+			(at 161.29 81.28 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5521,7 +5521,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 120.65 76.2 0)
+			(at 161.29 81.28 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5549,7 +5549,7 @@
 	)
 	(symbol
 		(lib_id "Device:C")
-		(at 92.71 153.67 0)
+		(at 52.07 45.72 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -5557,7 +5557,7 @@
 		(dnp no)
 		(uuid "fb3af124-32fa-4da0-8de0-1eab1efd89b6")
 		(property "Reference" "C302"
-			(at 95.25 152.4 0)
+			(at 54.61 44.45 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5566,7 +5566,7 @@
 			)
 		)
 		(property "Value" "100nF"
-			(at 95.25 154.94 0)
+			(at 54.61 46.99 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5575,7 +5575,7 @@
 			)
 		)
 		(property "Footprint" "Capacitor_SMD:C_0201_0603Metric"
-			(at 93.6752 157.48 0)
+			(at 53.0352 49.53 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5584,7 +5584,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 92.71 153.67 0)
+			(at 52.07 45.72 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5593,7 +5593,7 @@
 			)
 		)
 		(property "Description" "25V 100nF X5R ±10% 0201"
-			(at 92.71 153.67 0)
+			(at 52.07 45.72 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5602,7 +5602,7 @@
 			)
 		)
 		(property "LCSC" "C76939"
-			(at 92.71 153.67 0)
+			(at 52.07 45.72 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5611,7 +5611,7 @@
 			)
 		)
 		(property "Manufacturer" "Murata Electronics"
-			(at 92.71 153.67 0)
+			(at 52.07 45.72 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5620,7 +5620,7 @@
 			)
 		)
 		(property "Part Number" "GRM033R61E104KE14D"
-			(at 92.71 153.67 0)
+			(at 52.07 45.72 0)
 			(effects
 				(font
 					(size 1.27 1.27)
