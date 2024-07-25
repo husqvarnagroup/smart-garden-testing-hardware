@@ -2576,7 +2576,7 @@
 				(justify right)
 			)
 		)
-		(property "Value" "TX LED"
+		(property "Value" "Red LED"
 			(at 41.91 134.9374 90)
 			(effects
 				(font
@@ -2603,7 +2603,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Red 0805 Light Emitting Diodes (LED) ROHS"
+		(property "Description" "25mA Colorless transparent lens 67mcd~195mcd -30℃~+85℃ 615nm~630nm Individual diode Red 130° 65mW 1.6V~2.6V 0805 LED Indication - Discrete ROHS"
 			(at 38.1 132.08 0)
 			(effects
 				(font
@@ -2612,7 +2612,7 @@
 				(hide yes)
 			)
 		)
-		(property "Comment" "JLCPCB basic part"
+		(property "Comment" "Interface active LED; JLCPCB basic part"
 			(at 38.1 132.08 0)
 			(effects
 				(font
@@ -2640,6 +2640,15 @@
 			)
 		)
 		(property "Part Number" "NCD0805R1"
+			(at 38.1 132.08 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "NCD0805R1"
 			(at 38.1 132.08 0)
 			(effects
 				(font

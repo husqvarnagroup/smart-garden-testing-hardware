@@ -9047,7 +9047,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://assets.nexperia.com/documents/data-sheet/PRTR5V0U2X.pdf"
+		(property "Datasheet" "https://wmsc.lcsc.com/wmsc/upload/file/pdf/v2/lcsc/2108132230_TECH-PUBLIC-PRTR5V0U2X_C2827688.pdf"
 			(at 73.914 59.69 0)
 			(effects
 				(font
@@ -9056,7 +9056,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "SOT-143-4 ESD and Surge Protection (TVS/ESD) ROHS"
 			(at 72.39 59.69 0)
 			(effects
 				(font
@@ -9084,6 +9084,15 @@
 			)
 		)
 		(property "Part Number" "PRTR5V0U2X"
+			(at 72.39 59.69 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "PRTR5V0U2X"
 			(at 72.39 59.69 0)
 			(effects
 				(font
@@ -9418,7 +9427,7 @@
 				(justify right)
 			)
 		)
-		(property "Value" "MSD LED"
+		(property "Value" "Red LED"
 			(at 42.418 138.176 0)
 			(effects
 				(font
@@ -9445,7 +9454,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Red 0805 Light Emitting Diodes (LED) ROHS"
+		(property "Description" "25mA Colorless transparent lens 67mcd~195mcd -30℃~+85℃ 615nm~630nm Individual diode Red 130° 65mW 1.6V~2.6V 0805 LED Indication - Discrete ROHS"
 			(at 38.1 134.62 0)
 			(effects
 				(font
@@ -9454,7 +9463,7 @@
 				(hide yes)
 			)
 		)
-		(property "Comment" "JLCPCB basic part"
+		(property "Comment" "DAPLink MSD LED; JLCPCB basic part"
 			(at 38.1 134.62 0)
 			(effects
 				(font
@@ -9482,6 +9491,15 @@
 			)
 		)
 		(property "Part Number" "NCD0805R1"
+			(at 38.1 134.62 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "NCD0805R1"
 			(at 38.1 134.62 0)
 			(effects
 				(font
@@ -10776,7 +10794,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Diode_SMD:D_SOD-323"
 			(at 163.83 62.23 0)
 			(effects
 				(font
@@ -10785,7 +10803,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" "https://wmsc.lcsc.com/wmsc/upload/file/pdf/v2/lcsc/1810121610_STMicroelectronics-BAT60JFILM_C133103.pdf"
 			(at 163.83 62.23 0)
 			(effects
 				(font
@@ -10794,7 +10812,34 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Schottky diode"
+		(property "Description" "10V 580mV@1A 3A SOD-323 Schottky Diodes ROHS"
+			(at 163.83 62.23 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C133103"
+			(at 163.83 62.23 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "BAT60JFILM"
+			(at 163.83 62.23 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "STMicroelectronics"
 			(at 163.83 62.23 0)
 			(effects
 				(font
@@ -11056,7 +11101,7 @@
 				(justify right)
 			)
 		)
-		(property "Value" "UART LED"
+		(property "Value" "Red LED"
 			(at 42.672 148.59 0)
 			(effects
 				(font
@@ -11083,7 +11128,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Red 0805 Light Emitting Diodes (LED) ROHS"
+		(property "Description" "25mA Colorless transparent lens 67mcd~195mcd -30℃~+85℃ 615nm~630nm Individual diode Red 130° 65mW 1.6V~2.6V 0805 LED Indication - Discrete ROHS"
 			(at 38.1 144.78 0)
 			(effects
 				(font
@@ -11092,7 +11137,7 @@
 				(hide yes)
 			)
 		)
-		(property "Comment" "JLCPCB basic part"
+		(property "Comment" "DAPLink UART LED; JLCPCB basic part"
 			(at 38.1 144.78 0)
 			(effects
 				(font
@@ -11120,6 +11165,15 @@
 			)
 		)
 		(property "Part Number" "NCD0805R1"
+			(at 38.1 144.78 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "NCD0805R1"
 			(at 38.1 144.78 0)
 			(effects
 				(font
@@ -12057,7 +12111,7 @@
 				(justify right)
 			)
 		)
-		(property "Value" "DAP LED"
+		(property "Value" "Red LED"
 			(at 42.164 128.524 0)
 			(effects
 				(font
@@ -12084,7 +12138,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Red 0805 Light Emitting Diodes (LED) ROHS"
+		(property "Description" "25mA Colorless transparent lens 67mcd~195mcd -30℃~+85℃ 615nm~630nm Individual diode Red 130° 65mW 1.6V~2.6V 0805 LED Indication - Discrete ROHS"
 			(at 38.1 124.46 0)
 			(effects
 				(font
@@ -12093,7 +12147,7 @@
 				(hide yes)
 			)
 		)
-		(property "Comment" "JLCPCB basic part"
+		(property "Comment" "DAPLink DAP LED; JLCPCB basic part"
 			(at 38.1 124.46 0)
 			(effects
 				(font
@@ -12121,6 +12175,15 @@
 			)
 		)
 		(property "Part Number" "NCD0805R1"
+			(at 38.1 124.46 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "NCD0805R1"
 			(at 38.1 124.46 0)
 			(effects
 				(font
