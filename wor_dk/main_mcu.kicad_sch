@@ -8001,7 +8001,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "TestPoint:TestPoint_Pad_D2.0mm"
 			(at 274.32 34.29 0)
 			(effects
 				(font
@@ -9780,7 +9780,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "TestPoint:TestPoint_Pad_D2.0mm"
 			(at 274.32 40.64 0)
 			(effects
 				(font
@@ -9847,7 +9847,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "TestPoint:TestPoint_Pad_D2.0mm"
 			(at 246.38 27.94 0)
 			(effects
 				(font
@@ -10664,7 +10664,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "TestPoint:TestPoint_Pad_D2.0mm"
 			(at 246.38 40.64 0)
 			(effects
 				(font
@@ -11334,7 +11334,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "TestPoint:TestPoint_Pad_D2.0mm"
 			(at 246.38 34.29 0)
 			(effects
 				(font
@@ -12671,7 +12671,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "TestPoint:TestPoint_Pad_D2.0mm"
 			(at 274.32 27.94 0)
 			(effects
 				(font
@@ -12738,7 +12738,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "TestPoint:TestPoint_Pad_D2.0mm"
 			(at 246.38 46.99 0)
 			(effects
 				(font
