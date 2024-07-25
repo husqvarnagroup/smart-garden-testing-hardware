@@ -7352,7 +7352,7 @@
 				)
 			)
 		)
-		(property "Value" "Prog_DUT"
+		(property "Value" "SWD"
 			(at 261.62 87.63 0)
 			(effects
 				(font
@@ -7369,7 +7369,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" "https://wmsc.lcsc.com/wmsc/upload/file/pdf/v2/lcsc/2204251545_Amphenol-ICC-20021121-00010T4LF_C598540.pdf"
 			(at 260.35 96.52 0)
 			(effects
 				(font
@@ -7379,6 +7379,42 @@
 			)
 		)
 		(property "Description" ""
+			(at 260.35 96.52 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Comment" "Connector for debugging / flashing DUT using external programmer"
+			(at 260.35 96.52 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C598540"
+			(at 260.35 96.52 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "20021121-00010T4LF"
+			(at 260.35 96.52 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "Amphenol ICC"
 			(at 260.35 96.52 0)
 			(effects
 				(font

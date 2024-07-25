@@ -8,7 +8,7 @@
 		(title "DAPLink Programmer")
 	)
 	(lib_symbols
-		(symbol "Connector:USB_C_Receptacle_USB2.0_14P"
+		(symbol "Connector:USB_C_Receptacle_USB2.0_16P"
 			(pin_names
 				(offset 1.016)
 			)
@@ -23,7 +23,7 @@
 					)
 				)
 			)
-			(property "Value" "USB_C_Receptacle_USB2.0_14P"
+			(property "Value" "USB_C_Receptacle_USB2.0_16P"
 				(at 0 19.685 0)
 				(effects
 					(font
@@ -49,7 +49,7 @@
 					(hide yes)
 				)
 			)
-			(property "Description" "USB 2.0-only 14P Type-C Receptacle connector"
+			(property "Description" "USB 2.0-only 16P Type-C Receptacle connector"
 				(at 0 0 0)
 				(effects
 					(font
@@ -76,10 +76,32 @@
 					(hide yes)
 				)
 			)
-			(symbol "USB_C_Receptacle_USB2.0_14P_0_0"
+			(symbol "USB_C_Receptacle_USB2.0_16P_0_0"
 				(rectangle
 					(start -0.254 -17.78)
 					(end 0.254 -16.764)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(rectangle
+					(start 10.16 -14.986)
+					(end 9.144 -15.494)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(rectangle
+					(start 10.16 -12.446)
+					(end 9.144 -12.954)
 					(stroke
 						(width 0)
 						(type default)
@@ -166,7 +188,7 @@
 					)
 				)
 			)
-			(symbol "USB_C_Receptacle_USB2.0_14P_0_1"
+			(symbol "USB_C_Receptacle_USB2.0_16P_0_1"
 				(rectangle
 					(start -10.16 17.78)
 					(end 10.16 -17.78)
@@ -367,7 +389,7 @@
 					)
 				)
 			)
-			(symbol "USB_C_Receptacle_USB2.0_14P_1_1"
+			(symbol "USB_C_Receptacle_USB2.0_16P_1_1"
 				(pin passive line
 					(at 0 -22.86 90)
 					(length 5.08)
@@ -469,6 +491,24 @@
 						)
 					)
 					(number "A7"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin bidirectional line
+					(at 15.24 -12.7 180)
+					(length 5.08)
+					(name "SBU1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "A8"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -595,6 +635,24 @@
 						)
 					)
 					(number "B7"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin bidirectional line
+					(at 15.24 -15.24 180)
+					(length 5.08)
+					(name "SBU2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "B8"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -4099,7 +4157,7 @@
 		(uuid "718e49a3-4fcc-46fd-bd22-e9f069065e7a")
 	)
 	(junction
-		(at 55.88 26.67)
+		(at 63.5 26.67)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "734408e2-a434-48be-a25f-d34e9a0ca11d")
@@ -4153,6 +4211,10 @@
 		(uuid "fc89da1b-80e7-4534-9f60-2b74581558ca")
 	)
 	(no_connect
+		(at 43.18 57.15)
+		(uuid "09845b32-fc97-4aea-9a04-defd72198f02")
+	)
+	(no_connect
 		(at 199.39 140.97)
 		(uuid "1294b151-74bf-4ff0-b456-57a971a5469c")
 	)
@@ -4187,6 +4249,10 @@
 	(no_connect
 		(at 102.87 120.65)
 		(uuid "8139ca33-413a-4b26-ae80-10e08f51ea41")
+	)
+	(no_connect
+		(at 43.18 54.61)
+		(uuid "95a73819-9485-452b-93f4-e64deb1af6fa")
 	)
 	(no_connect
 		(at 102.87 110.49)
@@ -4262,6 +4328,26 @@
 	)
 	(wire
 		(pts
+			(xy 44.45 46.99) (xy 67.31 46.99)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "099a6615-5e0e-4f45-b5ea-9128190f1f1b")
+	)
+	(wire
+		(pts
+			(xy 43.18 26.67) (xy 63.5 26.67)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "0aa13b73-4e79-412e-a8e0-96809eff386d")
+	)
+	(wire
+		(pts
 			(xy 27.94 173.99) (xy 27.94 176.53)
 		)
 		(stroke
@@ -4322,7 +4408,7 @@
 	)
 	(wire
 		(pts
-			(xy 50.8 31.75) (xy 50.8 52.07)
+			(xy 58.42 31.75) (xy 58.42 52.07)
 		)
 		(stroke
 			(width 0)
@@ -4469,16 +4555,6 @@
 			(type default)
 		)
 		(uuid "25b8f8e7-355a-4fff-9d02-fd222031dc53")
-	)
-	(wire
-		(pts
-			(xy 43.18 26.67) (xy 55.88 26.67)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "25f96130-80fe-423c-9553-1b2c009efefd")
 	)
 	(wire
 		(pts
@@ -4642,7 +4718,7 @@
 	)
 	(wire
 		(pts
-			(xy 50.8 59.69) (xy 50.8 60.96)
+			(xy 58.42 59.69) (xy 58.42 60.96)
 		)
 		(stroke
 			(width 0)
@@ -4652,7 +4728,7 @@
 	)
 	(wire
 		(pts
-			(xy 72.39 31.75) (xy 55.88 31.75)
+			(xy 80.01 31.75) (xy 63.5 31.75)
 		)
 		(stroke
 			(width 0)
@@ -4732,16 +4808,6 @@
 	)
 	(wire
 		(pts
-			(xy 43.18 31.75) (xy 50.8 31.75)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "48548da3-bb3f-4959-ad4f-a87cca0a89eb")
-	)
-	(wire
-		(pts
 			(xy 248.92 25.4) (xy 252.73 25.4)
 		)
 		(stroke
@@ -4812,7 +4878,7 @@
 	)
 	(wire
 		(pts
-			(xy 85.09 59.69) (xy 86.36 59.69)
+			(xy 92.71 59.69) (xy 93.98 59.69)
 		)
 		(stroke
 			(width 0)
@@ -4832,7 +4898,7 @@
 	)
 	(wire
 		(pts
-			(xy 59.69 59.69) (xy 59.69 46.99)
+			(xy 67.31 59.69) (xy 67.31 46.99)
 		)
 		(stroke
 			(width 0)
@@ -4892,7 +4958,7 @@
 	)
 	(wire
 		(pts
-			(xy 72.39 46.99) (xy 72.39 31.75)
+			(xy 80.01 46.99) (xy 80.01 31.75)
 		)
 		(stroke
 			(width 0)
@@ -4952,6 +5018,16 @@
 	)
 	(wire
 		(pts
+			(xy 44.45 41.91) (xy 93.98 41.91)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "755dd7ba-d07e-46a9-b086-3525fbcfd530")
+	)
+	(wire
+		(pts
 			(xy 20.32 64.77) (xy 20.32 67.31)
 		)
 		(stroke
@@ -4999,16 +5075,6 @@
 			(type default)
 		)
 		(uuid "7a2c8d60-9051-4a65-a9ab-962385371851")
-	)
-	(wire
-		(pts
-			(xy 44.45 46.99) (xy 59.69 46.99)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "7b01496f-9b40-4ccd-96fb-8ca4064a6d39")
 	)
 	(wire
 		(pts
@@ -5202,23 +5268,13 @@
 	)
 	(wire
 		(pts
-			(xy 46.99 34.29) (xy 46.99 52.07)
+			(xy 54.61 34.29) (xy 54.61 52.07)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
 		(uuid "93fb82f5-412f-4de4-89f7-1c802ced0757")
-	)
-	(wire
-		(pts
-			(xy 44.45 41.91) (xy 86.36 41.91)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "9455ccde-eb8f-4e57-a5b6-d98b6a38637c")
 	)
 	(wire
 		(pts
@@ -5232,7 +5288,7 @@
 	)
 	(wire
 		(pts
-			(xy 55.88 31.75) (xy 55.88 26.67)
+			(xy 63.5 31.75) (xy 63.5 26.67)
 		)
 		(stroke
 			(width 0)
@@ -5302,7 +5358,7 @@
 	)
 	(wire
 		(pts
-			(xy 55.88 26.67) (xy 63.5 26.67)
+			(xy 63.5 26.67) (xy 71.12 26.67)
 		)
 		(stroke
 			(width 0)
@@ -5392,6 +5448,16 @@
 	)
 	(wire
 		(pts
+			(xy 43.18 34.29) (xy 54.61 34.29)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "aa876e4d-552f-4805-9822-d28d8206e4fd")
+	)
+	(wire
+		(pts
 			(xy 57.15 121.92) (xy 57.15 124.46)
 		)
 		(stroke
@@ -5472,16 +5538,6 @@
 	)
 	(wire
 		(pts
-			(xy 43.18 34.29) (xy 46.99 34.29)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "ba14c515-7dd6-45ad-b826-d65dbdea907b")
-	)
-	(wire
-		(pts
 			(xy 238.76 107.95) (xy 238.76 111.76)
 		)
 		(stroke
@@ -5502,7 +5558,7 @@
 	)
 	(wire
 		(pts
-			(xy 71.12 26.67) (xy 91.44 26.67)
+			(xy 78.74 26.67) (xy 91.44 26.67)
 		)
 		(stroke
 			(width 0)
@@ -5712,7 +5768,7 @@
 	)
 	(wire
 		(pts
-			(xy 46.99 59.69) (xy 46.99 60.96)
+			(xy 54.61 59.69) (xy 54.61 60.96)
 		)
 		(stroke
 			(width 0)
@@ -5792,6 +5848,16 @@
 	)
 	(wire
 		(pts
+			(xy 43.18 31.75) (xy 58.42 31.75)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ea2af661-7f6f-4d40-a792-02a3e1b611d9")
+	)
+	(wire
+		(pts
 			(xy 170.18 38.1) (xy 170.18 34.29)
 		)
 		(stroke
@@ -5812,7 +5878,7 @@
 	)
 	(wire
 		(pts
-			(xy 86.36 59.69) (xy 86.36 41.91)
+			(xy 93.98 59.69) (xy 93.98 41.91)
 		)
 		(stroke
 			(width 0)
@@ -5842,7 +5908,7 @@
 	)
 	(wire
 		(pts
-			(xy 72.39 72.39) (xy 72.39 73.66)
+			(xy 80.01 72.39) (xy 80.01 73.66)
 		)
 		(stroke
 			(width 0)
@@ -6073,7 +6139,7 @@
 		(uuid "13232067-7d0b-451f-9ef2-625433e80178")
 	)
 	(label "USB_D-"
-		(at 52.07 41.91 0)
+		(at 59.69 41.91 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -6458,7 +6524,7 @@
 		(uuid "f625fd26-d4ca-4608-910f-a2de96d6711e")
 	)
 	(label "USB_D+"
-		(at 52.07 46.99 0)
+		(at 59.69 46.99 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -6668,7 +6734,7 @@
 	)
 	(symbol
 		(lib_id "Device:R")
-		(at 46.99 55.88 0)
+		(at 54.61 55.88 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -6676,7 +6742,7 @@
 		(dnp no)
 		(uuid "0968cd61-56a6-4e78-a9bf-4d818baf3b9b")
 		(property "Reference" "R505"
-			(at 40.386 55.118 0)
+			(at 48.006 55.118 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6685,7 +6751,7 @@
 			)
 		)
 		(property "Value" "5.1k"
-			(at 40.64 57.404 0)
+			(at 48.26 57.404 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6694,7 +6760,7 @@
 			)
 		)
 		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
-			(at 45.212 55.88 90)
+			(at 52.832 55.88 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6703,7 +6769,7 @@
 			)
 		)
 		(property "Datasheet" "https://wmsc.lcsc.com/wmsc/upload/file/pdf/v2/lcsc/2206010045_UNI-ROYAL-Uniroyal-Elec-0402WGF5101TCE_C25905.pdf"
-			(at 46.99 55.88 0)
+			(at 54.61 55.88 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6712,7 +6778,7 @@
 			)
 		)
 		(property "Description" "62.5mW Thick Film Resistors 50V ±100ppm/℃ ±1% 5.1kΩ 0402"
-			(at 46.99 55.88 0)
+			(at 54.61 55.88 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6721,7 +6787,7 @@
 			)
 		)
 		(property "LCSC" "C25905"
-			(at 46.99 55.88 0)
+			(at 54.61 55.88 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6730,7 +6796,7 @@
 			)
 		)
 		(property "MPN" "0402WGF5101TCE"
-			(at 46.99 55.88 0)
+			(at 54.61 55.88 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6739,7 +6805,7 @@
 			)
 		)
 		(property "Manufacturer" "Uniroyal Elec"
-			(at 46.99 55.88 0)
+			(at 54.61 55.88 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6748,7 +6814,7 @@
 			)
 		)
 		(property "Comment" "JLCPCB basic part"
-			(at 46.99 55.88 0)
+			(at 54.61 55.88 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7246,7 +7312,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 50.8 60.96 0)
+		(at 58.42 60.96 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -7254,7 +7320,7 @@
 		(dnp no)
 		(uuid "3b592d6f-50e1-42a4-acf0-237ab4735678")
 		(property "Reference" "#PWR0509"
-			(at 50.8 67.31 0)
+			(at 58.42 67.31 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7263,7 +7329,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 50.8 64.77 0)
+			(at 58.42 64.77 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7271,7 +7337,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 50.8 60.96 0)
+			(at 58.42 60.96 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7280,7 +7346,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 50.8 60.96 0)
+			(at 58.42 60.96 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7289,7 +7355,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 50.8 60.96 0)
+			(at 58.42 60.96 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8030,113 +8096,6 @@
 			(project "wor_dk"
 				(path "/8d3147eb-060b-4f65-bf42-ed06a58b21ba/8ac0f979-ce0c-42a5-9e8d-dda3e347b4b7"
 					(reference "R508")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Connector:USB_C_Receptacle_USB2.0_14P")
-		(at 27.94 41.91 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "4974c551-1024-4f3c-9135-c3f98182e8a4")
-		(property "Reference" "J502"
-			(at 27.94 19.05 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "USB_C_Receptacle_USB2.0_14P"
-			(at 27.94 21.59 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 31.75 41.91 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "https://www.usb.org/sites/default/files/documents/usb_type-c.zip"
-			(at 31.75 41.91 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "USB 2.0-only 14P Type-C Receptacle connector"
-			(at 27.94 41.91 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "A9"
-			(uuid "7290c719-615a-4b9d-a369-9fdf0cca1238")
-		)
-		(pin "B6"
-			(uuid "313ace62-c32e-4474-b9a9-5bdde0ac8a1b")
-		)
-		(pin "A12"
-			(uuid "9025b2a2-40d7-4b83-a3be-f5344a718c78")
-		)
-		(pin "B7"
-			(uuid "65a3a1a8-ebe3-4daf-b25e-29a761613e06")
-		)
-		(pin "A1"
-			(uuid "80230695-09cc-435a-a4a8-1facd98d3a0d")
-		)
-		(pin "B1"
-			(uuid "b66910dc-879d-4254-91d8-b5fcbba59a10")
-		)
-		(pin "S1"
-			(uuid "8de54acd-165e-4fbb-aaa6-0bbfa259b8c0")
-		)
-		(pin "B9"
-			(uuid "24db98f1-9d8a-4167-838e-501e1cebc666")
-		)
-		(pin "B12"
-			(uuid "748a7949-5278-4919-8eb9-4e1e1e7928f2")
-		)
-		(pin "B4"
-			(uuid "8faf354a-f31a-4255-a05a-6252423a85d6")
-		)
-		(pin "B5"
-			(uuid "cdf0a237-c004-4fc2-9a4e-06c101049af9")
-		)
-		(pin "A5"
-			(uuid "881c8e0d-0942-41ed-ba67-9cf90298032c")
-		)
-		(pin "A6"
-			(uuid "ecaca23b-7e79-4537-ab41-46533b4fef4e")
-		)
-		(pin "A4"
-			(uuid "a845a3bc-721c-4f50-ad6e-422f023da431")
-		)
-		(pin "A7"
-			(uuid "ad197c2d-51a2-45c0-8007-1e7bc8b0bb20")
-		)
-		(instances
-			(project "wor_dk"
-				(path "/8d3147eb-060b-4f65-bf42-ed06a58b21ba/8ac0f979-ce0c-42a5-9e8d-dda3e347b4b7"
-					(reference "J502")
 					(unit 1)
 				)
 			)
@@ -9015,7 +8974,7 @@
 	)
 	(symbol
 		(lib_id "Power_Protection:PRTR5V0U2X")
-		(at 72.39 59.69 0)
+		(at 80.01 59.69 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -9023,7 +8982,7 @@
 		(dnp no)
 		(uuid "64658b05-bdf7-4091-a4cc-7544eba2b069")
 		(property "Reference" "D501"
-			(at 66.04 49.53 0)
+			(at 73.66 49.53 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9031,7 +8990,7 @@
 			)
 		)
 		(property "Value" "PRTR5V0U2X"
-			(at 80.01 50.8 0)
+			(at 87.63 50.8 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9039,7 +8998,7 @@
 			)
 		)
 		(property "Footprint" "Package_TO_SOT_SMD:SOT-143"
-			(at 73.914 59.69 0)
+			(at 81.534 59.69 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9048,7 +9007,7 @@
 			)
 		)
 		(property "Datasheet" "https://wmsc.lcsc.com/wmsc/upload/file/pdf/v2/lcsc/2108132230_TECH-PUBLIC-PRTR5V0U2X_C2827688.pdf"
-			(at 73.914 59.69 0)
+			(at 81.534 59.69 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9057,7 +9016,7 @@
 			)
 		)
 		(property "Description" "SOT-143-4 ESD and Surge Protection (TVS/ESD) ROHS"
-			(at 72.39 59.69 0)
+			(at 80.01 59.69 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9066,7 +9025,7 @@
 			)
 		)
 		(property "LCSC" "C2827688"
-			(at 72.39 59.69 0)
+			(at 80.01 59.69 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9075,7 +9034,7 @@
 			)
 		)
 		(property "Manufacturer" "TECH PUBLIC"
-			(at 72.39 59.69 0)
+			(at 80.01 59.69 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9084,7 +9043,7 @@
 			)
 		)
 		(property "Part Number" "PRTR5V0U2X"
-			(at 72.39 59.69 0)
+			(at 80.01 59.69 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9093,7 +9052,7 @@
 			)
 		)
 		(property "MPN" "PRTR5V0U2X"
-			(at 72.39 59.69 0)
+			(at 80.01 59.69 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9205,7 +9164,7 @@
 				)
 			)
 		)
-		(property "Value" "Prog"
+		(property "Value" "SWD"
 			(at 38.1 167.64 0)
 			(effects
 				(font
@@ -9222,7 +9181,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" "https://wmsc.lcsc.com/wmsc/upload/file/pdf/v2/lcsc/2204251545_Amphenol-ICC-20021121-00010T4LF_C598540.pdf"
 			(at 36.83 176.53 0)
 			(effects
 				(font
@@ -9232,6 +9191,42 @@
 			)
 		)
 		(property "Description" ""
+			(at 36.83 176.53 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Comment" "Connector for debugging / flashing LCP11U35"
+			(at 36.83 176.53 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C598540"
+			(at 36.83 176.53 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "20021121-00010T4LF"
+			(at 36.83 176.53 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "Amphenol ICC"
 			(at 36.83 176.53 0)
 			(effects
 				(font
@@ -9281,7 +9276,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 72.39 73.66 0)
+		(at 80.01 73.66 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -9289,7 +9284,7 @@
 		(dnp no)
 		(uuid "781154b7-c79d-4aaf-b717-b985456a0eb5")
 		(property "Reference" "#PWR0511"
-			(at 72.39 80.01 0)
+			(at 80.01 80.01 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9298,7 +9293,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 72.39 77.47 0)
+			(at 80.01 77.47 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9306,7 +9301,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 72.39 73.66 0)
+			(at 80.01 73.66 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9315,7 +9310,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 72.39 73.66 0)
+			(at 80.01 73.66 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9324,7 +9319,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 72.39 73.66 0)
+			(at 80.01 73.66 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9897,7 +9892,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 46.99 60.96 0)
+		(at 54.61 60.96 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -9905,7 +9900,7 @@
 		(dnp no)
 		(uuid "89bcea61-a7a9-4511-972f-75435132890a")
 		(property "Reference" "#PWR0508"
-			(at 46.99 67.31 0)
+			(at 54.61 67.31 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9914,7 +9909,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 46.99 64.77 0)
+			(at 54.61 64.77 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9922,7 +9917,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 46.99 60.96 0)
+			(at 54.61 60.96 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9931,7 +9926,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 46.99 60.96 0)
+			(at 54.61 60.96 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9940,7 +9935,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 46.99 60.96 0)
+			(at 54.61 60.96 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10918,6 +10913,155 @@
 		)
 	)
 	(symbol
+		(lib_id "Connector:USB_C_Receptacle_USB2.0_16P")
+		(at 27.94 41.91 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "b457db1a-60d1-4379-b073-cd2036dbc6e8")
+		(property "Reference" "J502"
+			(at 27.94 19.05 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "USB_C_Receptacle_USB2.0_16P"
+			(at 27.94 21.59 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Connector_USB:USB_C_Receptacle_GCT_USB4105-xx-A_16P_TopMnt_Horizontal"
+			(at 31.75 41.91 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.usb.org/sites/default/files/documents/usb_type-c.zip"
+			(at 31.75 41.91 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "USB 2.0-only 16P Type-C Receptacle connector"
+			(at 27.94 41.91 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Comment" "To find suitable parts at JLCPCB, search for \"USB Horizontal attachment 16P Female\""
+			(at 27.94 41.91 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C393939"
+			(at 27.94 41.91 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "TYPE-C16PIN"
+			(at 27.94 41.91 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "SHOU HAN"
+			(at 27.94 41.91 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "A9"
+			(uuid "896f80b1-f62e-423b-976f-b1283a6df92b")
+		)
+		(pin "B8"
+			(uuid "11ba75b6-d499-499a-add1-d85af0af3ad0")
+		)
+		(pin "B9"
+			(uuid "e742e2b4-ada2-4ef8-b190-642071d34b7f")
+		)
+		(pin "S1"
+			(uuid "211f2fed-713b-433e-ae67-15ae114a411e")
+		)
+		(pin "A5"
+			(uuid "c55752df-1a8b-4a15-8a29-722d3eadab9b")
+		)
+		(pin "A6"
+			(uuid "18c65ee1-56d7-47d1-92c4-af03e514ea1e")
+		)
+		(pin "B7"
+			(uuid "e2cf5068-76a3-4db0-a1cc-a5bf80cb90b9")
+		)
+		(pin "A7"
+			(uuid "5176635a-b9b8-4227-99ae-fc9090fb7dc1")
+		)
+		(pin "B6"
+			(uuid "ce37b0a3-ce8a-4335-a03d-c6f4dde36e56")
+		)
+		(pin "B1"
+			(uuid "a09da65c-12df-4394-b5d7-9cb322ec2a4b")
+		)
+		(pin "A1"
+			(uuid "44234965-ee54-45c6-a608-6da2dff34356")
+		)
+		(pin "A12"
+			(uuid "8bf5b291-18f0-477f-9926-6c8d083be645")
+		)
+		(pin "B12"
+			(uuid "23c5c20a-97c1-4df0-9251-93fb609a227d")
+		)
+		(pin "B5"
+			(uuid "08667b59-1968-4808-abbf-c2eb69d9867d")
+		)
+		(pin "A8"
+			(uuid "90e4e16b-426b-4d1b-9f0e-f3e10a22ca26")
+		)
+		(pin "A4"
+			(uuid "feb0b9c0-b46e-4e43-b886-42805126a940")
+		)
+		(pin "B4"
+			(uuid "03a51fb5-a735-4974-84c1-c27d87e01cfb")
+		)
+		(instances
+			(project ""
+				(path "/8d3147eb-060b-4f65-bf42-ed06a58b21ba/8ac0f979-ce0c-42a5-9e8d-dda3e347b4b7"
+					(reference "J502")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Device:C")
 		(at 91.44 31.75 0)
 		(unit 1)
@@ -11666,7 +11810,7 @@
 	)
 	(symbol
 		(lib_id "Device:R")
-		(at 50.8 55.88 0)
+		(at 58.42 55.88 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -11675,7 +11819,7 @@
 		(fields_autoplaced yes)
 		(uuid "cd59a4bd-7ff5-4568-8829-fd46756ec8bb")
 		(property "Reference" "R506"
-			(at 53.34 54.6099 0)
+			(at 60.96 54.6099 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11684,7 +11828,7 @@
 			)
 		)
 		(property "Value" "5.1k"
-			(at 53.34 57.1499 0)
+			(at 60.96 57.1499 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11693,7 +11837,7 @@
 			)
 		)
 		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
-			(at 49.022 55.88 90)
+			(at 56.642 55.88 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11702,7 +11846,7 @@
 			)
 		)
 		(property "Datasheet" "https://wmsc.lcsc.com/wmsc/upload/file/pdf/v2/lcsc/2206010045_UNI-ROYAL-Uniroyal-Elec-0402WGF5101TCE_C25905.pdf"
-			(at 50.8 55.88 0)
+			(at 58.42 55.88 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11711,7 +11855,7 @@
 			)
 		)
 		(property "Description" "62.5mW Thick Film Resistors 50V ±100ppm/℃ ±1% 5.1kΩ 0402"
-			(at 50.8 55.88 0)
+			(at 58.42 55.88 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11720,7 +11864,7 @@
 			)
 		)
 		(property "LCSC" "C25905"
-			(at 50.8 55.88 0)
+			(at 58.42 55.88 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11729,7 +11873,7 @@
 			)
 		)
 		(property "MPN" "0402WGF5101TCE"
-			(at 50.8 55.88 0)
+			(at 58.42 55.88 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11738,7 +11882,7 @@
 			)
 		)
 		(property "Manufacturer" "Uniroyal Elec"
-			(at 50.8 55.88 0)
+			(at 58.42 55.88 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11747,7 +11891,7 @@
 			)
 		)
 		(property "Comment" "JLCPCB basic part"
-			(at 50.8 55.88 0)
+			(at 58.42 55.88 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12368,7 +12512,7 @@
 	)
 	(symbol
 		(lib_id "Device:Polyfuse")
-		(at 67.31 26.67 90)
+		(at 74.93 26.67 90)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -12377,7 +12521,7 @@
 		(fields_autoplaced yes)
 		(uuid "e60a0108-ff59-4b07-a393-0d9c48250e88")
 		(property "Reference" "F501"
-			(at 67.31 20.32 90)
+			(at 74.93 20.32 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12385,7 +12529,7 @@
 			)
 		)
 		(property "Value" "100mA"
-			(at 67.31 22.86 90)
+			(at 74.93 22.86 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12393,7 +12537,7 @@
 			)
 		)
 		(property "Footprint" "Fuse:Fuse_0603_1608Metric"
-			(at 72.39 25.4 0)
+			(at 80.01 25.4 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12403,7 +12547,7 @@
 			)
 		)
 		(property "Datasheet" "https://datasheet.lcsc.com/lcsc/1809211423_TECHFUSE-SMD0603-010_C70047.pdf"
-			(at 67.31 26.67 0)
+			(at 74.93 26.67 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12412,7 +12556,7 @@
 			)
 		)
 		(property "Description" "15V 100mA 40A 300mA 0603"
-			(at 67.31 26.67 0)
+			(at 74.93 26.67 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12421,7 +12565,7 @@
 			)
 		)
 		(property "LCSC" "C70047"
-			(at 67.31 26.67 0)
+			(at 74.93 26.67 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12430,7 +12574,7 @@
 			)
 		)
 		(property "Manufacturer" "TECHFUSE"
-			(at 67.31 26.67 0)
+			(at 74.93 26.67 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12439,7 +12583,7 @@
 			)
 		)
 		(property "Part Number" "SMD0603-010"
-			(at 67.31 26.67 0)
+			(at 74.93 26.67 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12448,7 +12592,7 @@
 			)
 		)
 		(property "Comment" "100mA is max we are allowed to draw without negatiation; host side should also have a fuse (at higher current)."
-			(at 67.31 26.67 0)
+			(at 74.93 26.67 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12595,7 +12739,7 @@
 				)
 			)
 		)
-		(property "Value" "Prog_Ext"
+		(property "Value" "SWD"
 			(at 180.34 20.32 0)
 			(effects
 				(font
@@ -12612,7 +12756,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" "https://wmsc.lcsc.com/wmsc/upload/file/pdf/v2/lcsc/2204251545_Amphenol-ICC-20021121-00010T4LF_C598540.pdf"
 			(at 179.07 29.21 0)
 			(effects
 				(font
@@ -12622,6 +12766,42 @@
 			)
 		)
 		(property "Description" ""
+			(at 179.07 29.21 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Comment" "Connector for debugging / flashing external device"
+			(at 179.07 29.21 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C598540"
+			(at 179.07 29.21 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "20021121-00010T4LF"
+			(at 179.07 29.21 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "Amphenol ICC"
 			(at 179.07 29.21 0)
 			(effects
 				(font

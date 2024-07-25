@@ -5344,7 +5344,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" "https://wmsc.lcsc.com/wmsc/upload/file/pdf/v2/lcsc/2211171530_CJT-Changjiang-Connectors-A2541WV-2x6P_C225521.pdf"
 			(at 254 81.28 0)
 			(effects
 				(font
@@ -5354,6 +5354,33 @@
 			)
 		)
 		(property "Description" "Generic connector, double row, 02x06, odd/even pin numbering scheme (row 1 odd numbers, row 2 even numbers), script generated (kicad-library-utils/schlib/autogen/connector/)"
+			(at 254 81.28 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C225521"
+			(at 254 81.28 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "A2541WV-2x6P"
+			(at 254 81.28 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "CJT(Changjiang Connectors)"
 			(at 254 81.28 0)
 			(effects
 				(font
@@ -5462,7 +5489,7 @@
 				(hide yes)
 			)
 		)
-		(property "Manufacturer" "Johnson"
+		(property "Manufacturer" "Johnson / Cinch Connectivity Solutions"
 			(at 217.17 93.98 0)
 			(effects
 				(font
@@ -5490,6 +5517,15 @@
 			)
 		)
 		(property "Comment" "Alternative suitable part: Amphenol RF 901-10309"
+			(at 217.17 93.98 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "142-0701-851"
 			(at 217.17 93.98 0)
 			(effects
 				(font
@@ -5845,7 +5881,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" "https://wmsc.lcsc.com/wmsc/upload/file/pdf/v2/lcsc/2003191006_XFCN-PZ254V-12-8P_C492421.pdf"
 			(at 254 39.37 0)
 			(effects
 				(font
@@ -5855,6 +5891,33 @@
 			)
 		)
 		(property "Description" "Generic connector, double row, 02x04, odd/even pin numbering scheme (row 1 odd numbers, row 2 even numbers), script generated (kicad-library-utils/schlib/autogen/connector/)"
+			(at 254 39.37 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C492421"
+			(at 254 39.37 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "PZ254V-12-8P/"
+			(at 254 39.37 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "XFCN"
 			(at 254 39.37 0)
 			(effects
 				(font
