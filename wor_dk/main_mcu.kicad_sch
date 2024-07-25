@@ -7241,7 +7241,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" "https://wmsc.lcsc.com/wmsc/upload/file/pdf/v2/lcsc/2206010100_UNI-ROYAL-Uniroyal-Elec-0402WGF1002TCE_C25744.pdf"
 			(at 31.75 154.94 0)
 			(effects
 				(font
@@ -7250,7 +7250,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "62.5mW Thick Film Resistors 50V ±100ppm/℃ ±1% 10kΩ 0402"
 			(at 31.75 154.94 0)
 			(effects
 				(font
@@ -7287,6 +7287,15 @@
 			)
 		)
 		(property "Part Number" "0402WGF1002TCE"
+			(at 31.75 154.94 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "0402WGF1002TCE"
 			(at 31.75 154.94 0)
 			(effects
 				(font
