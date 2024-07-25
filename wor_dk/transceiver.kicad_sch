@@ -4396,6 +4396,15 @@
 				(hide yes)
 			)
 		)
+		(property "MPN" "GJM0335C1E100GB01D"
+			(at 185.42 101.6 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "f9b1fe83-c408-4115-bb29-acadc8fab971")
 		)
@@ -4453,7 +4462,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" "https://wmsc.lcsc.com/wmsc/upload/file/pdf/v2/lcsc/2304140030_Samsung-Electro-Mechanics-CL05A225MQ5NSNC_C12530.pdf"
 			(at 40.64 45.72 0)
 			(effects
 				(font
@@ -4499,6 +4508,15 @@
 			)
 		)
 		(property "Part Number" "CL05A225MQ5NSNC"
+			(at 40.64 45.72 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "CL05A225MQ5NSNC"
 			(at 40.64 45.72 0)
 			(effects
 				(font
@@ -4858,6 +4876,15 @@
 				(hide yes)
 			)
 		)
+		(property "MPN" "GJM0335C1H1R0BB01D"
+			(at 160.02 33.02 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "e96ad7d9-5bdf-432a-a28a-c95e7da7b911")
 		)
@@ -4953,6 +4980,15 @@
 			)
 		)
 		(property "Part Number" "GJM0335C1E3R0CB01D"
+			(at 153.67 52.07 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "GJM0335C1E3R0CB01D"
 			(at 153.67 52.07 0)
 			(effects
 				(font
@@ -5089,7 +5125,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" "https://wmsc.lcsc.com/wmsc/upload/file/pdf/v2/lcsc/2004231433_YAGEO-CC0201JRNPO8BN330_C513616.pdf"
 			(at 74.93 45.72 0)
 			(effects
 				(font
@@ -5126,6 +5162,15 @@
 			)
 		)
 		(property "Part Number" "CC0201JRNPO8BN330"
+			(at 74.93 45.72 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "CC0201JRNPO8BN330"
 			(at 74.93 45.72 0)
 			(effects
 				(font
@@ -5189,7 +5234,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" "https://wmsc.lcsc.com/wmsc/upload/file/pdf/v2/lcsc/2004231433_YAGEO-CC0201JRNPO8BN330_C513616.pdf"
 			(at 166.37 93.98 0)
 			(effects
 				(font
@@ -5226,6 +5271,15 @@
 			)
 		)
 		(property "Part Number" "CC0201JRNPO8BN330"
+			(at 166.37 93.98 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "CC0201JRNPO8BN330"
 			(at 166.37 93.98 0)
 			(effects
 				(font
@@ -5572,7 +5626,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" "https://wmsc.lcsc.com/wmsc/upload/file/pdf/v2/lcsc/2304140030_Murata-Electronics-GRM0335C1H5R1BA01D_C441749.pdf"
 			(at 172.72 101.6 0)
 			(effects
 				(font
@@ -5609,6 +5663,15 @@
 			)
 		)
 		(property "Part Number" "GRM0335C1H5R1BA01D"
+			(at 172.72 101.6 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "GRM0335C1H5R1BA01D"
 			(at 172.72 101.6 0)
 			(effects
 				(font
@@ -5941,7 +6004,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" "https://wmsc.lcsc.com/wmsc/upload/file/pdf/v2/lcsc/2304140030_Murata-Electronics-GRM0335C1H5R1BA01D_C441749.pdf"
 			(at 198.12 101.6 0)
 			(effects
 				(font
@@ -5978,6 +6041,15 @@
 			)
 		)
 		(property "Part Number" "GRM0335C1H5R1BA01D"
+			(at 198.12 101.6 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "GRM0335C1H5R1BA01D"
 			(at 198.12 101.6 0)
 			(effects
 				(font
@@ -6041,7 +6113,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" "https://wmsc.lcsc.com/wmsc/upload/file/pdf/v2/lcsc/2304140030_Murata-Electronics-GRM0335C1H680GA01D_C161433.pdf"
 			(at 154.94 78.74 0)
 			(effects
 				(font
@@ -6078,6 +6150,15 @@
 			)
 		)
 		(property "Part Number" "GRM0335C1H680GA01D"
+			(at 154.94 78.74 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "GRM0335C1H680GA01D"
 			(at 154.94 78.74 0)
 			(effects
 				(font
@@ -6302,7 +6383,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" "https://wmsc.lcsc.com/wmsc/upload/file/pdf/v2/lcsc/1811081531_Murata-Electronics-GRM0335C1H101JA01D_C76922.pdf"
 			(at 63.5 45.72 0)
 			(effects
 				(font
@@ -6339,6 +6420,15 @@
 			)
 		)
 		(property "Part Number" "GRM0335C1H101JA01D"
+			(at 63.5 45.72 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "GRM0335C1H101JA01D"
 			(at 63.5 45.72 0)
 			(effects
 				(font
@@ -6898,7 +6988,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" "https://wmsc.lcsc.com/wmsc/upload/file/pdf/v2/lcsc/2304140030_Murata-Electronics-GRM0335C1H680GA01D_C161433.pdf"
 			(at 204.47 93.98 0)
 			(effects
 				(font
@@ -6935,6 +7025,15 @@
 			)
 		)
 		(property "Part Number" "GRM0335C1H680GA01D"
+			(at 204.47 93.98 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "GRM0335C1H680GA01D"
 			(at 204.47 93.98 0)
 			(effects
 				(font
@@ -7142,7 +7241,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" "https://wmsc.lcsc.com/wmsc/upload/file/pdf/v2/lcsc/1811081532_Murata-Electronics-GRM033R61E104KE14D_C76939.pdf"
 			(at 52.07 45.72 0)
 			(effects
 				(font
@@ -7179,6 +7278,15 @@
 			)
 		)
 		(property "Part Number" "GRM033R61E104KE14D"
+			(at 52.07 45.72 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "GRM033R61E104KE14D"
 			(at 52.07 45.72 0)
 			(effects
 				(font

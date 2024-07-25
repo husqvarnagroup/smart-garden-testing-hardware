@@ -3607,7 +3607,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0201_0603Metric"
+		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric"
 			(at 127.9652 69.85 0)
 			(effects
 				(font
@@ -3616,7 +3616,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" "https://wmsc.lcsc.com/wmsc/upload/file/pdf/v2/lcsc/2304140030_Samsung-Electro-Mechanics-CL21B103KBANNNC_C1710.pdf"
 			(at 127 66.04 0)
 			(effects
 				(font
@@ -3625,7 +3625,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "25V 10nF X7R ±10% 0201"
+		(property "Description" "50V 10nF X7R ±10% 0805 MLCC"
 			(at 127 66.04 0)
 			(effects
 				(font
@@ -3634,7 +3634,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC" "C85930"
+		(property "LCSC" "C1710"
 			(at 127 66.04 0)
 			(effects
 				(font
@@ -3643,7 +3643,7 @@
 				(hide yes)
 			)
 		)
-		(property "Manufacturer" "Murata Electronics"
+		(property "Manufacturer" "Samsung Electro-Mechanics"
 			(at 127 66.04 0)
 			(effects
 				(font
@@ -3653,6 +3653,24 @@
 			)
 		)
 		(property "Part Number" "GRM033R71E103KE14D"
+			(at 127 66.04 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Comment" "JLCPCB basic part"
+			(at 127 66.04 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "CL21B103KBANNNC"
 			(at 127 66.04 0)
 			(effects
 				(font
@@ -4197,7 +4215,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" "https://wmsc.lcsc.com/wmsc/upload/file/pdf/v2/lcsc/1811081532_Murata-Electronics-GRM033R61E104KE14D_C76939.pdf"
 			(at 154.94 86.36 0)
 			(effects
 				(font
@@ -4234,6 +4252,15 @@
 			)
 		)
 		(property "Part Number" "GRM033R61E104KE14D"
+			(at 154.94 86.36 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "GRM033R61E104KE14D"
 			(at 154.94 86.36 0)
 			(effects
 				(font
@@ -4908,7 +4935,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" "https://wmsc.lcsc.com/wmsc/upload/file/pdf/v2/lcsc/1811081532_Murata-Electronics-GRM033R61E104KE14D_C76939.pdf"
 			(at 153.67 66.04 0)
 			(effects
 				(font
@@ -4945,6 +4972,15 @@
 			)
 		)
 		(property "Part Number" "GRM033R61E104KE14D"
+			(at 153.67 66.04 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "GRM033R61E104KE14D"
 			(at 153.67 66.04 0)
 			(effects
 				(font
@@ -5922,7 +5958,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" "https://wmsc.lcsc.com/wmsc/upload/file/pdf/v2/lcsc/2304140030_Samsung-Electro-Mechanics-CL10A475KO8NNNC_C19666.pdf"
 			(at 167.64 66.04 0)
 			(effects
 				(font
@@ -5968,6 +6004,15 @@
 			)
 		)
 		(property "Part Number" "CL10A475KO8NNNC"
+			(at 167.64 66.04 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "CL10A475KO8NNNC"
 			(at 167.64 66.04 0)
 			(effects
 				(font
