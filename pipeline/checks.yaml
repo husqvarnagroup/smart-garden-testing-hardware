@@ -1,0 +1,52 @@
+parameters:
+- name: project_directory
+  type: string
+- name: project_name
+  type: string
+- name: do_erc
+  type: boolean
+  default: true
+- name: do_drc
+  type: boolean
+  default: true
+
+jobs:
+- job: ${{ parameters.project_name }}_checks
+  pool:
+    name: sg-kicad-ci-agents
+  workspace:
+    clean: all
+  variables:
+    PROJECT_DIR: "${{ parameters.project_directory }}"
+    PROJECT_NAME: "${{ parameters.project_name }}"
+  steps:
+  - checkout: self
+    clean: true
+  - bash: |
+      mkdir -p $(Agent.TempDirectory)/reports
+    displayName: create reports directory
+  - bash: |
+      kicad-cli sch erc \
+        --severity-warning \
+        --severity-error \
+        --exit-code-violations \
+        --output "$(Agent.TempDirectory)/reports/$(PROJECT_NAME).ERC.rpt" \
+        "$(PROJECT_DIR)/$(PROJECT_NAME).kicad_sch"
+    displayName: ERC for schematic
+    condition: eq('${{ parameters.do_erc }}', 'true')
+  - bash: |
+      kicad-cli pcb drc \
+        --severity-warning \
+        --severity-error \
+        --exit-code-violations \
+        --output "$(Agent.TempDirectory)/reports/$(PROJECT_NAME).DRC.rpt" \
+        "$(PROJECT_DIR)/$(PROJECT_NAME).kicad_pcb"
+    displayName: DRC for PCB
+    condition: eq('${{ parameters.do_drc }}', 'true')
+  - task: PublishPipelineArtifact@1
+    condition: always()
+    displayName: 'Publish reports'
+    inputs:
+      targetPath: '$(Agent.TempDirectory)/reports'
+      artifact: '${{ parameters.project_name }}_reports'
+      publishLocation: 'pipeline'

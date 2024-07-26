@@ -1,0 +1,12 @@
+stages:
+  - stage: checks
+    displayName: 'Run checks: ERC & DRC'
+    jobs:
+      - template: checks.yaml
+        parameters:
+          project_directory: lemonbeat_dongle
+          project_name: dongle
+      - template: checks.yaml
+        parameters:
+          project_directory: lemonbeat_dongle_microjig
+          project_name: lemonbeat_dongle_microjig
