@@ -1,53 +1,50 @@
 @startuml
 
-package PCBA #e6e6fa {
-    package "Electrical Separation" as connection #c0ec8b {
+package "Wake-on-Radio Development Kit (WoR DK)" #e6e6fa {
+    package DUT #ff6a6a {
+        [nRF52840]
+        [Si4467]
 
-        package DUT #ff6a6a {
-            [nRF52840]
-            [Si4467]
+        nRF52840 --> Si4467 : SPI
 
-            nRF52840 --> Si4467 : SPI
-
-            RF - [Si4467]
-        }
-
-        () "Power\nDC 3.3 V" as Power
-        Power - DUT
-
+        RF - [Si4467]
     }
+
+    () "Power\nDC 3.3 V" as Power
+    Power - DUT
+
+        [TMUX1112] as TMUX_UART
+        [TMUX1112] as TMUX_SWD
 
     package "UART Interface" #20b2aa {
         [FT232]
+        () USB as USB_FT232
+
+        FT232 - USB_FT232
     }
 
-    package rusty-probe #98fb98 {
-        [Raspberry Pi\nRP2040] as RPI
+    package "DAPLink-based Programmer" #98fb98 {
+        [NXP LPC11U35FHI33/501] as LPC11U35
+        () USB as USB_LPC11U35
+
+        LPC11U35 - USB_LPC11U35
     }
 
-    package Controller #87ceeb {
-        [nRF52840_controller] as "nRF52840"
-        collections "TMUX1111\n(or similar)" as TMUX
+    [UART Selection] as UART_SELECT
+    [Interface Control Selection] as IF_SELECT
 
-        nRF52840_controller --> TMUX : I/O
-    }
+    FT232 --> IF_SELECT : DTR
+    LPC11U35 --> IF_SELECT : DTR
+    IF_SELECT --> TMUX_UART : enable/\ndisable
+    IF_SELECT --> TMUX_SWD : enable/\ndisable
 
-    () USB
+    FT232 --> UART_SELECT : UART
+    LPC11U35 --> UART_SELECT : UART
+    UART_SELECT --> TMUX_UART : UART
+    TMUX_UART --> nRF52840 : UART
 
-    package "USB Hub" #ff82ab {
-        [Terminus Tech\nFE1.1s] as USBHub
-    }
-
-    USB - "USB Hub"
-
-    USBHub --> nRF52840_controller : USB
-    USBHub --> RPI : USB
-    USBHub --> FT232 : USB
-
-    RPI --> nRF52840 : SWD
-    FT232 --> nRF52840 : UART
-
-    TMUX --> connection
+    LPC11U35 --> TMUX_SWD : SWD
+    TMUX_SWD --> nRF52840 : SWD
 }
 
 @enduml
