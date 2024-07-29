@@ -10,3 +10,7 @@ stages:
         parameters:
           project_directory: lemonbeat_dongle_microjig
           project_name: lemonbeat_dongle_microjig
+      - template: checks.yaml
+        parameters:
+          project_directory: wor_dk
+          project_name: wor_dk
