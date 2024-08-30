@@ -3783,10 +3783,6 @@
 		(uuid "048938fb-98bb-4f18-8dcb-03055d9eb8db")
 	)
 	(no_connect
-		(at 101.6 46.99)
-		(uuid "0828c02f-1054-40e0-b7ed-a718ca1c43cd")
-	)
-	(no_connect
 		(at 121.92 72.39)
 		(uuid "17e87f4c-674f-4dd8-bffb-fbfef9a229f6")
 	)
@@ -4654,7 +4650,7 @@
 	)
 	(wire
 		(pts
-			(xy 99.06 40.64) (xy 104.14 40.64)
+			(xy 99.06 38.1) (xy 104.14 38.1)
 		)
 		(stroke
 			(width 0)
@@ -5374,6 +5370,16 @@
 	)
 	(wire
 		(pts
+			(xy 101.6 45.72) (xy 101.6 46.99)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a9097538-06e9-4987-9eba-caa63e62f86b")
+	)
+	(wire
+		(pts
 			(xy 134.62 54.61) (xy 134.62 50.8)
 		)
 		(stroke
@@ -5894,7 +5900,7 @@
 	)
 	(wire
 		(pts
-			(xy 99.06 46.99) (xy 99.06 40.64)
+			(xy 99.06 46.99) (xy 99.06 38.1)
 		)
 		(stroke
 			(width 0)
@@ -6266,7 +6272,7 @@
 		(uuid "732d0ea8-b864-4301-8eab-329031a2f5ce")
 	)
 	(label "DCC"
-		(at 99.06 40.64 0)
+		(at 99.06 38.1 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -10631,6 +10637,73 @@
 			(project "dongle"
 				(path "/baecd03a-8d48-4020-876a-32289b953936/49f47eff-be71-45a3-baa2-ec3b29bb6923"
 					(reference "#PWR0113")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector:TestPoint")
+		(at 101.6 45.72 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom no)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "c8383b8b-56ab-4033-8ede-9606113380a8")
+		(property "Reference" "TP208"
+			(at 104.14 41.1479 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "TestPoint"
+			(at 104.14 43.6879 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "TestPoint:TestPoint_Pad_D2.0mm"
+			(at 106.68 45.72 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 106.68 45.72 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "test point"
+			(at 101.6 45.72 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "b4b60c1d-81d7-4a0d-9973-3f6491762c23")
+		)
+		(instances
+			(project "wor_dk"
+				(path "/8d3147eb-060b-4f65-bf42-ed06a58b21ba/9b741a5c-1fa6-4ec7-876c-f0b1f25b18e4"
+					(reference "TP208")
 					(unit 1)
 				)
 			)
