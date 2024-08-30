@@ -3529,6 +3529,17 @@
 		)
 		(uuid "ff8dd631-beef-4871-a00f-d6eae30041e1")
 	)
+	(text "Note: using USB bus powered configuration as per section 6.1 of FT232R datasheet,\nbut VCCIO connected to 3V3OUT for 3.3 V logic."
+		(exclude_from_sim no)
+		(at 178.816 171.196 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "1f28b79e-e3fc-4cd4-a127-0dd49a374931")
+	)
 	(text "Max current draw: 50 mA"
 		(exclude_from_sim no)
 		(at 226.568 69.088 0)
@@ -3538,6 +3549,27 @@
 			)
 		)
 		(uuid "2ce3565f-e5e1-4b50-b66f-6ee80d768e9a")
+	)
+	(text "Default configuration:\n- CBUS0: TXLED# (transmit LED)\n- CBUS1: RXLED# (receive LED)\n- CBUS3: PWREN# (power enable)"
+		(exclude_from_sim no)
+		(at 238.506 120.904 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "617ff4c9-e933-4546-90c0-f38b2e8c06d7")
+	)
+	(text "Place close to 3V3OUT."
+		(exclude_from_sim no)
+		(at 228.854 39.878 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "7b3c0782-ff35-425f-9670-af9beb179bdd")
 	)
 	(text "Resistors should be close to FT232\n(FTDI AN232B-06 section 3.1)."
 		(exclude_from_sim no)
