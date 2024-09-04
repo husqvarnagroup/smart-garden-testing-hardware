@@ -6705,7 +6705,7 @@
 		)
 		(uuid "178ffda4-114b-4471-86ad-e7f780b43818")
 	)
-	(hierarchical_label "DTR"
+	(hierarchical_label "DTR_LPC"
 		(shape output)
 		(at 257.81 69.85 0)
 		(fields_autoplaced yes)
@@ -6729,7 +6729,7 @@
 		)
 		(uuid "6bfac904-af7f-4c9d-9b6b-4aaec0bd1b2d")
 	)
-	(hierarchical_label "TXD"
+	(hierarchical_label "TXD_LPC"
 		(shape output)
 		(at 257.81 63.5 0)
 		(fields_autoplaced yes)
@@ -6741,7 +6741,7 @@
 		)
 		(uuid "795ce311-058f-40c5-9647-041a6627eb26")
 	)
-	(hierarchical_label "RXD"
+	(hierarchical_label "RXD_LPC"
 		(shape input)
 		(at 257.81 57.15 0)
 		(fields_autoplaced yes)

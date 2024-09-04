@@ -3255,16 +3255,6 @@
 			)
 			(uuid "0acbc26c-552d-43d3-9303-68416dd865a8")
 		)
-		(pin "DTR" output
-			(at 127 55.88 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-			(uuid "07143a66-3c7b-43f2-90a4-4cdb9a512824")
-		)
 		(pin "SWDIO" bidirectional
 			(at 127 36.83 0)
 			(effects
@@ -3274,26 +3264,6 @@
 				(justify right)
 			)
 			(uuid "1d981bda-9590-48d9-81b2-9e22cdf01acf")
-		)
-		(pin "TXD" output
-			(at 127 50.8 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-			(uuid "69fe2789-a278-4b72-87c8-3bac21493b1e")
-		)
-		(pin "RXD" input
-			(at 127 53.34 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-			(uuid "4768ef12-6ba2-4544-ad8e-fdf2bf583050")
 		)
 		(pin "SWCLK" output
 			(at 127 34.29 0)
@@ -3314,6 +3284,36 @@
 				(justify right)
 			)
 			(uuid "9a3d6a0a-610c-4188-bce5-157492c8ddc0")
+		)
+		(pin "TXD_LPC" output
+			(at 127 50.8 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "56720b92-52df-478f-bd2e-19762587e927")
+		)
+		(pin "DTR_LPC" output
+			(at 127 55.88 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "be575f5a-b188-478b-884a-43d416839768")
+		)
+		(pin "RXD_LPC" input
+			(at 127 53.34 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "c7d3bbe0-6c4b-4358-9f90-8e22ad9fa91a")
 		)
 		(instances
 			(project "wor_dk"
