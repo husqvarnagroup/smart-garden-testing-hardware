@@ -9424,7 +9424,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "32.768kHz SMD Crystal Resonator 12.5pF 70kΩ ±20ppm -40℃~+85℃ SMD3215-2P "
+		(property "Description" "32.768kHz SMD Crystal Resonator 12.5pF 70kΩ ±20ppm -40℃~+85℃ SMD3215-2P"
 			(at 138.43 55.88 0)
 			(effects
 				(font
