@@ -12626,7 +12626,7 @@
 		(descr "Resistor SMD 0402 (1005 Metric), square (rectangular) end terminal, IPC_7351 nominal, (Body size source: IPC-SM-782 page 72, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf), generated with kicad-footprint-generator")
 		(tags "resistor")
 		(property "Reference" "R405"
-			(at -0.1 0.9 0)
+			(at -0.2 0.9 0)
 			(layer "F.SilkS")
 			(uuid "056e2255-c87e-4034-bcb3-dff6691d9791")
 			(effects
@@ -33248,7 +33248,7 @@
 		(descr "Resistor SMD 0402 (1005 Metric), square (rectangular) end terminal, IPC_7351 nominal, (Body size source: IPC-SM-782 page 72, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf), generated with kicad-footprint-generator")
 		(tags "resistor")
 		(property "Reference" "R404"
-			(at -0.1 0.9 0)
+			(at -0.2 0.9 0)
 			(layer "F.SilkS")
 			(uuid "b9dc4156-b64b-4e0f-a5fc-5a4fac78809c")
 			(effects
@@ -40780,7 +40780,7 @@
 		(descr "Resistor SMD 0402 (1005 Metric), square (rectangular) end terminal, IPC_7351 nominal, (Body size source: IPC-SM-782 page 72, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf), generated with kicad-footprint-generator")
 		(tags "resistor")
 		(property "Reference" "R406"
-			(at -0.09 0.9 0)
+			(at -0.19 0.9 0)
 			(layer "F.SilkS")
 			(uuid "9dd4cf30-ce48-424f-a04e-f306ae864e7c")
 			(effects
@@ -42421,6 +42421,18 @@
 			(justify left bottom)
 		)
 	)
+	(gr_text "+"
+		(at 127.25 57.5 0)
+		(layer "F.SilkS")
+		(uuid "03f07e9e-e2be-43b9-9468-bd8a6cdd6383")
+		(effects
+			(font
+				(size 2 2)
+				(thickness 0.3)
+			)
+			(justify left bottom)
+		)
+	)
 	(gr_text "IF Active"
 		(at 109.0375 65.5 0)
 		(layer "F.SilkS")
@@ -42453,6 +42465,19 @@
 			(font
 				(size 1 1)
 				(thickness 0.15)
+			)
+			(justify left bottom)
+		)
+	)
+	(gr_text "+"
+		(at 81.6 57.4 0)
+		(layer "F.SilkS")
+		(uuid "2011e7a8-9ec0-4137-b711-97f99cbb9319")
+		(effects
+			(font
+				(size 0.5 0.5)
+				(thickness 0.1)
+				(bold yes)
 			)
 			(justify left bottom)
 		)
@@ -42493,6 +42518,19 @@
 			(justify left bottom)
 		)
 	)
+	(gr_text "+"
+		(at 85.75 106.75 0)
+		(layer "F.SilkS")
+		(uuid "428a9116-6e82-4212-9624-4c79b7237b55")
+		(effects
+			(font
+				(size 0.5 0.5)
+				(thickness 0.1)
+				(bold yes)
+			)
+			(justify left bottom)
+		)
+	)
 	(gr_text "DUT"
 		(at 118.2 58.3 0)
 		(layer "F.SilkS")
@@ -42513,6 +42551,19 @@
 			(font
 				(size 1 1)
 				(thickness 0.15)
+			)
+			(justify left bottom)
+		)
+	)
+	(gr_text "+"
+		(at 113.5 62.3 0)
+		(layer "F.SilkS")
+		(uuid "50f9cc0d-1051-4f03-b92d-378ce74df35e")
+		(effects
+			(font
+				(size 0.5 0.5)
+				(thickness 0.1)
+				(bold yes)
 			)
 			(justify left bottom)
 		)
@@ -42549,6 +42600,19 @@
 			(font
 				(size 1 1)
 				(thickness 0.15)
+			)
+			(justify left bottom)
+		)
+	)
+	(gr_text "+"
+		(at 88 58.2 0)
+		(layer "F.SilkS")
+		(uuid "5eabe7e8-c66c-4e63-8d78-2b428278f03e")
+		(effects
+			(font
+				(size 0.5 0.5)
+				(thickness 0.1)
+				(bold yes)
 			)
 			(justify left bottom)
 		)
@@ -42673,6 +42737,19 @@
 			(justify left bottom)
 		)
 	)
+	(gr_text "+"
+		(at 88 63.1 0)
+		(layer "F.SilkS")
+		(uuid "84199a38-1483-482b-8f2e-410a4bc4d3e2")
+		(effects
+			(font
+				(size 0.5 0.5)
+				(thickness 0.1)
+				(bold yes)
+			)
+			(justify left bottom)
+		)
+	)
 	(gr_text "P0.02"
 		(at 110.6 105.875 0)
 		(layer "F.SilkS")
@@ -42721,6 +42798,18 @@
 			(justify left bottom)
 		)
 	)
+	(gr_text "-"
+		(at 135.5 57.5 0)
+		(layer "F.SilkS")
+		(uuid "983d5645-495e-4cab-beea-dab475560e6f")
+		(effects
+			(font
+				(size 2 2)
+				(thickness 0.3)
+			)
+			(justify left bottom)
+		)
+	)
 	(gr_text "UART"
 		(at 82.6625 109.7 0)
 		(layer "F.SilkS")
@@ -42746,7 +42835,7 @@
 		)
 	)
 	(gr_text "DUT Power"
-		(at 137.515 64.975 90)
+		(at 137.25 66.75 90)
 		(layer "F.SilkS")
 		(uuid "ac449314-c7d7-4010-b784-733488ae5adf")
 		(effects
@@ -42829,6 +42918,19 @@
 			(justify left bottom)
 		)
 	)
+	(gr_text "+"
+		(at 85.8 100.5 0)
+		(layer "F.SilkS")
+		(uuid "c0a3400f-8c7c-4455-9145-7172e5b3153b")
+		(effects
+			(font
+				(size 0.5 0.5)
+				(thickness 0.1)
+				(bold yes)
+			)
+			(justify left bottom)
+		)
+	)
 	(gr_text "DUT Prog"
 		(at 108.89 77.935 0)
 		(layer "F.SilkS")
@@ -42837,6 +42939,19 @@
 			(font
 				(size 1 1)
 				(thickness 0.15)
+			)
+			(justify left bottom)
+		)
+	)
+	(gr_text "+"
+		(at 85.8 94.3 0)
+		(layer "F.SilkS")
+		(uuid "c58098be-7bdb-40e3-a4ae-b85fcfd1b1ea")
+		(effects
+			(font
+				(size 0.5 0.5)
+				(thickness 0.1)
+				(bold yes)
 			)
 			(justify left bottom)
 		)
@@ -61459,10 +61574,6 @@
 			"cae16c1e-e014-4bae-b1b4-f59dea5cdacd" "cfa02799-467c-41f4-8d32-c8cfdb6713aa"
 			"f21b2b29-5a6e-4113-b733-a3a62e678556"
 		)
-	)
-	(group ""
-		(uuid "ba1a01f0-38c5-4505-a089-2e0b20000cd3")
-		(members "15806acf-c305-43c5-a919-05fb70204289" "ac449314-c7d7-4010-b784-733488ae5adf")
 	)
 	(group ""
 		(uuid "ea287d7a-8122-40b3-b230-61fa6d4c9c46")
