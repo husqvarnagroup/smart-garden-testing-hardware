@@ -8962,7 +8962,7 @@
 				)
 			)
 		)
-		(property "Footprint" "NXP:QFN50P500X500X85-33N"
+		(property "Footprint" "Package_DFN_QFN:HVQFN-32-1EP_5x5mm_P0.5mm_EP3.1x3.1mm_ThermalVias"
 			(at 151.13 118.11 0)
 			(effects
 				(font
