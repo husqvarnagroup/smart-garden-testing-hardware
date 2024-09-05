@@ -43041,8 +43041,8 @@
 			(justify left bottom)
 		)
 	)
-	(gr_text "IF CTRL"
-		(at 138.877 72.0675 0)
+	(gr_text "   IF\nControl"
+		(at 138.8 73.0675 0)
 		(layer "F.SilkS")
 		(uuid "d9ae34a2-c7d7-4d1d-bc51-1e3a31a5f250")
 		(effects
