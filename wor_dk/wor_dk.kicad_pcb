@@ -13618,7 +13618,7 @@
 			(pintype "passive")
 			(uuid "b30e195a-47a5-479f-a023-82dff82d585f")
 		)
-		(model "${KIPRJMOD}/../lemonbeat_dongle/3d/parts/SMA-Amphenol-901-10309.step"
+		(model "${KIPRJMOD}/../components/3dmodels/Amphenol/SMA-Amphenol-901-10309.step"
 			(offset
 				(xyz 3 0 0.1)
 			)
