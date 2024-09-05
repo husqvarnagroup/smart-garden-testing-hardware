@@ -3250,7 +3250,7 @@
 		(exclude_from_sim yes)
 		(in_bom no)
 		(on_board yes)
-		(dnp no)
+		(dnp yes)
 		(fields_autoplaced yes)
 		(uuid "a56f08be-4798-4140-9532-78d26a099e4b")
 		(property "Reference" "H103"
@@ -3317,7 +3317,7 @@
 		(exclude_from_sim yes)
 		(in_bom no)
 		(on_board yes)
-		(dnp no)
+		(dnp yes)
 		(fields_autoplaced yes)
 		(uuid "ce4eb246-0077-40a1-bb95-731cee654e5b")
 		(property "Reference" "H101"
@@ -3449,7 +3449,7 @@
 		(exclude_from_sim yes)
 		(in_bom no)
 		(on_board yes)
-		(dnp no)
+		(dnp yes)
 		(fields_autoplaced yes)
 		(uuid "f3909ea5-6a29-46a0-aa90-0e5a58c0891f")
 		(property "Reference" "H104"
@@ -3631,7 +3631,7 @@
 		(exclude_from_sim yes)
 		(in_bom no)
 		(on_board yes)
-		(dnp no)
+		(dnp yes)
 		(fields_autoplaced yes)
 		(uuid "ff758bb1-9f06-4e2c-bcd3-3225b2645a40")
 		(property "Reference" "H102"

@@ -7986,7 +7986,7 @@
 		(exclude_from_sim no)
 		(in_bom no)
 		(on_board yes)
-		(dnp no)
+		(dnp yes)
 		(fields_autoplaced yes)
 		(uuid "212cc915-60da-4672-accc-428c8ad2c9a5")
 		(property "Reference" "TP206"
@@ -9765,7 +9765,7 @@
 		(exclude_from_sim no)
 		(in_bom no)
 		(on_board yes)
-		(dnp no)
+		(dnp yes)
 		(fields_autoplaced yes)
 		(uuid "979fd2ee-edfd-4c1e-ab5e-a82f022b8cf2")
 		(property "Reference" "TP207"
@@ -9832,7 +9832,7 @@
 		(exclude_from_sim no)
 		(in_bom no)
 		(on_board yes)
-		(dnp no)
+		(dnp yes)
 		(fields_autoplaced yes)
 		(uuid "9a7e8863-9b6a-4fd3-9375-009c84ff2b81")
 		(property "Reference" "TP201"
@@ -10649,7 +10649,7 @@
 		(exclude_from_sim no)
 		(in_bom no)
 		(on_board yes)
-		(dnp no)
+		(dnp yes)
 		(fields_autoplaced yes)
 		(uuid "c8383b8b-56ab-4033-8ede-9606113380a8")
 		(property "Reference" "TP208"
@@ -10716,7 +10716,7 @@
 		(exclude_from_sim no)
 		(in_bom no)
 		(on_board yes)
-		(dnp no)
+		(dnp yes)
 		(fields_autoplaced yes)
 		(uuid "c90518a2-8dca-4b7c-8ca7-8bb2896e1708")
 		(property "Reference" "TP203"
@@ -11386,7 +11386,7 @@
 		(exclude_from_sim no)
 		(in_bom no)
 		(on_board yes)
-		(dnp no)
+		(dnp yes)
 		(fields_autoplaced yes)
 		(uuid "da90e9c2-399f-45fb-baf7-1403f15385f9")
 		(property "Reference" "TP202"
@@ -12723,7 +12723,7 @@
 		(exclude_from_sim no)
 		(in_bom no)
 		(on_board yes)
-		(dnp no)
+		(dnp yes)
 		(fields_autoplaced yes)
 		(uuid "f0d77357-d778-468f-af77-18b5c654afec")
 		(property "Reference" "TP205"
@@ -12790,7 +12790,7 @@
 		(exclude_from_sim no)
 		(in_bom no)
 		(on_board yes)
-		(dnp no)
+		(dnp yes)
 		(fields_autoplaced yes)
 		(uuid "f854a646-9778-41aa-803b-cbba5269a43a")
 		(property "Reference" "TP204"
