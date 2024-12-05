@@ -893,6 +893,12 @@
 		)
 	)
 	(junction
+		(at 228.6 154.94)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "9caa4153-7151-422d-99c4-13d0d43027e1")
+	)
+	(junction
 		(at 105.41 120.65)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -954,6 +960,16 @@
 	)
 	(wire
 		(pts
+			(xy 231.14 152.4) (xy 228.6 152.4)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "0e82fa9e-d2d1-4ff6-bd30-0a2b3d720d1d")
+	)
+	(wire
+		(pts
 			(xy 147.32 139.7) (xy 158.75 139.7)
 		)
 		(stroke
@@ -964,7 +980,7 @@
 	)
 	(wire
 		(pts
-			(xy 220.98 92.71) (xy 229.87 92.71)
+			(xy 220.98 90.17) (xy 229.87 90.17)
 		)
 		(stroke
 			(width 0)
@@ -974,7 +990,7 @@
 	)
 	(wire
 		(pts
-			(xy 219.71 120.65) (xy 229.87 120.65)
+			(xy 219.71 116.84) (xy 229.87 116.84)
 		)
 		(stroke
 			(width 0)
@@ -1024,7 +1040,7 @@
 	)
 	(wire
 		(pts
-			(xy 242.57 120.65) (xy 252.73 120.65)
+			(xy 242.57 116.84) (xy 252.73 116.84)
 		)
 		(stroke
 			(width 0)
@@ -1114,7 +1130,7 @@
 	)
 	(wire
 		(pts
-			(xy 219.71 118.11) (xy 229.87 118.11)
+			(xy 219.71 114.3) (xy 229.87 114.3)
 		)
 		(stroke
 			(width 0)
@@ -1144,7 +1160,7 @@
 	)
 	(wire
 		(pts
-			(xy 223.52 142.24) (xy 232.41 142.24)
+			(xy 223.52 134.62) (xy 232.41 134.62)
 		)
 		(stroke
 			(width 0)
@@ -1164,7 +1180,7 @@
 	)
 	(wire
 		(pts
-			(xy 242.57 95.25) (xy 252.73 95.25)
+			(xy 242.57 92.71) (xy 252.73 92.71)
 		)
 		(stroke
 			(width 0)
@@ -1204,6 +1220,16 @@
 	)
 	(wire
 		(pts
+			(xy 228.6 154.94) (xy 231.14 154.94)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "894b5ee0-5a1c-4975-813a-8d424f869cd3")
+	)
+	(wire
+		(pts
 			(xy 147.32 127) (xy 152.4 127)
 		)
 		(stroke
@@ -1224,7 +1250,7 @@
 	)
 	(wire
 		(pts
-			(xy 219.71 123.19) (xy 229.87 123.19)
+			(xy 219.71 119.38) (xy 229.87 119.38)
 		)
 		(stroke
 			(width 0)
@@ -1234,7 +1260,7 @@
 	)
 	(wire
 		(pts
-			(xy 223.52 144.78) (xy 232.41 144.78)
+			(xy 223.52 137.16) (xy 232.41 137.16)
 		)
 		(stroke
 			(width 0)
@@ -1334,7 +1360,7 @@
 	)
 	(wire
 		(pts
-			(xy 242.57 118.11) (xy 252.73 118.11)
+			(xy 242.57 114.3) (xy 252.73 114.3)
 		)
 		(stroke
 			(width 0)
@@ -1394,6 +1420,16 @@
 	)
 	(wire
 		(pts
+			(xy 228.6 152.4) (xy 228.6 154.94)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "cb7a9c15-1c89-436e-8600-775961675de0")
+	)
+	(wire
+		(pts
 			(xy 127 34.29) (xy 139.7 34.29)
 		)
 		(stroke
@@ -1404,7 +1440,7 @@
 	)
 	(wire
 		(pts
-			(xy 220.98 95.25) (xy 229.87 95.25)
+			(xy 220.98 92.71) (xy 229.87 92.71)
 		)
 		(stroke
 			(width 0)
@@ -1414,7 +1450,7 @@
 	)
 	(wire
 		(pts
-			(xy 242.57 97.79) (xy 252.73 97.79)
+			(xy 242.57 95.25) (xy 252.73 95.25)
 		)
 		(stroke
 			(width 0)
@@ -1434,7 +1470,7 @@
 	)
 	(wire
 		(pts
-			(xy 242.57 123.19) (xy 252.73 123.19)
+			(xy 242.57 119.38) (xy 252.73 119.38)
 		)
 		(stroke
 			(width 0)
@@ -1484,6 +1520,16 @@
 	)
 	(wire
 		(pts
+			(xy 228.6 157.48) (xy 228.6 154.94)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f59a2d4a-a324-457d-b0c3-1df38609b8a3")
+	)
+	(wire
+		(pts
 			(xy 97.79 120.65) (xy 105.41 120.65)
 		)
 		(stroke
@@ -1494,7 +1540,7 @@
 	)
 	(wire
 		(pts
-			(xy 242.57 92.71) (xy 252.73 92.71)
+			(xy 242.57 90.17) (xy 252.73 90.17)
 		)
 		(stroke
 			(width 0)
@@ -1504,7 +1550,7 @@
 	)
 	(wire
 		(pts
-			(xy 220.98 97.79) (xy 229.87 97.79)
+			(xy 220.98 95.25) (xy 229.87 95.25)
 		)
 		(stroke
 			(width 0)
@@ -1523,8 +1569,8 @@
 		(uuid "fb1f13e3-5fd7-4711-9c4f-367bd08e680b")
 	)
 	(rectangle
-		(start 217.17 134.62)
-		(end 256.54 148.59)
+		(start 217.17 127)
+		(end 256.54 140.97)
 		(stroke
 			(width 0)
 			(type default)
@@ -1571,8 +1617,8 @@
 		(uuid 871790c5-91dd-45cf-92c0-e2f4097c9811)
 	)
 	(rectangle
-		(start 217.17 105.41)
-		(end 256.54 129.54)
+		(start 217.17 101.6)
+		(end 256.54 125.73)
 		(stroke
 			(width 0)
 			(type default)
@@ -1583,8 +1629,8 @@
 		(uuid b581c4a9-5572-4ead-8a92-0842143159a8)
 	)
 	(rectangle
-		(start 217.17 78.74)
-		(end 256.54 102.87)
+		(start 217.17 76.2)
+		(end 256.54 100.33)
 		(stroke
 			(width 0)
 			(type default)
@@ -1606,9 +1652,21 @@
 		)
 		(uuid d9d4689d-3fb2-4776-af17-99df9a45e647)
 	)
+	(rectangle
+		(start 217.17 142.24)
+		(end 256.54 163.83)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(fill
+			(type none)
+		)
+		(uuid f9a036d7-e022-4370-b2a0-c58c9af5c4f9)
+	)
 	(text "Additional GPIOs (RFU)"
 		(exclude_from_sim no)
-		(at 229.108 137.414 0)
+		(at 229.108 129.794 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -1618,7 +1676,7 @@
 	)
 	(text "TMUX Control Selection"
 		(exclude_from_sim no)
-		(at 229.616 81.026 0)
+		(at 229.616 78.486 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -1638,7 +1696,7 @@
 	)
 	(text "UART Selection"
 		(exclude_from_sim no)
-		(at 225.298 107.95 0)
+		(at 225.298 104.14 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -1665,6 +1723,16 @@
 			)
 		)
 		(uuid "b3b60a3b-7685-46e9-b931-b58f5af68c23")
+	)
+	(text "GND Connection"
+		(exclude_from_sim no)
+		(at 225.552 144.272 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "c8e98936-6a65-45fd-8270-0df4e8030234")
 	)
 	(text "DUT Power Supply"
 		(exclude_from_sim no)
@@ -1754,7 +1822,7 @@
 		(uuid "20d76289-aff7-4744-bcf8-c770f940704c")
 	)
 	(label "TXD_DAP"
-		(at 219.71 123.19 0)
+		(at 219.71 119.38 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -1765,7 +1833,7 @@
 		(uuid "25554e0d-ad79-416e-bb45-26645ac71fad")
 	)
 	(label "TXD_DUT"
-		(at 243.84 120.65 0)
+		(at 243.84 116.84 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -1776,7 +1844,7 @@
 		(uuid "4bec0dac-37ac-405b-b510-296962b1baa3")
 	)
 	(label "DTR_FTDI"
-		(at 243.84 92.71 0)
+		(at 243.84 90.17 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -1787,7 +1855,7 @@
 		(uuid "4fffd007-9793-450c-b9a7-6e9387e0e9e1")
 	)
 	(label "IF_EN"
-		(at 243.84 95.25 0)
+		(at 243.84 92.71 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -1798,7 +1866,7 @@
 		(uuid "535af1b7-92ec-45dd-afdb-31a1b6fcc300")
 	)
 	(label "3V3_DAP"
-		(at 220.98 97.79 0)
+		(at 220.98 95.25 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -1820,7 +1888,7 @@
 		(uuid "5c453317-8efb-409d-aa56-2ec07ca83581")
 	)
 	(label "3V3_FTDI"
-		(at 220.98 92.71 0)
+		(at 220.98 90.17 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -1842,7 +1910,7 @@
 		(uuid "6a27bd58-f2e5-4817-accf-58c0a534c30f")
 	)
 	(label "DTR_DAP"
-		(at 243.84 97.79 0)
+		(at 243.84 95.25 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -1886,7 +1954,7 @@
 		(uuid "8660ad0d-05e7-4fc7-9607-33144f741d61")
 	)
 	(label "P1.02"
-		(at 223.52 144.78 0)
+		(at 223.52 137.16 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -1919,7 +1987,7 @@
 		(uuid "8e4a1ed2-5d3f-42fc-9e26-a9473c8272e7")
 	)
 	(label "RXD_FTDI"
-		(at 243.84 118.11 0)
+		(at 243.84 114.3 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -1963,7 +2031,7 @@
 		(uuid "9fe3b171-1683-4e76-89ac-248aeccfc2b0")
 	)
 	(label "TXD_FTDI"
-		(at 219.71 118.11 0)
+		(at 219.71 114.3 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -1985,7 +2053,7 @@
 		(uuid "c549c587-fb3a-4c19-8820-802235138e99")
 	)
 	(label "RXD_DUT"
-		(at 219.71 120.65 0)
+		(at 219.71 116.84 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -2018,7 +2086,7 @@
 		(uuid "d66d8047-d513-4651-9b25-a125ae274fdc")
 	)
 	(label "RXD_DAP"
-		(at 243.84 123.19 0)
+		(at 243.84 119.38 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -2040,7 +2108,7 @@
 		(uuid "ec3b56b9-f322-41fc-bff7-183ea397666e")
 	)
 	(label "VDD_AUX"
-		(at 220.98 95.25 0)
+		(at 220.98 92.71 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -2073,7 +2141,7 @@
 		(uuid "f805ae6d-cb9e-47a7-8de5-b6e439a4598c")
 	)
 	(label "P0.02"
-		(at 223.52 142.24 0)
+		(at 223.52 134.62 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -2085,7 +2153,7 @@
 	)
 	(symbol
 		(lib_id "Connector_Generic:Conn_02x03_Odd_Even")
-		(at 234.95 120.65 0)
+		(at 234.95 116.84 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -2094,7 +2162,7 @@
 		(fields_autoplaced yes)
 		(uuid "0000e960-df2e-40c5-ad13-2940ee83b13d")
 		(property "Reference" "J103"
-			(at 236.22 111.76 0)
+			(at 236.22 107.95 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2102,7 +2170,7 @@
 			)
 		)
 		(property "Value" "Conn_02x03_Odd_Even"
-			(at 236.22 114.3 0)
+			(at 236.22 110.49 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2110,7 +2178,7 @@
 			)
 		)
 		(property "Footprint" "Connector_PinHeader_2.54mm:PinHeader_2x03_P2.54mm_Vertical"
-			(at 234.95 120.65 0)
+			(at 234.95 116.84 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2119,7 +2187,7 @@
 			)
 		)
 		(property "Datasheet" "https://jlcpcb.com/partdetail/boomele_boom_Precision_elec-2_54_23P/C65114"
-			(at 234.95 120.65 0)
+			(at 234.95 116.84 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2128,7 +2196,7 @@
 			)
 		)
 		(property "Description" "Generic connector, double row, 02x03, odd/even pin numbering scheme (row 1 odd numbers, row 2 even numbers), script generated (kicad-library-utils/schlib/autogen/connector/)"
-			(at 234.95 120.65 0)
+			(at 234.95 116.84 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2137,7 +2205,7 @@
 			)
 		)
 		(property "LCSC" "C65114"
-			(at 234.95 120.65 0)
+			(at 234.95 116.84 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2146,7 +2214,7 @@
 			)
 		)
 		(property "MPN" "2.54-2*3P"
-			(at 234.95 120.65 0)
+			(at 234.95 116.84 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2155,7 +2223,7 @@
 			)
 		)
 		(property "Manufacturer" "Boom Precision Elec"
-			(at 234.95 120.65 0)
+			(at 234.95 116.84 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2691,8 +2759,105 @@
 		)
 	)
 	(symbol
+		(lib_id "Connector_Generic:Conn_01x02")
+		(at 236.22 152.4 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp yes)
+		(fields_autoplaced yes)
+		(uuid "439626a6-6fa6-493c-a0a9-5f1f4de1a6d3")
+		(property "Reference" "J105"
+			(at 238.76 152.3999 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "Conn_01x02"
+			(at 238.76 154.9399 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Connector_PinHeader_2.54mm:PinHeader_1x02_P2.54mm_Vertical"
+			(at 236.22 152.4 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://wmsc.lcsc.com/wmsc/upload/file/pdf/v2/lcsc/2110191530_Shenzhen-Kinghelm-Elec-KH-2-54PH180-1X2P-L11-5_C2905434.pdf"
+			(at 236.22 152.4 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Generic connector, single row, 01x02, script generated (kicad-library-utils/schlib/autogen/connector/)"
+			(at 236.22 152.4 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C2905434"
+			(at 236.22 152.4 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "KH-2.54PH180-1X2P-L11.5"
+			(at 236.22 152.4 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "Shenzhen Kinghelm Elec"
+			(at 236.22 152.4 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "27709372-cb86-4def-8aba-7eb988dca2e4")
+		)
+		(pin "2"
+			(uuid "53cfee94-7f83-45b2-884b-81539bdfa011")
+		)
+		(instances
+			(project "wor_dk"
+				(path "/8d3147eb-060b-4f65-bf42-ed06a58b21ba"
+					(reference "J105")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Connector_Generic:Conn_02x03_Odd_Even")
-		(at 234.95 95.25 0)
+		(at 234.95 92.71 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -2701,7 +2866,7 @@
 		(fields_autoplaced yes)
 		(uuid "6d6a5e08-d18e-4208-ba88-02a3304cb497")
 		(property "Reference" "J102"
-			(at 236.22 86.36 0)
+			(at 236.22 83.82 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2709,7 +2874,7 @@
 			)
 		)
 		(property "Value" "Conn_02x03_Odd_Even"
-			(at 236.22 88.9 0)
+			(at 236.22 86.36 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2717,7 +2882,7 @@
 			)
 		)
 		(property "Footprint" "Connector_PinHeader_2.54mm:PinHeader_2x03_P2.54mm_Vertical"
-			(at 234.95 95.25 0)
+			(at 234.95 92.71 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2726,7 +2891,7 @@
 			)
 		)
 		(property "Datasheet" "https://jlcpcb.com/partdetail/boomele_boom_Precision_elec-2_54_23P/C65114"
-			(at 234.95 95.25 0)
+			(at 234.95 92.71 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2735,7 +2900,7 @@
 			)
 		)
 		(property "Description" "Generic connector, double row, 02x03, odd/even pin numbering scheme (row 1 odd numbers, row 2 even numbers), script generated (kicad-library-utils/schlib/autogen/connector/)"
-			(at 234.95 95.25 0)
+			(at 234.95 92.71 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2744,7 +2909,7 @@
 			)
 		)
 		(property "LCSC" "C65114"
-			(at 234.95 95.25 0)
+			(at 234.95 92.71 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2753,7 +2918,7 @@
 			)
 		)
 		(property "MPN" "2.54-2*3P"
-			(at 234.95 95.25 0)
+			(at 234.95 92.71 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2762,7 +2927,7 @@
 			)
 		)
 		(property "Manufacturer" "Boom Precision Elec"
-			(at 234.95 95.25 0)
+			(at 234.95 92.71 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2864,7 +3029,7 @@
 	)
 	(symbol
 		(lib_id "Connector_Generic:Conn_01x02")
-		(at 237.49 142.24 0)
+		(at 237.49 134.62 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -2873,7 +3038,7 @@
 		(fields_autoplaced yes)
 		(uuid "9a1bce96-00dd-48fd-b2b2-c84482cae808")
 		(property "Reference" "J104"
-			(at 240.03 142.2399 0)
+			(at 240.03 134.6199 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2882,7 +3047,7 @@
 			)
 		)
 		(property "Value" "Conn_01x02"
-			(at 240.03 144.7799 0)
+			(at 240.03 137.1599 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2891,7 +3056,7 @@
 			)
 		)
 		(property "Footprint" "Connector_PinHeader_2.54mm:PinHeader_1x02_P2.54mm_Vertical"
-			(at 237.49 142.24 0)
+			(at 237.49 134.62 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2900,7 +3065,7 @@
 			)
 		)
 		(property "Datasheet" "https://wmsc.lcsc.com/wmsc/upload/file/pdf/v2/lcsc/2110191530_Shenzhen-Kinghelm-Elec-KH-2-54PH180-1X2P-L11-5_C2905434.pdf"
-			(at 237.49 142.24 0)
+			(at 237.49 134.62 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2909,7 +3074,7 @@
 			)
 		)
 		(property "Description" "Generic connector, single row, 01x02, script generated (kicad-library-utils/schlib/autogen/connector/)"
-			(at 237.49 142.24 0)
+			(at 237.49 134.62 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2918,7 +3083,7 @@
 			)
 		)
 		(property "LCSC" "C2905434"
-			(at 237.49 142.24 0)
+			(at 237.49 134.62 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2927,7 +3092,7 @@
 			)
 		)
 		(property "MPN" "KH-2.54PH180-1X2P-L11.5"
-			(at 237.49 142.24 0)
+			(at 237.49 134.62 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2936,7 +3101,7 @@
 			)
 		)
 		(property "Manufacturer" "Shenzhen Kinghelm Elec"
-			(at 237.49 142.24 0)
+			(at 237.49 134.62 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3437,6 +3602,71 @@
 			(project ""
 				(path "/8d3147eb-060b-4f65-bf42-ed06a58b21ba"
 					(reference "#PWR0117")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 228.6 157.48 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "f207c971-9ff9-4b17-aad7-bb88d279272a")
+		(property "Reference" "#PWR0119"
+			(at 228.6 163.83 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 228.6 161.29 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 228.6 157.48 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 228.6 157.48 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 228.6 157.48 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "b08d1678-2bd0-422a-98c8-d94ab269e010")
+		)
+		(instances
+			(project ""
+				(path "/8d3147eb-060b-4f65-bf42-ed06a58b21ba"
+					(reference "#PWR0119")
 					(unit 1)
 				)
 			)
