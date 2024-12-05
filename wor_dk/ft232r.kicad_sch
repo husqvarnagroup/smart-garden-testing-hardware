@@ -2334,6 +2334,151 @@
 				)
 			)
 		)
+		(symbol "Switch:SW_Push"
+			(pin_numbers hide)
+			(pin_names
+				(offset 1.016) hide)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "SW"
+				(at 1.27 2.54 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+				)
+			)
+			(property "Value" "SW_Push"
+				(at 0 -1.524 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 5.08 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "~"
+				(at 0 5.08 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Push button switch, generic, two pins"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "switch normally-open pushbutton push-button"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "SW_Push_0_1"
+				(circle
+					(center -2.032 0)
+					(radius 0.508)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 1.27) (xy 0 3.048)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 2.54 1.27) (xy -2.54 1.27)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(circle
+					(center 2.032 0)
+					(radius 0.508)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(pin passive line
+					(at -5.08 0 0)
+					(length 2.54)
+					(name "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 5.08 0 180)
+					(length 2.54)
+					(name "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+		)
 		(symbol "power:GND"
 			(power)
 			(pin_numbers hide)
@@ -2616,10 +2761,6 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "efcc0263-e9d1-4202-a2a5-f09e3a7dcb90")
-	)
-	(no_connect
-		(at 176.53 99.06)
-		(uuid "0581720f-7131-4cfd-ad27-f1edf5abaf65")
 	)
 	(no_connect
 		(at 217.17 111.76)
@@ -2907,6 +3048,16 @@
 	)
 	(wire
 		(pts
+			(xy 167.64 99.06) (xy 167.64 106.68)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "37b6ce4f-34f7-45bf-bc46-a2acb8ecd80c")
+	)
+	(wire
+		(pts
 			(xy 127 60.96) (xy 130.81 60.96)
 		)
 		(stroke
@@ -2964,6 +3115,16 @@
 			(type default)
 		)
 		(uuid "3fe302fc-31aa-4879-af8f-79ed5354cbe0")
+	)
+	(wire
+		(pts
+			(xy 167.64 116.84) (xy 167.64 119.38)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "51f83690-7c82-4389-abf7-5759e3484afb")
 	)
 	(wire
 		(pts
@@ -3304,6 +3465,16 @@
 			(type default)
 		)
 		(uuid "b0581f08-a513-488e-82fc-396bc03aa078")
+	)
+	(wire
+		(pts
+			(xy 176.53 99.06) (xy 167.64 99.06)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b74e97f7-d1c5-4b45-bcc1-b443361a3191")
 	)
 	(wire
 		(pts
@@ -4543,6 +4714,71 @@
 			(project ""
 				(path "/8d3147eb-060b-4f65-bf42-ed06a58b21ba/711499aa-b4ff-4669-a7c0-a5db1aab8120"
 					(reference "#PWR0410")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 167.64 119.38 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "298b3b0e-815e-4043-953e-02cbf62d0f3a")
+		(property "Reference" "#PWR0413"
+			(at 167.64 125.73 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 167.64 123.698 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 167.64 119.38 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 167.64 119.38 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 167.64 119.38 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "3e18b9d8-2c15-4a67-8e00-e3aa23c48b77")
+		)
+		(instances
+			(project ""
+				(path "/8d3147eb-060b-4f65-bf42-ed06a58b21ba/711499aa-b4ff-4669-a7c0-a5db1aab8120"
+					(reference "#PWR0413")
 					(unit 1)
 				)
 			)
@@ -6804,6 +7040,102 @@
 			(project "wor_dk"
 				(path "/8d3147eb-060b-4f65-bf42-ed06a58b21ba/711499aa-b4ff-4669-a7c0-a5db1aab8120"
 					(reference "#PWR0401")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Switch:SW_Push")
+		(at 167.64 111.76 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "e0a32601-2d2a-4186-ac04-46406fe432b5")
+		(property "Reference" "SW401"
+			(at 157.988 110.49 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "SW_Push"
+			(at 155.956 113.284 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "Button_Switch_SMD:SW_SPST_PTS810"
+			(at 162.56 111.76 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.ckswitches.com/media/1476/pts810.pdf"
+			(at 162.56 111.76 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 167.64 111.76 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "C&K"
+			(at 167.64 111.76 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Part Number" "PTS810 SJK 250 SMTR LFS"
+			(at 167.64 111.76 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C221896"
+			(at 167.64 111.76 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "2418fe9e-e242-4037-b886-0326b287f34d")
+		)
+		(pin "2"
+			(uuid "acc7a6d6-e4cf-4b28-a735-9e6a4d608e5a")
+		)
+		(instances
+			(project "wor_dk"
+				(path "/8d3147eb-060b-4f65-bf42-ed06a58b21ba/711499aa-b4ff-4669-a7c0-a5db1aab8120"
+					(reference "SW401")
 					(unit 1)
 				)
 			)
