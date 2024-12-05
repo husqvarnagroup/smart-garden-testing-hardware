@@ -15276,7 +15276,7 @@
 			(pintype "passive")
 			(uuid "1712a79e-a6b0-4a34-a577-1c478e4022e8")
 		)
-		(model "${KICAD8_3DMODEL_DIR}/Button_Switch_SMD.3dshapes/SW_SPST_PTS810.wrl"
+		(model "${KIPRJMOD}/../lemonbeat_dongle/3d/parts/PTS810 SJK 250 SMTR LFS.step"
 			(offset
 				(xyz 0 0 0)
 			)
@@ -15284,7 +15284,7 @@
 				(xyz 1 1 1)
 			)
 			(rotate
-				(xyz 0 0 0)
+				(xyz -90 0 0)
 			)
 		)
 	)
@@ -20336,7 +20336,7 @@
 			(pintype "passive")
 			(uuid "e25f2648-7fa1-4ce9-8ee5-f075aa0237c4")
 		)
-		(model "${KICAD8_3DMODEL_DIR}/Button_Switch_SMD.3dshapes/SW_SPST_PTS810.wrl"
+		(model "${KIPRJMOD}/../lemonbeat_dongle/3d/parts/PTS810 SJK 250 SMTR LFS.step"
 			(offset
 				(xyz 0 0 0)
 			)
@@ -20344,7 +20344,7 @@
 				(xyz 1 1 1)
 			)
 			(rotate
-				(xyz 0 0 0)
+				(xyz -90 0 0)
 			)
 		)
 	)
