@@ -1,7 +1,7 @@
 (kicad_sch
-	(version 20231120)
+	(version 20250114)
 	(generator "eeschema")
-	(generator_version "8.0")
+	(generator_version "9.0")
 	(uuid "baecd03a-8d48-4020-876a-32289b953936")
 	(paper "A4")
 	(title_block
@@ -11,9 +11,13 @@
 	)
 	(lib_symbols
 		(symbol "Connector:TestPoint_Small"
-			(pin_numbers hide)
+			(pin_numbers
+				(hide yes)
+			)
 			(pin_names
-				(offset 0.762) hide)
+				(offset 0.762)
+				(hide yes)
+			)
 			(exclude_from_sim no)
 			(in_bom yes)
 			(on_board yes)
@@ -111,6 +115,7 @@
 					)
 				)
 			)
+			(embedded_fonts no)
 		)
 	)
 	(junction
@@ -714,6 +719,10 @@
 	(sheet
 		(at 54.61 52.07)
 		(size 62.23 102.87)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
 		(stroke
 			(width 0.1524)
 			(type solid)
@@ -742,103 +751,103 @@
 		)
 		(pin "P0.26" bidirectional
 			(at 116.84 97.79 0)
+			(uuid "a2ec93f3-af24-421a-8ccd-749c90c54281")
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify right)
 			)
-			(uuid "a2ec93f3-af24-421a-8ccd-749c90c54281")
 		)
 		(pin "P0.04" bidirectional
 			(at 116.84 109.22 0)
+			(uuid "b3c3a622-f62c-4944-945a-f029c41a5757")
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify right)
 			)
-			(uuid "b3c3a622-f62c-4944-945a-f029c41a5757")
 		)
 		(pin "P1.04" bidirectional
 			(at 116.84 72.39 0)
+			(uuid "53de837d-28e7-4231-a1c1-93cddf77c63f")
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify right)
 			)
-			(uuid "53de837d-28e7-4231-a1c1-93cddf77c63f")
 		)
 		(pin "P0.22" bidirectional
 			(at 116.84 92.71 0)
+			(uuid "f45ee9b4-3c8a-47ab-9ea4-b9a1c3bf3563")
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify right)
 			)
-			(uuid "f45ee9b4-3c8a-47ab-9ea4-b9a1c3bf3563")
 		)
 		(pin "P0.20" bidirectional
 			(at 116.84 90.17 0)
+			(uuid "ebb06c65-fbe7-4662-a235-32ed38c87afe")
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify right)
 			)
-			(uuid "ebb06c65-fbe7-4662-a235-32ed38c87afe")
 		)
 		(pin "P1.09" bidirectional
 			(at 116.84 119.38 0)
+			(uuid "d790168c-4003-445b-813c-ba5545cd66c3")
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify right)
 			)
-			(uuid "d790168c-4003-445b-813c-ba5545cd66c3")
 		)
 		(pin "P0.13" bidirectional
 			(at 116.84 116.84 0)
+			(uuid "7d1e7be2-3536-42a5-bfbb-f1de617eeb67")
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify right)
 			)
-			(uuid "7d1e7be2-3536-42a5-bfbb-f1de617eeb67")
 		)
 		(pin "P0.24" bidirectional
 			(at 116.84 95.25 0)
+			(uuid "9009474b-2110-43f4-a9b2-527c5f349cf6")
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify right)
 			)
-			(uuid "9009474b-2110-43f4-a9b2-527c5f349cf6")
 		)
 		(pin "P0.06" bidirectional
 			(at 116.84 111.76 0)
+			(uuid "657071f8-de37-4c4e-8701-c07f9b73d1af")
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify right)
 			)
-			(uuid "657071f8-de37-4c4e-8701-c07f9b73d1af")
 		)
 		(pin "P0.08" bidirectional
 			(at 116.84 114.3 0)
+			(uuid "03a5061a-1e94-46d7-aae0-5930635fe264")
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify right)
 			)
-			(uuid "03a5061a-1e94-46d7-aae0-5930635fe264")
 		)
 		(instances
 			(project "dongle"
@@ -851,6 +860,10 @@
 	(sheet
 		(at 146.05 63.5)
 		(size 45.72 63.5)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
 		(stroke
 			(width 0.1524)
 			(type solid)
@@ -879,103 +892,103 @@
 		)
 		(pin "GPIO0" bidirectional
 			(at 146.05 90.17 180)
+			(uuid "7c7114c2-0ab9-43d8-ae64-dbece1530837")
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify left)
 			)
-			(uuid "7c7114c2-0ab9-43d8-ae64-dbece1530837")
 		)
 		(pin "GPIO1" bidirectional
 			(at 146.05 92.71 180)
+			(uuid "64b1d6f4-00b1-43d2-9654-878d24479295")
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify left)
 			)
-			(uuid "64b1d6f4-00b1-43d2-9654-878d24479295")
 		)
 		(pin "GPIO2" bidirectional
 			(at 146.05 95.25 180)
+			(uuid "83ce420a-c405-426e-a628-71fb3741fd28")
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify left)
 			)
-			(uuid "83ce420a-c405-426e-a628-71fb3741fd28")
 		)
 		(pin "GPIO3" bidirectional
 			(at 146.05 97.79 180)
+			(uuid "372c3a0a-189d-4968-8918-d053222e0262")
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify left)
 			)
-			(uuid "372c3a0a-189d-4968-8918-d053222e0262")
 		)
 		(pin "SCLK" input
 			(at 146.05 109.22 180)
+			(uuid "65e1d3ce-94f6-4a3c-83d6-0c4f32dab72b")
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify left)
 			)
-			(uuid "65e1d3ce-94f6-4a3c-83d6-0c4f32dab72b")
 		)
 		(pin "MOSI" input
 			(at 146.05 111.76 180)
+			(uuid "664543e6-b3b3-4030-8709-0051c19b01b8")
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify left)
 			)
-			(uuid "664543e6-b3b3-4030-8709-0051c19b01b8")
 		)
 		(pin "MISO" output
 			(at 146.05 114.3 180)
+			(uuid "6baf3ed4-4060-4032-9565-02567c5a7fd8")
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify left)
 			)
-			(uuid "6baf3ed4-4060-4032-9565-02567c5a7fd8")
 		)
 		(pin "NSEL" input
 			(at 146.05 116.84 180)
+			(uuid "cb19cfbe-54e3-4db9-b576-712822fb93c2")
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify left)
 			)
-			(uuid "cb19cfbe-54e3-4db9-b576-712822fb93c2")
 		)
 		(pin "NIRQ" output
 			(at 146.05 119.38 180)
+			(uuid "2833322a-2e68-4df8-a85d-6e813d70c35c")
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify left)
 			)
-			(uuid "2833322a-2e68-4df8-a85d-6e813d70c35c")
 		)
 		(pin "SDN" input
 			(at 146.05 72.39 180)
+			(uuid "c8b5ee0a-8076-4318-a0a5-b98bc02fedda")
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify left)
 			)
-			(uuid "c8b5ee0a-8076-4318-a0a5-b98bc02fedda")
 		)
 		(instances
 			(project "dongle"
@@ -990,4 +1003,5 @@
 			(page "1")
 		)
 	)
+	(embedded_fonts no)
 )

@@ -1,7 +1,7 @@
 (kicad_pcb
-	(version 20240108)
+	(version 20241229)
 	(generator "pcbnew")
-	(generator_version "8.0")
+	(generator_version "9.0")
 	(general
 		(thickness 1.59)
 		(legacy_teardrops no)
@@ -9,34 +9,34 @@
 	(paper "A4")
 	(layers
 		(0 "F.Cu" signal)
-		(31 "B.Cu" signal)
-		(32 "B.Adhes" user "B.Adhesive")
-		(33 "F.Adhes" user "F.Adhesive")
-		(34 "B.Paste" user)
-		(35 "F.Paste" user)
-		(36 "B.SilkS" user "B.Silkscreen")
-		(37 "F.SilkS" user "F.Silkscreen")
-		(38 "B.Mask" user)
-		(39 "F.Mask" user)
-		(40 "Dwgs.User" user "User.Drawings")
-		(41 "Cmts.User" user "User.Comments")
-		(42 "Eco1.User" user "User.Eco1")
-		(43 "Eco2.User" user "User.Eco2")
-		(44 "Edge.Cuts" user)
-		(45 "Margin" user)
-		(46 "B.CrtYd" user "B.Courtyard")
-		(47 "F.CrtYd" user "F.Courtyard")
-		(48 "B.Fab" user)
-		(49 "F.Fab" user)
-		(50 "User.1" user)
-		(51 "User.2" user)
-		(52 "User.3" user)
-		(53 "User.4" user)
-		(54 "User.5" user)
-		(55 "User.6" user)
-		(56 "User.7" user)
-		(57 "User.8" user)
-		(58 "User.9" user)
+		(2 "B.Cu" signal)
+		(9 "F.Adhes" user "F.Adhesive")
+		(11 "B.Adhes" user "B.Adhesive")
+		(13 "F.Paste" user)
+		(15 "B.Paste" user)
+		(5 "F.SilkS" user "F.Silkscreen")
+		(7 "B.SilkS" user "B.Silkscreen")
+		(1 "F.Mask" user)
+		(3 "B.Mask" user)
+		(17 "Dwgs.User" user "User.Drawings")
+		(19 "Cmts.User" user "User.Comments")
+		(21 "Eco1.User" user "User.Eco1")
+		(23 "Eco2.User" user "User.Eco2")
+		(25 "Edge.Cuts" user)
+		(27 "Margin" user)
+		(31 "F.CrtYd" user "F.Courtyard")
+		(29 "B.CrtYd" user "B.Courtyard")
+		(35 "F.Fab" user)
+		(33 "B.Fab" user)
+		(39 "User.1" user)
+		(41 "User.2" user)
+		(43 "User.3" user)
+		(45 "User.4" user)
+		(47 "User.5" user)
+		(49 "User.6" user)
+		(51 "User.7" user)
+		(53 "User.8" user)
+		(55 "User.9" user)
 	)
 	(setup
 		(stackup
@@ -82,9 +82,10 @@
 		)
 		(pad_to_mask_clearance 0)
 		(allow_soldermask_bridges_in_footprints no)
+		(tenting front back)
 		(pcbplotparams
-			(layerselection 0x00010fc_ffffffff)
-			(plot_on_all_layers_selection 0x0000000_00000000)
+			(layerselection 0x00000000_00000000_55555555_5755f5ff)
+			(plot_on_all_layers_selection 0x00000000_00000000_00000000_00000000)
 			(disableapertmacros no)
 			(usegerberextensions yes)
 			(usegerberattributes yes)
@@ -94,7 +95,6 @@
 			(dashed_line_gap_ratio 3.000000)
 			(svgprecision 6)
 			(plotframeref no)
-			(viasonmask no)
 			(mode 1)
 			(useauxorigin no)
 			(hpglpennumber 1)
@@ -102,16 +102,19 @@
 			(hpglpendiameter 15.000000)
 			(pdf_front_fp_property_popups yes)
 			(pdf_back_fp_property_popups yes)
+			(pdf_metadata yes)
+			(pdf_single_document no)
 			(dxfpolygonmode yes)
 			(dxfimperialunits yes)
 			(dxfusepcbnewfont yes)
 			(psnegative no)
 			(psa4output no)
-			(plotreference yes)
-			(plotvalue no)
-			(plotfptext yes)
-			(plotinvisibletext no)
+			(plot_black_and_white yes)
 			(sketchpadsonfab no)
+			(plotpadnumbers no)
+			(hidednponfab no)
+			(sketchdnponfab yes)
+			(crossoutdnponfab yes)
 			(subtractmaskfromsilk yes)
 			(outputformat 1)
 			(mirror no)
@@ -165,19 +168,6 @@
 			(effects
 				(font
 					(size 1 1)
-					(thickness 0.15)
-				)
-			)
-		)
-		(property "Footprint" "Connector_PogoPin:PogoPin_D0.6mm_L8.4mm_W2.0mm"
-			(at 0 0 0)
-			(unlocked yes)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "01ab76ed-136a-4cdb-8a1a-f6581bf4f802")
-			(effects
-				(font
-					(size 1.27 1.27)
 					(thickness 0.15)
 				)
 			)
@@ -282,7 +272,7 @@
 				(width 0.1)
 				(type default)
 			)
-			(fill none)
+			(fill no)
 			(layer "F.SilkS")
 			(uuid "68ff96aa-0ae2-4e2f-9e92-6a2a0901120f")
 		)
@@ -293,7 +283,7 @@
 				(width 0.05)
 				(type default)
 			)
-			(fill none)
+			(fill no)
 			(layer "F.CrtYd")
 			(uuid "19320d3f-4cfb-44ee-879a-05665e1cb53f")
 		)
@@ -359,6 +349,7 @@
 			(pintype "passive")
 			(uuid "05bd891d-769d-4977-a92c-3f8ae501b775")
 		)
+		(embedded_fonts no)
 		(model "${KIPRJMOD}/3d/parts/PogoPin_Xinyangze_YZ188015084P-01.step"
 			(offset
 				(xyz 0 0 0)
@@ -395,19 +386,6 @@
 			(effects
 				(font
 					(size 1 1)
-					(thickness 0.15)
-				)
-			)
-		)
-		(property "Footprint" "Connector_PogoPin:PogoPin_D0.6mm_L8.4mm_W2.0mm"
-			(at 0 0 0)
-			(unlocked yes)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "5fc5ac4d-1fa2-4979-b16e-183f39b68fdd")
-			(effects
-				(font
-					(size 1.27 1.27)
 					(thickness 0.15)
 				)
 			)
@@ -512,7 +490,7 @@
 				(width 0.1)
 				(type default)
 			)
-			(fill none)
+			(fill no)
 			(layer "F.SilkS")
 			(uuid "59f8a310-3ed5-4f2c-8d65-83ec41bb0fd9")
 		)
@@ -523,7 +501,7 @@
 				(width 0.05)
 				(type default)
 			)
-			(fill none)
+			(fill no)
 			(layer "F.CrtYd")
 			(uuid "e0c696c4-abbd-4a9e-aece-921fe1e82d97")
 		)
@@ -589,6 +567,7 @@
 			(pintype "passive")
 			(uuid "45effb8f-8eb3-49cb-b7fb-5a7508f9c672")
 		)
+		(embedded_fonts no)
 		(model "${KIPRJMOD}/3d/parts/PogoPin_Xinyangze_YZ188015084P-01.step"
 			(offset
 				(xyz 0 0 0)
@@ -625,19 +604,6 @@
 			(effects
 				(font
 					(size 1 1)
-					(thickness 0.15)
-				)
-			)
-		)
-		(property "Footprint" "Connector_PogoPin:PogoPin_D0.6mm_L8.4mm_W2.0mm"
-			(at 0 0 0)
-			(unlocked yes)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "6e7c200a-8965-4534-8b5e-84e88b0c759c")
-			(effects
-				(font
-					(size 1.27 1.27)
 					(thickness 0.15)
 				)
 			)
@@ -742,7 +708,7 @@
 				(width 0.1)
 				(type default)
 			)
-			(fill none)
+			(fill no)
 			(layer "F.SilkS")
 			(uuid "dccfb20e-24e1-4964-83fe-15b6fb1913ae")
 		)
@@ -753,7 +719,7 @@
 				(width 0.05)
 				(type default)
 			)
-			(fill none)
+			(fill no)
 			(layer "F.CrtYd")
 			(uuid "75e322af-e870-4f7b-b3be-c69286d42103")
 		)
@@ -819,6 +785,7 @@
 			(pintype "passive")
 			(uuid "a7bcab37-509f-4ffa-9f7d-92a37c471362")
 		)
+		(embedded_fonts no)
 		(model "${KIPRJMOD}/3d/parts/PogoPin_Xinyangze_YZ188015084P-01.step"
 			(offset
 				(xyz 0 0 0)
@@ -855,19 +822,6 @@
 			(effects
 				(font
 					(size 1 1)
-					(thickness 0.15)
-				)
-			)
-		)
-		(property "Footprint" "Connector_PogoPin:PogoPin_D0.6mm_L8.4mm_W2.0mm"
-			(at 0 0 0)
-			(unlocked yes)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "e1f5ca59-10be-4e3a-99be-b2ad5cfe44db")
-			(effects
-				(font
-					(size 1.27 1.27)
 					(thickness 0.15)
 				)
 			)
@@ -972,7 +926,7 @@
 				(width 0.1)
 				(type default)
 			)
-			(fill none)
+			(fill no)
 			(layer "F.SilkS")
 			(uuid "cccf21d5-0ca0-4cc9-87d1-80454517cdbe")
 		)
@@ -983,7 +937,7 @@
 				(width 0.05)
 				(type default)
 			)
-			(fill none)
+			(fill no)
 			(layer "F.CrtYd")
 			(uuid "64cb2949-ec28-441e-9c48-609e5a5f95d2")
 		)
@@ -1049,6 +1003,7 @@
 			(pintype "passive")
 			(uuid "80b5d68a-ab56-417d-94aa-abb49e07766d")
 		)
+		(embedded_fonts no)
 		(model "${KIPRJMOD}/3d/parts/PogoPin_Xinyangze_YZ188015084P-01.step"
 			(offset
 				(xyz 0 0 0)
@@ -1085,19 +1040,6 @@
 			(effects
 				(font
 					(size 1 1)
-					(thickness 0.15)
-				)
-			)
-		)
-		(property "Footprint" "Connector_PogoPin:PogoPin_D0.6mm_L8.4mm_W2.0mm"
-			(at 0 0 0)
-			(unlocked yes)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "d2bbce2e-8bf8-45b8-b507-6b6249654621")
-			(effects
-				(font
-					(size 1.27 1.27)
 					(thickness 0.15)
 				)
 			)
@@ -1202,7 +1144,7 @@
 				(width 0.1)
 				(type default)
 			)
-			(fill none)
+			(fill no)
 			(layer "F.SilkS")
 			(uuid "85f2e9d2-c64e-486f-ac93-a66584fcf141")
 		)
@@ -1213,7 +1155,7 @@
 				(width 0.05)
 				(type default)
 			)
-			(fill none)
+			(fill no)
 			(layer "F.CrtYd")
 			(uuid "a4661f40-ad2b-484f-915d-3b71619ed15d")
 		)
@@ -1279,6 +1221,7 @@
 			(pintype "passive")
 			(uuid "e7f60773-bea1-4452-8bb5-20aff8aa6510")
 		)
+		(embedded_fonts no)
 		(model "${KIPRJMOD}/3d/parts/PogoPin_Xinyangze_YZ188015084P-01.step"
 			(offset
 				(xyz 0 0 0)
@@ -1315,19 +1258,6 @@
 			(effects
 				(font
 					(size 1 1)
-					(thickness 0.15)
-				)
-			)
-		)
-		(property "Footprint" "Connector_PinHeader_2.54mm:PinHeader_2x04_P2.54mm_Vertical_SMD"
-			(at 0 0 0)
-			(unlocked yes)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "c8d1cd69-1484-4da8-b0a9-22e070b4a664")
-			(effects
-				(font
-					(size 1.27 1.27)
 					(thickness 0.15)
 				)
 			)
@@ -1871,7 +1801,7 @@
 		(pad "1" smd rect
 			(at -2.525 -3.81)
 			(size 3.15 1)
-			(layers "F.Cu" "F.Paste" "F.Mask")
+			(layers "F.Cu" "F.Mask" "F.Paste")
 			(net 8 "Net-(J2-Pin_1)")
 			(pinfunction "Pin_1")
 			(pintype "passive")
@@ -1880,7 +1810,7 @@
 		(pad "2" smd rect
 			(at 2.525 -3.81)
 			(size 3.15 1)
-			(layers "F.Cu" "F.Paste" "F.Mask")
+			(layers "F.Cu" "F.Mask" "F.Paste")
 			(net 9 "Net-(J2-Pin_2)")
 			(pinfunction "Pin_2")
 			(pintype "passive")
@@ -1889,7 +1819,7 @@
 		(pad "3" smd rect
 			(at -2.525 -1.27)
 			(size 3.15 1)
-			(layers "F.Cu" "F.Paste" "F.Mask")
+			(layers "F.Cu" "F.Mask" "F.Paste")
 			(net 10 "Net-(J2-Pin_3)")
 			(pinfunction "Pin_3")
 			(pintype "passive")
@@ -1898,7 +1828,7 @@
 		(pad "4" smd rect
 			(at 2.525 -1.27)
 			(size 3.15 1)
-			(layers "F.Cu" "F.Paste" "F.Mask")
+			(layers "F.Cu" "F.Mask" "F.Paste")
 			(net 11 "Net-(J2-Pin_4)")
 			(pinfunction "Pin_4")
 			(pintype "passive")
@@ -1907,7 +1837,7 @@
 		(pad "5" smd rect
 			(at -2.525 1.27)
 			(size 3.15 1)
-			(layers "F.Cu" "F.Paste" "F.Mask")
+			(layers "F.Cu" "F.Mask" "F.Paste")
 			(net 12 "Net-(J2-Pin_5)")
 			(pinfunction "Pin_5")
 			(pintype "passive")
@@ -1916,7 +1846,7 @@
 		(pad "6" smd rect
 			(at 2.525 1.27)
 			(size 3.15 1)
-			(layers "F.Cu" "F.Paste" "F.Mask")
+			(layers "F.Cu" "F.Mask" "F.Paste")
 			(net 13 "Net-(J2-Pin_6)")
 			(pinfunction "Pin_6")
 			(pintype "passive")
@@ -1925,7 +1855,7 @@
 		(pad "7" smd rect
 			(at -2.525 3.81)
 			(size 3.15 1)
-			(layers "F.Cu" "F.Paste" "F.Mask")
+			(layers "F.Cu" "F.Mask" "F.Paste")
 			(net 1 "GND")
 			(pinfunction "Pin_7")
 			(pintype "passive")
@@ -1934,12 +1864,13 @@
 		(pad "8" smd rect
 			(at 2.525 3.81)
 			(size 3.15 1)
-			(layers "F.Cu" "F.Paste" "F.Mask")
+			(layers "F.Cu" "F.Mask" "F.Paste")
 			(net 1 "GND")
 			(pinfunction "Pin_8")
 			(pintype "passive")
 			(uuid "2ccb0456-6cc5-4a87-ad04-3d8228badabb")
 		)
+		(embedded_fonts no)
 		(model "${KICAD6_3DMODEL_DIR}/Connector_PinHeader_2.54mm.3dshapes/PinHeader_2x04_P2.54mm_Vertical_SMD.wrl"
 			(offset
 				(xyz 0 0 0)
@@ -1976,19 +1907,6 @@
 			(effects
 				(font
 					(size 1 1)
-					(thickness 0.15)
-				)
-			)
-		)
-		(property "Footprint" "Connector_PinHeader_2.54mm:PinHeader_2x04_P2.54mm_Vertical_SMD"
-			(at 0 0 0)
-			(unlocked yes)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "d6c0e9de-f518-403a-930b-a069f9148219")
-			(effects
-				(font
-					(size 1.27 1.27)
 					(thickness 0.15)
 				)
 			)
@@ -2532,7 +2450,7 @@
 		(pad "1" smd rect
 			(at -2.525 -3.81)
 			(size 3.15 1)
-			(layers "F.Cu" "F.Paste" "F.Mask")
+			(layers "F.Cu" "F.Mask" "F.Paste")
 			(net 14 "Net-(J3-Pin_1)")
 			(pinfunction "Pin_1")
 			(pintype "passive")
@@ -2541,7 +2459,7 @@
 		(pad "2" smd rect
 			(at 2.525 -3.81)
 			(size 3.15 1)
-			(layers "F.Cu" "F.Paste" "F.Mask")
+			(layers "F.Cu" "F.Mask" "F.Paste")
 			(net 16 "Net-(J3-Pin_2)")
 			(pinfunction "Pin_2")
 			(pintype "passive")
@@ -2550,7 +2468,7 @@
 		(pad "3" smd rect
 			(at -2.525 -1.27)
 			(size 3.15 1)
-			(layers "F.Cu" "F.Paste" "F.Mask")
+			(layers "F.Cu" "F.Mask" "F.Paste")
 			(net 17 "Net-(J3-Pin_3)")
 			(pinfunction "Pin_3")
 			(pintype "passive")
@@ -2559,7 +2477,7 @@
 		(pad "4" smd rect
 			(at 2.525 -1.27)
 			(size 3.15 1)
-			(layers "F.Cu" "F.Paste" "F.Mask")
+			(layers "F.Cu" "F.Mask" "F.Paste")
 			(net 18 "Net-(J3-Pin_4)")
 			(pinfunction "Pin_4")
 			(pintype "passive")
@@ -2568,7 +2486,7 @@
 		(pad "5" smd rect
 			(at -2.525 1.27)
 			(size 3.15 1)
-			(layers "F.Cu" "F.Paste" "F.Mask")
+			(layers "F.Cu" "F.Mask" "F.Paste")
 			(net 19 "Net-(J3-Pin_5)")
 			(pinfunction "Pin_5")
 			(pintype "passive")
@@ -2577,7 +2495,7 @@
 		(pad "6" smd rect
 			(at 2.525 1.27)
 			(size 3.15 1)
-			(layers "F.Cu" "F.Paste" "F.Mask")
+			(layers "F.Cu" "F.Mask" "F.Paste")
 			(net 20 "Net-(J3-Pin_6)")
 			(pinfunction "Pin_6")
 			(pintype "passive")
@@ -2586,7 +2504,7 @@
 		(pad "7" smd rect
 			(at -2.525 3.81)
 			(size 3.15 1)
-			(layers "F.Cu" "F.Paste" "F.Mask")
+			(layers "F.Cu" "F.Mask" "F.Paste")
 			(net 1 "GND")
 			(pinfunction "Pin_7")
 			(pintype "passive")
@@ -2595,12 +2513,13 @@
 		(pad "8" smd rect
 			(at 2.525 3.81)
 			(size 3.15 1)
-			(layers "F.Cu" "F.Paste" "F.Mask")
+			(layers "F.Cu" "F.Mask" "F.Paste")
 			(net 1 "GND")
 			(pinfunction "Pin_8")
 			(pintype "passive")
 			(uuid "79dc99ad-660c-4ed8-a6e1-f178898a19a4")
 		)
+		(embedded_fonts no)
 		(model "${KICAD6_3DMODEL_DIR}/Connector_PinHeader_2.54mm.3dshapes/PinHeader_2x04_P2.54mm_Vertical_SMD.wrl"
 			(offset
 				(xyz 0 0 0)
@@ -2637,19 +2556,6 @@
 			(effects
 				(font
 					(size 1 1)
-					(thickness 0.15)
-				)
-			)
-		)
-		(property "Footprint" "Connector_PogoPin:PogoPin_D0.6mm_L8.4mm_W2.0mm"
-			(at 0 0 0)
-			(unlocked yes)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "cbd2c40f-e789-4eb8-8801-33a9af61ecfa")
-			(effects
-				(font
-					(size 1.27 1.27)
 					(thickness 0.15)
 				)
 			)
@@ -2754,7 +2660,7 @@
 				(width 0.1)
 				(type default)
 			)
-			(fill none)
+			(fill no)
 			(layer "F.SilkS")
 			(uuid "f8124614-956f-43a6-8ae3-701b774c4139")
 		)
@@ -2765,7 +2671,7 @@
 				(width 0.05)
 				(type default)
 			)
-			(fill none)
+			(fill no)
 			(layer "F.CrtYd")
 			(uuid "fc0d7551-920f-4472-952a-609f4524f9b1")
 		)
@@ -2831,6 +2737,7 @@
 			(pintype "passive")
 			(uuid "9ca24cad-f91a-483b-a847-26893d7fb9c5")
 		)
+		(embedded_fonts no)
 		(model "${KIPRJMOD}/3d/parts/PogoPin_Xinyangze_YZ188015084P-01.step"
 			(offset
 				(xyz 0 0 0)
@@ -2867,19 +2774,6 @@
 			(effects
 				(font
 					(size 1 1)
-					(thickness 0.15)
-				)
-			)
-		)
-		(property "Footprint" "Connector_PogoPin:PogoPin_D0.6mm_L8.4mm_W2.0mm"
-			(at 0 0 0)
-			(unlocked yes)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "b801f26b-b9e5-4ae9-9e77-207dd5bb66ae")
-			(effects
-				(font
-					(size 1.27 1.27)
 					(thickness 0.15)
 				)
 			)
@@ -2984,7 +2878,7 @@
 				(width 0.1)
 				(type default)
 			)
-			(fill none)
+			(fill no)
 			(layer "F.SilkS")
 			(uuid "4d92fbd7-d57b-4131-965d-731e82e7d280")
 		)
@@ -2995,7 +2889,7 @@
 				(width 0.05)
 				(type default)
 			)
-			(fill none)
+			(fill no)
 			(layer "F.CrtYd")
 			(uuid "2fc9543b-d418-4231-bcfd-5e8b663ae86a")
 		)
@@ -3061,6 +2955,7 @@
 			(pintype "passive")
 			(uuid "d5b91919-a12b-44a4-8a97-9e202ac5e36b")
 		)
+		(embedded_fonts no)
 		(model "${KIPRJMOD}/3d/parts/PogoPin_Xinyangze_YZ188015084P-01.step"
 			(offset
 				(xyz 0 0 0)
@@ -3097,19 +2992,6 @@
 			(effects
 				(font
 					(size 1 1)
-					(thickness 0.15)
-				)
-			)
-		)
-		(property "Footprint" "Connector_PogoPin:PogoPin_D0.6mm_L8.4mm_W2.0mm"
-			(at 0 0 0)
-			(unlocked yes)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "4e849243-c49e-4b81-84f1-bee019dac0ca")
-			(effects
-				(font
-					(size 1.27 1.27)
 					(thickness 0.15)
 				)
 			)
@@ -3214,7 +3096,7 @@
 				(width 0.1)
 				(type default)
 			)
-			(fill none)
+			(fill no)
 			(layer "F.SilkS")
 			(uuid "69238dcd-eea0-42dd-9824-ff308c10e676")
 		)
@@ -3225,7 +3107,7 @@
 				(width 0.05)
 				(type default)
 			)
-			(fill none)
+			(fill no)
 			(layer "F.CrtYd")
 			(uuid "b0f46f31-c7cd-45e9-b6f0-7a6e84eaf965")
 		)
@@ -3291,6 +3173,7 @@
 			(pintype "passive")
 			(uuid "245f363b-0517-410c-b9ae-c83564649788")
 		)
+		(embedded_fonts no)
 		(model "${KIPRJMOD}/3d/parts/PogoPin_Xinyangze_YZ188015084P-01.step"
 			(offset
 				(xyz 0 0 0)
@@ -3327,19 +3210,6 @@
 			(effects
 				(font
 					(size 1 1)
-					(thickness 0.15)
-				)
-			)
-		)
-		(property "Footprint" "Connector_PogoPin:PogoPin_D0.6mm_L8.4mm_W2.0mm"
-			(at 0 0 0)
-			(unlocked yes)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "70e89f75-dca2-487f-ac33-2aab87940fca")
-			(effects
-				(font
-					(size 1.27 1.27)
 					(thickness 0.15)
 				)
 			)
@@ -3444,7 +3314,7 @@
 				(width 0.1)
 				(type default)
 			)
-			(fill none)
+			(fill no)
 			(layer "F.SilkS")
 			(uuid "3bc1fd56-ea1e-4e02-af57-fdded418f99b")
 		)
@@ -3455,7 +3325,7 @@
 				(width 0.05)
 				(type default)
 			)
-			(fill none)
+			(fill no)
 			(layer "F.CrtYd")
 			(uuid "716f6cba-ddea-4947-8847-cf593b500744")
 		)
@@ -3521,6 +3391,7 @@
 			(pintype "passive")
 			(uuid "d4384d85-61da-4d68-a50b-70755941b428")
 		)
+		(embedded_fonts no)
 		(model "${KIPRJMOD}/3d/parts/PogoPin_Xinyangze_YZ188015084P-01.step"
 			(offset
 				(xyz 0 0 0)
@@ -3557,19 +3428,6 @@
 			(effects
 				(font
 					(size 1 1)
-					(thickness 0.15)
-				)
-			)
-		)
-		(property "Footprint" "Connector_PogoPin:PogoPin_D0.6mm_L8.4mm_W2.0mm"
-			(at 0 0 0)
-			(unlocked yes)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "1d23aebb-91cd-4f5b-b164-b48f4b57634d")
-			(effects
-				(font
-					(size 1.27 1.27)
 					(thickness 0.15)
 				)
 			)
@@ -3674,7 +3532,7 @@
 				(width 0.1)
 				(type default)
 			)
-			(fill none)
+			(fill no)
 			(layer "F.SilkS")
 			(uuid "80c6bcd4-47b1-48a4-853c-eee83d20900c")
 		)
@@ -3685,7 +3543,7 @@
 				(width 0.05)
 				(type default)
 			)
-			(fill none)
+			(fill no)
 			(layer "F.CrtYd")
 			(uuid "607ecba1-6eaa-4e79-9411-cafcfd2aaa28")
 		)
@@ -3751,6 +3609,7 @@
 			(pintype "passive")
 			(uuid "04ebab58-af43-4d2b-bd2d-6a976a30800c")
 		)
+		(embedded_fonts no)
 		(model "${KIPRJMOD}/3d/parts/PogoPin_Xinyangze_YZ188015084P-01.step"
 			(offset
 				(xyz 0 0 0)
@@ -3787,19 +3646,6 @@
 			(effects
 				(font
 					(size 1 1)
-					(thickness 0.15)
-				)
-			)
-		)
-		(property "Footprint" "Connector_PinHeader_1.27mm:PinHeader_2x05_P1.27mm_Vertical_SMD"
-			(at 0 0 0)
-			(unlocked yes)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "46b75b3b-724f-4200-a9ab-2b55d1b53dec")
-			(effects
-				(font
-					(size 1.27 1.27)
 					(thickness 0.15)
 				)
 			)
@@ -4343,7 +4189,7 @@
 		(pad "1" smd rect
 			(at -1.95 -2.54)
 			(size 2.4 0.74)
-			(layers "F.Cu" "F.Paste" "F.Mask")
+			(layers "F.Cu" "F.Mask" "F.Paste")
 			(net 15 "VDD")
 			(pinfunction "Pin_1")
 			(pintype "passive")
@@ -4352,7 +4198,7 @@
 		(pad "2" smd rect
 			(at 1.95 -2.54)
 			(size 2.4 0.74)
-			(layers "F.Cu" "F.Paste" "F.Mask")
+			(layers "F.Cu" "F.Mask" "F.Paste")
 			(net 2 "/SWDIO")
 			(pinfunction "Pin_2")
 			(pintype "passive")
@@ -4361,7 +4207,7 @@
 		(pad "3" smd rect
 			(at -1.95 -1.27)
 			(size 2.4 0.74)
-			(layers "F.Cu" "F.Paste" "F.Mask")
+			(layers "F.Cu" "F.Mask" "F.Paste")
 			(net 1 "GND")
 			(pinfunction "Pin_3")
 			(pintype "passive")
@@ -4370,7 +4216,7 @@
 		(pad "4" smd rect
 			(at 1.95 -1.27)
 			(size 2.4 0.74)
-			(layers "F.Cu" "F.Paste" "F.Mask")
+			(layers "F.Cu" "F.Mask" "F.Paste")
 			(net 3 "/SWDCLK")
 			(pinfunction "Pin_4")
 			(pintype "passive")
@@ -4379,7 +4225,7 @@
 		(pad "5" smd rect
 			(at -1.95 0)
 			(size 2.4 0.74)
-			(layers "F.Cu" "F.Paste" "F.Mask")
+			(layers "F.Cu" "F.Mask" "F.Paste")
 			(net 1 "GND")
 			(pinfunction "Pin_5")
 			(pintype "passive")
@@ -4388,7 +4234,7 @@
 		(pad "6" smd rect
 			(at 1.95 0)
 			(size 2.4 0.74)
-			(layers "F.Cu" "F.Paste" "F.Mask")
+			(layers "F.Cu" "F.Mask" "F.Paste")
 			(net 4 "unconnected-(J1-Pin_6-Pad6)")
 			(pinfunction "Pin_6")
 			(pintype "passive+no_connect")
@@ -4397,7 +4243,7 @@
 		(pad "7" smd rect
 			(at -1.95 1.27)
 			(size 2.4 0.74)
-			(layers "F.Cu" "F.Paste" "F.Mask")
+			(layers "F.Cu" "F.Mask" "F.Paste")
 			(net 5 "unconnected-(J1-Pin_7-Pad7)")
 			(pinfunction "Pin_7")
 			(pintype "passive+no_connect")
@@ -4406,7 +4252,7 @@
 		(pad "8" smd rect
 			(at 1.95 1.27)
 			(size 2.4 0.74)
-			(layers "F.Cu" "F.Paste" "F.Mask")
+			(layers "F.Cu" "F.Mask" "F.Paste")
 			(net 6 "unconnected-(J1-Pin_8-Pad8)")
 			(pinfunction "Pin_8")
 			(pintype "passive+no_connect")
@@ -4415,7 +4261,7 @@
 		(pad "9" smd rect
 			(at -1.95 2.54)
 			(size 2.4 0.74)
-			(layers "F.Cu" "F.Paste" "F.Mask")
+			(layers "F.Cu" "F.Mask" "F.Paste")
 			(net 1 "GND")
 			(pinfunction "Pin_9")
 			(pintype "passive")
@@ -4424,12 +4270,13 @@
 		(pad "10" smd rect
 			(at 1.95 2.54)
 			(size 2.4 0.74)
-			(layers "F.Cu" "F.Paste" "F.Mask")
+			(layers "F.Cu" "F.Mask" "F.Paste")
 			(net 7 "/RESET")
 			(pinfunction "Pin_10")
 			(pintype "passive")
 			(uuid "581097c9-bfbc-4c52-8b91-3c263d64f2f9")
 		)
+		(embedded_fonts no)
 		(model "${KICAD6_3DMODEL_DIR}/Connector_PinHeader_1.27mm.3dshapes/PinHeader_2x05_P1.27mm_Vertical_SMD.wrl"
 			(offset
 				(xyz 0 0 0)
@@ -4466,19 +4313,6 @@
 			(effects
 				(font
 					(size 1 1)
-					(thickness 0.15)
-				)
-			)
-		)
-		(property "Footprint" "Connector_PogoPin:PogoPin_D0.6mm_L8.4mm_W2.0mm"
-			(at 0 0 0)
-			(unlocked yes)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "facbcd75-6b49-40a7-8340-21649f9f68d3")
-			(effects
-				(font
-					(size 1.27 1.27)
 					(thickness 0.15)
 				)
 			)
@@ -4583,7 +4417,7 @@
 				(width 0.1)
 				(type default)
 			)
-			(fill none)
+			(fill no)
 			(layer "F.SilkS")
 			(uuid "434d2fdf-afab-4cef-beef-4ccda016c499")
 		)
@@ -4594,7 +4428,7 @@
 				(width 0.05)
 				(type default)
 			)
-			(fill none)
+			(fill no)
 			(layer "F.CrtYd")
 			(uuid "366b59cf-4ec5-476f-82de-50bdeb760e8a")
 		)
@@ -4660,6 +4494,7 @@
 			(pintype "passive")
 			(uuid "5f276a99-b610-4e5c-83a4-e66c74e14d8e")
 		)
+		(embedded_fonts no)
 		(model "${KIPRJMOD}/3d/parts/PogoPin_Xinyangze_YZ188015084P-01.step"
 			(offset
 				(xyz 0 0 0)
@@ -4696,19 +4531,6 @@
 			(effects
 				(font
 					(size 1 1)
-					(thickness 0.15)
-				)
-			)
-		)
-		(property "Footprint" "Connector_PogoPin:PogoPin_D0.6mm_L8.4mm_W2.0mm"
-			(at 0 0 0)
-			(unlocked yes)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "860b967e-dd35-4438-9cab-4b202b6ce278")
-			(effects
-				(font
-					(size 1.27 1.27)
 					(thickness 0.15)
 				)
 			)
@@ -4813,7 +4635,7 @@
 				(width 0.1)
 				(type default)
 			)
-			(fill none)
+			(fill no)
 			(layer "F.SilkS")
 			(uuid "3561153e-498e-4c5e-be41-13aa63d174c8")
 		)
@@ -4824,7 +4646,7 @@
 				(width 0.05)
 				(type default)
 			)
-			(fill none)
+			(fill no)
 			(layer "F.CrtYd")
 			(uuid "8b14c5a9-b184-452e-8810-802f4f9c4738")
 		)
@@ -4890,6 +4712,7 @@
 			(pintype "passive")
 			(uuid "e7b6d642-8655-4d9b-a858-2a6618c0b919")
 		)
+		(embedded_fonts no)
 		(model "${KIPRJMOD}/3d/parts/PogoPin_Xinyangze_YZ188015084P-01.step"
 			(offset
 				(xyz 0 0 0)
@@ -4926,19 +4749,6 @@
 			(effects
 				(font
 					(size 1 1)
-					(thickness 0.15)
-				)
-			)
-		)
-		(property "Footprint" "Connector_PogoPin:PogoPin_D0.6mm_L8.4mm_W2.0mm"
-			(at 0 0 0)
-			(unlocked yes)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "41e4f56b-9030-4e0f-9851-6df8bfd76ed5")
-			(effects
-				(font
-					(size 1.27 1.27)
 					(thickness 0.15)
 				)
 			)
@@ -5043,7 +4853,7 @@
 				(width 0.1)
 				(type default)
 			)
-			(fill none)
+			(fill no)
 			(layer "F.SilkS")
 			(uuid "8598d811-3ee0-4deb-98c7-8f62c473048d")
 		)
@@ -5054,7 +4864,7 @@
 				(width 0.05)
 				(type default)
 			)
-			(fill none)
+			(fill no)
 			(layer "F.CrtYd")
 			(uuid "e76d62e0-30ab-4ee9-8fc9-3e376b5a9925")
 		)
@@ -5120,6 +4930,7 @@
 			(pintype "passive")
 			(uuid "679e45ba-081e-4965-8715-2859c6567613")
 		)
+		(embedded_fonts no)
 		(model "${KIPRJMOD}/3d/parts/PogoPin_Xinyangze_YZ188015084P-01.step"
 			(offset
 				(xyz 0 0 0)
@@ -5156,19 +4967,6 @@
 			(effects
 				(font
 					(size 1 1)
-					(thickness 0.15)
-				)
-			)
-		)
-		(property "Footprint" "Connector_PogoPin:PogoPin_D0.6mm_L8.4mm_W2.0mm"
-			(at 0 0 0)
-			(unlocked yes)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "08fc5444-fabd-41fb-a238-356cc4fd3a26")
-			(effects
-				(font
-					(size 1.27 1.27)
 					(thickness 0.15)
 				)
 			)
@@ -5273,7 +5071,7 @@
 				(width 0.1)
 				(type default)
 			)
-			(fill none)
+			(fill no)
 			(layer "F.SilkS")
 			(uuid "65740489-1f87-426b-9115-e33412268122")
 		)
@@ -5284,7 +5082,7 @@
 				(width 0.05)
 				(type default)
 			)
-			(fill none)
+			(fill no)
 			(layer "F.CrtYd")
 			(uuid "d2999c8b-0f61-4c5d-a586-3350440067d6")
 		)
@@ -5350,6 +5148,7 @@
 			(pintype "passive")
 			(uuid "2ee9ee0d-6ae5-4d50-a916-58926abca93a")
 		)
+		(embedded_fonts no)
 		(model "${KIPRJMOD}/3d/parts/PogoPin_Xinyangze_YZ188015084P-01.step"
 			(offset
 				(xyz 0 0 0)
@@ -5386,19 +5185,6 @@
 			(effects
 				(font
 					(size 1 1)
-					(thickness 0.15)
-				)
-			)
-		)
-		(property "Footprint" "Connector_PogoPin:PogoPin_D0.6mm_L8.4mm_W2.0mm"
-			(at 0 0 0)
-			(unlocked yes)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "d772a209-274e-4b55-ae5b-1b4af92f84a9")
-			(effects
-				(font
-					(size 1.27 1.27)
 					(thickness 0.15)
 				)
 			)
@@ -5503,7 +5289,7 @@
 				(width 0.1)
 				(type default)
 			)
-			(fill none)
+			(fill no)
 			(layer "F.SilkS")
 			(uuid "c3dfaf71-c50f-4591-aaa1-64a77a4999cf")
 		)
@@ -5514,7 +5300,7 @@
 				(width 0.05)
 				(type default)
 			)
-			(fill none)
+			(fill no)
 			(layer "F.CrtYd")
 			(uuid "ab49fb1e-9d97-4e87-8d56-08256dbe2ca4")
 		)
@@ -5580,6 +5366,7 @@
 			(pintype "passive")
 			(uuid "f5a3aee2-1506-4e5b-b348-ca8e41643478")
 		)
+		(embedded_fonts no)
 		(model "${KIPRJMOD}/3d/parts/PogoPin_Xinyangze_YZ188015084P-01.step"
 			(offset
 				(xyz 0 0 0)
@@ -5616,19 +5403,6 @@
 			(effects
 				(font
 					(size 1 1)
-					(thickness 0.15)
-				)
-			)
-		)
-		(property "Footprint" "Connector_PogoPin:PogoPin_D0.6mm_L8.4mm_W2.0mm"
-			(at 0 0 0)
-			(unlocked yes)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "5c08ddc4-6fb1-455b-bd87-5f3469726065")
-			(effects
-				(font
-					(size 1.27 1.27)
 					(thickness 0.15)
 				)
 			)
@@ -5733,7 +5507,7 @@
 				(width 0.1)
 				(type default)
 			)
-			(fill none)
+			(fill no)
 			(layer "F.SilkS")
 			(uuid "64e2cbba-c381-4568-8dc2-ba3bf041f9fa")
 		)
@@ -5744,7 +5518,7 @@
 				(width 0.05)
 				(type default)
 			)
-			(fill none)
+			(fill no)
 			(layer "F.CrtYd")
 			(uuid "dc086b6d-f718-4b10-a17e-cf391ea038d8")
 		)
@@ -5810,6 +5584,7 @@
 			(pintype "passive")
 			(uuid "2382cef6-6784-4076-aa5e-a5451d820cf0")
 		)
+		(embedded_fonts no)
 		(model "${KIPRJMOD}/3d/parts/PogoPin_Xinyangze_YZ188015084P-01.step"
 			(offset
 				(xyz 0 0 0)
@@ -5846,19 +5621,6 @@
 			(effects
 				(font
 					(size 1 1)
-					(thickness 0.15)
-				)
-			)
-		)
-		(property "Footprint" "Connector_PogoPin:PogoPin_D0.6mm_L8.4mm_W2.0mm"
-			(at 0 0 0)
-			(unlocked yes)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "4852be6b-581f-4309-b04f-28ebecbabdb6")
-			(effects
-				(font
-					(size 1.27 1.27)
 					(thickness 0.15)
 				)
 			)
@@ -5963,7 +5725,7 @@
 				(width 0.1)
 				(type default)
 			)
-			(fill none)
+			(fill no)
 			(layer "F.SilkS")
 			(uuid "ed5e619d-2451-4e95-a490-12e799d78633")
 		)
@@ -5974,7 +5736,7 @@
 				(width 0.05)
 				(type default)
 			)
-			(fill none)
+			(fill no)
 			(layer "F.CrtYd")
 			(uuid "960266db-8fe3-47ef-b98f-6dcf4296c5c1")
 		)
@@ -6040,6 +5802,7 @@
 			(pintype "passive")
 			(uuid "57937908-4b8a-46b1-b0fa-249f3d12fc6c")
 		)
+		(embedded_fonts no)
 		(model "${KIPRJMOD}/3d/parts/PogoPin_Xinyangze_YZ188015084P-01.step"
 			(offset
 				(xyz 0 0 0)
@@ -6059,7 +5822,7 @@
 			(width 0.15)
 			(type solid)
 		)
-		(fill solid)
+		(fill yes)
 		(layer "F.SilkS")
 		(uuid "7bae54db-75aa-4a4b-890d-a1835b2b2dc3")
 	)
@@ -6070,7 +5833,7 @@
 			(width 0.15)
 			(type solid)
 		)
-		(fill solid)
+		(fill yes)
 		(layer "F.SilkS")
 		(uuid "c3f704a6-875b-4f98-be63-3ce46f8e20e9")
 	)
@@ -6081,7 +5844,7 @@
 			(width 0.15)
 			(type solid)
 		)
-		(fill solid)
+		(fill yes)
 		(layer "F.SilkS")
 		(uuid "e4d16cd0-cd55-4d9f-953a-a81dbfcd319b")
 	)
@@ -6092,7 +5855,7 @@
 			(width 0.1)
 			(type solid)
 		)
-		(fill none)
+		(fill no)
 		(layer "Edge.Cuts")
 		(uuid "0fc8b902-298e-4bf7-9b99-2391e8d94237")
 	)
@@ -6125,7 +5888,7 @@
 			(width 0.1)
 			(type solid)
 		)
-		(fill none)
+		(fill no)
 		(layer "Edge.Cuts")
 		(uuid "29247d01-2a8d-4874-acf0-1ecae9400241")
 	)
@@ -6136,7 +5899,7 @@
 			(width 0.1)
 			(type solid)
 		)
-		(fill none)
+		(fill no)
 		(layer "Edge.Cuts")
 		(uuid "4d0c0073-7f12-4bf1-a369-d90c6a6c3fad")
 	)
@@ -6147,7 +5910,7 @@
 			(width 0.1)
 			(type solid)
 		)
-		(fill none)
+		(fill no)
 		(layer "Edge.Cuts")
 		(uuid "55aaccb9-470a-4395-9079-cc39826bd293")
 	)
@@ -6158,7 +5921,7 @@
 			(width 0.1)
 			(type solid)
 		)
-		(fill none)
+		(fill no)
 		(layer "Edge.Cuts")
 		(uuid "64b5815c-f9be-4c96-a1d2-2e65da0424d2")
 	)
@@ -6200,7 +5963,7 @@
 			(width 0.1)
 			(type solid)
 		)
-		(fill none)
+		(fill no)
 		(layer "Edge.Cuts")
 		(uuid "bb540c14-e23d-4436-a4b0-e46c4e4bffba")
 	)
@@ -7993,4 +7756,5 @@
 		(net 20)
 		(uuid "aed10c6d-ff2b-46b1-b4a6-6913263d8f38")
 	)
+	(embedded_fonts no)
 )
