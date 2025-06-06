@@ -8336,7 +8336,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "TestPoint:TestPoint_Pad_D1.0mm"
+		(property "Footprint" "TestPoint:TestPoint_Pad_D1.5mm"
 			(at 113.03 19.05 0)
 			(effects
 				(font
@@ -10839,7 +10839,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "TestPoint:TestPoint_Pad_D1.0mm"
+		(property "Footprint" "TestPoint:TestPoint_Pad_D1.5mm"
 			(at 140.97 124.46 0)
 			(effects
 				(font
@@ -11718,7 +11718,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "32.768kHz SMD Crystal Resonator 12.5pF 70kΩ ±20ppm -40℃~+85℃ SMD3215-2P "
+		(property "Description" "32.768kHz SMD Crystal Resonator 12.5pF 70kΩ ±20ppm -40℃~+85℃ SMD3215-2P"
 			(at 133.35 55.88 0)
 			(effects
 				(font
@@ -12008,7 +12008,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "TestPoint:TestPoint_Pad_D1.0mm"
+		(property "Footprint" "TestPoint:TestPoint_Pad_D1.5mm"
 			(at 99.06 43.18 0)
 			(effects
 				(font
@@ -12782,7 +12782,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "TestPoint:TestPoint_Pad_D1.0mm"
+		(property "Footprint" "TestPoint:TestPoint_Pad_D1.5mm"
 			(at 129.54 46.99 0)
 			(effects
 				(font
@@ -13313,7 +13313,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "TestPoint:TestPoint_Pad_D1.0mm"
+		(property "Footprint" "TestPoint:TestPoint_Pad_D1.5mm"
 			(at 218.44 72.39 0)
 			(effects
 				(font
@@ -13444,7 +13444,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "TestPoint:TestPoint_Pad_D1.0mm"
+		(property "Footprint" "TestPoint:TestPoint_Pad_D1.5mm"
 			(at 146.05 127 0)
 			(effects
 				(font
@@ -14668,7 +14668,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "TestPoint:TestPoint_Pad_D1.0mm"
+		(property "Footprint" "TestPoint:TestPoint_Pad_D1.5mm"
 			(at 50.8 157.48 0)
 			(effects
 				(font
