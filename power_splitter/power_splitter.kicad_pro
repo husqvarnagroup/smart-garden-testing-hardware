@@ -463,7 +463,7 @@
     "pinned_symbol_libs": []
   },
   "meta": {
-    "filename": "resistive-power-splitter.kicad_pro",
+    "filename": "power_splitter.kicad_pro",
     "version": 3
   },
   "net_settings": {

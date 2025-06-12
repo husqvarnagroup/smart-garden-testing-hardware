@@ -17,7 +17,7 @@ stages:
       - template: checks.yaml
         parameters:
           project_directory: power_splitter
-          project_name: resistive-power-splitter
+          project_name: power_splitter
       - template: checks.yaml
         parameters:
           project_directory: power_splitter_attenuator
