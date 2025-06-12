@@ -14,3 +14,11 @@ stages:
         parameters:
           project_directory: wor_dk
           project_name: wor_dk
+      - template: checks.yaml
+        parameters:
+          project_directory: power_splitter
+          project_name: resistive-power-splitter
+      - template: checks.yaml
+        parameters:
+          project_directory: power_splitter_attenuator
+          project_name: power_splitter_attenuator
