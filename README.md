@@ -35,7 +35,7 @@ Parameters (calculated values):
 
 ## Lemonbeat Dongle
 
-![Lemonbeat Dongle v0.1.0](doc/img/lemonbeat_dongle_v0.1.0_3d.png =500x)
+![Lemonbeat Dongle v0.4.1](doc/img/lemonbeat_dongle_rev.0.4.1.jpg =500x)
 
 The directory `lemonbeat_dongle/` contains a BNW version of the
 Lemonbeat dongle.
@@ -48,7 +48,7 @@ description of the goals and intended features.
 The directory `lemonbeat_dongle_microjig/` contains a minimal jig for
 testing & programming the Lemonbeat dongle.
 
-![Lemonbeat Dongle MicroJig v0.4.0](doc/img/lemonbeat_dongle_microjig_v0.4.0.png =500x)
+![Lemonbeat Dongle MicroJig v0.4.x](doc/img/lemonbeat_dongle_microjig_v0.4.x.png =500x)
 
 ## WoR DK
 
@@ -56,8 +56,4 @@ The directory `wor_dk/` contains a minimal BNW Wake-On-Radio
 Development Kit with support for electrically disconnecting SWD & UART
 to support accurate power measurement.
 
-
-# Further Info
-
-Further information is available in
-[Confluence](https://confluence-husqvarna.riada.se/pages/viewpage.action?pageId=106879006).
+![Wake-on-Radio Development Kit 0.1.0](doc/img/wor_dk_nrf52840_v0.1.0.jpg =500x)
