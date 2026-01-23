@@ -57,3 +57,9 @@ Development Kit with support for electrically disconnecting SWD & UART
 to support accurate power measurement.
 
 ![Wake-on-Radio Development Kit 0.1.0](doc/img/wor_dk_nrf52840_v0.1.0.jpg =500x)
+
+# License
+
+Unless otherwise noted, this project may be used under the CERN Open
+Hardware Licence Version 2 - Strongly Reciprocal (CERN-OHL-S-2.0)
+license.
