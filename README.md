@@ -13,12 +13,12 @@ The directory `power_splitter/` contains a symmetrical resistive
 11-way (12-port) Wye power splitter.
 
 From theoretical perspective, it has the following specification (with
-`N = 10` for `N + 1 = 11` connections).
+`N = 11` for `N + 1 = 12` connections).
 
 - input impedance: `Z₀ = 50 Ω`
-- power transmission: `1/N² = 0.01`
-- isolation / loss: `10 * log₁₀(1 - 1/N²) = 20 dB`
-- required resistor value: `R = Z₀ * (N-1) / (N+1) ≅ 40.91 Ω`
+- power transmission: `1/N² ≅ 0.0083`
+- isolation / loss: `10 * log₁₀(1/N²) ≅ 20.8 dB`
+- required resistor value: `R = Z₀ * (N-1) / (N+1) ≅ 41.67 Ω`
 
 ## Power Splitter with Attenuator
 
